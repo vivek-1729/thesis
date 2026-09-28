@@ -29,6 +29,7 @@ RULE, DOT = "#b4c2ca", "#2a78d6"
 # Casson 1989, Appendix 2, "Author's distances for short runs" and "for long runs".
 LEGS = [
     ("Gulf of Zula, length",          (200, 200),    20),
+    ("Malaō to Cape Elephas *",   (3250, 3250),  345),
     ("Okēlis to Eudaimōn Arabia", (1200, 1200), 95),
     ("Eudaimōn Arabia to Kanē", (2000, 2000), 205),
     ("Syagros to Asichōn *",     (2600, 2600),  230),
@@ -105,9 +106,7 @@ def main():
 
     fig.suptitle("Casson's own identifications do not imply a single stadion",
                  x=0.011, y=0.972, ha="left", fontsize=15.5, color=INK)
-    fig.text(0.011, 0.022,
-             "*  a figure the Periplus gives in parts, which Casson sums."
-             "     Source: Casson 1989, Appendix 2.",
+    fig.text(0.011, 0.022, "Source: Casson 1989, Appendix 2.",
              ha="left", fontsize=8.2, color=MUTED)
 
     fig.subplots_adjust(left=0.222, right=0.812, top=0.782, bottom=0.152)

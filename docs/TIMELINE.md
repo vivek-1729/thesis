@@ -32,22 +32,25 @@ informative.
 The statistical method for each evidence stream is set out in
 `STATISTICAL-PLAN.md`.
 
-- [ ] **Model the Periplus as a measuring instrument.** The stated distances are
-      rounded, and the distances they are compared against depend on
-      identifications that are themselves uncertain. An errors-in-variables
-      model with interval-censored measurements estimates the stadion with
-      honest uncertainty, and tests the rounding structure rather than assuming it
-- [ ] **Model detection in the archaeological record.** Absence of material is
-      mostly absence of excavation. Treat site status as latent and detection as
-      a function of survey effort and of whether excavation reached undisturbed
-      ground, both of which are now measurable
-- [ ] **Infer locations jointly.** The ports are linked by distances and form a
-      chain rather than a set of independent problems. Combine the distance and
-      detection models to obtain a posterior over location for each port
-- [ ] **Compare competing identifications formally.** Assess whether any single
-      set of proposed locations is consistent with the distances the text gives
-- [ ] **Determine what would settle it.** Given the posterior, identify the
-      single piece of fieldwork that would most reduce the remaining uncertainty
+- [ ] **Calibrate the text as a measuring instrument.** The stated distances are
+      rounded day-counts, not measurements, and the distances they are compared
+      against depend on identifications that are themselves uncertain. Recover
+      the implied unit and its spread, and turn each stated distance into a
+      likelihood rather than a point
+- [ ] **Correct the archaeological record for search effort.** Absence of
+      material is mostly absence of excavation. Treat site status as latent and
+      detection as a function of how much digging was done and whether it
+      reached undisturbed ground, both of which are now measurable across the
+      whole record
+- [ ] **Reduce the landscape to navigational constraints.** Convert the
+      reconstructed channels, coastlines, depths and winds into quantities a
+      model can use: where a vessel could reach, anchor and unload, each
+      carrying its own uncertainty rather than asserted as fact
+- [ ] **Infer location jointly, and determine what would settle it.** Combine
+      the three streams into a posterior over location for each port, assess
+      whether any proposed set of identifications is internally consistent, and
+      rank the fieldwork that would most reduce what remains
+
 - [ ] **Methods.** The evidence available, its resolution, and its limits
 - [ ] **A chapter for each port.** Scholarship, evidence, and assessment
 - [ ] **Figures.** Final cartography and analytical graphics
