@@ -1,20 +1,17 @@
-"""The stadion implied by Casson's own identifications, leg by leg.
+"""The stadion implied by each leg of Casson's own accuracy tables.
 
 Every number here is Casson's: the stated stadia are his transcription of the
 text, the actual distances are his measurements in nautical miles, and the
-identifications that fix the endpoints are his. Appendix 2 supplies the legs he
-tested for accuracy; Appendix 1, Table II supplies the two Malabar legs, which
-he never tested.
+identifications fixing the endpoints are his. The legs are exactly the ones he
+chose for Appendix 2 to demonstrate the author's accuracy, so every endpoint is
+a securely located place and none of the disputed ports appears.
 
-The conventional 185 m stadion is not a metrological result. It is his stated
-rule of thumb, "approximately ten stades correspond to a nautical mile", which
-is 1852/10 exactly. It is drawn as the vertical line.
+The vertical line is 185.2 m, which is his own rule of thumb that ten stades
+correspond to a nautical mile, and which is the value the field uses.
 
-The top axis reads the same quantity as a speed. Casson's other rule of thumb
-is 500 stades to a day's run, so an implied stadion is a daily distance made
-good divided by 500. The scatter is therefore not textual corruption. It is the
-range of speeds a square-rigged merchantman makes between coasting into a
-headwind and running with the monsoon.
+The top axis reads the same quantity as a speed. His other rule of thumb is 500
+stades to a day's run, so an implied stadion is a daily distance made good
+divided by 500.
 """
 import pathlib
 import matplotlib
@@ -26,31 +23,20 @@ NM = 1852.0
 CONV = NM / 10          # 185.2 m, the conventional stadion
 
 INK, INK_2, MUTED = "#0b0b0b", "#52514e", "#8b8a85"
-RULE, BAND = "#b4c2ca", "#eef2f4"
+RULE, DOT = "#b4c2ca", "#2a78d6"
 
-# Three states, each with its own colour AND marker, so identity never rests
-# on colour alone.
-CLASSES = {
-    "redsea": ("#2a78d6", "o", "Red Sea and Arabia, tested in Appendix 2"),
-    "india":  ("#c2703c", "^", "Indian waters, assessed in Appendix 2 prose"),
-    "malabar": ("#1b1b1b", "D", "Malabar, Appendix 1 only, never tested"),
-}
-
-# label, stated stades (lo, hi), Casson's actual distance in nautical miles, class
+# label, stated stades (a, b), Casson's actual distance in nautical miles
+# Casson 1989, Appendix 2, "Author's distances for short runs" and "for long runs".
 LEGS = [
-    ("Adulis to Avalitēs *",            (4800, 4800),  250, "redsea"),
-    ("Berenikē to Muza",               (12000, 12000), 800, "redsea"),
-    ("Berenikē to Adulis *",            (7000, 7000),  530, "redsea"),
-    ("Okēlis to Eudaimōn Arabia",       (1200, 1200),   95, "redsea"),
-    ("Tyndis to Muziris",                (500, 500),    39, "malabar"),
-    ("Syagros to Asichōn *",            (2600, 2600),  230, "redsea"),
-    ("Gulf of Zula, length",             (200, 200),    20, "redsea"),
-    ("Eudaimōn Arabia to Kanē",         (2000, 2000),  205, "redsea"),
-    ("Malaō to Cape Elephas",           (3000, 3500),  345, "redsea"),
-    ("Muziris to Nelkynda",              (500, 500),    55, "malabar"),
-    ("Zēnobios Is. to Sarapis Is.",     (2000, 2000),  235, "redsea"),
-    ("Astakapra to end of Limyrikē",    (7000, 7000),  900, "india"),
-    ("Barbarikon to Astakapra",         (3000, 3000),  450, "india"),
+    ("Gulf of Zula, length",          (200, 200),    20),
+    ("Malaō to Cape Elephas",   (3000, 3500),  345),
+    ("Okēlis to Eudaimōn Arabia", (1200, 1200), 95),
+    ("Eudaimōn Arabia to Kanē", (2000, 2000), 205),
+    ("Syagros to Asichōn *",     (2600, 2600),  230),
+    ("Zēnobios Is. to Sarapis Is.", (2000, 2000), 235),
+    ("Berenikē to Adulis *", (7000, 7000), 530),
+    ("Adulis to Avalitēs *",     (4800, 4800),  250),
+    ("Berenikē to Muza",   (12000, 12000), 800),
 ]
 
 
@@ -60,47 +46,43 @@ def implied(stades, nm):
 
 def main():
     rows = []
-    for lab, (s_a, s_b), nm, cls in LEGS:
+    for lab, (s_a, s_b), nm in LEGS:
         lo, hi = sorted((implied(s_a, nm), implied(s_b, nm)))
-        rows.append((lab, lo, hi, (lo + hi) / 2, s_a, s_b, nm, cls))
+        rows.append((lab, lo, hi, (lo + hi) / 2, s_a, s_b, nm))
     rows.sort(key=lambda r: r[3])
 
     lo_all = min(r[1] for r in rows)
     hi_all = max(r[2] for r in rows)
-    X0, X1 = 70, 300
+    X0, X1 = 80, 235
 
-    fig, ax = plt.subplots(figsize=(11.3, 6.6))
+    fig, ax = plt.subplots(figsize=(10.4, 5.4))
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
     ax.set_xlim(X0, X1)
-    ax.set_ylim(-0.75, len(rows) + 0.55)
+    ax.set_ylim(-0.7, len(rows) - 0.3)
 
-    # The span the evidence actually covers, as a quiet backdrop.
-    ax.axvspan(lo_all, hi_all, color=BAND, zorder=0)
-
-    for i, (lab, lo, hi, mid, s_a, s_b, nm, cls) in enumerate(rows):
-        col, mk, _ = CLASSES[cls]
-        ax.plot([X0, lo - 3], [i, i], color=RULE, lw=0.6, ls=(0, (1, 2.6)),
+    for i, (lab, lo, hi, mid, s_a, s_b, nm) in enumerate(rows):
+        ax.plot([X0, lo - 2.5], [i, i], color=RULE, lw=0.6, ls=(0, (1, 2.8)),
                 zorder=1)
         if hi - lo > 1:                       # a stated range, not a point
-            ax.plot([lo, hi], [i, i], color=col, lw=2.8, solid_capstyle="round",
+            ax.plot([lo, hi], [i, i], color=DOT, lw=2.8, solid_capstyle="round",
                     zorder=3, alpha=0.8)
-        ax.plot([mid], [i], marker=mk, ms=8.5 if mk != "D" else 7.5,
-                color=col, mec="white", mew=1.4, zorder=4, ls="none")
-        stated = f"{s_a:,}" if s_a == s_b else f"{s_a:,}\u2013{s_b:,}"
-        ax.text(X1 + 5, i, f"{stated} stadia / {nm} nm", ha="left", va="center",
-                fontsize=8.6, color=MUTED, clip_on=False)
+        ax.plot([mid], [i], marker="o", ms=8.5, color=DOT, mec="white", mew=1.4,
+                zorder=4, ls="none")
+        stated = f"{s_a:,}" if s_a == s_b else f"{s_a:,}–{s_b:,}"
+        ax.text(X1 + 3.5, i, f"{stated} stadia / {nm} nm", ha="left",
+                va="center", fontsize=8.6, color=MUTED, clip_on=False)
 
-    # The conventional value.
-    ax.axvline(CONV, color=INK, lw=1.3, zorder=5,
-               ymin=0.0, ymax=0.90)
-    ax.text(CONV - 4, len(rows) + 0.30,
-            "185.2 m, the conventional stadion,\nwhich is 10 stades to the nautical mile",
-            ha="right", va="top", fontsize=9, color=INK, linespacing=1.55,
-            zorder=6)
+    ax.axvline(CONV, color=INK, lw=1.2, zorder=5)
 
     ax.set_yticks(range(len(rows)))
     ax.set_yticklabels([r[0] for r in rows], fontsize=10, color=INK)
+    ax.set_xticks([100, 125, 150, 185.2, 200, 225])
+    ax.set_xticklabels(["100", "125", "150", "185.2", "200", "225"])
+    for lbl, t in zip(ax.get_xticklabels(), ax.get_xticks()):
+        if abs(t - CONV) < 0.5:
+            lbl.set_color(INK)
+            lbl.set_fontweight("bold")
     for s in ("left", "right", "top"):
         ax.spines[s].set_visible(False)
     ax.spines["bottom"].set_color(RULE)
@@ -112,35 +94,24 @@ def main():
     # The same quantity read as a speed: 500 stades to a day's run.
     top = ax.secondary_xaxis("top", functions=(lambda m: m * 500 / NM,
                                                lambda d: d * NM / 500))
-    top.set_xlabel("The same figure read as a day's run, at 500 stades to the "
-                   "day (nautical miles)", fontsize=10.5, color=INK, labelpad=9)
+    top.set_xlabel("The same figure as a day's run, at 500 stades to the day "
+                   "(nautical miles)", fontsize=10.5, color=INK, labelpad=9)
     top.tick_params(colors=INK_2, length=3, labelsize=9.5)
     top.spines["top"].set_color(RULE)
 
-    handles = [plt.Line2D([], [], marker=mk, ls="none", color=c, ms=8,
-                          mec="white", mew=1.2, label=lbl)
-               for c, mk, lbl in CLASSES.values()]
-    ax.legend(handles=handles, loc="upper left", bbox_to_anchor=(-0.265, -0.135),
-              frameon=False, fontsize=9.2, handletextpad=0.5,
-              labelcolor=INK_2, ncol=3, columnspacing=1.9)
-
     fig.suptitle("Casson's own identifications do not imply a single stadion",
-                 x=0.010, y=0.982, ha="left", fontsize=15.5, color=INK)
-    fig.text(0.010, 0.928,
-             f"Thirteen legs, spanning {lo_all:.0f} to {hi_all:.0f} m, a "
-             f"{hi_all/lo_all:.1f}-fold range. Stated stadia, measured distances "
-             "and endpoint identifications are all his.",
-             ha="left", fontsize=10.3, color=INK_2)
-    fig.text(0.010, 0.020,
+                 x=0.011, y=0.975, ha="left", fontsize=15.5, color=INK)
+    fig.text(0.011, 0.022,
              "*  a figure the Periplus gives in parts, which Casson sums."
-             "     Sources: Casson 1989, Appendix 2 and Appendix 1 Table II.",
+             "     Source: Casson 1989, Appendix 2.",
              ha="left", fontsize=8.2, color=MUTED)
 
-    fig.subplots_adjust(left=0.203, right=0.818, top=0.828, bottom=0.175)
+    fig.subplots_adjust(left=0.225, right=0.805, top=0.795, bottom=0.152)
     out = ROOT / "figures/09_implied_stadion.png"
     fig.savefig(out, dpi=220, facecolor="white")
     print("wrote", out)
     print(f"range {lo_all:.1f} - {hi_all:.1f} m  ({hi_all/lo_all:.2f}x)")
+    print(f"daily runs {lo_all*500/NM:.0f} - {hi_all*500/NM:.0f} nm")
 
 
 if __name__ == "__main__":
