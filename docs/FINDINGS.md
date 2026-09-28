@@ -129,6 +129,69 @@ coastline vertices — but that path follows every estuary and no vessel would.
 The true value sits between and nearer the low end. **Distance results should
 therefore be stated as rankings, not as fits.**
 
+### 2.7 The stadion is not a length. It is a speed
+
+Casson's Appendix 2 states how the figures were made: "The ancients never
+actually measured distances at sea, for they lacked the means... Their rule of
+thumb was 1000 stades to a day-and-night run, 500 to a day's run." He does not
+carry that through, but the text confirms it. **All nine stadia figures at or
+above 2000 are exact multiples of 1000**, with no exceptions, which is 2, 2, 2,
+3, 3, 4, 4, 7 and 12 whole day-and-night runs. 79 per cent of all 33 values
+carry one significant figure, and the only two-figure mantissas anywhere in the
+text are 12, 15 and 18.
+
+**The conventional stadion is an artefact of the same rule.** Casson writes
+"approximately ten stades correspond to a nautical mile," which is 1852/10 =
+185.2 m exactly. The figure the field uses was never measured from the text.
+
+Computed leg by leg from his own numbers — his transcription of the stadia, his
+measurements in nautical miles, his identifications fixing the endpoints —
+**the implied stadion runs from 96.5 m to 277.8 m, a 2.9-fold range**.
+Figure `09_implied_stadion.png`, built by `src/make_implied_stadion.py`.
+
+Read as a speed rather than a length, those same values are daily runs of 26 to
+75 nautical miles, which is the ordinary range for a square-rigged merchantman
+between coasting into a headwind and running with the monsoon. **The scatter is
+the wind.** That connects the textual stream directly to the voyage simulation
+rather than leaving them as separate chapters.
+
+### 2.8 Four further problems in Casson's use of the distances
+
+1. **His stated error bounds are violated by his own numbers.** He says short
+   legs are "either exact or at most twenty percent off"; Okēlis to Eudaimōn
+   Arabia is 26.3 per cent off. He says long legs run 25 to 50 per cent high;
+   Adulis to Avalitēs is 92 per cent high. The two Indian legs are
+   *under*estimates of 33 and 22 per cent, breaking the rule in the region that
+   matters most here.
+2. **The claim that error grows with distance barely survives his own data.**
+   Regressing log error on log stated distance across his eleven legs gives a
+   slope of +0.067 and r = +0.24. There is essentially no relationship.
+3. **The Malabar legs never appear in the appendix where he tests accuracy.**
+   They are in Appendix 1 only. Tyndis to Muziris implies a 144.5 m stadion and
+   a 28 per cent error, which violates his own short-leg bound; Muziris to
+   Nelkynda implies 203.7 m.
+4. **The cumulative argument is circular.** He validates the whole African route
+   by comparing his stadia total against the real distance "Abu Sha'r to the
+   vicinity of Dar es Salaam." Abu Sha'ar has since been rejected as Myos
+   Hormos, and Rhapta at Dar es Salaam is the disputed thing being assumed. His
+   own hedge on the Rhapta endpoint, 75 miles, is half his claimed 5 per cent
+   accuracy. Separately, error cancellation in a sum is not accuracy: his legs
+   range from 15 per cent low to 92 per cent high, so a 5 per cent total shows
+   the errors are roughly mean-zero and says nothing about any single leg.
+
+### 2.9 What the error structure means for locating anything
+
+The error is multiplicative, with **sd of log(stated/actual) = 0.311** across
+Casson's eleven legs. A 500-stadia leg at a 155 m stadion is 77.5 km, with a
+68 per cent band 49 km wide and a 95 per cent band 100 km wide. Candidates for a
+single Kerala port sit 25 to 150 km apart, so **one 500-stadia leg cannot
+separate adjacent candidates**. The 120-stadia Nelkynda-to-Bakarē figure has a
+68 per cent band only 12 km wide.
+
+That is the quantitative form of the finding in 2.1: the short local numbers
+outrank the long ones, and now there is a number attached.
+
+
 ---
 
 ## 3. The archaeological record
@@ -703,3 +766,7 @@ Still to build, in order of value:
    question 6.
 6. **Coastline displacement per port**, which is really a map of how wide each
    search window has to be.
+
+Built since: `09_implied_stadion.png`, the stadion implied by each of Casson's
+own legs, with the conventional 185.2 m drawn as a line and a second axis
+reading the same quantity as a day's run in nautical miles.
