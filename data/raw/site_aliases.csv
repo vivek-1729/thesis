@@ -1,0 +1,66 @@
+site_key,display_name,ancient_name,modern_name,aliases,lat,lon,country,role,region
+berenike,Berenike,Berenike,Berenike,Berenike|Berenice|Berenikē,23.9106,35.4761,Egypt,anchor,Egyptian Red Sea
+myos_hormos,Myos Hormos (Quseir al-Qadim),Myos Hormos,Quseir al-Qadim,Myos Hormos|Quseir al-Qadim|Quseir al Qadim|Qusayr al-Qadim|Koseir,26.1567,34.2417,Egypt,anchor,Egyptian Red Sea
+aila,Aila (Aqaba),Aila,Aqaba,Aila|Aqaba|Ayla,29.5200,35.0000,Jordan,comparandum,Northern Red Sea
+aynuna,Aynuna / Khuraybah,Leuke Kome (proposed),Aynuna,Aynuna|'Aynuna|Ayanuna|Khuraybah|Khuraybat|Wadi Aynuna,28.1000,35.2100,Saudi Arabia,candidate,NW Arabia
+al_wajh,Al-Wajh,Leuke Kome (proposed),Al-Wajh,Al-Wajh|al-Wajh|Al Wajh|Wejh,26.2400,36.4600,Saudi Arabia,candidate,NW Arabia
+al_qusayr_arabia,Al-Qusayr (Wadi al-Hamd),Leuke Kome (proposed),Al-Qusayr,Al-Qusayr (Wadi|Wadi al-Hamd|Wadi al Hamd,25.9000,36.6000,Saudi Arabia,candidate,NW Arabia
+egra,Hegra / Egra Kome,Egra Kome,Mada'in Salih,Hegra|Egra Kome|Mada'in Salih|Madain Salih,26.7900,37.9500,Saudi Arabia,comparandum,NW Arabia
+petra,Petra,Petra,Petra,Petra,30.3285,35.4444,Jordan,comparandum,Nabataea
+adulis,Adulis,Adulis,Adulis,Adulis|Adoulis,15.2617,39.6600,Eritrea,anchor,East African Red Sea
+aksum,Aksum,Aksum,Aksum,Aksum|Axum,14.1300,38.7200,Ethiopia,comparandum,Ethiopian highlands
+ptolemais_theron,Ptolemais Theron,Ptolemais Theron,Ptolemais Theron,Ptolemais Theron|Ptolemais of the Hunts,18.7000,38.2000,Sudan,comparandum,African Red Sea
+qana,Qana / Kane,Kane,Bir Ali,Qana|Qani'|Qani|Kane|Kanē|Bir Ali|Bi'r Ali|Husn al-Ghurab,14.0167,48.3200,Yemen,anchor,South Arabia
+sumhuram,Sumhuram (Khor Rori),Moscha Limen,Khor Rori,Sumhuram|Khor Rori|Khawr Rawri|Moscha Limen|Moscha,17.0400,54.4300,Oman,anchor,South Arabia
+aden,Aden (Eudaimon Arabia),Eudaimon Arabia,Aden,Eudaimon Arabia|Little Aden,12.7900,45.0300,Yemen,comparandum,South Arabia
+socotra,Socotra,Dioskourides,Socotra,Socotra|Suqutra|Dioskourides|Dioscorides|Hoq Cave,12.5000,53.9000,Yemen,comparandum,Arabian Sea
+ras_hafun,Ras Hafun,Opone,Ras Hafun,Ras Hafun|Hafun|Opone|Opōnē,10.4400,51.2600,Somalia,anchor,Horn of Africa
+xiis,Xiis (Heis),Mundu,Xiis,Xiis|Heis|Mundu|Mundus,11.1300,47.1500,Somalia,comparandum,Horn of Africa
+unguja_ukuu,Unguja Ukuu (Zanzibar),,Unguja Ukuu,Unguja Ukuu|Unguja,-6.3400,39.3000,Tanzania,candidate,East Africa
+fukuchani,Fukuchani (Zanzibar),,Fukuchani,Fukuchani,-5.8900,39.2900,Tanzania,candidate,East Africa
+rufiji,Rufiji delta,Rhapta (proposed),Rufiji,Rufiji|Ruvu delta|Mkukutu|Kivinja|Kisiju,-7.9000,39.3300,Tanzania,candidate,East Africa
+mafia,Mafia Island,Rhapta (proposed),Mafia,Mafia Island|Mafia|Juani|Chole|Kua,-7.8000,39.7500,Tanzania,candidate,East Africa
+pangani,Pangani river mouth,Rhapta (proposed),Pangani,Pangani,-5.4300,38.9800,Tanzania,candidate,East Africa
+dar_es_salaam,Dar es Salaam environs,Rhapta (proposed),Dar es Salaam,Dar es Salaam|Msasani|Kunduchi,-6.8200,39.2800,Tanzania,candidate,East Africa
+kilwa,Kilwa,,Kilwa,Kilwa|Kilwa Kisiwani|Sanje ya Kati,-8.9600,39.5200,Tanzania,comparandum,East Africa
+manda,Manda,,Manda,Manda Island|Manda,-2.2800,40.9500,Kenya,comparandum,East Africa
+banbhore,Banbhore / Bhambore,Barbarikon (proposed),Banbhore,Banbhore|Bhambore|Bhanbhore|Banbhor|Daybul|Debal,24.7500,67.5300,Pakistan,candidate,Indus delta
+barygaza,Barygaza (Bharuch),Barygaza,Bharuch,Barygaza|Bharuch|Broach|Bhrigukaccha,21.7000,72.9900,India,anchor,Gujarat
+hazira,Hazira,,Hazira,Hazira,21.1000,72.6300,India,comparandum,Gujarat
+kamrej,Kamrej,Kammoni,Kamrej,Kamrej|Kammoni|Kammone,21.2700,72.9500,India,comparandum,Gujarat
+nagara,Nagara,,Nagara,Nagara,22.3000,72.6000,India,comparandum,Gujarat
+dwarka,Dwarka,,Dwarka,Dwarka|Dvaraka|Bet Dwarka,22.2400,68.9700,India,comparandum,Gujarat
+sopara,Sopara,Souppara,Nala Sopara,Sopara|Souppara|Suppara|Nala Sopara|Shurparaka,19.4200,72.7900,India,comparandum,Konkan
+kalyan,Kalyan,Kalliena,Kalyan,Kalliena|Kalyan,19.2400,73.1300,India,comparandum,Konkan
+ter,Ter,Tagara,Ter,Ter|Tagara,18.3200,76.1500,India,comparandum,Deccan interior
+paithan,Paithan,Paithana,Paithan,Paithan|Paithana|Pratishthana,19.4800,75.3800,India,comparandum,Deccan interior
+nevasa,Nevasa,,Nevasa,Nevasa|Nevasa,19.5500,74.9300,India,comparandum,Deccan interior
+kolhapur,Kolhapur (Brahmapuri),,Kolhapur,Kolhapur|Brahmapuri,16.7000,74.2400,India,comparandum,Deccan interior
+pattanam,Pattanam,Muziris (proposed),Pattanam,Pattanam|Paṭṭanam,10.1530,76.2070,India,anchor,Kerala
+kodungallur,Kodungallur / Cranganore,Muziris (proposed),Kodungallur,Kodungallur|Cranganore|Kodungalur|Muyirikkode,10.2200,76.2000,India,candidate,Kerala
+ponnani,Ponnani,Tyndis (proposed),Ponnani,Ponnani|Ponnāni,10.7670,75.9250,India,candidate,Kerala
+tanur,Tanur,Tyndis (proposed),Tanur,Tanur|Tanūr,10.9770,75.8670,India,candidate,Kerala
+kadalundi,Kadalundi / Beypore / Chaliyam,Tyndis (proposed),Kadalundi,Kadalundi|Beypore|Chaliyam|Chaliyum,11.1300,75.8300,India,candidate,Kerala
+koyilandy,Koyilandy (Panthalayani Kollam),Tyndis (proposed),Koyilandy,Koyilandy|Pantalayini|Panthalayani|Pantalayani|Quilandy,11.4400,75.6900,India,candidate,Kerala
+madayipara,Madayipara,,Madayipara,Madayipara|Madayi,12.0200,75.2700,India,comparandum,Kerala
+niranam,Niranam,Nelkynda (proposed),Niranam,Niranam|Niranam,9.2700,76.5600,India,candidate,Kerala
+kottayam_kerala,Kottayam (R. Minachal),Nelkynda (proposed),Kottayam,Kottayam|Minachal|Meenachil,9.5920,76.5220,India,candidate,Kerala
+kollam,Kollam / Quilon,Nelkynda (proposed),Kollam,Kollam|Quilon|Desinganadu,8.8900,76.5900,India,candidate,Kerala
+neendakara,Neendakara,Nelkynda (proposed),Neendakara,Neendakara|Nindakara,8.9400,76.5400,India,candidate,Kerala
+purakkad,Purakkad / Pirakkad,Bakare (proposed),Purakkad,Purakkad|Pirakkad|Porakad|Porca,9.3600,76.3900,India,candidate,Kerala
+kallada,Kallada,Bakare (proposed),Kallada,Kallada,9.0000,76.6700,India,candidate,Kerala
+thevalakara,Thevalakara,Bakare (proposed),Thevalakara,Thevalakara|Thevalakkara,9.0000,76.5800,India,candidate,Kerala
+arikamedu,Arikamedu,Poduke,Arikamedu,Arikamedu|Poduke|Podouke|Virampatnam,11.9000,79.8200,India,anchor,Coromandel
+alagankulam,Alagankulam,,Alagankulam,Alagankulam|Alagarai,9.3600,79.0200,India,comparandum,Coromandel
+kaveripattinam,Kaveripattinam,Khaberis,Kaveripattinam,Kaveripattinam|Kaveripumpattinam|Puhar|Khaberis,11.1400,79.8500,India,comparandum,Coromandel
+karaikadu,Karaikadu,,Karaikadu,Karaikadu,11.7200,79.7500,India,comparandum,Coromandel
+vasavasamudram,Vasavasamudram,,Vasavasamudram,Vasavasamudram,12.2400,80.1500,India,comparandum,Coromandel
+kanchipuram,Kanchipuram,,Kanchipuram,Kanchipuram|Kancheepuram,12.8300,79.7000,India,comparandum,Tamil interior
+chandraketugarh,Chandraketugarh,,Chandraketugarh,Chandraketugarh|Chandraketugar,22.6800,88.6800,India,comparandum,Ganges delta
+tamluk,Tamluk,Tamralipti,Tamluk,Tamluk|Tamralipti|Tamralipta,22.3000,87.9200,India,comparandum,Ganges delta
+mantai,Mantai,,Mantai,Mantai|Manthai|Mahatittha,8.9800,79.9800,Sri Lanka,comparandum,Sri Lanka
+tissamaharama,Tissamaharama,,Tissamaharama,Tissamaharama|Tissamaharāma,6.2800,81.2900,Sri Lanka,comparandum,Sri Lanka
+ed_dur,ed-Dur,Omana (proposed),ed-Dur,ed-Dur|ed Dur|Ed-Dur,25.5500,55.8000,UAE,comparandum,Gulf
+mleiha,Mleiha,,Mleiha,Mleiha,25.1200,55.8600,UAE,comparandum,Gulf
+sohar,Sohar,,Sohar,Sohar|Suhar,24.3500,56.7300,Oman,comparandum,Gulf
+charax,Charax Spasinou,Charax,Charax,Charax Spasinou|Charax,30.5000,47.8000,Iraq,comparandum,Mesopotamia

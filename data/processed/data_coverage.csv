@@ -1,0 +1,61 @@
+site_id,toponym,route,chapter,tier,km_to_coast,n_sailing_times,n_candidates,has_coords,has_pleiades,has_trade_basket,has_sailing_time,excavation_note
+1,Berenikē,Western Route,1,A — excavated / secure,6.679226239158427,46,0,True,True,True,True,True
+2,Muos Hormos,Western Route,1,A — excavated / secure,17.04884658053686,45,0,True,True,True,True,True
+4,Ptolemaïs Thērōn,Western Route,3,C — single-source identification,12.855259293270413,43,0,True,True,True,True,False
+5,Adouli,Western Route,4,A — excavated / secure,8.466825397281108,46,0,True,True,True,True,True
+8,Didōros Island,Western Route,4,C — weak / unverified,1.8955401164802048,0,0,True,False,False,False,False
+10,Oreinē,Western Route,4,C — single-source identification,6.219056743021071,0,0,True,True,False,False,False
+11,Aualitēs,Western Route,7,D — sources conflict >50 km,3.660510075241437,49,0,True,True,True,True,False
+12,Malaō,Western Route,8,A — excavated / secure,8.03898050394255,52,0,True,True,True,True,True
+13,Moundou,Western Route,9,C — single-source identification,6.557513871762597,52,0,True,True,True,True,False
+14,Mosullon,Western Route,10,D — sources conflict >50 km,12.31659141675827,48,0,True,True,True,True,False
+15,Akannai,Western Route,11,C — weak / unverified,4.974775256736541,0,0,True,True,False,False,False
+17,Arōmatōn Emporion,Western Route,12,C — single-source identification,24.407131836331867,0,0,True,True,False,False,False
+18,Tabai,Western Route,12,B — two sources agree,1.6416573942492052,48,0,True,False,True,True,False
+19,Opōnē,Western Route,"13, 14",A — excavated / secure,1.5062832407029692,50,0,True,True,True,True,True
+20,Menounthias,Western Route,15,B — two sources agree,11.240399787116672,46,0,True,True,True,True,False
+21,Puralaōn Islands,Western Route,15,B — two sources agree,2.976354766951743,46,0,True,True,True,True,False
+22,Rhapta,Western Route,16,D — sources conflict >50 km,7.206197845587261,46,5,True,True,True,True,False
+23,Leukē Kōmē,Eastern Route,19,C — single-source identification,5.299149024869128,0,4,True,True,False,False,False
+25,Mouza,Eastern Route,"21, 24",C — weak / unverified,5.8206261419850005,53,0,True,True,True,True,False
+29,Okēlis,Eastern Route,25,B — two sources agree,3.0282814588702545,50,0,True,True,True,True,False
+30,Eudaimōn Arabia,Eastern Route,26,A — excavated / secure,4.889278880200185,0,0,True,True,False,False,True
+32,Kanē,Eastern Route,27,A — excavated / secure,7.555486822455753,59,0,True,True,True,True,True
+34,Troullas,Eastern Route,27,C — single-source identification,3.373320809252417,0,0,True,True,False,False,False
+35,Suagros,Eastern Route,29,C — weak / unverified,2.332393919028139,0,0,True,False,False,False,False
+36,Dioskouridou Island,Eastern Route,30,A — excavated / secure,16.37579986233934,53,0,True,True,True,True,True
+37,Moscha Limen,Eastern Route,32,"B — identified, coordinate unsettled",6.147571114581927,51,0,True,True,True,True,False
+38,Asikhōnos,Eastern Route,33,C — weak / unverified,2.0882403703465098,0,0,True,True,False,False,False
+40,Sarapis Island,Eastern Route,33,B — two sources agree,4.003959916067708,44,0,True,True,True,True,False
+43,Ommana,Eastern Route,35,D — sources conflict >50 km,4.560782747763623,54,0,True,True,True,True,False
+45,Hōraia,Eastern Route,37,D — sources conflict >50 km,4.054422278706142,44,0,True,True,True,True,False
+46,Barbarikon,Eastern Route,38-39,D — sources conflict >50 km,11.84658065020179,44,3,True,True,True,True,False
+48,Barygaza,Eastern Route,40-47,A — excavated / secure,1.6492087225310463,57,0,True,True,True,True,True
+49,Astakapra,Eastern Route,"41, 43",C — single-source identification,5.960008437544871,0,0,True,True,False,False,False
+50,Kammōni,Eastern Route,41,C — single-source identification,21.125872835533286,0,0,True,True,False,False,False
+56,Kalliena,Eastern Route,52-3,A — excavated / secure,15.027679926187451,0,0,True,True,False,False,True
+57,Souppara,Eastern Route,52,A — excavated / secure,4.846327912817306,0,0,True,True,False,False,True
+59,Byzantion,Eastern Route,53,C — single-source identification,4.790623705190753,0,0,True,True,False,False,False
+60,Erannoboas,Eastern Route,53,C — weak / unverified,1.7034096970262331,0,0,True,False,False,False,False
+62,Mandagora,Eastern Route,53,C — single-source identification,5.000144869318466,0,0,True,True,False,False,False
+63,Melizeigara,Eastern Route,53,C — weak / unverified,10.11445856116773,0,0,True,False,False,False,False
+64,Naoura,Eastern Route,53,C — single-source identification,7.421710352961219,0,0,True,True,False,False,False
+65,Nelkunda,Eastern Route,"53, 55",B — two sources agree,17.62270067954472,48,5,True,True,True,True,False
+66,Palaipatmai,Eastern Route,53,C — single-source identification,16.283153678600303,0,0,True,True,False,False,False
+67,Sēmulla,Eastern Route,53,A — excavated / secure,6.8494745042964436,0,0,True,True,False,False,True
+69,Toparon,Eastern Route,53,C — single-source identification,15.89177531062488,0,0,True,True,False,False,False
+70,Tyndis,Eastern Route,53-4,B — two sources agree,2.917265040649755,46,5,True,True,True,True,False
+72,Muziris,Eastern Route,54,A — excavated / secure,1.9574254473367705,47,0,True,True,True,True,True
+73,Bakarē,Eastern Route,56,D — placeholder coordinate,7.102934371646039,46,4,True,True,True,True,False
+74,Balita,Eastern Route,58,C — single-source identification,3.947648554796724,0,0,True,True,False,False,False
+75,Komarei,Eastern Route,58-59,C — single-source identification,3.726796277372724,0,0,True,True,False,False,False
+77,Kolkhoi,Eastern Route,59,A — excavated / secure,14.065778957387469,0,0,True,True,False,False,True
+78,Kamara,Eastern Route,60,C — single-source identification,5.887604368061085,45,0,True,True,True,True,False
+79,Podoukē,Eastern Route,60,A — excavated / secure,10.576861925273478,45,0,True,True,True,True,True
+80,Sōpatma,Eastern Route,60,C — single-source identification,8.33550716977372,46,0,True,True,True,True,False
+81,Masalia,Eastern Route,62,D — placeholder coordinate,9.94238721938383,40,0,True,True,True,True,False
+82,Palaisimoundou,Eastern Route,62,D — sources conflict >50 km,10.49571216368284,43,0,True,True,True,True,False
+86,Ariaca,Eastern Route,,C — weak / unverified,11.452077866003988,50,0,True,False,True,True,False
+87,Arsinoe,Western Route,,A — excavated / secure,1.7181186682013518,50,0,True,False,True,True,True
+90,Dosarene,Eastern Route,,C — weak / unverified,13.218817281330471,43,0,True,False,True,True,False
+91,Nicon,Western Route,,C — weak / unverified,0.8646006643368455,46,0,True,False,True,True,False

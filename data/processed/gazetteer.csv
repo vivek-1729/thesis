@@ -1,0 +1,93 @@
+site_id,key,toponym,city,status,chapter,chapter_num,route,next_on_route,place_type,region,lat,lon,coord_source,cop_lat,cop_lon,barchi_lat,barchi_lon,disagree_km,precision_flag,location_source,pleiades,pcode,goods,partners,table2_offset_km,in_copeland
+1,berenike,Berenikē,Berenike,anchor,1,1.0,Western Route,Meroē,Designated Harbor,Egypt,23.910556,35.476111,copeland,23.910556,35.476111,23.9103,35.4737,0.2,Precise,Pleiades,https://pleiades.stoa.org/places/785986,102.0,23.0,3.0,0.4,True
+2,muoshormos,Muos Hormos,Myos Hormos,anchor,1,1.0,Western Route,Berenikē,Designated Harbor,Egypt,26.156667,34.241667,copeland,26.156667,34.241667,26.156611,34.24401,0.2,Precise,Pleiades,https://pleiades.stoa.org/places/786069,104.0,23.0,3.0,0.41,True
+3,meroe,Meroē,,other,2,2.0,Western Route,Ptolemaïs Thērōn,Inland market,,16.933333,33.726389,barchi,,,16.933333,33.726389,,Precise,Pleiades,https://pleiades.stoa.org/places/805630,,,,,False
+4,ptolemaistheron,Ptolemaïs Thērōn,Ptolemais Theron,other,3,3.0,Western Route,Adouli,Port of trade,Egypt,18.155556,38.434722,copeland,18.155556,38.434722,18.233,38.2,26.2,Precise,Pleiades,https://pleiades.stoa.org/places/39409,105.0,2.0,0.0,0.7,True
+5,adouli,Adouli,Adulis,other,4,4.0,Western Route,Oreinē,Legally limited port of trade,Horn of Africa,15.263061,39.660552,copeland,15.263061,39.660552,15.2616612,39.6591296,0.2,Precise,Pleiades,https://pleiades.stoa.org/places/39271,201.0,34.0,3.0,0.35,True
+6,alalaiouislands,Alalaiou Islands,,other,4,4.0,Western Route,Aualitēs,Unspecified,,15.7362779,40.0062516,barchi,,,15.7362779,40.0062516,,Precise,Pleiades,https://pleiades.stoa.org/places/39281,,,,,False
+7,axomitemetropolis,Axōmite metropolis,,other,4,4.0,Western Route,Alalaiou Islands,Inland market,,14.125005,38.721522,barchi,,,14.125005,38.721522,,Precise,Pleiades,https://pleiades.stoa.org/places/39303,,,,,False
+8,didorosisland,Didōros Island,,other,4,4.0,Western Route,Koloē,Former Harbor,,15.4629,39.8797,barchi,,,15.4629,39.8797,,Uncertain,,,,,,,False
+9,koloe,Koloē,,other,4,4.0,Western Route,Axōmite metropolis,Inland market,,15.60977,39.449974,barchi,,,15.60977,39.449974,,Precise,Pleiades,https://pleiades.stoa.org/places/39363,,,,,False
+10,oreine,Oreinē,,other,4,4.0,Western Route,Didōros Island,Emergency Harbor,,15.4307209,39.7582797,barchi,,,15.4307209,39.7582797,,Precise,Pleiades,https://pleiades.stoa.org/places/39404,,,,,False
+11,aualites,Aualitēs,Avalites,other,7,7.0,Western Route,Malaō,Port of trade,Horn of Africa,11.353889,43.473889,copeland,11.353889,43.473889,13.016667,42.733333,201.7,Precise,Pleiades,https://pleiades.stoa.org/places/39304,202.0,26.0,6.0,0.61,True
+12,malao,Malaō,Malao,other,8,8.0,Western Route,Moundou,Port of trade,Horn of Africa,10.435556,45.016389,copeland,10.435556,45.016389,10.420294,45.013109,1.7,Precise,Pleiades,https://pleiades.stoa.org/places/39375,204.0,36.0,9.0,0.63,True
+13,moundou,Moundou,Mundus,other,9,9.0,Western Route,Mosullon,Port of trade,Horn of Africa,10.896389,46.921111,copeland,10.896389,46.921111,11.00357,47.123147,25.1,Precise,Pleiades,https://pleiades.stoa.org/places/39389,206.0,37.0,9.0,0.42,True
+14,mosullon,Mosullon,Mosyllum,other,10,10.0,Western Route,Cape Elephas,Port of trade,Horn of Africa,11.17,49.11,copeland,11.17,49.11,11.28743,48.605954,56.5,Precise,Pleiades,https://pleiades.stoa.org/places/39387,205.0,40.0,5.0,0.0,True
+15,akannai,Akannai,,other,11,11.0,Western Route,Arōmatōn Emporion,,,11.966667,50.75,barchi,,,11.966667,50.75,,Uncertain,Pleiades,https://pleiades.stoa.org/places/40030,,,,,False
+16,capeelephas,Cape Elephas,,other,11,11.0,Western Route,Akannai,Unspecified,,11.940889,50.631267,barchi,,,11.940889,50.631267,,Uncertain,,,,,,,False
+17,aromatonemporion,Arōmatōn Emporion,,other,12,12.0,Western Route,Tabai,Port of trade,,11.825923,50.948956,barchi,,,11.825923,50.948956,,Precise,Pleiades,https://pleiades.stoa.org/places/39293,,,,,False
+18,tabai,Tabai,Tabae,other,12,12.0,Western Route,Opōnē,Emergency Harbor,Horn of Africa,11.816667,51.25,copeland,11.816667,51.25,11.750833,51.255,7.3,Uncertain,,,203.0,38.0,5.0,0.37,True
+19,opone,Opōnē,Opone,other,"13, 14",13.0,Western Route,Puralaōn Islands,Port of trade,Horn of Africa,10.416667,51.266667,copeland,10.416667,51.266667,10.4118,51.286582,2.2,Precise,Pleiades,https://pleiades.stoa.org/places/39403,207.0,34.0,7.0,0.52,True
+20,menounthias,Menounthias,Menuthias,other,15,15.0,Western Route,Rhapta,Unspecified,East Africa,-6.133333,39.333333,copeland,-6.133333,39.333333,-6.133333,39.316667,1.8,Precise,Pleiades,https://pleiades.stoa.org/places/40222,251.0,15.0,3.0,0.52,True
+21,puralaonislands,Puralaōn Islands,Pyralaae islands,other,15,15.0,Western Route,Menounthias,Unspecified,East Africa,-2.27,40.925,copeland,-2.27,40.925,-2.216666667,40.96111133,7.2,Precise,Pleiades,https://pleiades.stoa.org/places/39410,253.0,13.0,3.0,2.78,True
+22,rhapta,Rhapta,Rhapta,disputed,16,16.0,Western Route,Leukē Kōmē,Port of trade,East Africa,-7.85,39.783333,copeland,-7.85,39.783333,-6.656811,39.499647,136.3,Precise,Pleiades,https://pleiades.stoa.org/places/39414,254.0,13.0,3.0,0.37,True
+23,leukekome,Leukē Kōmē,,disputed,19,19.0,Eastern Route,Katakekaumene Island,Harbor,,24.088264,38.058194,barchi,,,24.088264,38.058194,,Uncertain,,https://pleiades.stoa.org/places/814698,,,,,False
+24,katakekaumeneisland,Katakekaumene Island,,other,20,20.0,Eastern Route,Mouza,Unspecified,,15.55,41.83333,barchi,,,15.55,41.83333,,Precise,Pleiades,https://pleiades.stoa.org/places/39345,,,,,False
+25,mouza,Mouza,Muza,other,"21, 24",21.0,Eastern Route,Sauē,Legally limited port of trade,Arabia,13.316667,43.25,copeland,13.316667,43.25,13.261275,43.421475,19.6,Precise,Pleiades,https://pleiades.stoa.org/places/39390,305.0,60.0,11.0,0.37,True
+26,saue,Sauē,,other,22,22.0,Eastern Route,Zafar,Inland market,,13.968611,43.998333,barchi,,,13.968611,43.998333,,Uncertain,,,,,,,False
+27,zafar,Zafar,,other,23,23.0,Eastern Route,Diodōros Island,Inland market,,14.211704,44.400794,barchi,,,14.211704,44.400794,,Precise,Pleiades,https://pleiades.stoa.org/places/39423,,,,,False
+28,diodorosisland,Diodōros Island,,other,25,25.0,Eastern Route,Okēlis,Unspecified,,12.66,43.42,barchi,,,12.66,43.42,,Uncertain,,,,,,,False
+29,okelis,Okēlis,Ocelis,other,25,25.0,Eastern Route,Eudaimōn Arabia,,Arabia,12.766503,43.65096,copeland,12.766503,43.65096,12.766503,43.65096,0.0,Precise,Pleiades,https://pleiades.stoa.org/places/39279,306.0,15.0,8.0,0.4,True
+30,eudaimonarabia,Eudaimōn Arabia,,other,26,26.0,Eastern Route,Kanē,Harbor,,12.771651,45.038928,barchi,,,12.771651,45.038928,,Precise,Pleiades,https://pleiades.stoa.org/places/39269,,,,,False
+31,isleofbirds,Isle of Birds,,other,27,27.0,Eastern Route,Troullas,Unspecified,,13.9325,48.38722,barchi,,,13.9325,48.38722,,Uncertain,,,,,,,False
+32,kane,Kanē,Cana,anchor,27,27.0,Eastern Route,Isle of Birds,Port of trade,Arabia,14.025,48.341944,copeland,14.025,48.341944,14.0253,48.341944,0.0,Uncertain,Pleiades,https://pleiades.stoa.org/places/39355,301.0,40.0,16.0,0.59,True
+33,saubatha,Saubatha,,other,27,27.0,Eastern Route,Suagros,Unspecified,,15.3689,47.0236,barchi,,,15.3689,47.0236,,Uncertain,,,,,,,False
+34,troullas,Troullas,,other,27,27.0,Eastern Route,Saubatha,Unspecified,,13.9767218,48.4581165,barchi,,,13.9767218,48.4581165,,Precise,Pleiades,https://pleiades.stoa.org/places/39436,,,,,False
+35,suagros,Suagros,,other,29,29.0,Eastern Route,Dioskouridou Island,Harbor,,15.635278,52.223611,barchi,,,15.635278,52.223611,,Uncertain,,,,,,,False
+36,dioskouridouisland,Dioskouridou Island,Dioscorida,other,30,30.0,Eastern Route,Moscha Limen,Unspecified,Arabia,12.51,53.92,copeland,12.51,53.92,12.51,53.92,0.0,Precise,Pleiades,https://pleiades.stoa.org/places/39338,302.0,13.0,10.0,0.0,True
+37,moschalimen,Moscha Limen,Moscha,anchor,32,32.0,Eastern Route,Asikhōnos,Designated Harbor,Arabia,17.039,54.434444,copeland,17.039,54.434444,17.019722,54.089722,36.7,Unlocated,Pleiades,https://pleiades.stoa.org/places/40228,304.0,9.0,8.0,0.49,True
+38,asikhonos,Asikhōnos,,other,33,33.0,Eastern Route,Isles of Zēnobios,Unspecified,,17.4,55.3,barchi,,,17.4,55.3,,Precise,Pleiades,https://pleiades.stoa.org/places/39296,,,,,False
+39,islesofzenobios,Isles of Zēnobios,,other,33,33.0,Eastern Route,Sarapis Island,Unspecified,,17.5,56.0,barchi,,,17.5,56.0,,Precise,Pleiades,https://pleiades.stoa.org/places/39441,,,,,False
+40,sarapisisland,Sarapis Island,Sarapis,other,33,33.0,Eastern Route,Kalaiou Isles,Unspecified,Arabia,20.471111,58.815278,copeland,20.471111,58.815278,20.471111,58.815278,0.0,Precise,Pleiades,https://pleiades.stoa.org/places/29743,308.0,1.0,1.0,0.51,True
+41,kalaiouisles,Kalaiou Isles,,other,34,34.0,Eastern Route,Apologos,Unspecified,,23.856,58.093,barchi,,,23.856,58.093,,Precise,Pleiades,https://pleiades.stoa.org/places/29620,,,,,False
+42,apologos,Apologos,Apologus,other,35,35.0,Eastern Route,Pasinou Kharax,Legally limited port of trade,Persia,30.894692,47.578031,copeland,30.894692,47.578031,30.521707,47.833151,48.1,Precise,Pleiades,https://pleiades.stoa.org/places/912807,351.0,13.0,4.0,0.55,True
+43,ommana,Ommana,Ommana,other,35,35.0,Eastern Route,Hōraia,Port of trade,Persia,24.342,56.729889,copeland,24.342,56.729889,25.522222,55.626111,172.1,Precise,Pleiades,https://pleiades.stoa.org/places/932474,352.0,17.0,11.0,0.22,True
+44,pasinoukharax,Pasinou Kharax,,other,35,35.0,Eastern Route,Ommana,Unspecified,,30.8093425,47.562804,barchi,,,30.8093425,47.562804,,Precise,Pleiades,https://pleiades.stoa.org/places/912872,,,,,False
+45,horaia,Hōraia,Oraea,other,37,37.0,Eastern Route,Barbarikon,Port of trade,Persia,25.214433,64.633297,copeland,25.214433,64.633297,25.6558,66.455092,189.4,Precise,Pleiades,https://pleiades.stoa.org/places/59881,401.0,10.0,1.0,0.59,True
+46,barbarikon,Barbarikon,Barbaricum-Minnagara,disputed,38-39,38.0,Eastern Route,Minnagar,Port of trade,Scythia,24.86,67.01,copeland,24.86,67.01,24.92407,69.021536,203.0,Precise,Pleiades,https://pleiades.stoa.org/places/59734,451.0,24.0,1.0,0.0,True
+47,minnagar,Minnagar,,other,38 and 41,38.0,Eastern Route,Astakapra,Inland market,,22.060829,73.075764,barchi,,,22.060829,73.075764,,Precise,Pleiades,https://pleiades.stoa.org/places/59933,,,,,False
+48,barygaza,Barygaza,Barygaza,anchor,40-47,40.0,Eastern Route,Ozēnē,Port of trade,India,21.712,72.993,copeland,21.712,72.993,21.70078,72.983068,1.6,Precise,Pleiades,https://pleiades.stoa.org/places/59737,504.0,79.0,15.0,0.38,True
+49,astakapra,Astakapra,,other,"41, 43",41.0,Eastern Route,Baiōnēs Island,Unspecified,,21.608478,72.268473,barchi,,,21.608478,72.268473,,Precise,Pleiades,https://pleiades.stoa.org/places/49880,,,,,False
+50,kammoni,Kammōni,,other,41,41.0,Eastern Route,Barygaza,Village,,21.402921,72.925301,barchi,,,21.402921,72.925301,,Precise,Pleiades,https://pleiades.stoa.org/places/50032,,,,,False
+51,baionesisland,Baiōnēs Island,,other,42,42.0,Eastern Route,Kammōni,Unspecified,,22.5,72.5,barchi,,,22.5,72.5,,Precise,Pleiades,https://pleiades.stoa.org/places/49889,,,,,False
+52,ozene,Ozēnē,,other,48,48.0,Eastern Route,Paithana,Inland market,,23.17,75.79,barchi,,,23.17,75.79,,Precise,Pleiades,https://pleiades.stoa.org/places/59972,,,,,False
+53,akabaru,Akabaru,,other,51,51.0,Eastern Route,Souppara,Port of trade,,,,none,,,,,,Unlocated,,,,,,,False
+54,paithana,Paithana,Paethana,other,51,51.0,Eastern Route,Tagara,Port of trade,India,19.48,75.38,copeland,19.48,75.38,19.48,75.38,0.0,Precise,Pleiades,https://pleiades.stoa.org/places/50192,511.0,1.0,1.0,0.0,True
+55,tagara,Tagara,Tagara,other,51,51.0,Eastern Route,Akabaru,Port of trade,India,18.321299,76.132971,copeland,18.321299,76.132971,18.301382,76.14594,2.6,Precise,Pleiades,https://pleiades.stoa.org/places/50294,515.0,5.0,1.0,0.35,True
+56,kalliena,Kalliena,,other,52-3,52.0,Eastern Route,Sēmulla,Port of trade,,19.27,73.13,barchi,,,19.27,73.13,,Precise,Pleiades,https://pleiades.stoa.org/places/50023,,,,,False
+57,souppara,Souppara,,other,52,52.0,Eastern Route,Kalliena,Port of trade,,19.434113,72.804527,barchi,,,19.434113,72.804527,,Precise,Pleiades,https://pleiades.stoa.org/places/50282,,,,,False
+58,aigidionisland,Aigidiōn Island,,other,53,53.0,Eastern Route,Kaineitōn Island,Unspecified,,17.5,72.5,barchi,,,17.5,72.5,,Precise,Pleiades,https://pleiades.stoa.org/places/49841,,,,,False
+59,byzantion,Byzantion,,other,53,53.0,Eastern Route,Toparon,Port of trade,,16.503,73.3334,barchi,,,16.503,73.3334,,Precise,Pleiades,https://pleiades.stoa.org/places/49929,,,,,False
+60,erannoboas,Erannoboas,,other,53,53.0,Eastern Route,Sēsekreienai Island,Port of trade,,16.0667,73.466698,barchi,,,16.0667,73.466698,,Uncertain,,,,,,,False
+61,kaineitonisland,Kaineitōn Island,,other,53,53.0,Eastern Route,White Island,Unspecified,,12.5,72.5,barchi,,,12.5,72.5,,Precise,Pleiades,https://pleiades.stoa.org/places/50015,,,,,False
+62,mandagora,Mandagora,,other,53,53.0,Eastern Route,Palaipatmai,Port of trade,,17.951342,73.03939,barchi,,,17.951342,73.03939,,Precise,Pleiades,https://pleiades.stoa.org/places/50116,,,,,False
+63,melizeigara,Melizeigara,,other,53,53.0,Eastern Route,Byzantion,Port of trade,,17.29,73.2377,barchi,,,17.29,73.2377,,Uncertain,,,,,,,False
+64,naoura,Naoura,,other,53,53.0,Eastern Route,Tyndis,Port of trade,,14.281472,74.449703,barchi,,,14.281472,74.449703,,Precise,Pleiades,https://pleiades.stoa.org/places/50160,,,,,False
+65,nelkunda,Nelkunda,Nelcynda,disputed,"53, 55",53.0,Eastern Route,Bakarē,Port of trade,India,9.324722,76.536944,copeland,9.324722,76.536944,9.272624,76.558846,6.3,Precise,Pleiades,https://pleiades.stoa.org/places/50165,510.0,48.0,6.0,0.62,True
+66,palaipatmai,Palaipatmai,,other,53,53.0,Eastern Route,Melizeigara,Port of trade,,17.526305,73.302413,barchi,,,17.526305,73.302413,,Precise,Pleiades,https://pleiades.stoa.org/places/50196,,,,,False
+67,semulla,Sēmulla,,other,53,53.0,Eastern Route,Mandagora,Port of trade,,18.5212,72.9472,barchi,,,18.5212,72.9472,,Precise,Pleiades,https://pleiades.stoa.org/places/50261,,,,,False
+68,sesekreienaiisland,Sēsekreienai Island,,other,53,53.0,Eastern Route,Aigidiōn Island,Port of trade,,17.5,72.5,barchi,,,17.5,72.5,,Precise,Pleiades,https://pleiades.stoa.org/places/50264,,,,,False
+69,toparon,Toparon,,other,53,53.0,Eastern Route,Erannoboas,Port of trade,,16.220106,73.58469,barchi,,,16.220106,73.58469,,Precise,Pleiades,https://pleiades.stoa.org/places/50308,,,,,False
+70,tyndis,Tyndis,Tyndis,disputed,53-4,53.0,Eastern Route,Muziris,Port of trade,India,10.77,75.9,copeland,10.77,75.9,10.763548,75.926477,3.0,Precise,Pleiades,https://pleiades.stoa.org/places/50312,516.0,48.0,6.0,0.0,True
+71,whiteisland,White Island,,other,53,53.0,Eastern Route,Naoura,Unspecified,,14.0165,74.3259,barchi,,,14.0165,74.3259,,Uncertain,,,,,,,False
+72,muziris,Muziris,Muziris,anchor,54,54.0,Eastern Route,Nelkunda,Port of trade,India,10.15654,76.208982,copeland,10.15654,76.208982,10.153976,76.213146,0.5,Precise,Pleiades,https://pleiades.stoa.org/places/50146,509.0,49.0,7.0,0.4,True
+73,bakare,Bakarē,Bacare,disputed,56,56.0,Eastern Route,Balita,Village,India,9.594709,76.485573,copeland,9.594709,76.485573,9.5,77.5,111.7,Precise,Pleiades,https://pleiades.stoa.org/places/49890,503.0,48.0,6.0,0.71,True
+74,balita,Balita,,other,58,58.0,Eastern Route,Komarei,Harbor,,8.380214,76.990276,barchi,,,8.380214,76.990276,,Precise,Pleiades,https://pleiades.stoa.org/places/49892,,,,,False
+75,komarei,Komarei,,other,58-59,58.0,Eastern Route,Kolkhoi,Harbor,,8.0772932,77.5513761,barchi,,,8.0772932,77.5513761,,Precise,Pleiades,https://pleiades.stoa.org/places/50066,,,,,False
+76,argalou,Argalou,Argaru,other,59,59.0,Eastern Route,Kamara,Unspecified,India,10.828056,78.678333,copeland,10.828056,78.678333,12.5,77.5,225.9,Precise,Pleiades,https://pleiades.stoa.org/places/49871,501.0,3.0,0.0,0.28,True
+77,kolkhoi,Kolkhoi,,other,59,59.0,Eastern Route,Argalou,Unspecified,,8.612651,78.01884,barchi,,,8.612651,78.01884,,Precise,Pleiades,https://pleiades.stoa.org/places/50064,,,,,False
+78,kamara,Kamara,Camara,other,60,60.0,Eastern Route,Podoukē,Port of trade,India,11.144,79.855,copeland,11.144,79.855,11.025067,79.85456,13.2,Precise,Pleiades,https://pleiades.stoa.org/places/49939,505.0,24.0,5.0,0.7,True
+79,podouke,Podoukē,Poduca,other,60,60.0,Eastern Route,Sōpatma,Port of trade,India,11.900833,79.820278,copeland,11.900833,79.820278,11.862228,79.74878,8.9,Precise,Pleiades,https://pleiades.stoa.org/places/50221,513.0,24.0,5.0,0.1,True
+80,sopatma,Sōpatma,Sopatma,other,60,60.0,Eastern Route,Palaisimoundou,Port of trade,India,12.525,80.162222,copeland,12.525,80.162222,12.188994,79.942282,44.3,Precise,Pleiades,https://pleiades.stoa.org/places/50278,514.0,24.0,5.0,0.61,True
+81,masalia,Masalia,Masalia,other,62,62.0,Eastern Route,Gangēs,Unspecified,India,11.911082,79.812533,copeland,11.911082,79.812533,17.5,77.5,669.3,Precise,Pleiades,https://pleiades.stoa.org/places/50123,508.0,2.0,0.0,0.3,True
+82,palaisimoundou,Palaisimoundou,Palaesimundu,other,62,62.0,Eastern Route,Masalia,Unspecified,India,8.989444,79.998056,copeland,8.989444,79.998056,6.9167,79.8333,231.2,Precise,Pleiades,https://pleiades.stoa.org/places/50298,512.0,5.0,0.0,0.22,True
+83,ganges,Gangēs,Ganges,other,63,63.0,Eastern Route,Khrusē Island,Port of trade,India,22.697778,88.688333,copeland,22.697778,88.688333,22.697778,88.688333,0.0,Uncertain,,,507.0,5.0,0.0,0.3,True
+84,khruseisland,Khrusē Island,,other,63,63.0,Eastern Route,Thina,Unspecified,,,,none,,,,,,Unlocated,,,,,,,False
+85,thina,Thina,,other,64,64.0,Eastern Route,,Inland market,,,,none,,,,,,Unlocated,,,,,,,False
+86,ariaca,Ariaca,Ariaca,other,,,Eastern Route,,,Scythia,23.058333,70.619444,copeland,23.058333,70.619444,,,,,,,552.0,18.0,7.0,0.19,True
+87,arsinoe,Arsinoe,Arsinoe,other,,,Western Route,,,Egypt,29.966667,32.55,copeland,29.966667,32.55,,,,,,,101.0,3.0,7.0,0.37,True
+88,besatae,Besatae,Besatae,other,,,,,,East Asia,27.33,88.62,copeland,27.33,88.62,,,,,,,651.0,1.0,5.0,0.0,True
+89,diospolis,Diospolis,Diospolis,other,,,,,,Egypt,25.720556,32.610278,copeland,25.720556,32.610278,,,,,,,103.0,3.0,7.0,0.07,True
+90,dosarene,Dosarene,Dosarene,other,,,Eastern Route,,,India,17.704167,83.297778,copeland,17.704167,83.297778,,,,,,,506.0,1.0,0.0,0.52,True
+91,nicon,Nicon,Nicon,other,,,Western Route,,,East Africa,1.113333,44.030278,copeland,1.113333,44.030278,,,,,,,252.0,13.0,3.0,355.84,True
+92,sarapion,Sarapion,Sarapion,other,,,,,,East Africa,2.033333,45.333333,copeland,2.033333,45.333333,,,,,,,255.0,13.0,3.0,0.52,True

@@ -1,0 +1,66 @@
+site_key,excavation_status,first_year,last_year,n_seasons,reached_early_historic,principal_investigator,evidence_basis,confidence,note,iar_searched,iar_result
+berenike,long_term,1994,2025,25,yes,Sidebotham; Wendrich; Zych,published monographs and annual reports,high,"Two campaigns (1994-2001, 2008-). The most intensively dug Red Sea port.",not applicable,
+myos_hormos,long_term,1978,2003,12,yes,Whitcomb & Johnson; Peacock & Blue,published monographs,high,"Two campaigns (1978-82, 1999-2003).",not applicable,
+aila,long_term,1994,2003,8,yes,Parker,published reports,high,Roman Aqaba project.,not applicable,
+aynuna,multi_season,2014,2019,5,yes,Gawlikowski; Juchniewicz; al-Zahrani,monograph and PAM reports,high,Saudi-Polish mission. Nabataean harbour installations and a large storehouse.,not applicable,
+al_wajh,none,,,0,unknown,,no excavation traced in the corpus,medium,Proposed for Leuke Kome on sailing-distance grounds only. Absence of finds here is absence of digging.,not applicable,
+al_qusayr_arabia,none,,,0,unknown,,no excavation traced in the corpus,low,1st-c. ceramics reported from surface observation; no systematic work traced.,not applicable,
+egra,multi_season,2001,2020,10,yes,Nehme,published reports,high,Mada'in Salih / Hegra.,not applicable,
+petra,long_term,1929,2025,50,yes,multiple,extensive literature,high,,not applicable,
+adulis,multi_season,2011,2019,8,yes,Zazzaro; Massa,published reports,high,Earlier work by Sundstrom 1906 and Paribeni 1907.,not applicable,
+aksum,long_term,1906,2025,30,yes,Phillipson; Phillips; Bard & Fattovich,extensive literature,high,,not applicable,
+ptolemais_theron,survey_only,2004,2006,2,partial,Seeger,survey report,medium,Located by survey; little excavation.,not applicable,
+qana,long_term,1985,1994,10,yes,Sedov,published reports,high,Russian-Yemeni mission at Bir Ali / Husn al-Ghurab.,not applicable,
+sumhuram,long_term,1997,2025,25,yes,Avanzini (IMTO),monograph series,high,Earlier AFSM work 1952-53.,not applicable,
+aden,minimal,,,0,no,,no systematic excavation traced,medium,Modern city over the ancient site.,not applicable,
+socotra,survey_only,2000,2018,10,partial,Jansen; De Geest; Strauch,cave-inscription surveys,medium,Hoq cave graffiti are the principal evidence; no port excavation.,not applicable,
+ras_hafun,test_trenches,1975,1976,2,yes,Smith & Wright,single published report,high,Small test excavations; the only stratified Roman-period material on the Somali coast.,not applicable,
+xiis,survey_only,2018,2019,2,yes,Fernandez et al.,published survey,medium,Necropolis surveys rather than settlement excavation.,not applicable,
+unguja_ukuu,multi_season,1984,2016,8,partial,Juma; Horton; Crowther,monograph and articles,high,"Occupation begins c. 6th-7th c. AD, later than the Periplus horizon.",not applicable,
+fukuchani,test_trenches,2011,2013,2,partial,Horton; Crowther,articles,medium,Early occupation reported but thinly published.,not applicable,
+rufiji,test_trenches,1994,2005,5,contested,Chami,articles,low,Chami reports Roman-period material; the stratigraphy and identifications are disputed.,not applicable,
+mafia,test_trenches,1999,2016,5,contested,Chami; Christie; Crowther,articles,low,Cave deposits and submerged structures; dating contested.,not applicable,
+pangani,none,,,0,unknown,,no excavation traced in the corpus,medium,Proposed for Rhapta by Mathew on topographic grounds.,not applicable,
+dar_es_salaam,none,,,0,unknown,,no excavation traced in the corpus,medium,One of Datoo's localities; no relevant excavation traced.,not applicable,
+kilwa,long_term,1958,1965,8,no,Chittick,monograph,high,Occupation is medieval; predates nothing of Periplus date.,not applicable,
+manda,multi_season,1966,1978,6,no,Chittick,monograph,high,Founded c. 9th c. AD.,not applicable,
+banbhore,long_term,1958,2025,30,partial,Pakistan Dept of Archaeology; Italian-Pakistani mission,reports,medium,"Heavily excavated, but the published sequence is dominated by Islamic-period Daybul. Pre-Islamic levels are thin and contested.",not applicable,
+barygaza,minimal,,,0,no,,no systematic excavation traced,high,Modern Bharuch overlies the site.,not applicable,
+hazira,survey_only,1990,2002,3,partial,Gupta; Nigam,articles,low,,not applicable,
+kamrej,test_trenches,2003,2004,2,yes,Gupta,article,medium,Reported Mediterranean amphora sherds.,not applicable,
+nagara,test_trenches,1960,1965,3,yes,,older reports,low,,not applicable,
+dwarka,survey_only,1979,2005,5,partial,Gaur; Tripathi,marine archaeology reports,medium,Largely underwater survey.,not applicable,
+sopara,test_trenches,1882,1993,4,yes,,older reports,low,,not applicable,
+kalyan,minimal,,,0,unknown,,no systematic excavation traced,low,Modern city.,not applicable,
+ter,multi_season,1958,1990,6,yes,Deccan College; Chapekar,reports,medium,Inland Deccan site with Roman-period material.,not applicable,
+paithan,multi_season,1965,2000,5,yes,Deccan College,reports,medium,,not applicable,
+nevasa,multi_season,1954,1961,4,yes,Sankalia,monograph,high,,not applicable,
+kolhapur,test_trenches,1945,1946,2,yes,Sankalia & Dikshit,monograph,high,Brahmapuri; the Roman bronzes hoard.,not applicable,
+pattanam,long_term,2007,2015,9,yes,Cherian (KCHR),season reports and catalogue,high,The only Kerala candidate with a published multi-season excavation and quantified finds tables.,searched,"2008-09 no.29 is the official ASI record: coordinates 10 09.434' N, 76 12.587' E, 45 ha core, Period II Early Historic 2nd c. BCE-4th c. CE with Roman amphora, terra sigillata, West Asian pottery, TGP, Roman glass, cameo blanks, early Chera coins. Stated objective included 'locate Muziris'. The ONLY Kerala site in the whole IAR run with Roman imported pottery."
+kodungallur,test_trenches,1945,1970,3,partial,,older limited trenches,low,Repeatedly proposed as Muziris but never systematically excavated; the modern town overlies it.,searched,"1969-70 no.18: ASI with the Kerala Department under K.V. Soundara Rajan excavated in and around Cranganore (Karuppadana, Kilattali, Mathilakam, Tirukkulasekharapuram, Tiruvanjikulam); all remains were 9th-11th c. Chera. 1970-71 no.26 records the trial digs 'had not yielded any tangible evidence'. 2008-09: KCHR explored around Kodungallur for Early Historic satellite sites."
+ponnani,none,,,0,unknown,,no excavation traced in the corpus,medium,Standard identification for Tyndis; no archaeological test of it.,searched,"Named in 9 volumes, but always as Ponnani TALUK or the Ponnani/Bharatapuzha river, never the port town. 1978-79 no.40: ASI Southern Circle explored the Ponnani valley 'investigating for the sites showing Roman contact' and found megalithic topikal burials, menhirs and rock-cut burials -- no Roman material. 1970-71 no.26 reports Russet-coated Painted Ware in Taluk Ponnani, overlapping megalithic BRW in the early centuries AD."
+tanur,none,,,0,unknown,,no excavation traced in the corpus,medium,,searched,"Absent from all 59 volumes, 1953-54 to 2013-14."
+kadalundi,survey_only,1990,2010,2,unknown,,brief notices only,low,Kadalundi/Beypore/Chaliyam treated together in the literature; no stratified Roman-period deposit published.,searched,Absent. Beypore appears once (1975-76 no.42) in a Palaeolithic/Mesolithic river-valley survey; Chaliyam once (1965-66 no.4) for a 1355 AD mosque inscription.
+koyilandy,none,,,0,unknown,,no excavation traced in the corpus,medium,Panthalayani Kollam; heritage studies exist but no Roman-period excavation.,searched,"Absent under Koyilandy, Panthalayani and Pantalayini. 'Quilandy' appears 3x: rock-cut caves with megalithic Black-and-red Ware (1962-63, 1964-65) and a 1747 AD epitaph (1965-66)."
+madayipara,survey_only,2015,2020,2,unknown,Hill,article,low,,not applicable,
+niranam,none,,,0,unknown,,no excavation traced in the corpus,medium,Casson's identification for Nelkynda.,searched,Absent from all 59 volumes.
+kottayam_kerala,none,,,0,unknown,,no excavation traced in the corpus,medium,Schoff's identification for Nelkynda.,searched,District-level mentions only; no excavation at the town.
+kollam,test_trenches,1969,2015,3,no,,medieval-period work only,medium,"Excavation has addressed the medieval port, not a Periplus-period one.",searched,"Hits are mostly the Kollam ERA dating system or a different Kollam in Calicut District. District-level finds are megalithic, mesolithic and neolithic. No Early Historic port excavation, no Roman material."
+neendakara,none,,,0,unknown,,no excavation traced in the corpus,medium,,searched,Absent from all 59 volumes.
+purakkad,none,,,0,unknown,,no excavation traced in the corpus,medium,Schoff's identification for Bakare.,searched,"Absent under Purakkad, Pirakkad and Porakad."
+kallada,none,,,0,unknown,,no excavation traced in the corpus,medium,McCrindle's identification for Bakare.,searched,One hit (2006-07): a neolithic axe from the Kallada river basin. No Roman material.
+thevalakara,none,,,0,unknown,,no excavation traced in the corpus,medium,,searched,Absent from all 59 volumes.
+arikamedu,long_term,1945,1992,15,yes,Wheeler; Casal; Begley,monographs,high,Three campaigns. The type-site for Indo-Roman ceramics.,not applicable,
+alagankulam,multi_season,1986,1997,6,yes,Tamil Nadu State Dept of Archaeology,reports,medium,,not applicable,
+kaveripattinam,multi_season,1963,1998,5,yes,,reports,medium,,not applicable,
+karaikadu,test_trenches,1967,1990,2,yes,,brief reports,low,,not applicable,
+vasavasamudram,test_trenches,1970,1973,2,yes,,brief reports,low,,not applicable,
+kanchipuram,test_trenches,1969,1992,3,yes,Raman,reports,medium,Over 50 Wheeler Type 74/5 jars set into the ground.,not applicable,
+chandraketugarh,multi_season,1956,1968,6,yes,ASI; Calcutta University,poorly published,low,Large assemblages but the excavation record is thin; much material is unprovenanced.,not applicable,
+tamluk,test_trenches,1954,1990,3,yes,,reports,low,,not applicable,
+mantai,multi_season,1980,2012,8,yes,Carswell; Coningham,monograph,high,,not applicable,
+tissamaharama,long_term,1992,2015,12,yes,German-Sri Lankan mission,reports,high,,not applicable,
+ed_dur,long_term,1987,1995,9,yes,"Belgian, French and Danish missions",reports,high,,not applicable,
+mleiha,long_term,1986,2025,25,yes,French and Sharjah missions,reports,high,,not applicable,
+sohar,multi_season,1980,1996,6,partial,Kervran,reports,medium,,not applicable,
+charax,survey_only,2012,2018,3,partial,Campbell; remote sensing,articles,low,Largely satellite and geophysical survey.,not applicable,

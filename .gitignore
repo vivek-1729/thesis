@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+~$*
+
+# Large third-party geodata (re-downloadable; see docs/DATA-SOURCES.md)
+data/raw/hydrorivers/
+data/raw/ne10m/
+
+# Caches and scratch
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

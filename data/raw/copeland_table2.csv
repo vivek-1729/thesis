@@ -1,0 +1,45 @@
+city,region_paper,lat,lon,goods,partners
+Arsinoe,Egypt,29.97,32.55,3,7
+Berenike,Egypt,23.91,35.48,23,3
+Diospolis,Egypt,25.72,32.61,3,7
+Myos Hormos,Egypt,26.16,34.24,23,3
+Ptolemais Theron,Egypt,18.16,38.43,2,0
+Adulis,Horn of Africa,15.26,39.66,34,3
+Avalites,Horn of Africa,11.35,43.47,26,6
+Malao,Horn of Africa,10.44,45.02,36,9
+Mosyllum,Horn of Africa,11.17,49.11,40,5
+Mundus,Horn of Africa,10.90,46.92,37,9
+Tabae,Horn of Africa,11.82,51.25,38,5
+Opone,Horn of Africa,10.42,51.27,34,7
+Menuthias,East Africa,-6.13,39.33,15,3
+Nicon,East Africa,-1.22,41.84,13,3
+Pyralaae islands,East Africa,-2.27,40.90,13,3
+Rhapta,East Africa,-7.85,39.78,13,3
+Sarapion,East Africa,2.03,45.33,13,3
+Cana,Arabia,14.03,48.34,40,16
+Dioscorida,Arabia,12.51,53.92,13,10
+Moscha,Arabia,17.04,54.43,9,8
+Muza,Arabia,13.32,43.25,60,11
+Ocelis,Arabia,12.77,43.65,15,8
+Sarapis,Arabia,20.47,58.82,1,1
+Apologus,Persia,30.89,47.58,13,4
+Ommana,Persia,24.34,56.73,17,11
+Oraea,Persia,25.21,64.63,10,1
+Ariaca,Scythia,23.06,70.62,18,7
+Barbaricum-Minnagara,Scythia,24.86,67.01,24,1
+Argaru,India,10.83,78.68,3,0
+Bacare,India,9.59,76.49,48,6
+Barygaza,India,21.71,72.99,79,15
+Camara,India,11.14,79.86,24,5
+Dosarene,India,17.70,83.30,1,0
+Ganges,India,22.70,88.69,5,0
+Masalia,India,11.91,79.81,2,0
+Muziris,India,10.16,76.21,49,7
+Nelcynda,India,9.32,76.54,48,6
+Paethana,India,19.48,75.38,1,1
+Palaesimundu,India,8.99,80.00,5,0
+Poduca,India,11.90,79.82,24,5
+Sopatma,India,12.53,80.16,24,5
+Tagara,India,18.32,76.13,5,1
+Tyndis,India,10.77,75.90,48,6
+Besatae,East Asia,27.33,88.62,1,5

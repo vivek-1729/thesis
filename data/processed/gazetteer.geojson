@@ -1,0 +1,3575 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.476111,
+     23.910556
+    ]
+   },
+   "properties": {
+    "site_id": 1,
+    "key": "berenike",
+    "toponym": "Berenikē",
+    "city": "Berenike",
+    "status": "anchor",
+    "chapter": "1",
+    "chapter_num": 1.0,
+    "route": "Western Route",
+    "next_on_route": "Meroē",
+    "place_type": "Designated Harbor",
+    "region": "Egypt",
+    "lat": 23.910556,
+    "lon": 35.476111,
+    "coord_source": "copeland",
+    "cop_lat": 23.910556,
+    "cop_lon": 35.476111,
+    "barchi_lat": 23.9103,
+    "barchi_lon": 35.4737,
+    "disagree_km": 0.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/785986",
+    "pcode": 102.0,
+    "goods": 23.0,
+    "partners": 3.0,
+    "table2_offset_km": 0.4,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.241667,
+     26.156667
+    ]
+   },
+   "properties": {
+    "site_id": 2,
+    "key": "muoshormos",
+    "toponym": "Muos Hormos",
+    "city": "Myos Hormos",
+    "status": "anchor",
+    "chapter": "1",
+    "chapter_num": 1.0,
+    "route": "Western Route",
+    "next_on_route": "Berenikē",
+    "place_type": "Designated Harbor",
+    "region": "Egypt",
+    "lat": 26.156667,
+    "lon": 34.241667,
+    "coord_source": "copeland",
+    "cop_lat": 26.156667,
+    "cop_lon": 34.241667,
+    "barchi_lat": 26.156611,
+    "barchi_lon": 34.24401,
+    "disagree_km": 0.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/786069",
+    "pcode": 104.0,
+    "goods": 23.0,
+    "partners": 3.0,
+    "table2_offset_km": 0.41,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.726389,
+     16.933333
+    ]
+   },
+   "properties": {
+    "site_id": 3,
+    "key": "meroe",
+    "toponym": "Meroē",
+    "city": null,
+    "status": "other",
+    "chapter": "2",
+    "chapter_num": 2.0,
+    "route": "Western Route",
+    "next_on_route": "Ptolemaïs Thērōn",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 16.933333,
+    "lon": 33.726389,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 16.933333,
+    "barchi_lon": 33.726389,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/805630",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.434722,
+     18.155556
+    ]
+   },
+   "properties": {
+    "site_id": 4,
+    "key": "ptolemaistheron",
+    "toponym": "Ptolemaïs Thērōn",
+    "city": "Ptolemais Theron",
+    "status": "other",
+    "chapter": "3",
+    "chapter_num": 3.0,
+    "route": "Western Route",
+    "next_on_route": "Adouli",
+    "place_type": "Port of trade",
+    "region": "Egypt",
+    "lat": 18.155556,
+    "lon": 38.434722,
+    "coord_source": "copeland",
+    "cop_lat": 18.155556,
+    "cop_lon": 38.434722,
+    "barchi_lat": 18.233,
+    "barchi_lon": 38.2,
+    "disagree_km": 26.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39409",
+    "pcode": 105.0,
+    "goods": 2.0,
+    "partners": 0.0,
+    "table2_offset_km": 0.7,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.660552,
+     15.263061
+    ]
+   },
+   "properties": {
+    "site_id": 5,
+    "key": "adouli",
+    "toponym": "Adouli",
+    "city": "Adulis",
+    "status": "other",
+    "chapter": "4",
+    "chapter_num": 4.0,
+    "route": "Western Route",
+    "next_on_route": "Oreinē",
+    "place_type": "Legally limited port of trade",
+    "region": "Horn of Africa",
+    "lat": 15.263061,
+    "lon": 39.660552,
+    "coord_source": "copeland",
+    "cop_lat": 15.263061,
+    "cop_lon": 39.660552,
+    "barchi_lat": 15.2616612,
+    "barchi_lon": 39.6591296,
+    "disagree_km": 0.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39271",
+    "pcode": 201.0,
+    "goods": 34.0,
+    "partners": 3.0,
+    "table2_offset_km": 0.35,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.0062516,
+     15.7362779
+    ]
+   },
+   "properties": {
+    "site_id": 6,
+    "key": "alalaiouislands",
+    "toponym": "Alalaiou Islands",
+    "city": null,
+    "status": "other",
+    "chapter": "4",
+    "chapter_num": 4.0,
+    "route": "Western Route",
+    "next_on_route": "Aualitēs",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 15.7362779,
+    "lon": 40.0062516,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.7362779,
+    "barchi_lon": 40.0062516,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39281",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.721522,
+     14.125005
+    ]
+   },
+   "properties": {
+    "site_id": 7,
+    "key": "axomitemetropolis",
+    "toponym": "Axōmite metropolis",
+    "city": null,
+    "status": "other",
+    "chapter": "4",
+    "chapter_num": 4.0,
+    "route": "Western Route",
+    "next_on_route": "Alalaiou Islands",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 14.125005,
+    "lon": 38.721522,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 14.125005,
+    "barchi_lon": 38.721522,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39303",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.8797,
+     15.4629
+    ]
+   },
+   "properties": {
+    "site_id": 8,
+    "key": "didorosisland",
+    "toponym": "Didōros Island",
+    "city": null,
+    "status": "other",
+    "chapter": "4",
+    "chapter_num": 4.0,
+    "route": "Western Route",
+    "next_on_route": "Koloē",
+    "place_type": "Former Harbor",
+    "region": null,
+    "lat": 15.4629,
+    "lon": 39.8797,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.4629,
+    "barchi_lon": 39.8797,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.449974,
+     15.60977
+    ]
+   },
+   "properties": {
+    "site_id": 9,
+    "key": "koloe",
+    "toponym": "Koloē",
+    "city": null,
+    "status": "other",
+    "chapter": "4",
+    "chapter_num": 4.0,
+    "route": "Western Route",
+    "next_on_route": "Axōmite metropolis",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 15.60977,
+    "lon": 39.449974,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.60977,
+    "barchi_lon": 39.449974,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39363",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.7582797,
+     15.4307209
+    ]
+   },
+   "properties": {
+    "site_id": 10,
+    "key": "oreine",
+    "toponym": "Oreinē",
+    "city": null,
+    "status": "other",
+    "chapter": "4",
+    "chapter_num": 4.0,
+    "route": "Western Route",
+    "next_on_route": "Didōros Island",
+    "place_type": "Emergency Harbor",
+    "region": null,
+    "lat": 15.4307209,
+    "lon": 39.7582797,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.4307209,
+    "barchi_lon": 39.7582797,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39404",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.473889,
+     11.353889
+    ]
+   },
+   "properties": {
+    "site_id": 11,
+    "key": "aualites",
+    "toponym": "Aualitēs",
+    "city": "Avalites",
+    "status": "other",
+    "chapter": "7",
+    "chapter_num": 7.0,
+    "route": "Western Route",
+    "next_on_route": "Malaō",
+    "place_type": "Port of trade",
+    "region": "Horn of Africa",
+    "lat": 11.353889,
+    "lon": 43.473889,
+    "coord_source": "copeland",
+    "cop_lat": 11.353889,
+    "cop_lon": 43.473889,
+    "barchi_lat": 13.016667,
+    "barchi_lon": 42.733333,
+    "disagree_km": 201.7,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39304",
+    "pcode": 202.0,
+    "goods": 26.0,
+    "partners": 6.0,
+    "table2_offset_km": 0.61,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.016389,
+     10.435556
+    ]
+   },
+   "properties": {
+    "site_id": 12,
+    "key": "malao",
+    "toponym": "Malaō",
+    "city": "Malao",
+    "status": "other",
+    "chapter": "8",
+    "chapter_num": 8.0,
+    "route": "Western Route",
+    "next_on_route": "Moundou",
+    "place_type": "Port of trade",
+    "region": "Horn of Africa",
+    "lat": 10.435556,
+    "lon": 45.016389,
+    "coord_source": "copeland",
+    "cop_lat": 10.435556,
+    "cop_lon": 45.016389,
+    "barchi_lat": 10.420294,
+    "barchi_lon": 45.013109,
+    "disagree_km": 1.7,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39375",
+    "pcode": 204.0,
+    "goods": 36.0,
+    "partners": 9.0,
+    "table2_offset_km": 0.63,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     46.921111,
+     10.896389
+    ]
+   },
+   "properties": {
+    "site_id": 13,
+    "key": "moundou",
+    "toponym": "Moundou",
+    "city": "Mundus",
+    "status": "other",
+    "chapter": "9",
+    "chapter_num": 9.0,
+    "route": "Western Route",
+    "next_on_route": "Mosullon",
+    "place_type": "Port of trade",
+    "region": "Horn of Africa",
+    "lat": 10.896389,
+    "lon": 46.921111,
+    "coord_source": "copeland",
+    "cop_lat": 10.896389,
+    "cop_lon": 46.921111,
+    "barchi_lat": 11.00357,
+    "barchi_lon": 47.123147,
+    "disagree_km": 25.1,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39389",
+    "pcode": 206.0,
+    "goods": 37.0,
+    "partners": 9.0,
+    "table2_offset_km": 0.42,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     49.11,
+     11.17
+    ]
+   },
+   "properties": {
+    "site_id": 14,
+    "key": "mosullon",
+    "toponym": "Mosullon",
+    "city": "Mosyllum",
+    "status": "other",
+    "chapter": "10",
+    "chapter_num": 10.0,
+    "route": "Western Route",
+    "next_on_route": "Cape Elephas",
+    "place_type": "Port of trade",
+    "region": "Horn of Africa",
+    "lat": 11.17,
+    "lon": 49.11,
+    "coord_source": "copeland",
+    "cop_lat": 11.17,
+    "cop_lon": 49.11,
+    "barchi_lat": 11.28743,
+    "barchi_lon": 48.605954,
+    "disagree_km": 56.5,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39387",
+    "pcode": 205.0,
+    "goods": 40.0,
+    "partners": 5.0,
+    "table2_offset_km": 0.0,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.75,
+     11.966667
+    ]
+   },
+   "properties": {
+    "site_id": 15,
+    "key": "akannai",
+    "toponym": "Akannai",
+    "city": null,
+    "status": "other",
+    "chapter": "11",
+    "chapter_num": 11.0,
+    "route": "Western Route",
+    "next_on_route": "Arōmatōn Emporion",
+    "place_type": null,
+    "region": null,
+    "lat": 11.966667,
+    "lon": 50.75,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 11.966667,
+    "barchi_lon": 50.75,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/40030",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.631267,
+     11.940889
+    ]
+   },
+   "properties": {
+    "site_id": 16,
+    "key": "capeelephas",
+    "toponym": "Cape Elephas",
+    "city": null,
+    "status": "other",
+    "chapter": "11",
+    "chapter_num": 11.0,
+    "route": "Western Route",
+    "next_on_route": "Akannai",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 11.940889,
+    "lon": 50.631267,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 11.940889,
+    "barchi_lon": 50.631267,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.948956,
+     11.825923
+    ]
+   },
+   "properties": {
+    "site_id": 17,
+    "key": "aromatonemporion",
+    "toponym": "Arōmatōn Emporion",
+    "city": null,
+    "status": "other",
+    "chapter": "12",
+    "chapter_num": 12.0,
+    "route": "Western Route",
+    "next_on_route": "Tabai",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 11.825923,
+    "lon": 50.948956,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 11.825923,
+    "barchi_lon": 50.948956,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39293",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.25,
+     11.816667
+    ]
+   },
+   "properties": {
+    "site_id": 18,
+    "key": "tabai",
+    "toponym": "Tabai",
+    "city": "Tabae",
+    "status": "other",
+    "chapter": "12",
+    "chapter_num": 12.0,
+    "route": "Western Route",
+    "next_on_route": "Opōnē",
+    "place_type": "Emergency Harbor",
+    "region": "Horn of Africa",
+    "lat": 11.816667,
+    "lon": 51.25,
+    "coord_source": "copeland",
+    "cop_lat": 11.816667,
+    "cop_lon": 51.25,
+    "barchi_lat": 11.750833,
+    "barchi_lon": 51.255,
+    "disagree_km": 7.3,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 203.0,
+    "goods": 38.0,
+    "partners": 5.0,
+    "table2_offset_km": 0.37,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.266667,
+     10.416667
+    ]
+   },
+   "properties": {
+    "site_id": 19,
+    "key": "opone",
+    "toponym": "Opōnē",
+    "city": "Opone",
+    "status": "other",
+    "chapter": "13, 14",
+    "chapter_num": 13.0,
+    "route": "Western Route",
+    "next_on_route": "Puralaōn Islands",
+    "place_type": "Port of trade",
+    "region": "Horn of Africa",
+    "lat": 10.416667,
+    "lon": 51.266667,
+    "coord_source": "copeland",
+    "cop_lat": 10.416667,
+    "cop_lon": 51.266667,
+    "barchi_lat": 10.4118,
+    "barchi_lon": 51.286582,
+    "disagree_km": 2.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39403",
+    "pcode": 207.0,
+    "goods": 34.0,
+    "partners": 7.0,
+    "table2_offset_km": 0.52,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.333333,
+     -6.133333
+    ]
+   },
+   "properties": {
+    "site_id": 20,
+    "key": "menounthias",
+    "toponym": "Menounthias",
+    "city": "Menuthias",
+    "status": "other",
+    "chapter": "15",
+    "chapter_num": 15.0,
+    "route": "Western Route",
+    "next_on_route": "Rhapta",
+    "place_type": "Unspecified",
+    "region": "East Africa",
+    "lat": -6.133333,
+    "lon": 39.333333,
+    "coord_source": "copeland",
+    "cop_lat": -6.133333,
+    "cop_lon": 39.333333,
+    "barchi_lat": -6.133333,
+    "barchi_lon": 39.316667,
+    "disagree_km": 1.8,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/40222",
+    "pcode": 251.0,
+    "goods": 15.0,
+    "partners": 3.0,
+    "table2_offset_km": 0.52,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.925,
+     -2.27
+    ]
+   },
+   "properties": {
+    "site_id": 21,
+    "key": "puralaonislands",
+    "toponym": "Puralaōn Islands",
+    "city": "Pyralaae islands",
+    "status": "other",
+    "chapter": "15",
+    "chapter_num": 15.0,
+    "route": "Western Route",
+    "next_on_route": "Menounthias",
+    "place_type": "Unspecified",
+    "region": "East Africa",
+    "lat": -2.27,
+    "lon": 40.925,
+    "coord_source": "copeland",
+    "cop_lat": -2.27,
+    "cop_lon": 40.925,
+    "barchi_lat": -2.216666667,
+    "barchi_lon": 40.96111133,
+    "disagree_km": 7.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39410",
+    "pcode": 253.0,
+    "goods": 13.0,
+    "partners": 3.0,
+    "table2_offset_km": 2.78,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.783333,
+     -7.85
+    ]
+   },
+   "properties": {
+    "site_id": 22,
+    "key": "rhapta",
+    "toponym": "Rhapta",
+    "city": "Rhapta",
+    "status": "disputed",
+    "chapter": "16",
+    "chapter_num": 16.0,
+    "route": "Western Route",
+    "next_on_route": "Leukē Kōmē",
+    "place_type": "Port of trade",
+    "region": "East Africa",
+    "lat": -7.85,
+    "lon": 39.783333,
+    "coord_source": "copeland",
+    "cop_lat": -7.85,
+    "cop_lon": 39.783333,
+    "barchi_lat": -6.656811,
+    "barchi_lon": 39.499647,
+    "disagree_km": 136.3,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39414",
+    "pcode": 254.0,
+    "goods": 13.0,
+    "partners": 3.0,
+    "table2_offset_km": 0.37,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.058194,
+     24.088264
+    ]
+   },
+   "properties": {
+    "site_id": 23,
+    "key": "leukekome",
+    "toponym": "Leukē Kōmē",
+    "city": null,
+    "status": "disputed",
+    "chapter": "19",
+    "chapter_num": 19.0,
+    "route": "Eastern Route",
+    "next_on_route": "Katakekaumene Island",
+    "place_type": "Harbor",
+    "region": null,
+    "lat": 24.088264,
+    "lon": 38.058194,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 24.088264,
+    "barchi_lon": 38.058194,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": "https://pleiades.stoa.org/places/814698",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.83333,
+     15.55
+    ]
+   },
+   "properties": {
+    "site_id": 24,
+    "key": "katakekaumeneisland",
+    "toponym": "Katakekaumene Island",
+    "city": null,
+    "status": "other",
+    "chapter": "20",
+    "chapter_num": 20.0,
+    "route": "Eastern Route",
+    "next_on_route": "Mouza",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 15.55,
+    "lon": 41.83333,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.55,
+    "barchi_lon": 41.83333,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39345",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.25,
+     13.316667
+    ]
+   },
+   "properties": {
+    "site_id": 25,
+    "key": "mouza",
+    "toponym": "Mouza",
+    "city": "Muza",
+    "status": "other",
+    "chapter": "21, 24",
+    "chapter_num": 21.0,
+    "route": "Eastern Route",
+    "next_on_route": "Sauē",
+    "place_type": "Legally limited port of trade",
+    "region": "Arabia",
+    "lat": 13.316667,
+    "lon": 43.25,
+    "coord_source": "copeland",
+    "cop_lat": 13.316667,
+    "cop_lon": 43.25,
+    "barchi_lat": 13.261275,
+    "barchi_lon": 43.421475,
+    "disagree_km": 19.6,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39390",
+    "pcode": 305.0,
+    "goods": 60.0,
+    "partners": 11.0,
+    "table2_offset_km": 0.37,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.998333,
+     13.968611
+    ]
+   },
+   "properties": {
+    "site_id": 26,
+    "key": "saue",
+    "toponym": "Sauē",
+    "city": null,
+    "status": "other",
+    "chapter": "22",
+    "chapter_num": 22.0,
+    "route": "Eastern Route",
+    "next_on_route": "Zafar",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 13.968611,
+    "lon": 43.998333,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 13.968611,
+    "barchi_lon": 43.998333,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.400794,
+     14.211704
+    ]
+   },
+   "properties": {
+    "site_id": 27,
+    "key": "zafar",
+    "toponym": "Zafar",
+    "city": null,
+    "status": "other",
+    "chapter": "23",
+    "chapter_num": 23.0,
+    "route": "Eastern Route",
+    "next_on_route": "Diodōros Island",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 14.211704,
+    "lon": 44.400794,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 14.211704,
+    "barchi_lon": 44.400794,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39423",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.42,
+     12.66
+    ]
+   },
+   "properties": {
+    "site_id": 28,
+    "key": "diodorosisland",
+    "toponym": "Diodōros Island",
+    "city": null,
+    "status": "other",
+    "chapter": "25",
+    "chapter_num": 25.0,
+    "route": "Eastern Route",
+    "next_on_route": "Okēlis",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 12.66,
+    "lon": 43.42,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 12.66,
+    "barchi_lon": 43.42,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.65096,
+     12.766503
+    ]
+   },
+   "properties": {
+    "site_id": 29,
+    "key": "okelis",
+    "toponym": "Okēlis",
+    "city": "Ocelis",
+    "status": "other",
+    "chapter": "25",
+    "chapter_num": 25.0,
+    "route": "Eastern Route",
+    "next_on_route": "Eudaimōn Arabia",
+    "place_type": null,
+    "region": "Arabia",
+    "lat": 12.766503,
+    "lon": 43.65096,
+    "coord_source": "copeland",
+    "cop_lat": 12.766503,
+    "cop_lon": 43.65096,
+    "barchi_lat": 12.766503,
+    "barchi_lon": 43.65096,
+    "disagree_km": 0.0,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39279",
+    "pcode": 306.0,
+    "goods": 15.0,
+    "partners": 8.0,
+    "table2_offset_km": 0.4,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.038928,
+     12.771651
+    ]
+   },
+   "properties": {
+    "site_id": 30,
+    "key": "eudaimonarabia",
+    "toponym": "Eudaimōn Arabia",
+    "city": null,
+    "status": "other",
+    "chapter": "26",
+    "chapter_num": 26.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kanē",
+    "place_type": "Harbor",
+    "region": null,
+    "lat": 12.771651,
+    "lon": 45.038928,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 12.771651,
+    "barchi_lon": 45.038928,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39269",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     48.38722,
+     13.9325
+    ]
+   },
+   "properties": {
+    "site_id": 31,
+    "key": "isleofbirds",
+    "toponym": "Isle of Birds",
+    "city": null,
+    "status": "other",
+    "chapter": "27",
+    "chapter_num": 27.0,
+    "route": "Eastern Route",
+    "next_on_route": "Troullas",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 13.9325,
+    "lon": 48.38722,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 13.9325,
+    "barchi_lon": 48.38722,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     48.341944,
+     14.025
+    ]
+   },
+   "properties": {
+    "site_id": 32,
+    "key": "kane",
+    "toponym": "Kanē",
+    "city": "Cana",
+    "status": "anchor",
+    "chapter": "27",
+    "chapter_num": 27.0,
+    "route": "Eastern Route",
+    "next_on_route": "Isle of Birds",
+    "place_type": "Port of trade",
+    "region": "Arabia",
+    "lat": 14.025,
+    "lon": 48.341944,
+    "coord_source": "copeland",
+    "cop_lat": 14.025,
+    "cop_lon": 48.341944,
+    "barchi_lat": 14.0253,
+    "barchi_lon": 48.341944,
+    "disagree_km": 0.0,
+    "precision_flag": "Uncertain",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39355",
+    "pcode": 301.0,
+    "goods": 40.0,
+    "partners": 16.0,
+    "table2_offset_km": 0.59,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.0236,
+     15.3689
+    ]
+   },
+   "properties": {
+    "site_id": 33,
+    "key": "saubatha",
+    "toponym": "Saubatha",
+    "city": null,
+    "status": "other",
+    "chapter": "27",
+    "chapter_num": 27.0,
+    "route": "Eastern Route",
+    "next_on_route": "Suagros",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 15.3689,
+    "lon": 47.0236,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.3689,
+    "barchi_lon": 47.0236,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     48.4581165,
+     13.9767218
+    ]
+   },
+   "properties": {
+    "site_id": 34,
+    "key": "troullas",
+    "toponym": "Troullas",
+    "city": null,
+    "status": "other",
+    "chapter": "27",
+    "chapter_num": 27.0,
+    "route": "Eastern Route",
+    "next_on_route": "Saubatha",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 13.9767218,
+    "lon": 48.4581165,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 13.9767218,
+    "barchi_lon": 48.4581165,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39436",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     52.223611,
+     15.635278
+    ]
+   },
+   "properties": {
+    "site_id": 35,
+    "key": "suagros",
+    "toponym": "Suagros",
+    "city": null,
+    "status": "other",
+    "chapter": "29",
+    "chapter_num": 29.0,
+    "route": "Eastern Route",
+    "next_on_route": "Dioskouridou Island",
+    "place_type": "Harbor",
+    "region": null,
+    "lat": 15.635278,
+    "lon": 52.223611,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 15.635278,
+    "barchi_lon": 52.223611,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     53.92,
+     12.51
+    ]
+   },
+   "properties": {
+    "site_id": 36,
+    "key": "dioskouridouisland",
+    "toponym": "Dioskouridou Island",
+    "city": "Dioscorida",
+    "status": "other",
+    "chapter": "30",
+    "chapter_num": 30.0,
+    "route": "Eastern Route",
+    "next_on_route": "Moscha Limen",
+    "place_type": "Unspecified",
+    "region": "Arabia",
+    "lat": 12.51,
+    "lon": 53.92,
+    "coord_source": "copeland",
+    "cop_lat": 12.51,
+    "cop_lon": 53.92,
+    "barchi_lat": 12.51,
+    "barchi_lon": 53.92,
+    "disagree_km": 0.0,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39338",
+    "pcode": 302.0,
+    "goods": 13.0,
+    "partners": 10.0,
+    "table2_offset_km": 0.0,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     54.434444,
+     17.039
+    ]
+   },
+   "properties": {
+    "site_id": 37,
+    "key": "moschalimen",
+    "toponym": "Moscha Limen",
+    "city": "Moscha",
+    "status": "anchor",
+    "chapter": "32",
+    "chapter_num": 32.0,
+    "route": "Eastern Route",
+    "next_on_route": "Asikhōnos",
+    "place_type": "Designated Harbor",
+    "region": "Arabia",
+    "lat": 17.039,
+    "lon": 54.434444,
+    "coord_source": "copeland",
+    "cop_lat": 17.039,
+    "cop_lon": 54.434444,
+    "barchi_lat": 17.019722,
+    "barchi_lon": 54.089722,
+    "disagree_km": 36.7,
+    "precision_flag": "Unlocated",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/40228",
+    "pcode": 304.0,
+    "goods": 9.0,
+    "partners": 8.0,
+    "table2_offset_km": 0.49,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     55.3,
+     17.4
+    ]
+   },
+   "properties": {
+    "site_id": 38,
+    "key": "asikhonos",
+    "toponym": "Asikhōnos",
+    "city": null,
+    "status": "other",
+    "chapter": "33",
+    "chapter_num": 33.0,
+    "route": "Eastern Route",
+    "next_on_route": "Isles of Zēnobios",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 17.4,
+    "lon": 55.3,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.4,
+    "barchi_lon": 55.3,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39296",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     56.0,
+     17.5
+    ]
+   },
+   "properties": {
+    "site_id": 39,
+    "key": "islesofzenobios",
+    "toponym": "Isles of Zēnobios",
+    "city": null,
+    "status": "other",
+    "chapter": "33",
+    "chapter_num": 33.0,
+    "route": "Eastern Route",
+    "next_on_route": "Sarapis Island",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 17.5,
+    "lon": 56.0,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.5,
+    "barchi_lon": 56.0,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/39441",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     58.815278,
+     20.471111
+    ]
+   },
+   "properties": {
+    "site_id": 40,
+    "key": "sarapisisland",
+    "toponym": "Sarapis Island",
+    "city": "Sarapis",
+    "status": "other",
+    "chapter": "33",
+    "chapter_num": 33.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kalaiou Isles",
+    "place_type": "Unspecified",
+    "region": "Arabia",
+    "lat": 20.471111,
+    "lon": 58.815278,
+    "coord_source": "copeland",
+    "cop_lat": 20.471111,
+    "cop_lon": 58.815278,
+    "barchi_lat": 20.471111,
+    "barchi_lon": 58.815278,
+    "disagree_km": 0.0,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/29743",
+    "pcode": 308.0,
+    "goods": 1.0,
+    "partners": 1.0,
+    "table2_offset_km": 0.51,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     58.093,
+     23.856
+    ]
+   },
+   "properties": {
+    "site_id": 41,
+    "key": "kalaiouisles",
+    "toponym": "Kalaiou Isles",
+    "city": null,
+    "status": "other",
+    "chapter": "34",
+    "chapter_num": 34.0,
+    "route": "Eastern Route",
+    "next_on_route": "Apologos",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 23.856,
+    "lon": 58.093,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 23.856,
+    "barchi_lon": 58.093,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/29620",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.578031,
+     30.894692
+    ]
+   },
+   "properties": {
+    "site_id": 42,
+    "key": "apologos",
+    "toponym": "Apologos",
+    "city": "Apologus",
+    "status": "other",
+    "chapter": "35",
+    "chapter_num": 35.0,
+    "route": "Eastern Route",
+    "next_on_route": "Pasinou Kharax",
+    "place_type": "Legally limited port of trade",
+    "region": "Persia",
+    "lat": 30.894692,
+    "lon": 47.578031,
+    "coord_source": "copeland",
+    "cop_lat": 30.894692,
+    "cop_lon": 47.578031,
+    "barchi_lat": 30.521707,
+    "barchi_lon": 47.833151,
+    "disagree_km": 48.1,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/912807",
+    "pcode": 351.0,
+    "goods": 13.0,
+    "partners": 4.0,
+    "table2_offset_km": 0.55,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     56.729889,
+     24.342
+    ]
+   },
+   "properties": {
+    "site_id": 43,
+    "key": "ommana",
+    "toponym": "Ommana",
+    "city": "Ommana",
+    "status": "other",
+    "chapter": "35",
+    "chapter_num": 35.0,
+    "route": "Eastern Route",
+    "next_on_route": "Hōraia",
+    "place_type": "Port of trade",
+    "region": "Persia",
+    "lat": 24.342,
+    "lon": 56.729889,
+    "coord_source": "copeland",
+    "cop_lat": 24.342,
+    "cop_lon": 56.729889,
+    "barchi_lat": 25.522222,
+    "barchi_lon": 55.626111,
+    "disagree_km": 172.1,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/932474",
+    "pcode": 352.0,
+    "goods": 17.0,
+    "partners": 11.0,
+    "table2_offset_km": 0.22,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.562804,
+     30.8093425
+    ]
+   },
+   "properties": {
+    "site_id": 44,
+    "key": "pasinoukharax",
+    "toponym": "Pasinou Kharax",
+    "city": null,
+    "status": "other",
+    "chapter": "35",
+    "chapter_num": 35.0,
+    "route": "Eastern Route",
+    "next_on_route": "Ommana",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 30.8093425,
+    "lon": 47.562804,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 30.8093425,
+    "barchi_lon": 47.562804,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/912872",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     64.633297,
+     25.214433
+    ]
+   },
+   "properties": {
+    "site_id": 45,
+    "key": "horaia",
+    "toponym": "Hōraia",
+    "city": "Oraea",
+    "status": "other",
+    "chapter": "37",
+    "chapter_num": 37.0,
+    "route": "Eastern Route",
+    "next_on_route": "Barbarikon",
+    "place_type": "Port of trade",
+    "region": "Persia",
+    "lat": 25.214433,
+    "lon": 64.633297,
+    "coord_source": "copeland",
+    "cop_lat": 25.214433,
+    "cop_lon": 64.633297,
+    "barchi_lat": 25.6558,
+    "barchi_lon": 66.455092,
+    "disagree_km": 189.4,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/59881",
+    "pcode": 401.0,
+    "goods": 10.0,
+    "partners": 1.0,
+    "table2_offset_km": 0.59,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.01,
+     24.86
+    ]
+   },
+   "properties": {
+    "site_id": 46,
+    "key": "barbarikon",
+    "toponym": "Barbarikon",
+    "city": "Barbaricum-Minnagara",
+    "status": "disputed",
+    "chapter": "38-39",
+    "chapter_num": 38.0,
+    "route": "Eastern Route",
+    "next_on_route": "Minnagar",
+    "place_type": "Port of trade",
+    "region": "Scythia",
+    "lat": 24.86,
+    "lon": 67.01,
+    "coord_source": "copeland",
+    "cop_lat": 24.86,
+    "cop_lon": 67.01,
+    "barchi_lat": 24.92407,
+    "barchi_lon": 69.021536,
+    "disagree_km": 203.0,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/59734",
+    "pcode": 451.0,
+    "goods": 24.0,
+    "partners": 1.0,
+    "table2_offset_km": 0.0,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.075764,
+     22.060829
+    ]
+   },
+   "properties": {
+    "site_id": 47,
+    "key": "minnagar",
+    "toponym": "Minnagar",
+    "city": null,
+    "status": "other",
+    "chapter": "38 and 41",
+    "chapter_num": 38.0,
+    "route": "Eastern Route",
+    "next_on_route": "Astakapra",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 22.060829,
+    "lon": 73.075764,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 22.060829,
+    "barchi_lon": 73.075764,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/59933",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.993,
+     21.712
+    ]
+   },
+   "properties": {
+    "site_id": 48,
+    "key": "barygaza",
+    "toponym": "Barygaza",
+    "city": "Barygaza",
+    "status": "anchor",
+    "chapter": "40-47",
+    "chapter_num": 40.0,
+    "route": "Eastern Route",
+    "next_on_route": "Ozēnē",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 21.712,
+    "lon": 72.993,
+    "coord_source": "copeland",
+    "cop_lat": 21.712,
+    "cop_lon": 72.993,
+    "barchi_lat": 21.70078,
+    "barchi_lon": 72.983068,
+    "disagree_km": 1.6,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/59737",
+    "pcode": 504.0,
+    "goods": 79.0,
+    "partners": 15.0,
+    "table2_offset_km": 0.38,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.268473,
+     21.608478
+    ]
+   },
+   "properties": {
+    "site_id": 49,
+    "key": "astakapra",
+    "toponym": "Astakapra",
+    "city": null,
+    "status": "other",
+    "chapter": "41, 43",
+    "chapter_num": 41.0,
+    "route": "Eastern Route",
+    "next_on_route": "Baiōnēs Island",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 21.608478,
+    "lon": 72.268473,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 21.608478,
+    "barchi_lon": 72.268473,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49880",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.925301,
+     21.402921
+    ]
+   },
+   "properties": {
+    "site_id": 50,
+    "key": "kammoni",
+    "toponym": "Kammōni",
+    "city": null,
+    "status": "other",
+    "chapter": "41",
+    "chapter_num": 41.0,
+    "route": "Eastern Route",
+    "next_on_route": "Barygaza",
+    "place_type": "Village",
+    "region": null,
+    "lat": 21.402921,
+    "lon": 72.925301,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 21.402921,
+    "barchi_lon": 72.925301,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50032",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.5,
+     22.5
+    ]
+   },
+   "properties": {
+    "site_id": 51,
+    "key": "baionesisland",
+    "toponym": "Baiōnēs Island",
+    "city": null,
+    "status": "other",
+    "chapter": "42",
+    "chapter_num": 42.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kammōni",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 22.5,
+    "lon": 72.5,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 22.5,
+    "barchi_lon": 72.5,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49889",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.79,
+     23.17
+    ]
+   },
+   "properties": {
+    "site_id": 52,
+    "key": "ozene",
+    "toponym": "Ozēnē",
+    "city": null,
+    "status": "other",
+    "chapter": "48",
+    "chapter_num": 48.0,
+    "route": "Eastern Route",
+    "next_on_route": "Paithana",
+    "place_type": "Inland market",
+    "region": null,
+    "lat": 23.17,
+    "lon": 75.79,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 23.17,
+    "barchi_lon": 75.79,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/59972",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "site_id": 53,
+    "key": "akabaru",
+    "toponym": "Akabaru",
+    "city": null,
+    "status": "other",
+    "chapter": "51",
+    "chapter_num": 51.0,
+    "route": "Eastern Route",
+    "next_on_route": "Souppara",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": null,
+    "lon": null,
+    "coord_source": "none",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": "Unlocated",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.38,
+     19.48
+    ]
+   },
+   "properties": {
+    "site_id": 54,
+    "key": "paithana",
+    "toponym": "Paithana",
+    "city": "Paethana",
+    "status": "other",
+    "chapter": "51",
+    "chapter_num": 51.0,
+    "route": "Eastern Route",
+    "next_on_route": "Tagara",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 19.48,
+    "lon": 75.38,
+    "coord_source": "copeland",
+    "cop_lat": 19.48,
+    "cop_lon": 75.38,
+    "barchi_lat": 19.48,
+    "barchi_lon": 75.38,
+    "disagree_km": 0.0,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50192",
+    "pcode": 511.0,
+    "goods": 1.0,
+    "partners": 1.0,
+    "table2_offset_km": 0.0,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.132971,
+     18.321299
+    ]
+   },
+   "properties": {
+    "site_id": 55,
+    "key": "tagara",
+    "toponym": "Tagara",
+    "city": "Tagara",
+    "status": "other",
+    "chapter": "51",
+    "chapter_num": 51.0,
+    "route": "Eastern Route",
+    "next_on_route": "Akabaru",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 18.321299,
+    "lon": 76.132971,
+    "coord_source": "copeland",
+    "cop_lat": 18.321299,
+    "cop_lon": 76.132971,
+    "barchi_lat": 18.301382,
+    "barchi_lon": 76.14594,
+    "disagree_km": 2.6,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50294",
+    "pcode": 515.0,
+    "goods": 5.0,
+    "partners": 1.0,
+    "table2_offset_km": 0.35,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.13,
+     19.27
+    ]
+   },
+   "properties": {
+    "site_id": 56,
+    "key": "kalliena",
+    "toponym": "Kalliena",
+    "city": null,
+    "status": "other",
+    "chapter": "52-3",
+    "chapter_num": 52.0,
+    "route": "Eastern Route",
+    "next_on_route": "Sēmulla",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 19.27,
+    "lon": 73.13,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 19.27,
+    "barchi_lon": 73.13,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50023",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.804527,
+     19.434113
+    ]
+   },
+   "properties": {
+    "site_id": 57,
+    "key": "souppara",
+    "toponym": "Souppara",
+    "city": null,
+    "status": "other",
+    "chapter": "52",
+    "chapter_num": 52.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kalliena",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 19.434113,
+    "lon": 72.804527,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 19.434113,
+    "barchi_lon": 72.804527,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50282",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.5,
+     17.5
+    ]
+   },
+   "properties": {
+    "site_id": 58,
+    "key": "aigidionisland",
+    "toponym": "Aigidiōn Island",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kaineitōn Island",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 17.5,
+    "lon": 72.5,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.5,
+    "barchi_lon": 72.5,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49841",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.3334,
+     16.503
+    ]
+   },
+   "properties": {
+    "site_id": 59,
+    "key": "byzantion",
+    "toponym": "Byzantion",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Toparon",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 16.503,
+    "lon": 73.3334,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 16.503,
+    "barchi_lon": 73.3334,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49929",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.466698,
+     16.0667
+    ]
+   },
+   "properties": {
+    "site_id": 60,
+    "key": "erannoboas",
+    "toponym": "Erannoboas",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Sēsekreienai Island",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 16.0667,
+    "lon": 73.466698,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 16.0667,
+    "barchi_lon": 73.466698,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.5,
+     12.5
+    ]
+   },
+   "properties": {
+    "site_id": 61,
+    "key": "kaineitonisland",
+    "toponym": "Kaineitōn Island",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "White Island",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 12.5,
+    "lon": 72.5,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 12.5,
+    "barchi_lon": 72.5,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50015",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.03939,
+     17.951342
+    ]
+   },
+   "properties": {
+    "site_id": 62,
+    "key": "mandagora",
+    "toponym": "Mandagora",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Palaipatmai",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 17.951342,
+    "lon": 73.03939,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.951342,
+    "barchi_lon": 73.03939,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50116",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2377,
+     17.29
+    ]
+   },
+   "properties": {
+    "site_id": 63,
+    "key": "melizeigara",
+    "toponym": "Melizeigara",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Byzantion",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 17.29,
+    "lon": 73.2377,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.29,
+    "barchi_lon": 73.2377,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.449703,
+     14.281472
+    ]
+   },
+   "properties": {
+    "site_id": 64,
+    "key": "naoura",
+    "toponym": "Naoura",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Tyndis",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 14.281472,
+    "lon": 74.449703,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 14.281472,
+    "barchi_lon": 74.449703,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50160",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.536944,
+     9.324722
+    ]
+   },
+   "properties": {
+    "site_id": 65,
+    "key": "nelkunda",
+    "toponym": "Nelkunda",
+    "city": "Nelcynda",
+    "status": "disputed",
+    "chapter": "53, 55",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Bakarē",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 9.324722,
+    "lon": 76.536944,
+    "coord_source": "copeland",
+    "cop_lat": 9.324722,
+    "cop_lon": 76.536944,
+    "barchi_lat": 9.272624,
+    "barchi_lon": 76.558846,
+    "disagree_km": 6.3,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50165",
+    "pcode": 510.0,
+    "goods": 48.0,
+    "partners": 6.0,
+    "table2_offset_km": 0.62,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.302413,
+     17.526305
+    ]
+   },
+   "properties": {
+    "site_id": 66,
+    "key": "palaipatmai",
+    "toponym": "Palaipatmai",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Melizeigara",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 17.526305,
+    "lon": 73.302413,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.526305,
+    "barchi_lon": 73.302413,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50196",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9472,
+     18.5212
+    ]
+   },
+   "properties": {
+    "site_id": 67,
+    "key": "semulla",
+    "toponym": "Sēmulla",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Mandagora",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 18.5212,
+    "lon": 72.9472,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 18.5212,
+    "barchi_lon": 72.9472,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50261",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.5,
+     17.5
+    ]
+   },
+   "properties": {
+    "site_id": 68,
+    "key": "sesekreienaiisland",
+    "toponym": "Sēsekreienai Island",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Aigidiōn Island",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 17.5,
+    "lon": 72.5,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 17.5,
+    "barchi_lon": 72.5,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50264",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.58469,
+     16.220106
+    ]
+   },
+   "properties": {
+    "site_id": 69,
+    "key": "toparon",
+    "toponym": "Toparon",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Erannoboas",
+    "place_type": "Port of trade",
+    "region": null,
+    "lat": 16.220106,
+    "lon": 73.58469,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 16.220106,
+    "barchi_lon": 73.58469,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50308",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.9,
+     10.77
+    ]
+   },
+   "properties": {
+    "site_id": 70,
+    "key": "tyndis",
+    "toponym": "Tyndis",
+    "city": "Tyndis",
+    "status": "disputed",
+    "chapter": "53-4",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Muziris",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 10.77,
+    "lon": 75.9,
+    "coord_source": "copeland",
+    "cop_lat": 10.77,
+    "cop_lon": 75.9,
+    "barchi_lat": 10.763548,
+    "barchi_lon": 75.926477,
+    "disagree_km": 3.0,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50312",
+    "pcode": 516.0,
+    "goods": 48.0,
+    "partners": 6.0,
+    "table2_offset_km": 0.0,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.3259,
+     14.0165
+    ]
+   },
+   "properties": {
+    "site_id": 71,
+    "key": "whiteisland",
+    "toponym": "White Island",
+    "city": null,
+    "status": "other",
+    "chapter": "53",
+    "chapter_num": 53.0,
+    "route": "Eastern Route",
+    "next_on_route": "Naoura",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 14.0165,
+    "lon": 74.3259,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 14.0165,
+    "barchi_lon": 74.3259,
+    "disagree_km": null,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.208982,
+     10.15654
+    ]
+   },
+   "properties": {
+    "site_id": 72,
+    "key": "muziris",
+    "toponym": "Muziris",
+    "city": "Muziris",
+    "status": "anchor",
+    "chapter": "54",
+    "chapter_num": 54.0,
+    "route": "Eastern Route",
+    "next_on_route": "Nelkunda",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 10.15654,
+    "lon": 76.208982,
+    "coord_source": "copeland",
+    "cop_lat": 10.15654,
+    "cop_lon": 76.208982,
+    "barchi_lat": 10.153976,
+    "barchi_lon": 76.213146,
+    "disagree_km": 0.5,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50146",
+    "pcode": 509.0,
+    "goods": 49.0,
+    "partners": 7.0,
+    "table2_offset_km": 0.4,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.485573,
+     9.594709
+    ]
+   },
+   "properties": {
+    "site_id": 73,
+    "key": "bakare",
+    "toponym": "Bakarē",
+    "city": "Bacare",
+    "status": "disputed",
+    "chapter": "56",
+    "chapter_num": 56.0,
+    "route": "Eastern Route",
+    "next_on_route": "Balita",
+    "place_type": "Village",
+    "region": "India",
+    "lat": 9.594709,
+    "lon": 76.485573,
+    "coord_source": "copeland",
+    "cop_lat": 9.594709,
+    "cop_lon": 76.485573,
+    "barchi_lat": 9.5,
+    "barchi_lon": 77.5,
+    "disagree_km": 111.7,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49890",
+    "pcode": 503.0,
+    "goods": 48.0,
+    "partners": 6.0,
+    "table2_offset_km": 0.71,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.990276,
+     8.380214
+    ]
+   },
+   "properties": {
+    "site_id": 74,
+    "key": "balita",
+    "toponym": "Balita",
+    "city": null,
+    "status": "other",
+    "chapter": "58",
+    "chapter_num": 58.0,
+    "route": "Eastern Route",
+    "next_on_route": "Komarei",
+    "place_type": "Harbor",
+    "region": null,
+    "lat": 8.380214,
+    "lon": 76.990276,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 8.380214,
+    "barchi_lon": 76.990276,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49892",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5513761,
+     8.0772932
+    ]
+   },
+   "properties": {
+    "site_id": 75,
+    "key": "komarei",
+    "toponym": "Komarei",
+    "city": null,
+    "status": "other",
+    "chapter": "58-59",
+    "chapter_num": 58.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kolkhoi",
+    "place_type": "Harbor",
+    "region": null,
+    "lat": 8.0772932,
+    "lon": 77.5513761,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 8.0772932,
+    "barchi_lon": 77.5513761,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50066",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.678333,
+     10.828056
+    ]
+   },
+   "properties": {
+    "site_id": 76,
+    "key": "argalou",
+    "toponym": "Argalou",
+    "city": "Argaru",
+    "status": "other",
+    "chapter": "59",
+    "chapter_num": 59.0,
+    "route": "Eastern Route",
+    "next_on_route": "Kamara",
+    "place_type": "Unspecified",
+    "region": "India",
+    "lat": 10.828056,
+    "lon": 78.678333,
+    "coord_source": "copeland",
+    "cop_lat": 10.828056,
+    "cop_lon": 78.678333,
+    "barchi_lat": 12.5,
+    "barchi_lon": 77.5,
+    "disagree_km": 225.9,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49871",
+    "pcode": 501.0,
+    "goods": 3.0,
+    "partners": 0.0,
+    "table2_offset_km": 0.28,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.01884,
+     8.612651
+    ]
+   },
+   "properties": {
+    "site_id": 77,
+    "key": "kolkhoi",
+    "toponym": "Kolkhoi",
+    "city": null,
+    "status": "other",
+    "chapter": "59",
+    "chapter_num": 59.0,
+    "route": "Eastern Route",
+    "next_on_route": "Argalou",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": 8.612651,
+    "lon": 78.01884,
+    "coord_source": "barchi",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": 8.612651,
+    "barchi_lon": 78.01884,
+    "disagree_km": null,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50064",
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.855,
+     11.144
+    ]
+   },
+   "properties": {
+    "site_id": 78,
+    "key": "kamara",
+    "toponym": "Kamara",
+    "city": "Camara",
+    "status": "other",
+    "chapter": "60",
+    "chapter_num": 60.0,
+    "route": "Eastern Route",
+    "next_on_route": "Podoukē",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 11.144,
+    "lon": 79.855,
+    "coord_source": "copeland",
+    "cop_lat": 11.144,
+    "cop_lon": 79.855,
+    "barchi_lat": 11.025067,
+    "barchi_lon": 79.85456,
+    "disagree_km": 13.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/49939",
+    "pcode": 505.0,
+    "goods": 24.0,
+    "partners": 5.0,
+    "table2_offset_km": 0.7,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.820278,
+     11.900833
+    ]
+   },
+   "properties": {
+    "site_id": 79,
+    "key": "podouke",
+    "toponym": "Podoukē",
+    "city": "Poduca",
+    "status": "other",
+    "chapter": "60",
+    "chapter_num": 60.0,
+    "route": "Eastern Route",
+    "next_on_route": "Sōpatma",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 11.900833,
+    "lon": 79.820278,
+    "coord_source": "copeland",
+    "cop_lat": 11.900833,
+    "cop_lon": 79.820278,
+    "barchi_lat": 11.862228,
+    "barchi_lon": 79.74878,
+    "disagree_km": 8.9,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50221",
+    "pcode": 513.0,
+    "goods": 24.0,
+    "partners": 5.0,
+    "table2_offset_km": 0.1,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.162222,
+     12.525
+    ]
+   },
+   "properties": {
+    "site_id": 80,
+    "key": "sopatma",
+    "toponym": "Sōpatma",
+    "city": "Sopatma",
+    "status": "other",
+    "chapter": "60",
+    "chapter_num": 60.0,
+    "route": "Eastern Route",
+    "next_on_route": "Palaisimoundou",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 12.525,
+    "lon": 80.162222,
+    "coord_source": "copeland",
+    "cop_lat": 12.525,
+    "cop_lon": 80.162222,
+    "barchi_lat": 12.188994,
+    "barchi_lon": 79.942282,
+    "disagree_km": 44.3,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50278",
+    "pcode": 514.0,
+    "goods": 24.0,
+    "partners": 5.0,
+    "table2_offset_km": 0.61,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.812533,
+     11.911082
+    ]
+   },
+   "properties": {
+    "site_id": 81,
+    "key": "masalia",
+    "toponym": "Masalia",
+    "city": "Masalia",
+    "status": "other",
+    "chapter": "62",
+    "chapter_num": 62.0,
+    "route": "Eastern Route",
+    "next_on_route": "Gangēs",
+    "place_type": "Unspecified",
+    "region": "India",
+    "lat": 11.911082,
+    "lon": 79.812533,
+    "coord_source": "copeland",
+    "cop_lat": 11.911082,
+    "cop_lon": 79.812533,
+    "barchi_lat": 17.5,
+    "barchi_lon": 77.5,
+    "disagree_km": 669.3,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50123",
+    "pcode": 508.0,
+    "goods": 2.0,
+    "partners": 0.0,
+    "table2_offset_km": 0.3,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.998056,
+     8.989444
+    ]
+   },
+   "properties": {
+    "site_id": 82,
+    "key": "palaisimoundou",
+    "toponym": "Palaisimoundou",
+    "city": "Palaesimundu",
+    "status": "other",
+    "chapter": "62",
+    "chapter_num": 62.0,
+    "route": "Eastern Route",
+    "next_on_route": "Masalia",
+    "place_type": "Unspecified",
+    "region": "India",
+    "lat": 8.989444,
+    "lon": 79.998056,
+    "coord_source": "copeland",
+    "cop_lat": 8.989444,
+    "cop_lon": 79.998056,
+    "barchi_lat": 6.9167,
+    "barchi_lon": 79.8333,
+    "disagree_km": 231.2,
+    "precision_flag": "Precise",
+    "location_source": "Pleiades",
+    "pleiades": "https://pleiades.stoa.org/places/50298",
+    "pcode": 512.0,
+    "goods": 5.0,
+    "partners": 0.0,
+    "table2_offset_km": 0.22,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.688333,
+     22.697778
+    ]
+   },
+   "properties": {
+    "site_id": 83,
+    "key": "ganges",
+    "toponym": "Gangēs",
+    "city": "Ganges",
+    "status": "other",
+    "chapter": "63",
+    "chapter_num": 63.0,
+    "route": "Eastern Route",
+    "next_on_route": "Khrusē Island",
+    "place_type": "Port of trade",
+    "region": "India",
+    "lat": 22.697778,
+    "lon": 88.688333,
+    "coord_source": "copeland",
+    "cop_lat": 22.697778,
+    "cop_lon": 88.688333,
+    "barchi_lat": 22.697778,
+    "barchi_lon": 88.688333,
+    "disagree_km": 0.0,
+    "precision_flag": "Uncertain",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 507.0,
+    "goods": 5.0,
+    "partners": 0.0,
+    "table2_offset_km": 0.3,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "site_id": 84,
+    "key": "khruseisland",
+    "toponym": "Khrusē Island",
+    "city": null,
+    "status": "other",
+    "chapter": "63",
+    "chapter_num": 63.0,
+    "route": "Eastern Route",
+    "next_on_route": "Thina",
+    "place_type": "Unspecified",
+    "region": null,
+    "lat": null,
+    "lon": null,
+    "coord_source": "none",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": "Unlocated",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "site_id": 85,
+    "key": "thina",
+    "toponym": "Thina",
+    "city": null,
+    "status": "other",
+    "chapter": "64",
+    "chapter_num": 64.0,
+    "route": "Eastern Route",
+    "next_on_route": null,
+    "place_type": "Inland market",
+    "region": null,
+    "lat": null,
+    "lon": null,
+    "coord_source": "none",
+    "cop_lat": null,
+    "cop_lon": null,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": "Unlocated",
+    "location_source": null,
+    "pleiades": null,
+    "pcode": null,
+    "goods": null,
+    "partners": null,
+    "table2_offset_km": null,
+    "in_copeland": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.619444,
+     23.058333
+    ]
+   },
+   "properties": {
+    "site_id": 86,
+    "key": "ariaca",
+    "toponym": "Ariaca",
+    "city": "Ariaca",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": "Eastern Route",
+    "next_on_route": null,
+    "place_type": null,
+    "region": "Scythia",
+    "lat": 23.058333,
+    "lon": 70.619444,
+    "coord_source": "copeland",
+    "cop_lat": 23.058333,
+    "cop_lon": 70.619444,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 552.0,
+    "goods": 18.0,
+    "partners": 7.0,
+    "table2_offset_km": 0.19,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.55,
+     29.966667
+    ]
+   },
+   "properties": {
+    "site_id": 87,
+    "key": "arsinoe",
+    "toponym": "Arsinoe",
+    "city": "Arsinoe",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": "Western Route",
+    "next_on_route": null,
+    "place_type": null,
+    "region": "Egypt",
+    "lat": 29.966667,
+    "lon": 32.55,
+    "coord_source": "copeland",
+    "cop_lat": 29.966667,
+    "cop_lon": 32.55,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 101.0,
+    "goods": 3.0,
+    "partners": 7.0,
+    "table2_offset_km": 0.37,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.62,
+     27.33
+    ]
+   },
+   "properties": {
+    "site_id": 88,
+    "key": "besatae",
+    "toponym": "Besatae",
+    "city": "Besatae",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": null,
+    "next_on_route": null,
+    "place_type": null,
+    "region": "East Asia",
+    "lat": 27.33,
+    "lon": 88.62,
+    "coord_source": "copeland",
+    "cop_lat": 27.33,
+    "cop_lon": 88.62,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 651.0,
+    "goods": 1.0,
+    "partners": 5.0,
+    "table2_offset_km": 0.0,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.610278,
+     25.720556
+    ]
+   },
+   "properties": {
+    "site_id": 89,
+    "key": "diospolis",
+    "toponym": "Diospolis",
+    "city": "Diospolis",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": null,
+    "next_on_route": null,
+    "place_type": null,
+    "region": "Egypt",
+    "lat": 25.720556,
+    "lon": 32.610278,
+    "coord_source": "copeland",
+    "cop_lat": 25.720556,
+    "cop_lon": 32.610278,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 103.0,
+    "goods": 3.0,
+    "partners": 7.0,
+    "table2_offset_km": 0.07,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.297778,
+     17.704167
+    ]
+   },
+   "properties": {
+    "site_id": 90,
+    "key": "dosarene",
+    "toponym": "Dosarene",
+    "city": "Dosarene",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": "Eastern Route",
+    "next_on_route": null,
+    "place_type": null,
+    "region": "India",
+    "lat": 17.704167,
+    "lon": 83.297778,
+    "coord_source": "copeland",
+    "cop_lat": 17.704167,
+    "cop_lon": 83.297778,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 506.0,
+    "goods": 1.0,
+    "partners": 0.0,
+    "table2_offset_km": 0.52,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.030278,
+     1.113333
+    ]
+   },
+   "properties": {
+    "site_id": 91,
+    "key": "nicon",
+    "toponym": "Nicon",
+    "city": "Nicon",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": "Western Route",
+    "next_on_route": null,
+    "place_type": null,
+    "region": "East Africa",
+    "lat": 1.113333,
+    "lon": 44.030278,
+    "coord_source": "copeland",
+    "cop_lat": 1.113333,
+    "cop_lon": 44.030278,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 252.0,
+    "goods": 13.0,
+    "partners": 3.0,
+    "table2_offset_km": 355.84,
+    "in_copeland": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.333333,
+     2.033333
+    ]
+   },
+   "properties": {
+    "site_id": 92,
+    "key": "sarapion",
+    "toponym": "Sarapion",
+    "city": "Sarapion",
+    "status": "other",
+    "chapter": null,
+    "chapter_num": null,
+    "route": null,
+    "next_on_route": null,
+    "place_type": null,
+    "region": "East Africa",
+    "lat": 2.033333,
+    "lon": 45.333333,
+    "coord_source": "copeland",
+    "cop_lat": 2.033333,
+    "cop_lon": 45.333333,
+    "barchi_lat": null,
+    "barchi_lon": null,
+    "disagree_km": null,
+    "precision_flag": null,
+    "location_source": null,
+    "pleiades": null,
+    "pcode": 255.0,
+    "goods": 13.0,
+    "partners": 3.0,
+    "table2_offset_km": 0.52,
+    "in_copeland": true
+   }
+  }
+ ]
+}
