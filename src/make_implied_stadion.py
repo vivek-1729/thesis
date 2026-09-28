@@ -50,32 +50,37 @@ def main():
         lo, hi = sorted((implied(s_a, nm), implied(s_b, nm)))
         rows.append((lab, lo, hi, (lo + hi) / 2, s_a, s_b, nm))
     rows.sort(key=lambda r: r[3])
+    n = len(rows)
 
-    lo_all = min(r[1] for r in rows)
-    hi_all = max(r[2] for r in rows)
-    X0, X1 = 80, 235
-
-    fig, ax = plt.subplots(figsize=(10.4, 5.4))
+    X0, X1 = 80, 232
+    fig, ax = plt.subplots(figsize=(10.6, 5.6))
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
     ax.set_xlim(X0, X1)
-    ax.set_ylim(-0.7, len(rows) - 0.3)
+    ax.set_ylim(-0.7, n - 0.25)
 
     for i, (lab, lo, hi, mid, s_a, s_b, nm) in enumerate(rows):
-        ax.plot([X0, lo - 2.5], [i, i], color=RULE, lw=0.6, ls=(0, (1, 2.8)),
+        ax.plot([X0, lo - 2.5], [i, i], color=RULE, lw=0.6, ls=(0, (1, 3.0)),
                 zorder=1)
         if hi - lo > 1:                       # a stated range, not a point
             ax.plot([lo, hi], [i, i], color=DOT, lw=2.8, solid_capstyle="round",
                     zorder=3, alpha=0.8)
         ax.plot([mid], [i], marker="o", ms=8.5, color=DOT, mec="white", mew=1.4,
                 zorder=4, ls="none")
-        stated = f"{s_a:,}" if s_a == s_b else f"{s_a:,}–{s_b:,}"
-        ax.text(X1 + 3.5, i, f"{stated} stadia / {nm} nm", ha="left",
-                va="center", fontsize=8.6, color=MUTED, clip_on=False)
+        # Provenance, as two aligned numeric columns rather than a sentence.
+        stated = f"{s_a:,}" if s_a == s_b else f"{s_a:,}\u2013{s_b:,}"
+        ax.text(1.115, i, stated, transform=ax.get_yaxis_transform(),
+                ha="right", va="center", fontsize=8.8, color=MUTED)
+        ax.text(1.20, i, f"{nm}", transform=ax.get_yaxis_transform(),
+                ha="right", va="center", fontsize=8.8, color=MUTED)
+    for x, head in ((1.115, "stated\nstadia"), (1.20, "actual\nn.m.")):
+        ax.text(x, n - 0.62, head, transform=ax.get_yaxis_transform(),
+                ha="right", va="bottom", fontsize=8.2, color=MUTED,
+                linespacing=1.45)
 
     ax.axvline(CONV, color=INK, lw=1.2, zorder=5)
 
-    ax.set_yticks(range(len(rows)))
+    ax.set_yticks(range(n))
     ax.set_yticklabels([r[0] for r in rows], fontsize=10, color=INK)
     ax.set_xticks([100, 125, 150, 185.2, 200, 225])
     ax.set_xticklabels(["100", "125", "150", "185.2", "200", "225"])
@@ -83,35 +88,33 @@ def main():
         if abs(t - CONV) < 0.5:
             lbl.set_color(INK)
             lbl.set_fontweight("bold")
-    for s in ("left", "right", "top"):
-        ax.spines[s].set_visible(False)
+    for sp in ("left", "right", "top"):
+        ax.spines[sp].set_visible(False)
     ax.spines["bottom"].set_color(RULE)
     ax.tick_params(axis="y", length=0, pad=6)
     ax.tick_params(axis="x", colors=INK_2, length=3, labelsize=9.5)
-    ax.set_xlabel("Stadion implied by Casson's own figures (metres)",
-                  fontsize=10.5, color=INK, labelpad=9)
+    ax.set_xlabel("Stadion implied (metres)", fontsize=10.5, color=INK,
+                  labelpad=9)
 
-    # The same quantity read as a speed: 500 stades to a day's run.
+    # The same quantity as a speed: 500 stades to a day's run.
     top = ax.secondary_xaxis("top", functions=(lambda m: m * 500 / NM,
                                                lambda d: d * NM / 500))
-    top.set_xlabel("The same figure as a day's run, at 500 stades to the day "
-                   "(nautical miles)", fontsize=10.5, color=INK, labelpad=9)
+    top.set_xlabel("Average speed this implies (nautical miles per day)",
+                   fontsize=10.5, color=INK, labelpad=9)
     top.tick_params(colors=INK_2, length=3, labelsize=9.5)
     top.spines["top"].set_color(RULE)
 
     fig.suptitle("Casson's own identifications do not imply a single stadion",
-                 x=0.011, y=0.975, ha="left", fontsize=15.5, color=INK)
+                 x=0.011, y=0.972, ha="left", fontsize=15.5, color=INK)
     fig.text(0.011, 0.022,
              "*  a figure the Periplus gives in parts, which Casson sums."
              "     Source: Casson 1989, Appendix 2.",
              ha="left", fontsize=8.2, color=MUTED)
 
-    fig.subplots_adjust(left=0.225, right=0.805, top=0.795, bottom=0.152)
+    fig.subplots_adjust(left=0.222, right=0.812, top=0.782, bottom=0.152)
     out = ROOT / "figures/09_implied_stadion.png"
     fig.savefig(out, dpi=220, facecolor="white")
     print("wrote", out)
-    print(f"range {lo_all:.1f} - {hi_all:.1f} m  ({hi_all/lo_all:.2f}x)")
-    print(f"daily runs {lo_all*500/NM:.0f} - {hi_all*500/NM:.0f} nm")
 
 
 if __name__ == "__main__":
