@@ -27,7 +27,10 @@ informative.
 - [ ] **Assess each class of evidence.** What it can determine, at what spatial
       resolution, and where it fails
 
-## Phase 2 — Statistical analysis
+## Phase 2 — Analysis and writing
+
+The statistical method for each evidence stream is set out in
+`STATISTICAL-PLAN.md`.
 
 - [ ] **Model the Periplus as a measuring instrument.** The stated distances are
       rounded, and the distances they are compared against depend on
@@ -45,15 +48,12 @@ informative.
       set of proposed locations is consistent with the distances the text gives
 - [ ] **Determine what would settle it.** Given the posterior, identify the
       single piece of fieldwork that would most reduce the remaining uncertainty
-
-## Phase 3 — Writing
-
 - [ ] **Methods.** The evidence available, its resolution, and its limits
 - [ ] **A chapter for each port.** Scholarship, evidence, and assessment
 - [ ] **Figures.** Final cartography and analytical graphics
 - [ ] **Conclusion.** What can be established, and what would settle the rest
 
-## Phase 4 — Revisions
+## Phase 3 — Revisions
 
 - [ ] **Incorporate supervisory comments**
 - [ ] **Verify citations and apparatus**
