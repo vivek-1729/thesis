@@ -29,7 +29,6 @@ RULE, DOT = "#b4c2ca", "#2a78d6"
 # Casson 1989, Appendix 2, "Author's distances for short runs" and "for long runs".
 LEGS = [
     ("Gulf of Zula, length",          (200, 200),    20),
-    ("Malaō to Cape Elephas",   (3000, 3500),  345),
     ("Okēlis to Eudaimōn Arabia", (1200, 1200), 95),
     ("Eudaimōn Arabia to Kanē", (2000, 2000), 205),
     ("Syagros to Asichōn *",     (2600, 2600),  230),
@@ -93,7 +92,7 @@ def main():
     ax.spines["bottom"].set_color(RULE)
     ax.tick_params(axis="y", length=0, pad=6)
     ax.tick_params(axis="x", colors=INK_2, length=3, labelsize=9.5)
-    ax.set_xlabel("Stadion implied (metres)", fontsize=10.5, color=INK,
+    ax.set_xlabel("Implied metres per stadion", fontsize=10.5, color=INK,
                   labelpad=9)
 
     # The same quantity as a speed: 500 stades to a day's run.

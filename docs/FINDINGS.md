@@ -146,12 +146,15 @@ text are 12, 15 and 18.
 
 Computed leg by leg from his own numbers — his transcription of the stadia, his
 measurements in nautical miles, his identifications fixing the endpoints —
-**the nine legs of his Appendix 2 accuracy tables imply a stadion running from
+**the legs of his Appendix 2 accuracy tables imply a stadion running from
 96.5 m to 217.6 m, a 2.3-fold range**. Every endpoint in those nine is a
 securely located place, so the scatter cannot be blamed on misidentification.
 Adding the Indian legs he assesses in prose takes the range to 277.8 m.
 Figure `09_implied_stadion.png`, built by `src/make_implied_stadion.py`, plots
-the nine.
+the eight legs for which Casson states a single figure. Malaō to Cape Elephas
+is excluded because the Periplus gives one of its sub-legs as "two, perhaps
+three, runs", so Casson prints 3,000–3,500; its range sits inside the others and
+leaving it out changes nothing.
 
 Read as a speed rather than a length, those same values are daily runs of 26 to
 59 nautical miles, which is the ordinary range for a square-rigged merchantman
@@ -772,7 +775,7 @@ Still to build, in order of value:
    search window has to be.
 
 Built since: `09_implied_stadion.png`, the stadion implied by each of the nine
-legs in Casson's own accuracy tables, with the conventional 185.2 m drawn as a
+legs in Casson's accuracy tables, with the conventional 185.2 m drawn as a
 line and a second axis reading the same quantity as a day's run in nautical
 miles. The disputed ports are deliberately absent, since plotting a Malabar leg
 would assume the identification in question.
