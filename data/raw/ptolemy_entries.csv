@@ -1,0 +1,24 @@
+port,ptolemy_name,book,p_lon,p_lat,hemisphere,source_page,note
+Tyndis,Tindis city,7.1,116 00,14 30,N,167,"Stevenson translation; the OCR renders some numerals as letters, so figures were read against the printed column"
+Muziris,Muziris emporium,7.1,117 00,14 00,N,167,
+Muziris,Mouth of the Pseudostomus river,7.1,117 20,14 00,N,167,"Taken by most commentators as the Periyar"
+Bakare,Bacare,7.1,119 30,14 30,N,167,
+Bakare,Mouth of the Baris river,7.1,120 00,14 20,N,167,"Listed immediately after Bacare, consistent with the Periplus placing Bakare at a river mouth"
+Nelkynda,Melcynda,7.1,120 20,14 20,N,167,"In the region Ptolemy calls Aii, and placed south of the Baris mouth rather than upstream of it"
+Tyndis,Bramagara,7.1,116 45,14 20,N,167,"Between Tindis and Muziris"
+Tyndis,Calecarte promontory,7.1,116 40,14 00,N,167,"Longitude is out of sequence against Bramagara; one of the two is likely an OCR or printing error"
+Muziris,Podoperura,7.1,117 40,14 15,N,167,
+Muziris,Semna,7.1,118 00,14 20,N,167,
+Muziris,Cerevra,7.1,118 40,14 20,N,167,
+Nelkynda,Elancor emporium,7.1,120 40,14 00,N,167,
+Nelkynda,Cottiara metropolis,7.1,121 00,14 30,N,167,
+Barbarikon,"Indus, western mouth, Sagapa",7.1,110 20,19 50,N,167,"The first of the seven mouths Ptolemy lists, matching the Periplus"
+Barbarikon,"Indus, second mouth, Sinthum",7.1,110 40,19 50,N,167,
+Barbarikon,"Indus, third mouth, Aureum",7.1,111 20,19 50,N,167,
+Barbarikon,"Indus, fourth mouth, Cariphi",7.1,111 40,19 50,N,167,"The middle of the seven, and therefore the Periplus's mouth for Barbarikon"
+Barbarikon,"Indus, fifth mouth, Sapara",7.1,112 30,20 15,N,167,
+Barbarikon,"Indus, sixth mouth, Sabalassa",7.1,113 00,20 15,N,167,
+Barbarikon,"Indus, seventh mouth, Lonibare",7.1,113 20,20 15,N,167,
+Rhapta,Rhaptum promontory,4.8,73 50,8 25,S,127,
+Rhapta,Prasum promontory,4.8,80 00,15 00,S,127,"The southern limit of Ptolemy's known coast"
+Rhapta,Menuthias island,4.8,85 00,12 30,S,127,"Placed next to Prasum, some four degrees south of Rhaptum. The Periplus places Menuthias two days' sail BEFORE Rhapta, so the two sources disagree"

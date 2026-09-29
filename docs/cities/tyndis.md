@@ -1,0 +1,382 @@
+# Tyndis
+
+Every mention of Tyndis and its proposed sites that exists in the local library: 110 passages across 16 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+
+## Contents
+
+- [The record in summary](#the-record-in-summary)
+- [Proposed locations](#proposed-locations)
+- [Ptolemy's coordinates](#ptolemys-coordinates)
+- [The excavation record](#the-excavation-record)
+- [Indian Archaeology: A Review](#indian-archaeology-a-review)
+- [Quantified finds](#quantified-finds)
+- [Mentions in the library](#mentions-in-the-library)
+  - [Ancient sources](#ancient-sources)
+    - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 21
+    - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 11
+  - [Excavation reports](#excavation-reports)
+    - [PAMA Unearthing Pattanam Excavation Catalogue](#pama-unearthing-pattanam-excavation-catalogue) — 4
+    - [Cappers 2006 Roman Foodprints at Berenike archaeobotanical](#cappers-2006-roman-foodprints-at-berenike-archaeobotanical) — 2
+  - [Modern scholarship](#modern-scholarship)
+    - [Re Inventing Panthalayani Kollam heritage](#re-inventing-panthalayani-kollam-heritage) — 34
+    - [Dayalan 2018 Ancient Seaports Western Coast India](#dayalan-2018-ancient-seaports-western-coast-india) — 12
+    - [Archaeological Literary Ethnographic Evidence](#archaeological-literary-ethnographic-evidence) — 7
+    - [Medieval Ports Maritime Activities North Malabar](#medieval-ports-maritime-activities-north-malabar) — 6
+    - [Historical Archaeology Iron Age Early Historic Kerala](#historical-archaeology-iron-age-early-historic-kerala) — 3
+    - [India Tomber2010](#india-tomber2010) — 2
+    - [IndiaTrade Romanis2015](#indiatrade-romanis2015) — 2
+    - [MuzirisPapyrus Romanis2015](#muzirispapyrus-romanis2015) — 2
+    - [Shajan Tomber Selvakumar Cherian 2004 JRA Locating the Ancient Port of Muziris](#shajan-tomber-selvakumar-cherian-2004-jra-locating-the-ancient-port-of-muziris) — 1
+    - [Tomber 2008 Indo Roman Trade From Pots to Pepper](#tomber-2008-indo-roman-trade-from-pots-to-pepper) — 1
+    - [Madayipara Hill2020](#madayipara-hill2020) — 1
+    - [PeriplusMarisErythraei Arnaud2012](#periplusmariserythraei-arnaud2012) — 1
+
+## The record in summary
+
+| | |
+|---|---|
+| Proposed sites in our table | 4 |
+| Of those, ever excavated | 2 |
+| Passages in the library | 110 across 16 works |
+| Ancient sources naming it | 2 |
+
+## Proposed locations
+
+| Site | Coordinates | Excavation | Reached Periplus horizon |
+|---|---|---|---|
+| Kadalundi | 11.1300, 75.8300 | 1990–2010, 2 seasons | unknown |
+| Koyilandy | 11.4400, 75.6900 | never excavated | unknown |
+| Ponnani valley | 10.7670, 75.9250 | 1978–1979, 1 season | no |
+| Tanur | 10.9770, 75.8670 | never excavated | unknown |
+
+## Ptolemy's coordinates
+
+From the Stevenson translation of the *Geography*. Ptolemy's longitudes run from his own prime meridian and his latitudes are systematically compressed, so the figures are useful for the order and spacing of places rather than as positions. Degrees and minutes as printed.
+
+| Place | Book | Longitude | Latitude | Note |
+|---|---|---|---|---|
+| Tindis city | 7.1 | 116 00 | 14 30 N | Stevenson translation; the OCR renders some numerals as letters, so figures were read against the printed column |
+| Bramagara | 7.1 | 116 45 | 14 20 N | Between Tindis and Muziris |
+| Calecarte promontory | 7.1 | 116 40 | 14 00 N | Longitude is out of sequence against Bramagara; one of the two is likely an OCR or printing error |
+
+## The excavation record
+
+**Ponnani valley**, P. Narayana Babu, M. Raman Namboodiri, ASI Southern Circle, 1978–1979, 1 seasons.
+Virgin soil: n/a - survey. Excavated because the site was already proposed as this port. Publication: interim.
+
+> while investigating for the sites showing Roman contact in the Ponnani valley
+
+A tested negative, and an explicitly targeted one: the survey states it was looking for Roman contact. Found megalithic topikal burials and menhirs, no Roman material. Survey only, no excavation.
+
+**Kadalundi**, investigator not recorded, 1990–2010, 2 seasons.
+Virgin soil: n/a - survey. Excavated for reasons unrelated to this identification. Publication: preliminary.
+
+Survey only. Kadalundi, Beypore and Chaliyam are treated together in the literature and are not cleanly separable in the record.
+
+## Indian Archaeology: A Review
+
+Findspots recorded in the annual series and geolocated to district level.
+
+| Place | District | Volume | Recorded |
+|---|---|---|---|
+| Koyilandy | Kozhikode | - | candidate, no recorded fieldwork |
+| Tanur | Malappuram | - | candidate, no recorded fieldwork |
+| Kadalundi | Kozhikode | - | candidate, no recorded fieldwork |
+| Beypore | Kozhikode | - | candidate, no recorded fieldwork |
+| Triprangode | Malappuram | 1962-63 | rock-cut caves, megalithic BRW |
+| Pattambi | Palakkad | 1970-71 | Russet-coated Painted Ware area |
+| Kuttippuram | Malappuram | 1976-77 | microliths, river terrace |
+| Ongallur | Palakkad | 1978-79 | megalithic topikal burials |
+| Thennala | Malappuram | 1978-79 | megalithic topikal burials |
+| Thavanur | Malappuram | 1978-79 | megalithic topikal burials |
+| Thirunavaya | Malappuram | 1978-79 | menhirs |
+| Alanallur | Palakkad | 1978-79 | megalithic topikal burials |
+| Ponnani | Malappuram | 1978-79 | survey area (Ponnani valley) |
+
+## Quantified finds
+
+_No quantified finds are recorded for any proposed site._
+
+## Mentions in the library
+
+### Ancient sources
+
+#### Casson 1989 Periplus Maris Erythraei text translation commentary
+
+_21 passages._
+
+> p.66 — Ships sailing down the coast came first to the Chera kingdom, whose northern border was just above Tyndis (54:17.29) and whose southern was somewhere be- tween Muziris and Nelkynda (54:18.4-6), in modern terms, north of Ponnani and south of Cranganore (App.
+
+> p.102 — Then come Naura and Tyndis, the first ports of trade of Limyrike, and, after these, Muziris and Nelkynda, which are now the active ones.
+
+> p.102 — Tyndis, a well-known village on the coast, is in the kingdom of Keprobotos.
+
+> p.104 — It lies on a river 500 stades distant from Tyndis by river and sea, and from [?
+
+> p.232 — He begins it at Naura and Tyndis (53:17.26-27).
+
+> p.232 — 65) report, nor "Damirike" as Huntingford (116)—and begins it at Tyndis;
+
+> p.236 — Ptolemy (7.1.7) includes in his region "of pi- rates" the coast from Mandagora to Tyndis, while according to Pliny (6.104) pirates operated as far south as Muziris.
+
+> p.237 — 54:17.29-30 Tyndis, a well-known village on the coast By the time Ptolemy wrote, Tyndis had grown large enough for him to call it (7.1.8) a city {polls).
+
+> p.313 — Ptolemy is of scant help, since his sites often do not coincide and, in addition, he omits some of the Periplus's listings (or gives them different names) and shifts the position of others.3 A further complication is that extensive changes have taken place in the coastline.4 ' 53:17.22-27 (Semylla, Mandagora, Palaipatmai, Melizeigara, Byzantion, Toparon [?], Tyrannosboas, Sesekreienai Islands, Isle of the Aigidioi, Isle o f the Kaineitoi, White Island, Naura, Tyndis, Muziris, Nelkynda [-Bakare]);
+
+> p.313 — Tyndis is 500 stades before Muziris and Nelkynda 500 after it.
+
+> p.316 — 14°I' 75 Naura Mangalore 12°52' 135 Tyndis Ponnni 1 0 ° 4 6 ' 39 Muziris Cranganore 10°13' 55 Nelkynda/Bakarê Mwwom-Pirakkād 9°21' 43 Red Mountain Varkkallai 8°44' 27 Balita Vilinjam 8°22' 40 Komar Cape Comorin 8°5' The locating of Muziris provides clues for Tyndis and Nelkynda, since the first was 500 stades before it and the second 500 after.
+
+> p.316 — Schoff puts Tyndis at Ponnani, which is somewhat short of 500 stades, while others put it at Kadalundi near Beypore (1 i°io'N), which is somewhat over;
+
+> p.316 — the odds are slightly in favor of Ponnani.9 Nelkynda, which is said to be on 9 Tyndis is usually connected with Tondi mentioned in Tamil literature as an important center (see Pillai [op.
+
+> p.316 — The various at- tempts to locate the site of Tyndis/Tondi are reviewed by O.
+
+> p.316 — One factor in favor of Ponnani is that it is the port nearest the great gap, twenty miles wide, through the ghats at Palghat which provides easy access to Coimbatore and across to the eastern coast.
+
+> p.317 — Pillai further argues that Ptolemy's Nitraiai (7.1.7 = the Nitriae of Pliny 6.104), which the geographer listsjust before Tyndis, is an- 298
+
+> p.318 — It is to be placed further south, at Vilinjam (8°22'N).15 In sum, there is fairly good evidence for locating Muziris near Cranga- nore, Tyndis near Ponnani or Beypore, Bakare near Pirakkad with Nel- kynda some twelve miles inland, Red Mountain near Anjengo, and Balita near Vilinjam.
+
+> p.318 — the run from Mangalore to Ponnani, approximately 135 nautical miles, is almost double any other.
+
+> p.325 — See jangada Java, 235 Jazair Daymaniyat I., 176 Jazirat Zabarjad I., 94 Jhelum R., 262 Jiroft district, 182 Junnar, 198, 215 jute, 249 Kabalitike nard, 81 Kabaru, 263 Kabul, 191, 194, 207 Kadalundi, 297 Kaineitoi I., 83, 217, 294, 297 Kalaios I., 71, 176, 258 Kalinga, 233 kalleanos lithos, 194 Kalliena, 83, 213, 215, 271, 274 306
+
+> p.330 — I N D E X polymita, 4.0 Pompeiopolis, 208 Pondicherry, 25, 228 Ponnani, 47, 297, 299 Pontus, 91, 239 Port Durnford.
+
+> p.333 — 194 turtles, 9, 61, 101-2, 168, 223, 231 Tyndis, 47, 83, 85, 213, 217-18, 294, 297, 299 tyrannos, 109, 245 Tyrannosboas, 83, 216, 263, 294, 297 Ubulla, 180 Ubulu, 180 Uljain, 22, 26, 47, 198-99, 206-7 Ulhās R., 215 unguent.
+
+#### Schoff 1912 Periplus of the Erythraean Sea
+
+_11 passages._
+
+> p.54 — Then come Naura and Tyndis, the first markets of Damirica, and then Muziris and Nelcynda, which are no\\' of leading im- portance.
+
+> p.54 — Tyndis is of the Kingdom of Cerobothra ;
+
+> p.54 — it is located on a river, distant from Tyndis by river and sea five hundred stadia, and up the river from the shore twenty stadia.
+
+> p.213 — Naura and Tyndis, the first markets of Damirica.
+
+> p.214 — The location of Tyndis, of the Chera kingdom, depends on that of Muziris.
+
+> p.214 — It is described as a village in plain sight on the shore, " and may be identified with the modern Ponnani (10° 48' N.
+
+> p.214 — This Ponnani river, according to the Imperial Gazetteer (XX, 164), unlike nearly all others on the west coast, is navigable for small vessels for some distance inland.
+
+> p.214 — Burnell prefers Kadalundi near Beypore (11° 11' N.,'75° 49 E.
+
+> p.215 — Ga%., VIII, 17.) But the distance of 500 stadia between Tyndis and Muziris indicates Ponnani.
+
+> p.218 — 208 The text tells us that Muziris was distant from Tyndis, ' 'by river and sea, 500 stadia," and Nelcynda from Muziris, by river and sea, 500 stadia.
+
+> p.308 — Theodore, 60, 97, 117, 119, 127, 129, 130, 138, 139, 140, 141, 142, 145, 156, 168, 237 benzoin, 120, 128 Berber, 56, 60 Berbera, 56, 66, 74, 75, 79, 80, 81, 87, 89, 116, 217 fair of, 80, 91 Berbers (Barbari), 22, 23,24,25,26, 31, 56, 59, 63, 74, 114 meaning of, 56 Berenice, 16, 22, 29, 30, 52, 55, 68, 101, 104, 106, 121, 132, 167, 168, 228, 233, 260 beryllium, 222 beryls, 204, 210, 221, 222, 223 Besatas, Bisadae, 48, 278, 279 betel, 216 Bethlehem, 123 Beypore, 204 Bhandarkar, R.
+
+### Excavation reports
+
+#### PAMA Unearthing Pattanam Excavation Catalogue
+
+_4 passages._
+
+> p.12 — It stands on a river, and is 500 stades distant from Tundis by river and by sea, and 20 stades from the mouth of the river…” [The Periplus of the Erythraean Sea, 1980, G.W.B.
+
+> p.20 — ‘…Then come Naura and Tyndis, the first ports of trade of Limyrike, and, after these, Muziris and Nelkynda, which are now the active ones.’ 54.
+
+> p.20 — It lies on a river 500 stades distant from Tyndis by river and sea, and from [?the river mouth] to it is 20 stades.
+
+#### Cappers 2006 Roman Foodprints at Berenike archaeobotanical
+
+_2 passages._
+
+> p.98 — The most productive area of coconuts in India is conﬁ ned to its interior and the present name of this state is Kerala, which literally means “the land of the coconut.” The abundance of coconut palms is, for example, expressed in the description of the landscape of Tyndis (modern Ponnani) in a Tamil poem cited by de Romanis (1997), saying that “In its immense ﬁ elds grow coconut palms laden with fruit, .
+
+> p.98 — .” Due to the activity of pirates, Tyndis was abandoned, as the people moved to the more southerly Muziris and Nelkynda.
+
+### Modern scholarship
+
+#### Re Inventing Panthalayani Kollam heritage
+
+_34 passages._
+
+> p.1 — Re-Inventing Panthalayani Kollam:
+
+> p.1 — An Investigation on Heritage Tourism Potential of Panthalayani Port Linas Fathima.
+
+> p.1 — A, DG College of Architecture, India The IAFOR Conference on Heritage & the City – New York 2018 Official Conference Proceedings Abstract Panthalayani Kollam is a forgotten medieval port town situated at present day Koyilandi of Kozhikode in Kerala.
+
+> p.2 — Introduction Panthalayani Kollam was, a well-known medieval port city, blessed as it is with natural mud banks which ensured calm water on the open coast all through the south- west monsoon.
+
+> p.2 — 15 Medieval archaeological evidence in the form of Chinese porcelain and other pottery brought to light corroborate the literary evidence of foreign contacts of Pantalayani Kollam.
+
+> p.2 — Aithihyamala 16 refers that a group of Vaisyas came here from southern Kollam (Kurakkeni Kollam) and they took rest under an ‘Ayini’ tree which has many branches as a pantal(shade giving area) so they called it as Pantalayani and later the place was known as Pantalayani Kollam.
+
+> p.2 — It is found to be existed at Koyilandy (or Quilandy/Quilandi)which is a taluk and a Municipality town in Kozhikode district in North Malabar region of Kerala.
+
+> p.2 — This town is between Kozhikode and Vatakaraon NH 66 (previously NH 17).close to historic Tyndis.
+
+> p.2 — The sacrificial rock balikallu or velliyamkallu is where many soul was butchered, is a little way north to Panthalayani Kollam.
+
+> p.3 — Study Methodology Historical Mapping Panthalayani Kollam is a place which went through drastic events and change from 1300 AD.
+
+> p.3 — A time line has been prepared considering this series of events in history of Panthalayani Kollam.
+
+> p.3 — One is movement of Arab, Chinese Preliminary study on Intangible Heritage and history connecting Panthalayani port Formulation of historical timeline Heritage mapping w r t to timeline Study on tourism potential of coast Conclusion
+
+> p.4 — According to SreedharaMenon’s ‘Survey of Kerala History’ the Viceroy (KVK Iyer states kinsman of Viceroy) of Pantalayani belonging to the Kolathunadfamily met & fell in love with the Thampurati of the Zamorin family during a visit to Calicut and thence eloped to Panthalayani.
+
+> p.4 — Historians are pointing that pearl diving was popular off the Panthalayani coast line in ancient times and there were many oyster beds present.
+
+> p.4 — In 1540’s Zainuddeen Makhdum stated that Pantalayani became prosperous because of the Muslim population after explaining the visit of the Cheraman Perumal, construction of the mosque by Malik bin Dinar etc.
+
+> p.4 — Some of the records are showing that Vasco Da Gama landed in Kappad beach in 1498 and was directed to Panthalayani Port by Zamorin as it was the port suitable to Moore ships in monsoon.These incident is showing the importance of port in the medieval period and the port had equal importance as Calicut port during that time period.
+
+> p.5 — There is a general belief that the Marakkars, the Zamorin’s admirals were settled in Pantalayani Kollam before they moved to Kotakkal.
+
+> p.5 — China mosque still exists in the present Panthalayani Kollam.
+
+> p.6 — They had settled along coastal line of Panthalayani.
+
+> p.6 — And one of which is in Panthalayani Kollam, present Parapalli mosque.
+
+> p.7 — 1.Pisharikaav temple Centuries before, remaining members of the "Ettuveettil”family after conspiracy against Marthandavarma( King of Travancore) settled down in the village named Kollam near present-day Koyilandy in Calicut district.
+
+> p.8 — It is one of the oldest temples in Panthalayani.
+
+> p.8 — Intangible Heritage Mapping Panthalayani Kollam is a land of myths.
+
+> p.8 — There are a lot of stories and beliefs connected with each heritage structure of Panthalayani.
+
+> p.9 — 1.Koyilandi Hukkahs Koyilandy hookahs, were famous across North India, the Gulf and Pakistan.
+
+> p.9 — Prepared by Moosari, a coppersmith community, these Hookahs were once considered as a pride of Koyilandy.
+
+> p.9 — But in Gulf countries, Koyilandy hookahs are still very popular as "Malabar Hookah".
+
+> p.9 — The craft owes it origin to a group of Yemeni merchants who had taken up residence at Koyilandy about 500 years ago.
+
+> p.9 — Made by local craftsmen, the Hookah impressed Yemeni traders and soon came to be known as Koyilandy Hookah.
+
+> p.9 — Besides being ornately designed with attractive motifs, the Koyilandy Hookahs have a coconut shell as the water holder.
+
+> p.9 — Even today, these hookahs are exported to gulf countries Panthalayani and Tourism Presently, Panthalayani is not a highlighted point in tourism map of Kerala.
+
+> p.9 — Conclusion The heritage and historical potential of Panthalayani Kollam should be explored more and there is a wide scope of conservation and development similar to Muziris port re- establishment.
+
+> p.10 — Panthalayani Panchayath Development Plan 2018 K.V.
+
+> p.10 — Krishna Aiyar, History of Kerala, Coimbatore,1968 Dr.P.B Salim, Malabar Paithrukavum Prathapavum, Kozhikode .2011 http://historicalleys.blogspot.in/2009/05/pantalayani-kollam-port-no-more.html http://shodhganga.inflibnet.ac.in/bitstream/10603/79628/7/07_chapter%201.pdf Contact email:
+
+#### Dayalan 2018 Ancient Seaports Western Coast India
+
+_12 passages._
+
+> p.1 — After briefly highlighting the coastline of India and its favourable nature for safe anchorage of ships and the strategic position of the seaports of western India, an extensive account of the major ancient seaports of western India like Barygaza, Ashtacampra, Gundigar, Kammoni, Khambhat, Bardaxema, Suparaka, Calliena, Semylla, Sanjan, Naura, Tyndis, Muziris,
+
+> p.10 — The Periplus Maris Erythraei mentions many ports such as Barygaza, Suppala (Sopara), Calliena, Semylla, Mandagora, Palaepatmoe, Melizigara, Togarum, Aurannoboas, Naura (Cannanore), Tyndis, Muziris, Nelcynda, and other seaports on the western coast, and Colchi, Camara, Argaru, Poduca, Sopatma and others on the eastern coast of India.
+
+> p.16 — NAURA AND TYNDIS OF DAMIRICA Naura in Damirica or Limyrike referred to in the Periplus Maris Erythraei further down is probably identified with Mangalore.36 The Nitra of Ptolemy and the Nitria of Pliny are also tentatively identified with this place.
+
+> p.17 — The Periplus Maris Erythraei mentions Naura and Tyndis as the first markets of Damirica, and then Muziris and Nelcynda.
+
+> p.17 — It further states that Tyndis was in the kingdom of Cerobothra (Keralaputra, i.e., Cēra kings) and it was a village in plain sight by the sea.
+
+> p.17 — The distance between Tyndis and Muziris, another important seaport on the western coast mentioned in the Periplus Maris Erythraei, is about five hundred stadia (about 95 km) by river and sea.
+
+> p.17 — 2nd century BCE to 2nd century CE).37 Tyndis or Tonͅ dͅ i was an ancient seaport and harbour- town in the ancient Cēra kingdom (Cerobothra) on the Malabar coast.
+
+> p.17 — however, scholars have tried to identify this place with either modern day Kadalundi or Ponnani or Pantalayani Kollam.
+
+> p.17 — Kadalundi is a coastal village close to the Arabian Sea in Kerala, India.
+
+> p.17 — After the breakdown of the Cēra kingdom, the Parappanad Kovilakam became the rulers of Kadalundi.
+
+> p.17 — They gave permission to the Dutch to build a fort in Kadalundi.
+
+> p.20 — On the Peutinger's Map or Tabula Peutingeriana, an odd-sized medieval period copy of an ancient Roman road map with information which could date back to 2nd century CE, both Muziris and Tondis are well marked.44 There is a large lake indicated behind Muziris, and beside which is an icon marked Templ(um) Augusti, widely taken to mean a “Temple of Augustus." A large number of Roman subjects must have spent months in this region awaiting favourable conditions for return sailings to the Empire.
+
+#### Archaeological Literary Ethnographic Evidence
+
+_7 passages._
+
+> p.4 — Tondi, Muciri and Nelkynda as discussed in R.
+
+> p.6 — Beypore, north of Kozhikode, and other settlements perhaps emerged as major boat-building centres.
+
+> p.10 — Craftsmen of Beypore produce large vessels, uru18, which are now manufactured mainly for West Asian customers.
+
+> p.10 — The Beypore uru design is considered to be influenced by West Asian traditions (Hornell 1920).
+
+> p.11 — 11 where the strain of Arab blood is appreciable, as for example at Calicut, Beypore and Ponnani".
+
+> p.11 — It needs to be researched carefully to understand if the Beypore design is entirely non-local or any of the early Indian elements were incorporated in it.
+
+> p.11 — Craftsmen of Beypore perhaps built boats of different types for various markets;
+
+#### Medieval Ports Maritime Activities North Malabar
+
+_6 passages._
+
+> p.2 — Important loci on the coast have been the promontory- like features with bays near Koyilandy, Kannur and Ezhilmala, which offer secure contexts for the ships.
+
+> p.4 — 4 Dharmapatam, Chombaye, Badagara, Pantalayini Kollam, Parappanangadi and Ponnani (Kurup, 1997).
+
+> p.4 — Beypore, which served as a major shipbuilding centre in the late historical period, also perhaps existed in the medieval period.
+
+> p.5 — Pantalayini Kollam (different from the port of Kurakkenikollam (Quilon) of South Malabar) was an important port on the Malabar Coast, located a little north of Koyilandy.
+
+> p.9 — Beypore still has a tradition of building large ships called Uru, which are now manufactured for the Gulf market (Fig.
+
+> p.11 — The Shipbuilding Technology as practiced in Beypore, Kerala.
+
+#### Historical Archaeology Iron Age Early Historic Kerala
+
+_3 passages._
+
+> p.9 — According to literatures, there were many port towns like Nauṛa, Tyndis (Tondi), Muziris (Muciṛi), Bacaṛe, Nelcynda, etc.
+
+> p.25 — Paṅtar seems to be the medieval port Fandarina also known as Panthalayani Kollam in the present-day Kerala (Subbarayalu 2014:
+
+> p.30 — Investigations into the megaliths and early historic periods of the Periyar and Ponnani river basins of Kerala.
+
+#### India Tomber2010
+
+_2 passages._
+
+> p.24 — Oxford University Press Chedambath, R (1997) Investigations into the Megalithic and Early Historic Periods of the Periyar and the Ponnani River Basins of Kerala, unpublished PhD thesis, Poona:
+
+#### IndiaTrade Romanis2015
+
+_2 passages._
+
+> p.19 — ‘ἡ δὲ Νέλκυνδα σταδίους μὲν ἀπὸ Μουζίρεως ἀπέχει σχεδὸν πεντακοσίους, ὁμοίως διά τε ποταμοῦ καὶ διὰ θαλάσσης.’ Less important was Tyndis (= Tamil Toṇḍi = Ponnāni?), located some 500 stadioi north of Muziris, and Naoura (= tamil Naravu), pre- sumably further north.
+
+> p.19 — The estimated distances of Nelkynda and Tyndis from Muziris suggest that the pepper emporia of the mid 1st century ce extended in latitude just a little less than the region delimited by Tomé Pires—from Chettuva to Kayamkulam—for his estimate of the Malabar pepper production.
+
+#### MuzirisPapyrus Romanis2015
+
+_2 passages._
+
+#### Shajan Tomber Selvakumar Cherian 2004 JRA Locating the Ancient Port of Muziris
+
+_1 passages._
+
+> p.8 — Investigations into the Megalithic and Early Historic periods of the Periyar and Ponnani river basins of Kerala (Ph.D.
+
+#### Tomber 2008 Indo Roman Trade From Pots to Pepper
+
+_1 passages._
+
+> p.142 — Foremost is the Chera port of Muziris, sandwiched between Tyndis to the north and the Pandya twin ports of Bakare/Nelkynda to the south (PME 58-5).
+
+#### Madayipara Hill2020
+
+_1 passages._
+
+> p.16 — In un’iscrizione Tamil (SII, xxvi, l01) del XIII secolo la parola Panthalayani Kollam appare, tuttavia, come il luogo nativo di un mercante (Chetti) che do- nava un mandapam (una sorta di altare) a un tempio di Vishnu a Visakhapattinam, anche se fonti medieva- li cinesi e arabe si riferivano a questa area come Kel- lam o Pandalayini.
+
+#### PeriplusMarisErythraei Arnaud2012
+
+_1 passages._
+
+> p.23 — On ne trouve ensuite plus de distances jusqu’à l’évaluation de la distance totale jusqu’à la Limyrique (§ 51), puis à nouveau des séquences de toponymes sans distances jusqu’au § 54 où sont données les distances de Muziris à Nelkynda et Tyndis.

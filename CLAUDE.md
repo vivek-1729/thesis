@@ -35,7 +35,7 @@ looking for patterns.
 | `docs/STATISTICAL-PLAN.md` | The method per evidence stream, and the decision layer |
 | `docs/TIMELINE.md` | Three phases, current position marked |
 | `docs/LIBRARY.md` | What is held, and what to read per port |
-| `docs/dossier-*.md` | Per-port verbatim passage sets, seven files |
+|  `docs/cities/*.md` | One file per port holding every mention in the library |
 | `data/raw/` | Hand-curated tables. Candidates, ware typology, survey effort, CHRE export |
 | `data/processed/` | Derived tables. IAR entries, distances, port passages, hoard distances |
 | `src/` | Extraction, mining and mapping scripts |

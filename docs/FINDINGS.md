@@ -2,8 +2,8 @@
 
 What the assembled evidence has actually shown, as of September 2026. This
 distils the working documents written during evidence gathering; those have been
-deleted and their content is here. Per-port detail with verbatim passages stays
-in the seven dossiers.
+deleted and their content is here. Per-port detail with verbatim passages is in `docs/cities/`, one file
+per port.
 
 Everything in quotation marks is verbatim from the source named.
 
