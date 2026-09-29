@@ -1,6 +1,6 @@
 # Barbarikon
 
-Every mention of Barbarikon and its proposed sites that exists in the local library: 263 passages across 21 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Barbarikon and its proposed sites that exists in the local library: 274 passages across 22 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Contents
 
@@ -13,6 +13,7 @@ Every mention of Barbarikon and its proposed sites that exists in the local libr
   - [Ancient sources](#ancient-sources)
     - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 53
     - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 16
+    - [McCrindle 1885 Ancient India as Described by Ptolemy](#mccrindle-1885-ancient-india-as-described-by-ptolemy) — 11
   - [Excavation reports](#excavation-reports)
     - [Felici et al Banbhore Pakistani Italian Excavations](#felici-et-al-banbhore-pakistani-italian-excavations) — 37
     - [Pakistan Archaeology 33 2018](#pakistan-archaeology-33-2018) — 34
@@ -41,8 +42,8 @@ Every mention of Barbarikon and its proposed sites that exists in the local libr
 |---|---|
 | Proposed sites in our table | 2 |
 | Of those, ever excavated | 2 |
-| Passages in the library | 263 across 21 works |
-| Ancient sources naming it | 2 |
+| Passages in the library | 274 across 22 works |
+| Ancient sources naming it | 3 |
 
 ## Proposed locations
 
@@ -232,6 +233,32 @@ _16 passages._
 > p.296 — Barbaricum (at mouth of Indus river).
 
 > p.308 — 298 Bandar Ululah, 85 Bankot (see Mandagora), 201 Bantu migrations, 98 Baraca, 38, 39, 174, 175 Barawa, 88, 92 Barbaricum, 37, 39, 128, 165, 270 Barbary States, 56 barberry (see lycium), 169 Barbosa, 194 Bargysi, Bhargas, 47, 254 barley, 178 Barr el Ajam, Ajjan, 75, 92 Barygaza, 27, 30, 32, 34, 35, 36, 38, 39, 40, 41, 42, 43, 45, 48, 128, 151, 153, 178, 180, 182, 184, 185, 188, 190, 193, 196, 198, 199, 205, 221, 236, 245, 268, 270, 274 Basilis, 15 baskets, wicker, for fishing, 28, 94, 95 plaited, for shoulder-burdens, 48, 280 281 Bassora, 80, 91, 179, 247 Batavia, 127 bathing, 46 Batineh coast, 151 Batrasave, 150 bdellium, 3, 37, 38, 42, 120, 163-5 Beach, small and great, 27 Beazley, C.
+
+#### McCrindle 1885 Ancient India as Described by Ptolemy
+
+_11 passages._
+
+> p.157 — Their prosperity could not have been of very long duration, for the author of the Periplés, who wrote about half a century after Kanishka’s time mentions that *‘ Minnagar, the metropolis of Skythia, was gov- erned by Parthian princes” and this statement is confirmed by Parthian coins being found everywhere in this part of the country.
+
+> p.164 — And in the islands formed by the river are these towns :— Patala.......ccccccescacsecscccerccs 112° 30’ 21° ¢ Barbarei...........-s eccecseccevces 118° 15’ 22° 30’ 60.
+
+> p.166 — Barbarei:—The position of Barbarei, like that of Patala, has been the subject of much discussion.
+
+> p.166 — to the north of that city, but erroneously, since Barbarei was a mari- time port.
+
+> p.166 — It is mentioned in the Periplés under she name of Barbarikon, as situated on the middle mouth of the Indus.
+
+> p.166 — D’Anville in opposi- tion to all the data placed it at Debal Sindhi, the great emporium of the Indus during the middle ages, or at Karachi, while Elliot, followed by Cunningham, placed it at an ancient city, of which some ruins are still to be found, ealled Bambhara, and situated almost midway between Karachi and Thattha on the old western branch of the river which Alexander reconnoitred.
+
+> p.170 — Binagara:—This some take to be a less correct form than Minnagargiven in the Peri- .
+
+> p.170 — The Periplis states that it lay in the interior above Barbarikon (sec.
+
+> p.174 — whether there were in reality two cities of this name, and thinks that the double mention of Minnagar in the Periplés is quite compatible with the supposition that there was but one city so called.
+
+> p.363 — ...248-9, 257 eseeee Barakoura ......491, 195 Barangs ..sccccscssscee 261 Barbarei .....cccosccees 148 Barbarikon ....00scee0.
+
+> p.377 — INDEX, PAGE Milizegyris ...ceccer 57 Minagara ......70, 72, 159 Minnagar ......
 
 ### Excavation reports
 

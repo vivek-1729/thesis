@@ -1,6 +1,6 @@
 # Muziris
 
-Every mention of Muziris and its proposed sites that exists in the local library: 1,068 passages across 42 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Muziris and its proposed sites that exists in the local library: 1,071 passages across 43 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Contents
 
@@ -14,6 +14,7 @@ Every mention of Muziris and its proposed sites that exists in the local library
   - [Ancient sources](#ancient-sources)
     - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 77
     - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 15
+    - [McCrindle 1885 Ancient India as Described by Ptolemy](#mccrindle-1885-ancient-india-as-described-by-ptolemy) — 3
     - [McCrindle Cosmas Indicopleustes Christian Topography](#mccrindle-cosmas-indicopleustes-christian-topography) — 1
   - [Excavation reports](#excavation-reports)
     - [PAMA Unearthing Pattanam Excavation Catalogue](#pama-unearthing-pattanam-excavation-catalogue) — 181
@@ -63,8 +64,8 @@ Every mention of Muziris and its proposed sites that exists in the local library
 |---|---|
 | Proposed sites in our table | 2 |
 | Of those, ever excavated | 2 |
-| Passages in the library | 1,068 across 42 works |
-| Ancient sources naming it | 3 |
+| Passages in the library | 1,071 across 43 works |
+| Ancient sources naming it | 4 |
 
 ## Proposed locations
 
@@ -314,6 +315,16 @@ _15 passages._
 > p.222 — Ptolemy's three shore towns between Muziris and Barkare are likewise on the land side.
 
 > p.243 — If the wind, called Hippalus, happens to be blowing, it is possible to arrive in forty days at the nearest mart in India, Muziris by name.
+
+#### McCrindle 1885 Ancient India as Described by Ptolemy
+
+_3 passages._
+
+> p.82 — Nikama, the capital, has been identified with Nagapatam (Nagapattanam) by Yule, who also identifies (but doubtingly) Thelkyr with Nagor and Kouroula with Karikal.
+
+> p.260 — “At Muziris,” says Priaulx, in his notice of this account® “ our traveller stayed some time, and occupied himself in studying the soil and climate of the place and the customs and manners of its inhabitants.
+
+> p.349 — ‘‘There is,’ he points out, “ Gorlapélem near Niz&mpattanam.
 
 #### McCrindle Cosmas Indicopleustes Christian Topography
 

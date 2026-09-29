@@ -16,8 +16,10 @@ about 620 MB of PDFs. Extracted text for every PDF is cached in
 | `iar-text/` | 78 | 29 MB | *Indian Archaeology: A Review*, 1953–54 to 2013–14 |
 | `text-cache/` | 98 | 14 MB | Extracted text layers, page-marked |
 
-Every PDF now carries a usable text layer. The files that were image-only scans
-have been OCR'd; the only remaining thin file is
+Every PDF now carries a usable text layer. `McCrindle-1885-Ancient-India-as-
+Described-by-Ptolemy.pdf`, 398 pages and the standard English commentary on
+Ptolemy's India, was an image-only scan carrying 2,941 characters; it has been
+OCR'd and now carries 587,000. The only remaining thin file is
 `apa-IndOc-Gulf-IndianToponyms.pdf`, which is two pages.
 
 ---

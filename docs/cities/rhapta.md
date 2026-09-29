@@ -1,6 +1,6 @@
 # Rhapta
 
-Every mention of Rhapta and its proposed sites that exists in the local library: 1,175 passages across 29 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Rhapta and its proposed sites that exists in the local library: 1,184 passages across 30 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Contents
 
@@ -14,6 +14,7 @@ Every mention of Rhapta and its proposed sites that exists in the local library:
     - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 91
     - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 21
     - [Ptolemy Geography Stevenson trans complete](#ptolemy-geography-stevenson-trans-complete) — 18
+    - [McCrindle 1885 Ancient India as Described by Ptolemy](#mccrindle-1885-ancient-india-as-described-by-ptolemy) — 9
     - [McCrindle Cosmas Indicopleustes Christian Topography](#mccrindle-cosmas-indicopleustes-christian-topography) — 4
   - [Excavation reports](#excavation-reports)
     - [Cappers 2006 Roman Foodprints at Berenike archaeobotanical](#cappers-2006-roman-foodprints-at-berenike-archaeobotanical) — 13
@@ -49,8 +50,8 @@ Every mention of Rhapta and its proposed sites that exists in the local library:
 |---|---|
 | Proposed sites in our table | 6 |
 | Of those, ever excavated | 4 |
-| Passages in the library | 1,175 across 29 works |
-| Ancient sources naming it | 4 |
+| Passages in the library | 1,184 across 30 works |
+| Ancient sources naming it | 5 |
 
 ## Proposed locations
 
@@ -374,6 +375,28 @@ _18 passages._
 > p.127 — Prasum promontory moreover is located in 80 south 15 Near this is an island toward the east, the name of which is Menuthias;
 
 > p.176 — It is surrounded toward the east from Cattigara by unknown land, and bordered by the Prasus sea as far as the Prasum promontory, from which, as is said, begins the bay of the encircling ocean connecting the land from the Rhaptum promontory and the southern parts of Azan on the northeast coast of Africa.
+
+#### McCrindle 1885 Ancient India as Described by Ptolemy
+
+_9 passages._
+
+> p.41 — And was thereanything to prevent Alexander writing “many” instead of “some,” especially when we find him saying that Dioskoros had reported that the voyage from Rhapta to Cape Prasum took “many days.” One might in fact with far more reason take ‘‘ some” to mean ‘“‘a few,” for we have been wont to censure this style (of expression).° § 4.
+
+> p.43 — 27 Kattigara, consisting of the 20 days to Zaba and the ‘‘some days’ thence to Kattigara with the voyage from Arémata to Cape Prasum, and we find that the voyage from Arémata to Rhapta took also 20 days as reported by Theophilos, and the voyage from Rhapta to Prasum “many more days” as reported by Dioskoros, so that we may set side by side~ the ‘“some days”’ with the ‘‘ many days” and like Marinos take them to be equivalent.
+
+> p.94 — 15) where it designates a range of precipitous hills running along the coast of Azania, i.e.
+
+> p.207 — on the north by the parts of Skythia and Sériké already described, on the east by the Sinai along the - Meridian, which extends from the furthest limits of Sériké to the Great Gulf, and also by this gulf itself, on the south by the Indian Ocean and part of the Green Sea which stretches from the island of Menouthias in a line parallel to the equator, as far as the regions which lie opposite to the Great Gulf.
+
+> p.209 — The island of Menouthias was either Zanzibar or one of the islands adjacent to it.
+
+> p.264 — 246 the unknown land, which encircles the Green Sea as far as Cape Prason, from which begins, as has been said, the Gulf of the Batrakheian Sea, connecting the land with Cape Rhapton, and the southern parts of Azania.
+
+> p.273 — On the other hand, he has the merit of having determined properly its gene- ral form and outline, as well as its actual position with reference to the adjoining continent, points on which the most vague and erroneous notions had prevailed up to his time, the author of the Periplés for instancedescribmg the island as extending so far westward that it almost adjoined Azania in Africa.
+
+> p.362 — 293-4, 298 Auxoamis or Axumis 149 Avanti ......000s00 sone 154 Ayédhya......166, 228-9 Azania (Ajan) .........76 Azanos, R.
+
+> p.381 — ...285-6, 290, 296 Rhabana ..-ssc...ceveee 244 Rhabannai_ ......299, 305 Rhadamarkotta 225,228-9 Rhagirana ....rcceeee 319 Rhambakia ...-+-seeces 159 Rhamnai...158-9, 820, 322 Rhappha osscoeses scores 210 Rhapta 25 eve sesteseng vee
 
 #### McCrindle Cosmas Indicopleustes Christian Topography
 

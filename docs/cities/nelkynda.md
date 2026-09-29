@@ -1,6 +1,6 @@
 # Nelkynda
 
-Every mention of Nelkynda and its proposed sites that exists in the local library: 222 passages across 24 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Nelkynda and its proposed sites that exists in the local library: 240 passages across 25 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Contents
 
@@ -14,6 +14,7 @@ Every mention of Nelkynda and its proposed sites that exists in the local librar
   - [Ancient sources](#ancient-sources)
     - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 71
     - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 22
+    - [McCrindle 1885 Ancient India as Described by Ptolemy](#mccrindle-1885-ancient-india-as-described-by-ptolemy) — 18
   - [Excavation reports](#excavation-reports)
     - [Cappers 2006 Roman Foodprints at Berenike archaeobotanical](#cappers-2006-roman-foodprints-at-berenike-archaeobotanical) — 7
     - [PAMA Unearthing Pattanam Excavation Catalogue](#pama-unearthing-pattanam-excavation-catalogue) — 3
@@ -45,8 +46,8 @@ Every mention of Nelkynda and its proposed sites that exists in the local librar
 |---|---|
 | Proposed sites in our table | 4 |
 | Of those, ever excavated | 1 |
-| Passages in the library | 222 across 24 works |
-| Ancient sources naming it | 2 |
+| Passages in the library | 240 across 25 works |
+| Ancient sources naming it | 3 |
 
 ## Proposed locations
 
@@ -284,6 +285,46 @@ _22 passages._
 > p.266 — — This was probably the true spike- nard, from the Himalayas, noted under § 49, and valued sufficiently to be shipped in considerable quantity to Nelcynda, where the Romans fouftd it (§ 56).
 
 > p.283 — Our author did not meet these vessels at Nelcynda, because the same monsoon that brought them would have taken him away.
+
+#### McCrindle 1885 Ancient India as Described by Ptolemy
+
+_18 passages._
+
+> p.70 — Bakarei is mentioned by Pliny as Pecare, and as Bakaré by the Author of the Periplis, who places it at the mouth of the river on which, at a distance of 120 stadia from the sea was situated the great mart called Nelkynda, or Melkynda as Ptolemy writes it.
+
+> p.70 — The river is described as difficult of navigation on account of shallows and sunken reefs, so that ships de- spatched from Nelkynda were obliged to sail down empty to Bakaré and there take in their cargoes.
+
+> p.70 — The distance of Nelkynda from Mouziris is given at about 500 stadia, and this whether the journey was made by sea or by river or by land.
+
+> p.70 — “ At this distance south from Kranganur we are not able to point to a quite satisfactory Nelkynda.
+
+> p.71 — That Nelkynda cannot have been far from this is clear from the vicinity of the Ilupddv dpos or Red-Hill of the Periplis (sec.
+
+> p.71 — There can be little deubt that this is the bar of red laterite which, a short distance south of Quilon, cuts short the Backwater ravigation, and is thence called the Warkallé barrier.
+
+> p.71 — This is the only thing like a sea cliff from Mount d’Ely to Cape Comorin.” The word Bakarei may represent the Sanskrit dvdraka, ‘a door.’ Mouth of the river Baris :—The Baris must be a stream that enters the Backwater in the neighbourhood of Quilon.
+
+> p.71 — Melkynda .............cececeeeees 120° 20’ 14° 20’ Elangkén (or Elangkér), a MALt oo.
+
+> p.72 — Melkynda, as already stated is the Nel- k ynda of the Peripliés, which places it, however, in Limyriké.
+
+> p.72 — When Mangalur was taken as the representative of Mouziris, Nelkynda was generally identified with Nelisuram, which besides the partial resemblance of its name, answered closely in other respects to the description of Nelkynda in the Periplis— Cf.
+
+> p.72 — Elangkon or Elangkor is now Quilon, otherwise written Kulam.
+
+> p.74 — Leuké Koreoura Melkynda Bakarei Elangkon Kottiara Bammola Komaria 06 Periplis.
+
+> p.74 — of Leuké Naoura Tyndis Mouziris Nelkynda Bakaré Mons Pyrrhos Balita Komar.
+
+> p.78 — The Author of the Periplés however, assigns it wider limits, as he mentions that Nelkynda, .
+
+> p.82 — Our author is here at variance with the Periplés, which has a Paralia extending from the Red Cliffs near Quilon to the Pearl-Fishery at the Kolkhoi, and comprising therefrom the coast-lines of the Aioi and the Kareovi.
+
+> p.218 — At Kéli the Greek and Arab routes first coincide, for, to quote his, words, “1 take this K6li to be the Kalah’ of the Arabs, which was a month’s sail from Kaulam (Quilon) in Malabar, and was a place dependent on the Mahar&ja of Zébaj (Java or the Great Islands) and near which were the moun- tains producing tin.
+
+> p.376 — 57, 187 Melkynda ...sssccocee 52-4 Menapia........
+
+> p.381 — svecee OF Qandahar ...34, 116, 317 Quilon ssccecssreeeees SSS BR Ramagiri (Rémtek)..
 
 ### Excavation reports
 

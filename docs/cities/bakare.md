@@ -1,6 +1,6 @@
 # Bakarē
 
-Every mention of Bakarē and its proposed sites that exists in the local library: 38 passages across 10 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Bakarē and its proposed sites that exists in the local library: 46 passages across 11 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Contents
 
@@ -13,6 +13,7 @@ Every mention of Bakarē and its proposed sites that exists in the local library
 - [Mentions in the library](#mentions-in-the-library)
   - [Ancient sources](#ancient-sources)
     - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 13
+    - [McCrindle 1885 Ancient India as Described by Ptolemy](#mccrindle-1885-ancient-india-as-described-by-ptolemy) — 8
     - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 8
   - [Excavation reports](#excavation-reports)
     - [Cherian Pattanam Evidence of Maritime Exchanges](#cherian-pattanam-evidence-of-maritime-exchanges) — 1
@@ -31,8 +32,8 @@ Every mention of Bakarē and its proposed sites that exists in the local library
 |---|---|
 | Proposed sites in our table | 3 |
 | Of those, ever excavated | 0 |
-| Passages in the library | 38 across 10 works |
-| Ancient sources naming it | 2 |
+| Passages in the library | 46 across 11 works |
+| Ancient sources naming it | 3 |
 
 ## Proposed locations
 
@@ -101,6 +102,26 @@ _13 passages._
 > p.318 — It is to be placed further south, at Vilinjam (8°22'N).15 In sum, there is fairly good evidence for locating Muziris near Cranga- nore, Tyndis near Ponnani or Beypore, Bakare near Pirakkad with Nel- kynda some twelve miles inland, Red Mountain near Anjengo, and Balita near Vilinjam.
 
 > p.329 — See fragrant ointments peridots, 22, 42, 75, 81, 85, 94, 190 Penm I., 157 periploi, 8 Penyar R., 218, 296 Persia, 18, 21, 114, 132, 174, 178, 182, 187-88 Persian Gulf, n , 19, 21, 29, 46, 71, 94, 174, 176, 178-80, 184, 188, 275-76, 281, 283, 287 Persis, 39-43, 46, 67, 71, 73, 162-63, !74, 180, 188 Peshawar, 194, 204 Petra, 7, 46, 61, 144 petroi, 93 Phalangis, Mt., 134 Philo, 32 Phoenicia, Phoenicians, 11-12, 163, 185 Pigeon I., 217, 297 piracy, pirates, 46, 63, 83, 146, 163, 178 Pirakad, 299 Pirakkad, 298 Piram I., 201 Poduke, 47, 89, 228 Poklaeis, 204 polis, 218, 226 3 1 0
+
+#### McCrindle 1885 Ancient India as Described by Ptolemy
+
+_8 passages._
+
+> p.67 — 14° 20/ Bakarei ..........+ caaeee een ceeees 119° 30’ 14° 30’ Mouth of the River Baris...
+
+> p.70 — Bakarei is mentioned by Pliny as Pecare, and as Bakaré by the Author of the Periplis, who places it at the mouth of the river on which, at a distance of 120 stadia from the sea was situated the great mart called Nelkynda, or Melkynda as Ptolemy writes it.
+
+> p.71 — This is Kallada, on a river of the same name entering the Backwater, the only navigable river on this south-west coast except the Perri-4r near Kranganur.
+
+> p.71 — The Kallada river is believed to be the Kantti mentioned in the Keéralotatti legendary history of Malabar, and the town of Kallada to be the town of Kanétti.
+
+> p.71 — This is the only thing like a sea cliff from Mount d’Ely to Cape Comorin.” The word Bakarei may represent the Sanskrit dvdraka, ‘a door.’ Mouth of the river Baris :—The Baris must be a stream that enters the Backwater in the neighbourhood of Quilon.
+
+> p.74 — Leuké Koreoura Melkynda Bakarei Elangkon Kottiara Bammola Komaria 06 Periplis.
+
+> p.362 — 314, 317, 320 Bakareil ...+00scseee 0049, 53 Baktra 18, 271-2, 278, 325
+
+> p.363 — 100 Becare ..cccccecccccesces 52 Bedasta, R seossee 89 Begram seccocssscceees 112 Beias, BR.
 
 #### Schoff 1912 Periplus of the Erythraean Sea
 

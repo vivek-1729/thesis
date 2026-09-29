@@ -1,6 +1,6 @@
 # Tyndis
 
-Every mention of Tyndis and its proposed sites that exists in the local library: 110 passages across 16 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Tyndis and its proposed sites that exists in the local library: 132 passages across 17 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Contents
 
@@ -12,6 +12,7 @@ Every mention of Tyndis and its proposed sites that exists in the local library:
 - [Quantified finds](#quantified-finds)
 - [Mentions in the library](#mentions-in-the-library)
   - [Ancient sources](#ancient-sources)
+    - [McCrindle 1885 Ancient India as Described by Ptolemy](#mccrindle-1885-ancient-india-as-described-by-ptolemy) — 22
     - [Casson 1989 Periplus Maris Erythraei text translation commentary](#casson-1989-periplus-maris-erythraei-text-translation-commentary) — 21
     - [Schoff 1912 Periplus of the Erythraean Sea](#schoff-1912-periplus-of-the-erythraean-sea) — 11
   - [Excavation reports](#excavation-reports)
@@ -37,8 +38,8 @@ Every mention of Tyndis and its proposed sites that exists in the local library:
 |---|---|
 | Proposed sites in our table | 4 |
 | Of those, ever excavated | 2 |
-| Passages in the library | 110 across 16 works |
-| Ancient sources naming it | 2 |
+| Passages in the library | 132 across 17 works |
+| Ancient sources naming it | 3 |
 
 ## Proposed locations
 
@@ -100,6 +101,54 @@ _No quantified finds are recorded for any proposed site._
 ## Mentions in the library
 
 ### Ancient sources
+
+#### McCrindle 1885 Ancient India as Described by Ptolemy
+
+_22 passages._
+
+> p.66 — Tyndis, & City ...cee-.eeereeeee 116° 14° 30’ Bramagara ....essseeseseeeeee LLG?
+
+> p.67 — Ptolemy and the author of the Periplis are at one in making Tyndis one of the first or most northern ports in Limnyriké.
+
+> p.67 — lat.) its frontier has generally been placed nearly 3 degrees further north, Tyndis having 7G 7 dan:
+
+> p.68 — Tyndis is described in the Periplis as a place of great note pertaining to the kingdom of Képrobotras, and situate near.
+
+> p.68 — ‘Tandr itself, ” says Yule, ‘“‘may be Tyndis;
+
+> p.68 — Perhaps, however, a more probable site is a few miles further north, Kadalundi, 7.
+
+> p.68 — Burnell, “ The composition of Kadal and Tundi makes Kadalundi by Tamil] rales.” The pepper country called Kottonarike was imme- diately adjacent to Tyndis, which no doubt exported great quantities of that spice.
+
+> p.68 — Bramagara is placed in the table half a degree to the east of Tyndis, i.e, really to the south of it, since Ptolemy makes the Malabar
+
+> p.74 — of Peperine Nitra Tyndis Trinésia Islands Bramagara Kalaikarias Mouziris Podoperoura Semné Is.
+
+> p.74 — of Leuké Naoura Tyndis Mouziris Nelkynda Bakaré Mons Pyrrhos Balita Komar.
+
+> p.88 — wor eececenececes 137° 40’ 15° 30 Mouth of the River Tyndis...138° 30’ 16° 17.
+
+> p.89 — Mouth of the Manada:—Ptvolemy enumerates four rivers which enter the Gulf between Kanna- gara and the western mouth of the Ganges, the Manada, the Tyndis, the Dosarén and the Adamas.
+
+> p.89 — The name is a Sanskrit compound, meaning ‘ great river.’ Yule differs from Lassen with regard to the other identifications, making the Tyndis one of the branches of the Mahdanadi, the Dosarén,—the Braéhmani, the Adamas,—the Vaitarani, and the Kambyson (which is Ptolemy’s western mouth of the Ganges)—the Suvarnarékha.
+
+> p.98 — The rivers which have their sources in the range are the - Tyndis, the Désarén, the Adamas and an un- named tributary of the Ganges.
+
+> p.122 — In this list the spelling of the names of two of the rivers of Orissa has been slightly changed, the Manada into Manda and Tyndis into Toundis.
+
+> p.202 — As Pudukétta is the capital of the Tondiman Raja, Lassen has suggested its identity with Bata.
+
+> p.206 — Trinésia (or group of 3 islands) :—Ptole- my places it off the coast of Limyriké between Tyndis and Mouziris, but nearer the former.
+
+> p.277 — Talakory or Aakoté, with Tondi Manaar.
+
+> p.351 — This Adamas River was separated from the Mahanadi by the Tyndis and Dosaron;
+
+> p.351 — I cannot regard this identifica- tion as satisfactory, as it does not account for the Tyndis intervening between the Dosaron and Mahanadi, since, as a matter of fact, the Brahmini and Mahanadi are confluent at their mouths.
+
+> p.351 — Lasgen, however, identifies the Dosaron with the Baiturnee, and the Tyndis with the Brahmini.
+
+> p.387 — 10m Tyndis .....eccereeeee48-50 | Warmoi...ssccorscceseces 269 Tyndis, R....70-1, 80, 104 | Varpna............
 
 #### Casson 1989 Periplus Maris Erythraei text translation commentary
 
