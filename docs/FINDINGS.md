@@ -434,8 +434,20 @@ Roman coins in India travelled inland towards the sources of pepper and beryl an
 were buried there. They record the movement of bullion and the habit of hoarding,
 not the location of harbours.
 
-*Source: `data/processed/chre_hoard_distances.csv`, 627 hoards and 10,813
-individually recorded coins.*
+*Source: `data/processed/chre_hoard_distances.csv`. The CHRE bulk export was
+cleaned first: of 627 hoards, 128 lay outside the study region (Britain and the
+Adriatic), 69 had no coordinates, and the Kottayam 1847 hoard was dropped for a
+georeferencing error of about 260 km. 427 hoards and 7,778 coins remain, built
+by `src/clean_chre.py`.*
+
+Six figures carry this evidence, `20_` to `25_` in `figures/`, built by
+`src/make_coin_figures.py`. Two results were added while making them. Measured
+against hoards that close by AD 200, the nearest such hoard to any Rhapta
+candidate is 2,223 to 2,496 km, while Pattanam has one 7 km away. And **98 per
+cent of the Indian coins with a named mint were struck at western mints**,
+overwhelmingly Rome and Lyon, against 15 per cent in Egypt's own hoards, where
+41 per cent came from Alexandria. Egyptian circulating currency did not travel
+east; what moved was western gold acting as specie.
 
 ### 5.2 Sri Lanka is the opposite case and must not be pooled
 
