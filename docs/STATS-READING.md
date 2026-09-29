@@ -196,3 +196,118 @@ Four papers would cover the framing of the whole thesis. Heitjan and Rubin for
 the textual likelihood, MacKenzie for the archaeological one, Leidwanger for why
 distance should be time, and the entropy-based sampling-bias paper for where the
 archaeological modelling literature currently stands.
+
+---
+
+# Coastlines, deltas and voyages
+
+The reading for Component 1, at more depth. These are the methods that build the
+prior, and they are where most of the technical work will sit.
+
+## Reconstructing coasts and deltas
+
+1. **"Spatial analysis of Holocene delta compound clinoforms"**, *Communications
+   Earth and Environment* (2024). https://www.nature.com/articles/s43247-024-01652-9
+   Quantitative treatment of how deltas build seaward. The method for turning a
+   progradation rate into a palaeo-shoreline position.
+
+2. **Stouthamer and Berendsen, "Avulsion frequency, avulsion duration, and
+   interavulsion period of Holocene channel belts in the Rhine-Meuse delta"**.
+   The reference study for how often a delta channel jumps and how long the jump
+   takes. Gives the base rates our Indus and Periyar reconstructions need, and a
+   prior for how many channels were active at once.
+
+3. **"Conceptual framework for assessing the response of delta channel networks
+   to Holocene sea level rise"**, *Quaternary Science Reviews* (2009).
+   https://www.sciencedirect.com/science/article/abs/pii/S0277379109000742
+   Links sea-level forcing to channel behaviour. This is what connects the
+   Kerala sea-level curve to the Vembanad channel network.
+
+4. **"Large-scale coastal and fluvial models constrain the late Holocene
+   evolution of the Ebro delta"**, *Earth Surface Dynamics* 5 (2017).
+   https://esurf.copernicus.org/articles/5/585/2017/
+   A worked example of reconstructing a specific delta's late Holocene shape
+   from models plus cores. The closest template for doing the Indus.
+
+5. **"Shoreline reconstruction since the Middle Holocene"**, *Quaternary
+   Research* (2009).
+   https://www.sciencedirect.com/science/article/abs/pii/S1040618209001918
+   Method for drawing past shorelines from dated indicators rather than
+   asserting them.
+
+## Palaeochannels from satellite imagery
+
+6. **Orengo and Petrie, "Large-scale, multi-temporal remote sensing of
+   palaeo-river networks"**, *Remote Sensing* 9 (2017).
+   https://www.mdpi.com/2072-4292/9/7/735
+   The key paper. A seasonal multi-temporal method using long-term vegetation
+   dynamics and spectral decomposition, which recovered more than 8,000 km of
+   palaeo-channels in northwest India. This is the method for step 1 of the
+   thesis, and it is written for exactly our region.
+
+7. **"Reconstructing long-term settlement histories on complex alluvial
+   floodplains"**, *Heritage Science* (2023).
+   https://www.nature.com/articles/s40494-023-00985-6
+   Joins the channel reconstruction to site distributions, which is the join
+   we need between the coastline prior and the candidate sites.
+
+8. **"Identification and Characterization of Palaeochannels"**, Springer (2025).
+   https://link.springer.com/chapter/10.1007/978-3-031-92021-9_3
+   Recent methods chapter. Multi-sensor fusion of SAR and optical data with
+   moisture and vegetation indices, which is the practical recipe.
+
+9. **"Potential of satellite based sensors for studying distribution of
+   archaeological sites along palaeo channels"**, *Journal of Archaeological
+   Science* (2010).
+   https://www.sciencedirect.com/science/article/abs/pii/S0305440310002827
+   Older and narrower, but it is the archaeological framing of the same method.
+
+## Harbour geoarchaeology
+
+10. **Marriner and Morhange, "Geoscience of ancient Mediterranean harbours"**,
+    *Earth-Science Reviews* (2007), and their "Coastal and ancient harbour
+    geoarchaeology".
+    https://www.researchgate.net/publication/229990285
+    The standard treatment of what a buried harbour basin looks like in a core.
+    Defines the sedimentary signature our anchorability index is trying to
+    predict.
+
+11. **"Geoarchaeology confirms location of the ancient harbour basin of
+    Ostia"**, *Journal of Archaeological Science* (2014).
+    https://www.sciencedirect.com/science/article/abs/pii/S0305440313003087
+    A port located by coring rather than by excavation. The closest precedent
+    for what we would recommend in the decision layer.
+
+12. **"The Development and Characteristics of Ancient Harbours: Applying the
+    PADM Chart"**, PLoS ONE (2016).
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC5025247/
+    The Palaeoenvironmental Age-Depth Model. A transferable framework for
+    reading harbour sequences, and it is open access.
+
+## Monte Carlo voyage simulation
+
+13. **"Seafaring and navigation in the Nordic Bronze Age: the application of an
+    ocean voyage tool and boat performance data"**, *PLoS ONE* (2025).
+    https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0320791
+    The methodological template. Combines predicted vessel performance with
+    agent-based simulation, and compares open crossings against coastal routes,
+    which is precisely the Malabar question about open sea versus backwaters.
+    Open access.
+
+14. **Palmer, "Windward sailing capabilities of ancient vessels"**, *IJNA*
+    (2009).
+    https://www.ancientportsantiques.com/wp-content/uploads/Documents/ETUDESarchivees/Navires/Documents/Palmer2009-WindwardSailing.pdf
+    The polar performance data for square rig. This is the input the simulation
+    needs and we do not otherwise have it.
+
+15. **"Sailing the Simulated Seas: a new simulation for evaluating prehistoric
+    seafaring"**.
+    https://www.researchgate.net/publication/398199778
+    Agent-based modelling for drift against directed voyaging, built on open
+    data and freeware. Useful for implementation choices.
+
+16. **"A multi-criteria simulation of European coastal shipping routes"**,
+    *Humanities and Social Sciences Communications* (2024).
+    https://www.nature.com/articles/s41599-024-02906-9
+    Shows how to combine several costs, not just wind, into one route model.
+    Open access.
