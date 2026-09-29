@@ -311,3 +311,123 @@ prior, and they are where most of the technical work will sit.
     https://www.nature.com/articles/s41599-024-02906-9
     Shows how to combine several costs, not just wind, into one route model.
     Open access.
+
+---
+
+# Finding lost ports by reconstructing the landscape
+
+Case studies where a harbour was located, or its disappearance explained, by
+reconstructing the coast and the river rather than by excavating for it. This is
+the genre the thesis belongs to, and it is where the Component 1 argument comes
+from.
+
+## The framework to work from
+
+1. **Giaime, Marriner and Morhange, "Evolution of ancient harbours in deltaic
+   contexts: a geoarchaeological typology"**, *Earth-Science Reviews* 191
+   (2019), 141-167. doi:10.1016/j.earscirev.2019.01.022
+   The single most useful item on this list. It defines five harbour types on
+   clastic coasts: fluvial harbours subject to floods and channel change,
+   infilled estuarine, submerged estuarine, lagoonal harbours dominated by
+   sediment input, and basins altered by dredging and breakwaters. Our seven
+   ports sort cleanly into it. Muziris on the Periyar is a fluvial harbour
+   affected by channel change, which is exactly the 1341 event. Nelkynda and
+   Bakarē on the Vembanad are lagoonal. Barbarikon is estuarine on a delta that
+   has since prograded. Using their typology gives the geographic prior a
+   published structure instead of an improvised one.
+
+2. **Marriner and Morhange, "Geoscience of ancient Mediterranean harbours"**,
+   *Earth-Science Reviews* 80 (2007).
+   The review that established the field. Read for what a buried harbour basin
+   looks like in a core, which is the signature the anchorability index is
+   trying to predict.
+
+## Harbours located or explained by reconstruction
+
+3. **"Holocene evolution of Portus Pisanus, the lost harbour of Pisa"**,
+   *Scientific Reports* 8 (2018).
+   https://www.nature.com/articles/s41598-018-29890-w
+   Open access. A 10,500-year relative sea-level reconstruction and an
+   8,000-year environmental reconstruction used to establish when the site
+   became a sheltered embayment, and therefore when it could have been a
+   harbour. This is the closest published example of the reasoning our prior
+   performs, and it is the template to cite.
+
+4. **Stanley et al., "Pelusium, an ancient port fortress on Egypt's Nile delta
+   coast: its evolving environmental setting from foundation to demise"**,
+   *Journal of Coastal Research* (2008).
+   A port founded when tectonics gave it sea access and abandoned when
+   progradation cut it off. The mechanism that probably ended Muziris, worked
+   out in detail somewhere the evidence survives.
+
+5. **"Palaeogeographic reconstruction of the Main Harbour of the ancient city"**,
+   *Journal of Archaeological Science* (2023).
+   https://www.sciencedirect.com/science/article/abs/pii/S0305440323001371
+   Recent worked example of the method.
+
+6. **"Geoarchaeology confirms location of the ancient harbour basin of Ostia"**,
+   *Journal of Archaeological Science* (2014).
+   https://www.sciencedirect.com/science/article/abs/pii/S0305440313003087
+   A harbour located by coring rather than excavation. The precedent for what
+   the decision layer should recommend at an untested Kerala candidate.
+
+7. **"Geoarchaeology of Portus Mareoticus: ancient Alexandria's lake harbour"**,
+   *Journal of Archaeological Science: Reports* (2017).
+   A lagoonal harbour, which is the Vembanad case.
+
+## The same problem, in South India
+
+8. **Ramasamy et al., "Geoscientific perspectives of the submerged and lost
+   harbours and ports: ancient port city Poompuhar, South India"** (2020).
+   https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/IndOc-Gulf/Poompuhar-Ramasamy2020b.pdf
+   A lost South Indian port sought through submerged delta reconstruction, with
+   a harbour-like structure reported 25 km offshore on an older Cauvery delta.
+   The nearest thing to our problem in our own subcontinent, and open access.
+
+9. **"Tracing the Late Quaternary coastal evolution of Central Kerala"** (2024).
+   https://www.sciencedirect.com/science/article/pii/S2666033424000352
+   The regional coastal reconstruction for exactly the stretch that holds
+   Muziris, Nelkynda and Bakarē. This is the paper the Malabar prior should be
+   built on.
+
+10. **"Roman metallurgy and early Anthropocene footprints in Kerala, South
+    India"**, *Ambio* / Springer (2025).
+    https://link.springer.com/article/10.1007/s44218-025-00115-8
+    Lead levels at Pattanam falling in the medieval layers, read against the
+    1341 flood. Independent dating evidence for the event that reorganised the
+    Periyar, which the coastline reconstruction needs.
+
+11. **Cherian et al., "Chronology of Pattanam: a multi-cultural port site on the
+    Malabar coast"**.
+    https://www.researchgate.net/publication/229061657
+    The site's own dating, described as a palaeo-delta at the mouth of the
+    north-flowing Periyar.
+
+## Recovering the channels themselves
+
+12. **Orengo and Petrie, "Large-scale, multi-temporal remote sensing of
+    palaeo-river networks"**, *Remote Sensing* 9 (2017).
+    https://www.mdpi.com/2072-4292/9/7/735
+    Open access, and written for northwest India. Recovered more than 8,000 km
+    of palaeochannels from seasonal vegetation dynamics and spectral
+    decomposition. This is the method for the Indus delta, and the one to
+    imitate rather than invent.
+
+13. **"Reconstructing long-term settlement histories on complex alluvial
+    floodplains"**, *Heritage Science* (2023).
+    https://www.nature.com/articles/s40494-023-00985-6
+    Joins reconstructed channels to the distribution of known sites, which is
+    the join between our prior and our candidates.
+
+14. **"Reconstruction of the lost Saraswati river course and its associated
+    archaeological sites"** (2025).
+    https://www.sciencedirect.com/science/article/abs/pii/S2352938525001120
+    A river reconstructed from imagery and then used to explain a site
+    distribution. The most ambitious version of the argument, and a useful
+    warning about how far it can be pushed.
+
+## What to read first
+
+Giaime et al. for the framework, Portus Pisanus for the worked example, the
+Central Kerala coastal evolution paper for our own region, and Orengo and Petrie
+for the channel method. Three of those four are open access.
