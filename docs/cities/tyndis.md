@@ -2,8 +2,40 @@
 
 Every mention of Tyndis and its proposed sites that exists in the local library: 132 passages across 17 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**Most likely: the Ponnani to Tanur stretch, with Ponnani itself the best single
+candidate.** My confidence is moderate, and unusually for this project the
+material points the same way as the text.
+
+Three independent lines converge on the northern Malabar coast around the
+Bharathapuzha mouth. The Periplus puts Tyndis 500 stadia north of Muziris.
+Ptolemy independently places Tindis north of Muziris, at 116°00' against
+117°00'. And Casson's Chera border argument, which the literature rarely uses,
+puts the port north of Ponnani and south of Cranganore.
+
+The material is the surprise. Across fifty-nine years of Indian Archaeology: A
+Review, Early Historic material in Kerala has been reported from essentially two
+places, and one of them is Taluk Ponnani, where the 1970–71 volume records
+Russet-coated Painted Ware of the early centuries AD and calls it "of great
+significance." De Romanis also cites a Tamil poem describing Tyndis among
+coconut palms, and a tradition that the port was abandoned because of piracy.
+
+Against that, the 1978–79 survey went into this valley explicitly looking for
+Roman contact and found megalithic burials instead. That is a genuine negative,
+though it was a survey rather than an excavation, and no candidate has ever been
+dug.
+
+The honest limit is resolution. Casson accepts Ponnani or Beypore, which are
+40 km apart, and says only that "the odds are slightly in favor of Ponnani." A
+500-stadia leg carries a 68 per cent interval about 49 km wide. The evidence
+supports a stretch of coast, not a village.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [Ptolemy's coordinates](#ptolemys-coordinates)

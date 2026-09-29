@@ -2,8 +2,36 @@
 
 Every mention of Muziris and its proposed sites that exists in the local library: 1,071 passages across 43 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**Most likely: Pattanam.** My confidence is high for the Periyar delta and good
+for the site itself. The field's confidence is high, with Gurukkal dissenting.
+
+This is the one port where a positive and a negative sit 9 km apart. Kodungallur
+was excavated in 1969–70 precisely because it was the traditional identification,
+and everything recovered was ninth to eleventh century; the following volume
+records that the trial digs "had not yielded any tangible evidence." Pattanam, a
+few kilometres away, has produced the only quantified Early Historic assemblage
+of any candidate in this study, and the PARUR gold hoard lies 3 km off.
+
+Note what the standard argument actually secures. The Tamil poem places Muziris
+on the Periyar, which fixes the river and not the site. Ptolemy lists Muziris
+emporium and the mouth of the Pseudostomus, generally taken as the Periyar, as
+separate entries 20 minutes of longitude apart, which suggests the emporium was
+not at the mouth itself.
+
+Two things should temper the confidence. Schoff records that Muziris and Nelkynda
+were once placed at Mangalore and Nileshwar, 300 km north, so this identification
+has moved a long way before. And Pattanam's imports are mostly not Roman. Of
+19,654 imported sherds, under a third are Mediterranean, and the Mesopotamian
+material is largely Sasanian. Pattanam was a working port for centuries, of which
+the Periplus phase is a thin slice.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [Ptolemy's coordinates](#ptolemys-coordinates)

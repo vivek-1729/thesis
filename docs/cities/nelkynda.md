@@ -2,8 +2,40 @@
 
 Every mention of Nelkynda and its proposed sites that exists in the local library: 240 passages across 25 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**Most likely: Niranam among the named candidates, but with real weight on a site
+nobody has proposed.** My confidence is low to moderate. The field's is low, and
+this port has the most recent literature of the seven, with a median publication
+year of 2023.
+
+The two constraints in the text cannot both be satisfied by straight-line
+measurement. Nelkynda lies 500 stadia from Muziris and Bakarē lies 120 stadia
+downriver at the mouth. Niranam and Purakkad are 21.2 km apart, close to 120
+stadia and matching Casson's own "twelve miles," and they sit on the same river.
+But Niranam is 106 km from Muziris along the coast against a band of 72 to
+102 km. Schoff's alternative, Kottayam, fails worse: it is 29.6 km from Purakkad
+against 18.6 km at a 155 m stadion, and Casson notes it sits on a different
+river.
+
+I favour Niranam because it satisfies the more reliable of the two figures. Every
+stated value at or above 200 stadia in the Periplus is a round hundred, while 120
+is one of only three unround figures in the text, so the pairing constraint
+should outrank the 500-stadia leg. The 500 is also the figure most likely to be
+rescued by measuring through the Vembanad backwaters, which is what "by river and
+sea" specifies and which nobody has done.
+
+Two cautions. Ptolemy places Melcynda at 120°20' in his region Aii, south of the
+Baris mouth rather than upstream of it, which does not match the Periplus's
+upriver port. And Dayalan lists Nakkada, Nirkunnam, Kannetri, Markari and
+Varakkai, none of which we have located. Niranam and Neendakara have zero entries
+in fifty-nine years of Indian Archaeology, and no candidate has been excavated.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [Ptolemy's coordinates](#ptolemys-coordinates)

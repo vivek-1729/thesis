@@ -2,8 +2,41 @@
 
 Every mention of Rhapta and its proposed sites that exists in the local library: 1,184 passages across 30 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**No candidate is well supported, and the two ancient sources pull in opposite
+directions.** My confidence in any single location is low. The field inherits
+Datoo's bracket from Pangani to the Rufiji but disputes the point within it.
+
+The Periplus places Rhapta two days' sail beyond Menuthias, an island 300 stadia
+offshore. At a 155 m stadion that is 46.5 km, and measured from island shore to
+mainland shore Pemba fits at 42.9 km against Zanzibar at 30.7 and Mafia at 14.8.
+If Menuthias is Pemba, two days south lands near Pangani or a little below it,
+favouring the northern end of the bracket.
+
+Ptolemy points the other way. He puts Rhaptum promontory at 8°25' south, and the
+Rufiji delta lies at about 7°54' south, so his latitude, which is less distorted
+near the equator than further north, favours the Rufiji. He also places Menuthias
+at 12°30' south next to Prasum, roughly four degrees below Rhaptum, which
+contradicts the Periplus outright. If Ptolemy is right about Menuthias then the
+offshore notice does not constrain Rhapta at all, and our Pemba measurement rests
+on the Periplus reading alone.
+
+The material cannot break the tie. There is no numismatic evidence to assess:
+the Coin Hoards of the Roman Empire database has no entry for Tanzania, Kenya,
+Somalia or Ethiopia, and every coin recovered at a candidate site is Islamic or
+later. Chami's Roman glass beads from the Rufiji are the most cited archaeological
+claim about Rhapta and their stratigraphy has been questioned. Unguja Ukuu's
+occupation begins in the sixth or seventh century, already too late.
+
+Two things would move this: Datoo 1970, which we still cite second-hand, and the
+early Roman coin finds north of the Rufiji that Juma mentions without a reference.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [Ptolemy's coordinates](#ptolemys-coordinates)

@@ -2,8 +2,37 @@
 
 Every mention of Bakarē and its proposed sites that exists in the local library: 46 passages across 11 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**Most likely: Purakkad, conditional on Niranam being Nelkynda.** My confidence in
+the geometry is moderate and in the identification wholly derivative. Casson
+grades Bakarē among the securer names, which I think is unwarranted.
+
+Bakarē is defined relationally rather than absolutely: 120 stadia downriver from
+Nelkynda, at the river mouth. That is the most precise figure the Periplus gives
+for any port in this study. Every stated value at or above 200 stadia is a round
+hundred, whereas 120 is one of only three unround figures in the text, alongside
+20 and 60, which makes it the value most likely to reflect direct knowledge. A
+120-stadia leg carries a 68 per cent interval about 12 km wide, against 49 km for
+a 500-stadia leg.
+
+So Bakarē is the best-constrained of the Malabar ports and the worst-evidenced.
+None of Purakkad, Kallada or Thevalakara has been excavated. Purakkad and
+Thevalakara have no entries at all in the Indian Archaeology series, and Kallada
+has one, recording a neolithic axe. The most reliable measurement in the document
+points at a stretch of coast no archaeologist has tested.
+
+One tension worth keeping. Ptolemy lists Bacare and the mouth of the Baris as
+separate entries 30 minutes of longitude apart, which sits awkwardly with the
+Periplus placing Bakarē at the mouth. Because the identification depends entirely
+on which site is Nelkynda, the pair stands or falls together and should be
+reported as a pair.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [Ptolemy's coordinates](#ptolemys-coordinates)

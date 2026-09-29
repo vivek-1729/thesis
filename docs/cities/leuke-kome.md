@@ -2,8 +2,38 @@
 
 Every mention of Leukē Kōmē and its proposed sites that exists in the local library: 799 passages across 22 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**Most likely: Aynuna.** My confidence is moderate to high, and the field's is
+high but resting on the wrong argument.
+
+The distance evidence does not discriminate. Nappo's 2010 case for Aynuna is the
+standard treatment, but he measured from Abu Sha'ar, and recomputed from Quseir
+al-Qadim both Aynuna at 236 km and al-Wajh at 222 km fall inside his own
+185 to 278 km window. Anyone citing the distance for Aynuna is citing something
+that does not separate the two.
+
+What does separate them is material. Aynuna produced harbour installations, a
+large storehouse, two cemeteries and 25 coins, 24 of them bronze, running from
+Obodas III and Aretas IV to Tiberius. Bronze lost in occupation layers is small
+change in daily use, and the date range ends at about AD 40, which is the
+Periplus horizon. The storehouse also suits a port with a customs post and a
+garrison, which is what the text describes.
+
+The case has one real weakness. Al-Wajh has been surveyed, not excavated, so its
+negative is a surface negative and weaker than it sounds. The whole
+identification therefore rests on a single excavated assemblage, and a first
+season at al-Wajh could unsettle it.
+
+The textual constraint is separately weak. Leukē Kōmē hangs off one three-day leg
+from one securely located port, so the positional estimate will stay wide however
+good the material is.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [The excavation record](#the-excavation-record)

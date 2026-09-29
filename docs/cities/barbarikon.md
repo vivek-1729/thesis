@@ -2,8 +2,42 @@
 
 Every mention of Barbarikon and its proposed sites that exists in the local library: 274 passages across 22 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
+## Assessment
+
+A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
+
+**Most likely: Banbhore, but the question is closer to unanswerable than to
+answered.** My confidence is low. The field's is genuinely divided, and its own
+advocates hedge.
+
+The text is unusually specific. It places Barbarikon on the middle of seven
+mouths of the Indus, says the other six are shallow, marshy and unnavigable, puts
+a small island offshore, and sets the capital Minnagara upriver. Ptolemy
+independently gives seven mouths and names them, with the fourth, Cariphi, as the
+middle one. That is four positional constraints, more than the Periplus gives any
+other port in this study.
+
+None of them can be used. The delta has reorganised repeatedly, and the
+instability is attested within antiquity itself: Strabo, following a companion of
+Alexander, reports two mouths where Ptolemy reports seven. Casson quotes Smith's
+judgment that the changes "preclude the possibility of satisfactory
+identifications," and that judgment still holds.
+
+Banbhore is the only candidate anyone has proposed, and its evidence is thin for
+reasons that are physical rather than evidential. Khan's trenches never reached
+virgin soil because of water infiltration, and the Italian mission has not
+reported reaching it. The site was dug as Islamic Daybul, so thirty seasons of
+finding little at the Periplus horizon means much less than the season count
+implies. Mughal 2018 writes that Banbhore "could be identified" with Barbarikon;
+his editor's preface upgrades that to "establishes and identifies."
+
+Minnagar is a second unsolved location tied to the first, with proposals
+hundreds of kilometres apart. Progress here depends on palaeochannel
+reconstruction and on reaching the water table, not on more reading.
+
 ## Contents
 
+- [Assessment](#assessment)
 - [The record in summary](#the-record-in-summary)
 - [Proposed locations](#proposed-locations)
 - [Ptolemy's coordinates](#ptolemys-coordinates)

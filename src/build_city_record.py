@@ -48,6 +48,206 @@ FIELD = ("apa-RedSea-Aynuna", "apa-IndOc-Gulf-Qana", "apa-IndOc-Gulf-Sumhuram",
 
 TITLES = {}   # filled from the filename, tidied
 
+ASSESS = {
+"leuke-kome": """
+**Most likely: Aynuna.** My confidence is moderate to high, and the field's is
+high but resting on the wrong argument.
+
+The distance evidence does not discriminate. Nappo's 2010 case for Aynuna is the
+standard treatment, but he measured from Abu Sha'ar, and recomputed from Quseir
+al-Qadim both Aynuna at 236 km and al-Wajh at 222 km fall inside his own
+185 to 278 km window. Anyone citing the distance for Aynuna is citing something
+that does not separate the two.
+
+What does separate them is material. Aynuna produced harbour installations, a
+large storehouse, two cemeteries and 25 coins, 24 of them bronze, running from
+Obodas III and Aretas IV to Tiberius. Bronze lost in occupation layers is small
+change in daily use, and the date range ends at about AD 40, which is the
+Periplus horizon. The storehouse also suits a port with a customs post and a
+garrison, which is what the text describes.
+
+The case has one real weakness. Al-Wajh has been surveyed, not excavated, so its
+negative is a surface negative and weaker than it sounds. The whole
+identification therefore rests on a single excavated assemblage, and a first
+season at al-Wajh could unsettle it.
+
+The textual constraint is separately weak. Leukē Kōmē hangs off one three-day leg
+from one securely located port, so the positional estimate will stay wide however
+good the material is.
+""",
+
+"barbarikon": """
+**Most likely: Banbhore, but the question is closer to unanswerable than to
+answered.** My confidence is low. The field's is genuinely divided, and its own
+advocates hedge.
+
+The text is unusually specific. It places Barbarikon on the middle of seven
+mouths of the Indus, says the other six are shallow, marshy and unnavigable, puts
+a small island offshore, and sets the capital Minnagara upriver. Ptolemy
+independently gives seven mouths and names them, with the fourth, Cariphi, as the
+middle one. That is four positional constraints, more than the Periplus gives any
+other port in this study.
+
+None of them can be used. The delta has reorganised repeatedly, and the
+instability is attested within antiquity itself: Strabo, following a companion of
+Alexander, reports two mouths where Ptolemy reports seven. Casson quotes Smith's
+judgment that the changes "preclude the possibility of satisfactory
+identifications," and that judgment still holds.
+
+Banbhore is the only candidate anyone has proposed, and its evidence is thin for
+reasons that are physical rather than evidential. Khan's trenches never reached
+virgin soil because of water infiltration, and the Italian mission has not
+reported reaching it. The site was dug as Islamic Daybul, so thirty seasons of
+finding little at the Periplus horizon means much less than the season count
+implies. Mughal 2018 writes that Banbhore "could be identified" with Barbarikon;
+his editor's preface upgrades that to "establishes and identifies."
+
+Minnagar is a second unsolved location tied to the first, with proposals
+hundreds of kilometres apart. Progress here depends on palaeochannel
+reconstruction and on reaching the water table, not on more reading.
+""",
+
+"tyndis": """
+**Most likely: the Ponnani to Tanur stretch, with Ponnani itself the best single
+candidate.** My confidence is moderate, and unusually for this project the
+material points the same way as the text.
+
+Three independent lines converge on the northern Malabar coast around the
+Bharathapuzha mouth. The Periplus puts Tyndis 500 stadia north of Muziris.
+Ptolemy independently places Tindis north of Muziris, at 116°00' against
+117°00'. And Casson's Chera border argument, which the literature rarely uses,
+puts the port north of Ponnani and south of Cranganore.
+
+The material is the surprise. Across fifty-nine years of Indian Archaeology: A
+Review, Early Historic material in Kerala has been reported from essentially two
+places, and one of them is Taluk Ponnani, where the 1970–71 volume records
+Russet-coated Painted Ware of the early centuries AD and calls it "of great
+significance." De Romanis also cites a Tamil poem describing Tyndis among
+coconut palms, and a tradition that the port was abandoned because of piracy.
+
+Against that, the 1978–79 survey went into this valley explicitly looking for
+Roman contact and found megalithic burials instead. That is a genuine negative,
+though it was a survey rather than an excavation, and no candidate has ever been
+dug.
+
+The honest limit is resolution. Casson accepts Ponnani or Beypore, which are
+40 km apart, and says only that "the odds are slightly in favor of Ponnani." A
+500-stadia leg carries a 68 per cent interval about 49 km wide. The evidence
+supports a stretch of coast, not a village.
+""",
+
+"muziris": """
+**Most likely: Pattanam.** My confidence is high for the Periyar delta and good
+for the site itself. The field's confidence is high, with Gurukkal dissenting.
+
+This is the one port where a positive and a negative sit 9 km apart. Kodungallur
+was excavated in 1969–70 precisely because it was the traditional identification,
+and everything recovered was ninth to eleventh century; the following volume
+records that the trial digs "had not yielded any tangible evidence." Pattanam, a
+few kilometres away, has produced the only quantified Early Historic assemblage
+of any candidate in this study, and the PARUR gold hoard lies 3 km off.
+
+Note what the standard argument actually secures. The Tamil poem places Muziris
+on the Periyar, which fixes the river and not the site. Ptolemy lists Muziris
+emporium and the mouth of the Pseudostomus, generally taken as the Periyar, as
+separate entries 20 minutes of longitude apart, which suggests the emporium was
+not at the mouth itself.
+
+Two things should temper the confidence. Schoff records that Muziris and Nelkynda
+were once placed at Mangalore and Nileshwar, 300 km north, so this identification
+has moved a long way before. And Pattanam's imports are mostly not Roman. Of
+19,654 imported sherds, under a third are Mediterranean, and the Mesopotamian
+material is largely Sasanian. Pattanam was a working port for centuries, of which
+the Periplus phase is a thin slice.
+""",
+
+"nelkynda": """
+**Most likely: Niranam among the named candidates, but with real weight on a site
+nobody has proposed.** My confidence is low to moderate. The field's is low, and
+this port has the most recent literature of the seven, with a median publication
+year of 2023.
+
+The two constraints in the text cannot both be satisfied by straight-line
+measurement. Nelkynda lies 500 stadia from Muziris and Bakarē lies 120 stadia
+downriver at the mouth. Niranam and Purakkad are 21.2 km apart, close to 120
+stadia and matching Casson's own "twelve miles," and they sit on the same river.
+But Niranam is 106 km from Muziris along the coast against a band of 72 to
+102 km. Schoff's alternative, Kottayam, fails worse: it is 29.6 km from Purakkad
+against 18.6 km at a 155 m stadion, and Casson notes it sits on a different
+river.
+
+I favour Niranam because it satisfies the more reliable of the two figures. Every
+stated value at or above 200 stadia in the Periplus is a round hundred, while 120
+is one of only three unround figures in the text, so the pairing constraint
+should outrank the 500-stadia leg. The 500 is also the figure most likely to be
+rescued by measuring through the Vembanad backwaters, which is what "by river and
+sea" specifies and which nobody has done.
+
+Two cautions. Ptolemy places Melcynda at 120°20' in his region Aii, south of the
+Baris mouth rather than upstream of it, which does not match the Periplus's
+upriver port. And Dayalan lists Nakkada, Nirkunnam, Kannetri, Markari and
+Varakkai, none of which we have located. Niranam and Neendakara have zero entries
+in fifty-nine years of Indian Archaeology, and no candidate has been excavated.
+""",
+
+"bakare": """
+**Most likely: Purakkad, conditional on Niranam being Nelkynda.** My confidence in
+the geometry is moderate and in the identification wholly derivative. Casson
+grades Bakarē among the securer names, which I think is unwarranted.
+
+Bakarē is defined relationally rather than absolutely: 120 stadia downriver from
+Nelkynda, at the river mouth. That is the most precise figure the Periplus gives
+for any port in this study. Every stated value at or above 200 stadia is a round
+hundred, whereas 120 is one of only three unround figures in the text, alongside
+20 and 60, which makes it the value most likely to reflect direct knowledge. A
+120-stadia leg carries a 68 per cent interval about 12 km wide, against 49 km for
+a 500-stadia leg.
+
+So Bakarē is the best-constrained of the Malabar ports and the worst-evidenced.
+None of Purakkad, Kallada or Thevalakara has been excavated. Purakkad and
+Thevalakara have no entries at all in the Indian Archaeology series, and Kallada
+has one, recording a neolithic axe. The most reliable measurement in the document
+points at a stretch of coast no archaeologist has tested.
+
+One tension worth keeping. Ptolemy lists Bacare and the mouth of the Baris as
+separate entries 30 minutes of longitude apart, which sits awkwardly with the
+Periplus placing Bakarē at the mouth. Because the identification depends entirely
+on which site is Nelkynda, the pair stands or falls together and should be
+reported as a pair.
+""",
+
+"rhapta": """
+**No candidate is well supported, and the two ancient sources pull in opposite
+directions.** My confidence in any single location is low. The field inherits
+Datoo's bracket from Pangani to the Rufiji but disputes the point within it.
+
+The Periplus places Rhapta two days' sail beyond Menuthias, an island 300 stadia
+offshore. At a 155 m stadion that is 46.5 km, and measured from island shore to
+mainland shore Pemba fits at 42.9 km against Zanzibar at 30.7 and Mafia at 14.8.
+If Menuthias is Pemba, two days south lands near Pangani or a little below it,
+favouring the northern end of the bracket.
+
+Ptolemy points the other way. He puts Rhaptum promontory at 8°25' south, and the
+Rufiji delta lies at about 7°54' south, so his latitude, which is less distorted
+near the equator than further north, favours the Rufiji. He also places Menuthias
+at 12°30' south next to Prasum, roughly four degrees below Rhaptum, which
+contradicts the Periplus outright. If Ptolemy is right about Menuthias then the
+offshore notice does not constrain Rhapta at all, and our Pemba measurement rests
+on the Periplus reading alone.
+
+The material cannot break the tie. There is no numismatic evidence to assess:
+the Coin Hoards of the Roman Empire database has no entry for Tanzania, Kenya,
+Somalia or Ethiopia, and every coin recovered at a candidate site is Islamic or
+later. Chami's Roman glass beads from the Rufiji are the most cited archaeological
+claim about Rhapta and their stratigraphy has been questioned. Unguja Ukuu's
+occupation begins in the sixth or seventh century, already too late.
+
+Two things would move this: Datoo 1970, which we still cite second-hand, and the
+early Roman coin finds north of the Rufiji that Juma mentions without a reference.
+"""
+}
+
+
 
 def pretty(stem):
     t = stem.replace("apa-IndOc-Gulf-", "").replace("apa-RedSea-", "")
@@ -125,7 +325,13 @@ def build(slug, name, aliases, T):
       f"the PDF they were read from.\n")
 
     # ---- contents
+    W("## Assessment\n")
+    W("A provisional reading of the evidence assembled below, written before the "
+      "model has been fitted. It states what the present evidence supports and "
+      "how firmly, and the fitted posterior may disagree with it.\n")
+    W(ASSESS[slug].strip() + "\n")
     W("## Contents\n")
+    W("- [Assessment](#assessment)")
     W("- [The record in summary](#the-record-in-summary)")
     W("- [Proposed locations](#proposed-locations)")
     if [r for r in T["ptol"] if r["port"] == name.replace("\u0113", "e")]:
@@ -276,7 +482,7 @@ def main():
         n = md.count("\n> p.")
         idx.append(f"- [{name}]({slug}.md) — {n:,} passages")
         print(f"{name:12s} {n:5,} passages  {len(md):>9,} chars")
-    (OUT / "README.md").write_text("\n".join(idx) + "\n")
+    # README.md is maintained separately; it carries the one-line verdicts.
 
 
 if __name__ == "__main__":
