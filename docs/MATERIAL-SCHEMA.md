@@ -33,6 +33,7 @@ to a campaign wherever the report allows it.
 | `campaign_id` | `{site_key}_{first_year}`, the key finds join on |
 | `site_key` | joins `data/raw/site_aliases.csv` for coordinates |
 | `site_display` | name as normally printed |
+| `port` | which disputed port this site is a candidate for, or `anchor` / `comparandum` |
 | `investigators` | who dug |
 | `institution` | sponsoring body |
 | `year_from`, `year_to` | field years |
@@ -45,7 +46,8 @@ to a campaign wherever the report allows it.
 | `sieve_mesh_mm` | mesh, where stated |
 | `reached_virgin_soil` | `yes` / `no` / `partly` / `unstated` |
 | `reached_periplus_horizon` | `yes` / `no` / `contested` / `unknown` |
-| `publication_status` | `full` / `interim` / `preliminary` / `unpublished` |
+| `targeted_at_port` | `yes` / `no`: was this campaign undertaken **because** the site was already proposed as this Periplus port? The instrument that separates "nothing was found here" from "we only looked here because we already believed it" |
+| `publication_status` | `full` / `interim` / `preliminary` / `none` |
 | `source_file`, `page`, `quote` | provenance, verbatim |
 | `note` | anything that qualifies the row |
 
@@ -93,3 +95,22 @@ at an untested candidate should have been expected to produce. Joining
 `ware_id` to the typology gives origin region, which separates Mediterranean
 from Gulf traffic. Joining `campaign_id` to the campaign table normalises for
 excavated volume and for sieving.
+
+
+---
+
+## Why `targeted_at_port` exists
+
+Kodungallur was excavated in 1969–70 *because* it was the traditional Muziris,
+and it returned nothing earlier than the ninth century. Banbhore was excavated
+as Islamic Daybul and the Barbarikon identification came later. Those two
+absences are not the same kind of evidence, and no amount of care about
+excavated area will distinguish them.
+
+Excavation effort is not independent of prior belief about location. If
+detection is estimated separately and then fed into a location model, the
+field's existing opinion enters the likelihood disguised as evidence. This
+column is what lets the two be fitted jointly instead.
+
+It has usable variation: of the twelve candidates that have been excavated at
+all, six were targeted at the port and six were not.
