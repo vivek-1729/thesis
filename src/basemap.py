@@ -60,7 +60,9 @@ def _rivers():
     return json.loads(RIVERS.read_text()) if RIVERS.exists() else {}
 
 
-def _draw_rivers(ax, bbox, lw=(0.45, 2.3)):
+def _draw_rivers(ax, bbox, lw=(0.45, 2.3), min_flow=0.0):
+    """min_flow drops small tributaries; at close zoom the full network buries
+    everything else on the map."""
     segs, widths = [], []
     for reaches in _rivers().values():
         for rr in reaches:
@@ -68,6 +70,7 @@ def _draw_rivers(ax, bbox, lw=(0.45, 2.3)):
             xs = [q[0] for q in pts]; ys = [q[1] for q in pts]
             if max(xs) < bbox[0] or min(xs) > bbox[1]: continue
             if max(ys) < bbox[2] or min(ys) > bbox[3]: continue
+            if rr["f"] < min_flow: continue
             # width on discharge, which reads better than Strahler order
             t = min(math.log10(rr["f"] + 1) / 2.6, 1.0)
             segs.append(pts); widths.append(lw[0] + (lw[1] - lw[0]) * t)
@@ -77,7 +80,7 @@ def _draw_rivers(ax, bbox, lw=(0.45, 2.3)):
     return len(segs)
 
 
-def draw(ax, bbox, rivers=True, lakes=True, river_lw=(0.5, 1.6)):
+def draw(ax, bbox, rivers=True, lakes=True, river_lw=(0.5, 1.6), min_flow=0.0):
     ax.set_facecolor(LAND)                     # land is the background; sea is drawn on top
     ocean = [s for pts, parts, _ in _read("ne_10m_ocean.shp")
              for s in _clip(pts, parts, bbox)]
@@ -91,7 +94,7 @@ def draw(ax, bbox, rivers=True, lakes=True, river_lw=(0.5, 1.6)):
           for s in _clip(pts, parts, bbox)]
     ax.add_collection(LineCollection(cl, colors=COAST, linewidths=0.9, zorder=3))
     if rivers:
-        _draw_rivers(ax, bbox)
+        _draw_rivers(ax, bbox, river_lw, min_flow)
     ax.set_xlim(bbox[0], bbox[1]); ax.set_ylim(bbox[2], bbox[3])
     ax.set_aspect(1 / math.cos(math.radians((bbox[2] + bbox[3]) / 2)))
     for s in ax.spines.values():
