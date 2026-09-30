@@ -40,10 +40,6 @@ Reconstructing the regional relative sea-level curve from coastal lowland cores,
 
 ## 3. Voyages and routes across this ocean
 
-Copeland, Conrad. "Riding the Monsoon: Geography and Iron Age Trade in the Indian Ocean." *The Economic History Review* 79, no. 1 (2026): 312–41. https://doi.org/10.1111/ehr.70016.
-
-Modelling Indian Ocean trade routes using least-cost network analysis over monsoon wind vectors and palaeo sea-level, reporting 14-day outbound and 16-day return averages. The closest prior work to our voyage layer, and the source of the 44-port coordinate set in our gazetteer.
-
 McLean, Andrew, and Xavier Rubio-Campillo. "Beyond Least Cost Paths: Circuit Theory, Maritime Mobility and Patterns of Urbanism in the Roman Adriatic." *Journal of Archaeological Science* 138 (2022): 105534. https://doi.org/10.1016/j.jas.2021.105534.
 
 Modelling maritime movement as a distribution over crossings using circuit theory, rather than as a single optimal route. The argument for simulating voyages instead of computing one path.

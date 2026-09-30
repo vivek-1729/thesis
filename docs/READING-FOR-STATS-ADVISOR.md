@@ -12,9 +12,16 @@ and has been moved to `READING-GEOGRAPHIC.md`.
 
 ## 1. The sampling problem
 
-The central statistical difficulty. Excavation happened where scholars already
-believed the port was, so an absence of finds is not independent of the location
-being estimated.
+Not the layer with the most data, and deliberately so. Thirteen of twenty-two
+candidates have never been excavated and only six sites have quantified finds,
+so almost all of the archaeological layer's content is in the pattern of
+absences. Excavation happened where scholars already believed the port was,
+which means an absence of finds is not independent of the location being
+estimated, and the layer says nothing at all until that is modelled. The
+practical caveat is that the number of campaigns is too small to estimate the
+preferentiality parameter reliably, so the realistic use is a sensitivity
+analysis over it, with `targeted_at_port` from the campaign table entering as an
+observed covariate rather than leaving the mechanism fully latent.
 
 Diggle, Peter J., Raquel Menezes, and Ting-li Su. "Geostatistical Inference under Preferential Sampling." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 59, no. 2 (2010): 191–232. https://doi.org/10.1111/j.1467-9876.2009.00701.x.
 
@@ -41,7 +48,27 @@ Building age-depth chronologies from sediment cores using a monotone stochastic 
 
 ---
 
-## 3. Point processes for the distribution of finds
+## 3. Rounded and coarsened measurements
+
+The layer with the most data. Every stated distance in the Periplus is rounded:
+82 per cent of stadia figures are multiples of 100, and every value at or above
+2,000 is an exact multiple of 1,000. The observation is an interval, not a point.
+
+Heitjan, Daniel F., and Donald B. Rubin. "Ignorability and Coarse Data." *The Annals of Statistics* 19, no. 4 (1991): 2244–53. https://doi.org/10.1214/aos/1176348396.
+
+Treating an observation that is known only to fall in a set rather than at a point, and giving the conditions under which the coarsening mechanism can be ignored. The formal framework for the rounding in the text, and the reason it cannot simply be ignored here.
+
+---
+
+## 4. Prior quantitative work on this ocean
+
+Copeland, Conrad. "Riding the Monsoon: Geography and Iron Age Trade in the Indian Ocean." *The Economic History Review* 79, no. 1 (2026): 312–41. https://doi.org/10.1111/ehr.70016.
+
+Modelling Indian Ocean trade routes using least-cost network analysis over monsoon wind vectors and palaeo sea-level, reporting 14-day outbound and 16-day return averages. The closest prior work to the voyage layer, the source of the 44-port coordinate set in our gazetteer, and the benchmark any simulation has to be checked against.
+
+---
+
+## 5. Point processes for the distribution of finds
 
 Crema, Enrico R., Andrew Bevan, and Mark W. Lake. "A Probabilistic Framework for Assessing Spatio-Temporal Point Patterns in the Archaeological Record." *Journal of Archaeological Science* 37, no. 5 (2010): 1118–30. https://doi.org/10.1016/j.jas.2009.12.012.
 
@@ -49,7 +76,7 @@ Analysing site distributions using spatio-temporal point processes, taking into 
 
 ---
 
-## 4. Combining many uncertain dates
+## 6. Combining many uncertain dates
 
 Price, Michael Holton, José M. Capriles, Julie A. Hoggarth, R. Kyle Bocinsky, Claire E. Ebert, and James Holland Jones. "End-to-End Bayesian Analysis for Summarizing Sets of Radiocarbon Dates." *Journal of Archaeological Science* 135 (2021): 105473. https://doi.org/10.1016/j.jas.2021.105473.
 
@@ -57,7 +84,7 @@ Summarising many radiocarbon dates using a single end-to-end Bayesian model, tak
 
 ---
 
-## 5. Simulation-based inference, only if we commit to it
+## 7. Simulation-based inference, only if we commit to it
 
 Relevant only if the voyage simulator is used to *estimate* its own parameters
 against the durations the Periplus states. If the simulator is only run forward
