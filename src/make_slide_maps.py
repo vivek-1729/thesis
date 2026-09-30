@@ -193,8 +193,10 @@ def tyndis():
 
 # ---------------------------------------------------- Nelkynda and Bakare
 def nelkynda_bakare():
-    """Bakare lies 120 stadia downriver from Nelkynda. Drawing that one
-    reliable figure around each proposal shows which pairing survives it."""
+    """The Periplus says Nelkynda sits on a river about 120 stadia from the sea,
+    and that Bakare is at that river's mouth. Casson reads the two as the same
+    point, which makes 120 stadia the Nelkynda-to-Bakare distance. That reading
+    is what this map tests; the text itself does not state it."""
     bbox = (76.02, 76.98, 8.82, 9.92)
     fig, ax = frame(bbox, 8.4,
                     "Bakarē lies 120 stadia from Nelkynda, the text's most precise figure")

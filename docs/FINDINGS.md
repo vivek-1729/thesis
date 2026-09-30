@@ -39,7 +39,7 @@ is narrower than it looks.
 33 of 51 distance statements are in stadia. **82 per cent are multiples of 100.**
 Every value at or above 200 is a round hundred, without exception. The only
 unround figures are 20, 60 and 120, all small and all local: 20 stadia upriver at
-Muziris, 120 stadia downriver at Nelkynda, 60 elsewhere.
+Muziris, 120 stadia upriver at Nelkynda, 60 elsewhere.
 
 Two classes of number with different precision. Large coastal legs are estimates
 to the nearest hundred. Short local measures may be direct knowledge.
@@ -723,18 +723,28 @@ He gives no reference.
 
 1. Claimed Ponnani fits Tyndis "to within 2.5 km." That compared a straight line
    against a sailed distance. Only the ranking survives.
-2. Claimed the 300-stadia Menuthias notice favours Zanzibar. Measured island
+2. **Stated that the Periplus places Bakarē 120 stadia from Nelkynda. It does
+   not.** The text says Nelkynda "is situated on a river, about one hundred and
+   twenty stadia from the sea," and that Bakarē is "another place at the mouth
+   of this river." The 120 stadia therefore measures Nelkynda to the sea. Casson
+   converts it into a Nelkynda-to-Bakarē distance by treating the river mouth
+   and the sea as the same point, which is a reasonable reading on an open coast
+   and a much stronger assumption on a lagoon coast, where a river debouches
+   into the backwater and the backwater reaches the sea through a separate bar.
+   Everything we have said about 120 stadia as the tightest constraint on the
+   pair rests on Casson's reading, not on the text.
+3. Claimed the 300-stadia Menuthias notice favours Zanzibar. Measured island
    shore to mainland shore it favours **Pemba**.
-3. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
-4. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
-5. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
+4. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
+5. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
+6. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
    says the promontory Papica, not Astakapra.
-6. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
+7. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
    the volumes with a Devanagari OCR model, so English came out as mojibake. An
    early search over that derived text falsely showed every Kerala candidate
    absent from 59 years of reporting. Artefact, discarded. The PDFs carry a clean
    English text layer and were re-extracted from directly.
-7. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
+8. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
    PRADESH" carries three internal spaces, so the boundary regex missed it and
    Madhya Pradesh districts were absorbed into the Kerala block; six of eight
    apparent Kerala Early Historic entries were from Sagar, Vidisha, Chhatarpur,
@@ -743,7 +753,7 @@ He gives no reference.
    Pattanam. And the first entry of every block was dropped because the pattern
    required whitespace after the separator, which silently removed the Cranganore
    excavation.
-8. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
+9. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
    182,000 works, mostly organised crime; "Quseir al-Qadim" 1.5 million. Raw hit
    counts are useless as an attention metric.
 
