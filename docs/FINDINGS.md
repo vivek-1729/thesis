@@ -716,10 +716,47 @@ Measured island shore to mainland shore, **that favours Pemba at 42.8 km**
 against a target of 46.5, not Zanzibar at 36.1 or Mafia at 14.8. (An earlier
 version of this analysis claimed Zanzibar; that was wrong and is corrected here.)
 
-The one claim of Periplus-period material is Chami's report of Roman glass beads
-from the Rufiji delta, *Current Anthropology* 1999, "First Incontrovertible
-Archaeological Link with the Periplus." It is the most cited archaeological claim
-about Rhapta and its stratigraphy has been questioned.
+The one claim of Periplus-period material is Chami's report of four Roman glass
+beads from Mkukutu, 40 km inland of the Rufiji delta, *Current Anthropology* 40
+(1999), titled as the first incontrovertible archaeological link with the
+Periplus. It is the most cited archaeological claim about Rhapta, and it does not
+support the claim its title makes. The objections below are read off Chami's own
+published table and text, not taken from a published critique; an earlier version
+of this file asserted that the stratigraphy "has been questioned" without a
+citation, which it should not have done.
+
+1. **The radiocarbon does not reach the Periplus.** Chami's Table 1 gives three
+   dates, and he writes that they "consistently fall between a.d. 200 and 400,"
+   concluding the beads arrived "around the 3d century a.d." The Periplus is
+   around AD 50.
+2. **The dates are not in stratigraphic order.** Ua-11774 at 70-80 cm gives
+   1,670 +/- 60 BP; Ua-11775 at 140-150 cm and Ua-11776 at 100-110 cm both give
+   1,635 +/- 70. The shallowest sample is the oldest and the deeper two are
+   identical, which is not what a sealed, undisturbed deposit produces.
+3. **The deepest sample is from inside a cut feature.** Occupation bottoms out at
+   130 cm except for a charcoal feature continuing to 150 cm, and Ua-11775 came
+   "from the bottom of the blacksmithing feature." That dates the feature, not
+   the layer it cuts.
+4. **One of the four beads has no context.** The fourth was found near the surface
+   where "the top 30 cm had been deposited by bulldozers," and is assigned to the
+   sealed horizon because it resembles the others. The site had already been
+   partly destroyed by bulldozers extracting gravel.
+5. **The bead type cannot carry the date.** Chami acknowledges, citing Boon and
+   Spaer, that gold and silver-in-glass beads were produced for about 1,500
+   years. The Uppsala specialists dated the segmented bead to 100 BC to AD 400
+   and the other three to "an unspecified time period."
+6. **The dating is partly circular.** The beads are dated by association with
+   Limbo pottery, Limbo is dated 100 BC to AD 300, and the association is then
+   offered as evidence of Roman-period contact. The independent radiocarbon
+   points to the later end.
+7. **The sample is four beads from 8 square metres**, in four 2 by 1 m trenches,
+   and Chami notes "the beads were the only foreign objects recovered from the
+   four trenches." Small high-value ornaments circulate long after manufacture
+   and travel far.
+
+The fair summary is that Mkukutu shows Roman-manufactured glass reaching the
+Rufiji hinterland, most plausibly in the third or fourth century AD. It does not
+date contact to the Periplus and it does not locate Rhapta.
 
 One lead worth chasing. Juma 2004 (p. 24) writes that Rhapta "may be anywhere
 between the Rufiji delta area, where ancient trade goods including Roman beads

@@ -35,7 +35,7 @@ uncertainty, which is what the palaeo-coastline layer rests on.
 
 ## 3. Simulation-based inference, for the voyage model
 
-**DiNapoli et al., "Approximate Bayesian Computation of radiocarbon and
+**DiNapoli, Crema, Lipo, Rieth and Hunt, "Approximate Bayesian Computation of radiocarbon and
 paleoenvironmental record shows population resilience on Rapa Nui", *Nature
 Communications* 12 (2021).** https://www.nature.com/articles/s41467-021-24252-z
 
@@ -67,8 +67,8 @@ with the field of interest. This is exactly my problem: archaeologists
 excavated where they already believed the port was, so an absence of finds is
 not independent of the location being estimated.
 
-**"Entropy-based methods to address sampling bias in archaeological predictive
-modeling", arXiv:2508.02272.** https://arxiv.org/pdf/2508.02272
+**Çadırcı and Shahtahmassebi, "Entropy-based methods to address sampling bias
+in archaeological predictive modeling", arXiv:2508.02272 (2025).** https://arxiv.org/pdf/2508.02272
 
 The archaeological statement of the same problem, and the current state of that
 literature.
@@ -83,35 +83,38 @@ https://www.sciencedirect.com/science/article/abs/pii/S0305440309004622
 Point pattern analysis where both the location and the date of each find carry
 uncertainty, which is the situation for the coin hoards.
 
-**"Points, patterns, and predictions in archaeological settlement data",
-*Journal of Archaeological Science* (2025).**
+**Bilotti, Reindel, Isla and Mader, "Points, patterns, and predictions in
+archaeological settlement data", *Journal of Archaeological Science* 183 (2025).**
 https://www.sciencedirect.com/science/article/pii/S0305440325002341
 
 Inhomogeneous point process models with environmental covariates, used to
 estimate site-environment relationships. This is the structure of my geographic
 prior.
 
-**"Looking at the big picture: using spatial statistical analyses to study
-indigenous settlement patterns", *Journal of Computer Applications in
-Archaeology* (2023).** https://journal.caa-international.org/articles/10.5334/jcaa.83
+**Herrera Malatesta, Ulloa Hung and Hofman, "Looking at the big picture: using
+spatial statistical analyses to study indigenous settlement patterns in the
+north-western Dominican Republic", *Journal of Computer Applications in
+Archaeology* 6 (2023), 16-28.** https://journal.caa-international.org/articles/10.5334/jcaa.83
 
 Open access, and a clean worked example of fitting point process models to
 settlement data.
 
 ## 6. Spatial interaction models for trade networks
 
-**Davies, Fry, Wilson et al., "Was Thebes necessary? Contingency in spatial
-modelling", arXiv:1611.07839.** https://arxiv.org/pdf/1611.07839
+**Evans and Rivers, "Was Thebes necessary? Contingency in spatial modelling",
+*Frontiers in Digital Humanities* 4:8 (2017).**
+doi:10.3389/fdigh.2017.00008 | preprint https://arxiv.org/pdf/1611.07839
 
-Spatial interaction modelling applied to ancient settlement, with attention to
-how sensitive the outcome is to initial conditions. The precedent for treating
-the trade pattern as a gravity-type model, and a caution about how much weight
-that layer can bear.
+A re-examination of the rise of the Greek city-states using the Rihll and Wilson
+retail gravity model, asking how much of the outcome is forced by geography and
+how much is contingent. The precedent for treating the trade pattern as a
+gravity-type model, and a caution about how much weight that layer can bear.
 
 ## 7. Bayesian summarisation of dated evidence
 
-**"End-to-end Bayesian analysis for summarizing sets of radiocarbon dates",
-*Journal of Archaeological Science* (2021).**
+**Price, Capriles, Hoggarth, Bocinsky, Ebert and Jones, "End-to-end Bayesian
+analysis for summarizing sets of radiocarbon dates", *Journal of Archaeological
+Science* 135 (2021), 105473.**
 https://www.sciencedirect.com/science/article/pii/S0305440321001436
 
 How to aggregate many individually uncertain dates without the artefacts that

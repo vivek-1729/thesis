@@ -27,8 +27,11 @@ on the Periplus reading alone.
 The material cannot break the tie. There is no numismatic evidence to assess:
 the Coin Hoards of the Roman Empire database has no entry for Tanzania, Kenya,
 Somalia or Ethiopia, and every coin recovered at a candidate site is Islamic or
-later. Chami's Roman glass beads from the Rufiji are the most cited archaeological
-claim about Rhapta and their stratigraphy has been questioned. Unguja Ukuu's
+later. Chami's four Roman glass beads from Mkukutu are the most cited archaeological
+claim about Rhapta, and they do not date to the Periplus: his own radiocarbon
+puts them at AD 200-400, the three dates are not in stratigraphic order, the
+deepest comes from inside a cut feature, and the fourth bead was recovered from
+bulldozer spoil. See FINDINGS.md for the full reading. Unguja Ukuu's
 occupation begins in the sixth or seventh century, already too late.
 
 Two things would move this: Datoo 1970, which we still cite second-hand, and the
@@ -112,7 +115,7 @@ From the Stevenson translation of the *Geography*. Ptolemy's longitudes run from
 **Rufiji delta**, F. Chami, University of Dar es Salaam, 1994–2005, 5 seasons.
 Virgin soil: unstated. Excavated because the site was already proposed as this port. Publication: interim.
 
-Targeted: Chami excavated looking for Rhapta. Reports Roman glass beads; the stratigraphy and identification are contested.
+Targeted: Chami excavated looking for Rhapta. Reports four Roman glass beads at Mkukutu; his own radiocarbon dates them AD 200-400, not the Periplus horizon.
 
 **Mafia Island**, F. Chami; A. Christie; A. Crowther, 1999–2016, 5 seasons.
 Virgin soil: unstated. Excavated because the site was already proposed as this port. Publication: interim.
