@@ -40,6 +40,10 @@ Reconstructing the regional relative sea-level curve from coastal lowland cores,
 
 ## 3. Voyages and routes across this ocean
 
+MacKenzie, Darryl I., James D. Nichols, Gideon B. Lachman, Sam Droege, J. Andrew Royle, and Catherine A. Langtimm. "Estimating Site Occupancy Rates When Detection Probabilities Are Less Than One." *Ecology* 83, no. 8 (2002): 2248–55. https://doi.org/10.1890/0012-9658(2002)083[2248:ESORWD]2.0.CO;2.
+
+Separating a site being unoccupied from a site being occupied but undetected, with detection modelled as a function of survey effort. The excavation record has exactly this structure and is almost never treated this way.
+
 Diggle, Peter J., Raquel Menezes, and Ting-li Su. "Geostatistical Inference under Preferential Sampling." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 59, no. 2 (2010): 191–232. https://doi.org/10.1111/j.1467-9876.2009.00701.x.
 
 Estimating a spatial field using a joint model for the sampling process, taking into account that the sample locations were chosen by what was expected to be found there.
