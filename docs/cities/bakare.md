@@ -21,7 +21,8 @@ a 500-stadia leg.
 So Bakarē is the best-constrained of the Malabar ports and the worst-evidenced.
 None of Purakkad, Kallada or Thevalakara has been excavated. Purakkad and
 Thevalakara have no entries at all in the Indian Archaeology series, and Kallada
-has one, recording a neolithic axe. The most reliable measurement in the document
+has two, a neolithic axe from the river basin and a temple inscription, neither
+of them an excavation. The most reliable measurement in the document
 points at a stretch of coast no archaeologist has tested.
 
 One tension worth keeping. Ptolemy lists Bacare and the mouth of the Baris as

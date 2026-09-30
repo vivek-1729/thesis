@@ -210,8 +210,8 @@ somebody had already connected to a Periplus port, and a site can be excavated
 without anyone making that connection. So the whole state sections were lifted
 instead.
 
-**7,053 numbered entries** from 78 volumes covering 59 distinct years, 1953–54 to
-2013–14, each with year, state, chapter, title, district, body and a period
+**7,053 numbered entries** from the 50 volumes that parsed cleanly, running from
+1957–58 to 2013–14 with eight years missing from the sequence, each with year, state, chapter, title, district, body and a period
 classification derived from its own text. `data/processed/iar_entries.csv`, built
 by `src/extract_iar_entries.py`.
 
@@ -297,7 +297,7 @@ between states, where the same method applies throughout.)*
 
 **Thirteen of the twenty-two disputed candidates have never been excavated.**
 Niranam, Neendakara, Purakkad, Pirakkad and Thevalakara have **zero appearances**
-across 59 years. Kallada has one, for a neolithic axe.
+across the 50 volumes. Kallada has two, a neolithic axe from the river basin and a temple inscription, neither an excavation.
 
 | Disputed port | Candidates | Excavated | Material in the corpus |
 |---|---|---|---|
@@ -744,7 +744,16 @@ He gives no reference.
    early search over that derived text falsely showed every Kerala candidate
    absent from 59 years of reporting. Artefact, discarded. The PDFs carry a clean
    English text layer and were re-extracted from directly.
-8. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
+8. **Chapter and title assignment is unreliable in some IAR volumes, and one
+   candidate notice was nearly lost to it.** The 2006-07 entry reporting "the
+   first time a neolithic axe has been discovered from the higher reaches of the
+   Kallada river basin" carries the title "MUGHAL INSCRIPTION, KANNAUJ" in our
+   extraction, so a search on titles misses it. Chapter labels are also wrong in
+   places: a neolithic site in Bangalore is filed under epigraphy, and an
+   exploration in Mahbubnagar under archaeological chemistry. Any count that
+   rests on the chapter field, including the 75 Kerala fieldwork entries in §3.2,
+   should be treated as approximate until the chapter boundaries are re-derived.
+9. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
    PRADESH" carries three internal spaces, so the boundary regex missed it and
    Madhya Pradesh districts were absorbed into the Kerala block; six of eight
    apparent Kerala Early Historic entries were from Sagar, Vidisha, Chhatarpur,
@@ -753,7 +762,7 @@ He gives no reference.
    Pattanam. And the first entry of every block was dropped because the pattern
    required whitespace after the separator, which silently removed the Cranganore
    excavation.
-9. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
+10. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
    182,000 works, mostly organised crime; "Quseir al-Qadim" 1.5 million. Raw hit
    counts are useless as an attention metric.
 

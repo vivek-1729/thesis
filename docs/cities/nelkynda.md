@@ -31,7 +31,7 @@ Two cautions. Ptolemy places Melcynda at 120°20' in his region Aii, south of th
 Baris mouth rather than upstream of it, which does not match the Periplus's
 upriver port. And Dayalan lists Nakkada, Nirkunnam, Kannetri, Markari and
 Varakkai, none of which we have located. Niranam and Neendakara have zero entries
-in fifty-nine years of Indian Archaeology, and no candidate has been excavated.
+in the fifty volumes of Indian Archaeology we were able to parse, and no candidate has been excavated.
 
 ## Contents
 
