@@ -34,3 +34,6 @@ A review putting the competing approaches to sea-level reconstruction into one h
 **7.** Upton, Maeve, Andrew Parnell, Andrew Kemp, Gerard McCarthy, and Niamh Cahill. "A Noisy-Input Generalized Additive Model for Relative Sea-Level Change along the Atlantic Coast of North America." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 74, no. 1 (2024): 34–82. https://doi.org/10.1093/jrsssc/qlae044.
 
 Separating a sea-level signal into regional, local and common parts when the inputs are themselves uncertain.
+**8.** Ashe, Erica L., Nicole S. Khan, Lauren T. Toth, Andrea Dutton, and Robert E. Kopp. "A Statistical Framework for Integrating Nonparametric Proxy Distributions into Geological Reconstructions of Relative Sea Level." *Advances in Statistical Climatology, Meteorology and Oceanography* 8, no. 1 (2022): 1–29. https://doi.org/10.5194/ascmo-8-1-2022.
+
+Combining proxies whose uncertainties are differently shaped, without first forcing them into a common form.
