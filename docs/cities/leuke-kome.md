@@ -29,7 +29,35 @@ Hormos, but measures from Abu Sha'ar, which is no longer accepted as Myos
 Hormos. Recomputed from Quseir al-Qadim, Aynuna at 236 km and al-Wajh at 222 km
 both fall inside the window he derives.
 
-**Khuraybah, and what is actually there.** Casson's note (p.163) is the fullest
+**Aynuna and Khuraybah are not rival candidates. They are parts of one site
+complex.** The names are used loosely and sometimes interchangeably in the
+literature, which makes the evidence harder to follow than it needs to be. At
+least four distinct places sit within about five kilometres of each other along
+Wadi Aynuna:
+
+- **Khuraybah**, "the little ruin", the modern fishing village on Aynuna Bay.
+  This is the shore, and Casson puts the ancient harbour here.
+- **Lower Aynuna**, the site the Polish-Saudi mission excavated between 2014 and
+  2018. Gawlikowski places it on the western bank of the wadi about 3 km from
+  the harbour, and suggests the ancient shoreline ran closer, which "may explain
+  the lack of port facilities visible in the fishing port of Khurayba."
+- **A small fortified town on the cliff** above the wadi breach, which
+  Gawlikowski records in 2022 as still awaiting exploration.
+- **Aynuna**, the modern township further inland.
+
+So the question is not whether Leuke Kome is Aynuna or Khuraybah. If it is here
+at all, it is the complex, with the anchorage at the shore and the settlement
+and storehouses up the wadi. Two practical consequences. Our coordinate, at
+28.10 N 35.21 E, points at the inland end, roughly 5 km from the water, and any
+distance we compute from it is measured from the wrong point by that much. And
+the excavated evidence and the harbour evidence come from different parts of the
+complex, so "excavated" and "where the ships lay" are not the same statement.
+
+Note also a name collision to avoid: Fiema discusses a different al-Khurayba
+entirely, the Dedanite and Lihyanite settlement at the al-Ula oasis, far inland
+and unrelated.
+
+**What is actually at Khuraybah.** Casson's note (p.163) is the fullest
 statement: the port "would have been not at 'Aynunah itself, which is a short
 distance inland, but at the modern village of Khuraybah on the water. Between
 the two sites archaeologists have identified signs of extensive occupation that
@@ -98,6 +126,27 @@ too late. That negative is a surface negative and weaker than it sounds.
 **The geometry is weak regardless.** Leuke Kome hangs off a single leg from a
 single securely located port, with no port beyond it to close the chain, so the
 positional estimate will stay wide however good the material is.
+
+**What is left to do here.**
+
+1. Split the coordinate. Khuraybah on the shore and Lower Aynuna up the wadi
+   should be separate rows, because the sailing distance is measured to one and
+   the excavated evidence comes from the other.
+2. Obtain Ingraham and others, Atlal 5 (1981), 76-78. It is the source for both
+   the Khuraybah occupation and the al-Wajh negative, and we are citing both at
+   second hand through Casson.
+3. Add the candidates we do not carry: El Haura, which Schoff says was the
+   majority view in his day, Yanbu, and Qarna, which Gatier and Salles raise
+   alongside al-Wajh.
+4. Read the Aynuna pottery. The 450-page excavation report has been mined for
+   its coins and not for its ceramics, which is the assemblage that would let
+   Leuke Kome enter the compositional analysis.
+5. Establish whether the al-Wajh case rests on anything beyond the three
+   arguments Nappo answers. Gatier and Salles, Cuvigny and Hill are cited by him
+   and none is held locally.
+6. The fortified town above the wadi is unexcavated. If the decision layer is
+   asked where to dig for Leuke Kome, that is the obvious answer, and it can be
+   stated before the model runs.
 
 ## Contents
 

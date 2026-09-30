@@ -102,12 +102,20 @@ def leuke_kome():
     PETRA = (35.4444, 30.3285)
     bbox = (32.4, 39.6, 23.4, 31.1)
     fig, ax = frame(bbox, 10.2,
-                    "Strabo places Leukē Kōmē on a caravan route to Petra")
-    for tgt, lbl, st, km_lbl in [
-            (KHURAYBAH, "Khuraybah", FOUND, 247),
-            (xy("al_wajh"), "Al-Wajh", TESTED, 463),
-            (xy("al_qusayr_arabia"), "Al-Qusayr", NONE, 503),
-            (EL_HAURA, "El Haura", NONE, 602)]:
+                    "The sea distance does not separate the candidates; the road to Petra does")
+    MH = xy("myos_hormos")
+    for tgt, lbl, st, km_lbl, sea in [
+            (KHURAYBAH, "Khuraybah", FOUND, 247, 235),
+            (xy("al_wajh"), "Al-Wajh", TESTED, 463, 222),
+            (xy("al_qusayr_arabia"), "Al-Qusayr", NONE, 503, 238),
+            (EL_HAURA, "El Haura", NONE, 602, 320)]:
+        # the sailing leg, which barely varies
+        ax.plot([MH[0], tgt[0]], [MH[1], tgt[1]], color=ARC, lw=1.2,
+                ls=(0, (3, 3)), zorder=4, alpha=0.75)
+        sx, sy = MH[0] + (tgt[0] - MH[0]) * 0.40, MH[1] + (tgt[1] - MH[1]) * 0.40
+        ax.text(sx, sy - 0.10, f"{sea}", fontsize=9, color=ARC, ha="center",
+                va="top", fontweight="bold",
+                path_effects=[pe.withStroke(linewidth=3, foreground="white")])
         col = FOUND if km_lbl < 300 else MUTED
         ax.plot([PETRA[0], tgt[0]], [PETRA[1], tgt[1]], color=col, lw=1.9,
                 zorder=5, alpha=0.9, solid_capstyle="round")
@@ -145,6 +153,10 @@ def leuke_kome():
                     mew=1.4, label="Surveyed, nothing of Periplus date"),
          plt.Line2D([], [], marker="o", ls="none", ms=9, mfc=NONE, mec="white",
                     mew=1.4, label="Never investigated"),
+         plt.Line2D([], [], color=MUTED, lw=1.9,
+                    label="Overland to Petra (km)"),
+         plt.Line2D([], [], color=ARC, lw=1.2, ls=(0, (3, 3)),
+                    label="By sea from Myos Hormos (km)"),
          plt.Line2D([], [], marker="s", ls="none", ms=8, mfc=OTHER, mec="white",
                     mew=1.3, label="Proposed starting point for the voyage")]
     lg = ax.legend(handles=h, loc="upper left", frameon=True, fontsize=9.3,
