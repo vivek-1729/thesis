@@ -300,3 +300,86 @@ def rhapta():
 
 if __name__ == "__main__":
     leuke_kome(); barbarikon(); tyndis(); nelkynda_bakare(); rhapta()
+
+
+# ----------------------------------------------------- Nelkynda, two constraints
+def nelkynda_constraints():
+    """The Periplus gives Nelkynda two positions, and they are independent.
+
+    It lies about 500 stadia from Muziris by river and sea, and it sits on a
+    river about 120 stadia from the sea. The two bands do intersect, in the
+    southern Vembanad between roughly 9.24 and 9.68 degrees north. No proposed
+    candidate falls inside it: every one of the seven is closer to the sea than
+    120 stadia allows. The straight-line band from Muziris is an upper bound,
+    since a sailed distance is never shorter than a straight line.
+    """
+    import numpy as np
+    bbox = (75.95, 77.05, 8.55, 10.45)
+    fig, ax = frame(bbox, 8.6,
+                    "Both positions point to a stretch where nothing has been proposed",
+                    min_flow=26)
+    px, py = xy("pattanam")
+
+    # --- constraint 1: 500 stadia from Muziris
+    band(ax, py, px, 500 * LO, 500 * HI, color=ARC, alpha=0.10)
+
+    # --- constraint 2: 120 stadia from the sea, as a coastal strip
+    pts = []
+    for shp, parts, _ in bm._read("ne_10m_coastline.shp"):
+        for seg in bm._clip(shp, parts, bbox, pad=1.2):
+            pts.extend(seg)
+    P = np.array(pts)
+    gx = np.linspace(bbox[0], bbox[1], 260)
+    gy = np.linspace(bbox[2], bbox[3], 260)
+    GX, GY = np.meshgrid(gx, gy)
+    kx = 111.32 * math.cos(math.radians((bbox[2] + bbox[3]) / 2))
+    dist = np.full(GX.shape, 1e9)
+    for i in range(0, len(P), 2):
+        np.minimum(dist, np.hypot((GX - P[i, 0]) * kx, (GY - P[i, 1]) * 110.57),
+                   out=dist)
+    ax.contourf(GX, GY, dist, levels=[120 * LO, 120 * HI],
+                colors=["#1baf7a"], alpha=0.16, zorder=2)
+    # where the two constraints are both satisfied
+    MUZ = np.hypot((GX - px) * kx, (GY - py) * 110.57)
+    both = ((dist >= 120 * LO) & (dist <= 120 * HI) &
+            (MUZ >= 500 * LO) & (MUZ <= 500 * HI)).astype(float)
+    ax.contourf(GX, GY, both, levels=[0.5, 1.5], colors=["#b4459b"], alpha=0.42,
+                zorder=3.2)   # under the ocean mask, so the offshore lobe is hidden
+    ax.contour(GX, GY, dist, levels=[120 * LO, 120 * HI], colors="#1baf7a",
+               linewidths=1.1, linestyles=[(0, (5, 3))], zorder=3)
+    ocean = [sg for shp, parts, _ in bm._read("ne_10m_ocean.shp")
+             for sg in bm._clip(shp, parts, bbox)]
+    from matplotlib.collections import PolyCollection
+    ax.add_collection(PolyCollection(ocean, facecolors=bm.OCEAN, edgecolors="none",
+                                     zorder=3.5))
+
+    mark(ax, px, py, "Muziris (Pattanam)", FOUND, 0.04, 0.0, "left", size=10)
+    for k, lbl, dx, dy, ha in [("niranam", "Niranam", 0.04, 0.0, "left"),
+                               ("kottayam_kerala", "Kottayam", 0.04, 0.0, "left"),
+                               ("kollam", "Kollam", 0.04, -0.03, "left"),
+                               ("neendakara", "Neendakara", -0.04, 0.02, "right")]:
+        lo, la = xy(k)
+        mark(ax, lo, la, lbl, NONE, dx, dy, ha, weight="bold")
+    ax.text(76.72, 9.98, "500 stadia from Muziris,\nstraight line", fontsize=9.4,
+            color=ARC, ha="center", fontweight="bold", linespacing=1.35,
+            path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
+    ax.text(76.86, 9.42, "both constraints\nsatisfied here", fontsize=9.6,
+            color="#b4459b", ha="center", fontweight="bold", linespacing=1.35,
+            path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
+    ax.text(76.30, 8.76, "120 stadia\nfrom the sea", fontsize=9.4, color="#1baf7a",
+            ha="center", fontweight="bold", linespacing=1.35,
+            path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
+    h = [plt.Line2D([], [], color=ARC, lw=1.4, ls=(0, (5, 3)),
+                    label="500 stadia from Muziris (upper bound)"),
+         plt.Line2D([], [], color="#1baf7a", lw=1.4, ls=(0, (5, 3)),
+                    label="120 stadia from the sea"),
+         plt.Line2D([], [], marker="s", ls="none", ms=9, mfc="#b4459b", mec="none",
+                    alpha=0.6, label="Both constraints satisfied"),
+         plt.Line2D([], [], marker="o", ls="none", ms=9, mfc=NONE, mec="white",
+                    mew=1.4, label="Proposed for Nelkynda, none of them in it")]
+    lg = ax.legend(handles=h, loc="upper left", frameon=True, fontsize=9.3,
+                   labelcolor=INK2, borderpad=0.7)
+    lg.get_frame().set_edgecolor("#dfe5e9"); lg.get_frame().set_facecolor("white")
+    bm.scalebar(ax, bbox)
+    fig.savefig(OUT / "16_nelkynda_constraints.png", dpi=220, facecolor="white")
+    print("wrote 16_nelkynda_constraints.png")

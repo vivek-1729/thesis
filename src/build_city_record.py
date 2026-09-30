@@ -50,30 +50,69 @@ TITLES = {}   # filled from the filename, tidied
 
 ASSESS = {
 "leuke-kome": """
-**Most likely: Aynuna.** My confidence is moderate to high, and the field's is
-high but resting on the wrong argument.
+**Most likely: Aynuna, or rather Khuraybah on the shore below it.** My confidence
+is moderate to high. The field's is high, but resting on an argument that does
+not work.
 
-The distance evidence does not discriminate. Nappo's 2010 case for Aynuna is the
-standard treatment, but he measured from Abu Sha'ar, and recomputed from Quseir
-al-Qadim both Aynuna at 236 km and al-Wajh at 222 km fall inside his own
-185 to 278 km window. Anyone citing the distance for Aynuna is citing something
-that does not separate the two.
+**The text gives days, not stadia, and the origin is disputed.** The Periplus
+(19) reads, in Casson, "To the left of Berenice, after a voyage of two or three
+runs eastward from Myos Hormos past the gulf lying alongside, there is another
+harbor with a fort called Leuke Kome." So the figure is two or three days' sail,
+the only distance the text supplies, and under the ancient rule of thumb that is
+1,000 to 1,500 stadia. Schoff held that "the words 'from Mussel Harbor' in the
+text are probably there only through an error in copying," and that the distance
+and direction suit Berenike, the port named at the start of the same sentence.
+Casson defends the manuscript, arguing that the author backtracks to Myos Hormos
+deliberately in order to cover the stretch of Red Sea north of Berenike. The one
+distance we have therefore depends on which of two starting points is correct,
+and they are about 350 km apart.
 
-What does separate them is material. Aynuna produced harbour installations, a
-large storehouse, two cemeteries and 25 coins, 24 of them bronze, running from
-Obodas III and Aretas IV to Tiberius. Bronze lost in occupation layers is small
-change in daily use, and the date range ends at about AD 40, which is the
-Periplus horizon. The storehouse also suits a port with a customs post and a
-garrison, which is what the text describes.
+**The distance argument in the modern literature does not discriminate.** Nappo
+2010, the standard treatment, argues for Aynuna from the distance to Myos
+Hormos, but measures from Abu Sha'ar, which is no longer accepted as Myos
+Hormos. Recomputed from Quseir al-Qadim, Aynuna at 236 km and al-Wajh at 222 km
+both fall inside the window he derives.
 
-The case has one real weakness. Al-Wajh has been surveyed, not excavated, so its
-negative is a surface negative and weaker than it sounds. The whole
-identification therefore rests on a single excavated assemblage, and a first
-season at al-Wajh could unsettle it.
+**The stronger textual argument is Strabo's, and it is about roads rather than
+sailing.** Strabo 16.781 has Leuke Kome on a well-travelled caravan route to
+Petra, and at 16.4.24 he describes merchandise carried "from Leuce Come to
+Petra, thence to Rhinocolura in Phoenicia near Egypt, and thence to other
+nations." Casson notes, following Beeston and Kirwan, that this can hardly be
+said of candidates as far south as Haura or Yanbu. A port that is a road-head
+for Petra has to be in the north.
 
-The textual constraint is separately weak. Leukē Kōmē hangs off one three-day leg
-from one securely located port, so the positional estimate will stay wide however
-good the material is.
+**Strabo also brackets it with a second port.** His account of Aelius Gallus's
+expedition of 25 or 24 BC has the force landing at Leuke Kome and departing from
+a port lower down the coast, Egra. Casson, following Bowersock, identifies Egra
+with al-Wajh at 26 degrees 13 minutes north. **That matters for our candidate
+list: on Casson's reading al-Wajh is Egra, a different port, so proposing it as
+Leuke Kome contradicts the identification of the place it is usually contrasted
+with.**
+
+**Candidates we do not carry.** Schoff records that Leuke Kome "is placed by most
+commentators at El Haura, 25 degrees 7 minutes north, 37 degrees 13 minutes
+east," noting that the Arabic name Haura also means white and appears as Juara
+in Ptolemy. Yanbu is mentioned as another southern proposal. Neither is in our
+table, and El Haura was the majority view when Schoff wrote.
+
+**The material is what actually separates them.** Aynuna produced harbour
+installations, a large storehouse, two cemeteries and 25 coins, 24 of them
+bronze, from Obodas III and Aretas IV to Tiberius, dated between the second
+century BC and about AD 40. Bronze lost in occupation layers is small change in
+daily use, at exactly the Periplus horizon. Al-Wajh has been surveyed rather than
+excavated, and the only Roman coins there are three nummi of Maximianus from
+AD 295 or 296 and three of Constantine I from the 320s, two and a half centuries
+too late. That negative is a surface negative and weaker than it sounds.
+
+**A refinement on the site itself.** Casson observes that the port "would have
+been not at 'Aynunah itself, which is a short distance inland, but at the modern
+village of Khuraybah on the water," with signs of extensive occupation of the
+early centuries AD between the two. Our coordinates point at Aynuna, and the
+harbour proper is Khuraybah.
+
+**The geometry is weak regardless.** Leuke Kome hangs off a single leg from a
+single securely located port, with no port beyond it to close the chain, so the
+positional estimate will stay wide however good the material is.
 """,
 
 "barbarikon": """
