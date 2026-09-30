@@ -1,12 +1,8 @@
 # Statistical methods, with precedents in reconstructing the past
 
-These papers are all about building the prior: reconstructing the physical
-setting the ports sat in, before any of them can be located. That means modelling
-sea level change through time, recovering the water surface and the river
-channels that fed it, and putting a coastline in a particular place at a
-particular date, each with its uncertainty carried through rather than asserted
-away. The evidence is scattered, dated points with error bars, and the object
-wanted is a continuous surface.
+These papers are about building the prior: modelling sea level change, the water
+surface and the river channels, to put a coastline somewhere at a given date.
+The evidence is scattered dated points; the object wanted is a surface.
 
 Eight papers, ordered by how much work each does for the thesis. One plain
 sentence each. Citations are Chicago, checked against Crossref. The geographic
