@@ -88,7 +88,7 @@ in the fifty volumes of Indian Archaeology we were able to parse, and no candida
 | Kollam (Quilon) | 8.8900, 76.5900 | 1969–2015, 3 seasons | no |
 | Kottayam | 9.5920, 76.5220 | never excavated | unknown |
 | Neendakara | 8.9400, 76.5400 | never excavated | unknown |
-| Niranam | 9.2700, 76.5600 | never excavated | unknown |
+| Niranam | 9.3437, 76.5231 | never excavated | unknown |
 
 ## Ptolemy's coordinates
 

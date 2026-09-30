@@ -87,30 +87,69 @@ def legend(ax, items, loc="lower left"):
 
 # ---------------------------------------------------------------- Leuke Kome
 def leuke_kome():
-    """Nappo's own window, measured from the accepted site of Myos Hormos,
-    contains both candidates. The material does the separating, not the text."""
-    bbox = (33.3, 37.9, 24.9, 29.2)
-    fig, ax = frame(bbox, 10.0,
-                    "The distance from Myos Hormos does not separate the candidates")
-    mx, my = xy("myos_hormos")
-    band(ax, my, mx, 185, 278)
-    for k, lbl, st, dx, dy, ha in [
-            ("aynuna", "Aynuna", FOUND, 0.14, 0.0, "left"),
-            ("al_wajh", "Al-Wajh", TESTED, 0.14, 0.0, "left"),
-            ("al_qusayr_arabia", "Al-Qusayr", NONE, 0.14, -0.02, "left")]:
+    """Strabo's argument, which is about roads rather than sailing.
+
+    He puts Leuke Kome on a well-travelled caravan route to Petra, and has
+    goods carried from it to Petra and on to Rhinocolura. Casson, following
+    Beeston and Kirwan, notes this cannot be said of candidates as far south as
+    Haura or Yanbu. The overland distances make the point quantitative.
+
+    Khuraybah is the fishing village on Aynuna Bay; the excavated site sits
+    about 5 km inland up the wadi. Casson places the port at the former.
+    """
+    KHURAYBAH = (35.2103, 28.0566)
+    EL_HAURA = (37 + 13 / 60, 25 + 7 / 60)
+    PETRA = (35.4444, 30.3285)
+    bbox = (32.4, 39.6, 23.4, 31.1)
+    fig, ax = frame(bbox, 10.2,
+                    "Strabo places Leukē Kōmē on a caravan route to Petra")
+    for tgt, lbl, st, km_lbl in [
+            (KHURAYBAH, "Khuraybah", FOUND, 247),
+            (xy("al_wajh"), "Al-Wajh", TESTED, 463),
+            (xy("al_qusayr_arabia"), "Al-Qusayr", NONE, 503),
+            (EL_HAURA, "El Haura", NONE, 602)]:
+        col = FOUND if km_lbl < 300 else MUTED
+        ax.plot([PETRA[0], tgt[0]], [PETRA[1], tgt[1]], color=col, lw=1.9,
+                zorder=5, alpha=0.9, solid_capstyle="round")
+        mx, my = (PETRA[0] + tgt[0]) / 2, (PETRA[1] + tgt[1]) / 2
+        ax.text(mx + 0.22, my, f"{km_lbl} km", fontsize=9.6, color=col,
+                fontweight="bold", va="center", ha="left",
+                path_effects=[pe.withStroke(linewidth=3.2, foreground="white")])
+    mark(ax, PETRA[0], PETRA[1], "Petra", "#b4459b", 0.14, 0.06, "left",
+         size=12, ms=11, weight="bold")
+    mark(ax, KHURAYBAH[0], KHURAYBAH[1], "Khuraybah", FOUND, -0.18, 0.10, "right",
+         weight="bold")
+    ax.plot([xy("aynuna")[0]], [xy("aynuna")[1]], marker="^", ms=8, mfc=FOUND,
+            mec="white", mew=1.3, zorder=8, ls="none")
+    ax.text(xy("aynuna")[0] - 0.20, xy("aynuna")[1] + 0.30,
+            "Aynuna, excavated\n5 km up the wadi", fontsize=9, color=INK2, ha="right",
+            linespacing=1.35,
+            path_effects=[pe.withStroke(linewidth=3, foreground="white")])
+    for c, lbl, st in [(xy("al_wajh"), "Al-Wajh", TESTED),
+                       (xy("al_qusayr_arabia"), "Al-Qusayr", NONE),
+                       (EL_HAURA, "El Haura", NONE)]:
+        mark(ax, c[0], c[1], lbl, st, 0.15, 0.0, "left", weight="bold")
+    for k, lbl in [("myos_hormos", "Myos Hormos\n(Quseir al-Qadim)"),
+                   ("berenike", "Berenīkē")]:
         x, y = xy(k)
-        ax.plot([mx, x], [my, y], color=MUTED, lw=0.8, ls=(0, (2, 3)), zorder=4)
-        mark(ax, x, y, lbl, st, dx, dy, ha, weight="bold")
-    mark(ax, mx, my, "Myos Hormos", OTHER, -0.16, 0.0, "right", size=10, ms=8)
-    ax.text(35.55, 28.28, "236 km", fontsize=9, color=INK2, ha="center",
-            path_effects=[pe.withStroke(linewidth=3, foreground="white")])
-    ax.text(35.60, 25.95, "222 km", fontsize=9, color=INK2, ha="center",
-            path_effects=[pe.withStroke(linewidth=3, foreground="white")])
-    ax.text(34.62, 27.05, "185–278 km", fontsize=9.5, color=ARC, ha="center",
-            rotation=-62, path_effects=[pe.withStroke(linewidth=3, foreground="white")])
-    legend(ax, [("Periplus-period material recovered", FOUND),
-                ("Surveyed, nothing of Periplus date", TESTED),
-                ("Never investigated", NONE)], loc="upper right")
+        ax.plot([x], [y], marker="s", ms=7.5, mfc=OTHER, mec="white", mew=1.3,
+                zorder=8, ls="none")
+        ax.text(x - 0.16, y, lbl, ha="right", va="center", fontsize=9.4,
+                color=INK2, linespacing=1.35,
+                path_effects=[pe.withStroke(linewidth=3, foreground="white")])
+    h = [plt.Line2D([], [], marker="o", ls="none", ms=9, mfc="#b4459b",
+                    mec="white", mew=1.4, label="Petra, the inland destination"),
+         plt.Line2D([], [], marker="o", ls="none", ms=9, mfc=FOUND, mec="white",
+                    mew=1.4, label="Periplus-period material recovered"),
+         plt.Line2D([], [], marker="o", ls="none", ms=9, mfc=TESTED, mec="white",
+                    mew=1.4, label="Surveyed, nothing of Periplus date"),
+         plt.Line2D([], [], marker="o", ls="none", ms=9, mfc=NONE, mec="white",
+                    mew=1.4, label="Never investigated"),
+         plt.Line2D([], [], marker="s", ls="none", ms=8, mfc=OTHER, mec="white",
+                    mew=1.3, label="Proposed starting point for the voyage")]
+    lg = ax.legend(handles=h, loc="upper left", frameon=True, fontsize=9.3,
+                   labelcolor=INK2, borderpad=0.7)
+    lg.get_frame().set_edgecolor("#dfe5e9"); lg.get_frame().set_facecolor("white")
     bm.scalebar(ax, bbox)
     fig.savefig(OUT / "10_leuke_kome.png", dpi=220, facecolor="white")
     print("wrote 10_leuke_kome.png")

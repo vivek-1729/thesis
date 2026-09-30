@@ -73,13 +73,48 @@ Hormos, but measures from Abu Sha'ar, which is no longer accepted as Myos
 Hormos. Recomputed from Quseir al-Qadim, Aynuna at 236 km and al-Wajh at 222 km
 both fall inside the window he derives.
 
+**Khuraybah, and what is actually there.** Casson's note (p.163) is the fullest
+statement: the port "would have been not at 'Aynunah itself, which is a short
+distance inland, but at the modern village of Khuraybah on the water. Between
+the two sites archaeologists have identified signs of extensive occupation that
+date to the early centuries A.D. or even before: remains of impressive building
+complexes, a necropolis with over one hundred tombs, an abundance of
+Nabataean-Roman pottery," citing Ingraham and others in Atlal 5 (1981), 76-78.
+That is the same survey that produced the al-Wajh negative, so both halves of
+the comparison come from one field season.
+
+Burton saw it in 1878 and described "the remains called El-Khuraybah, the little
+ruin. The tenements, large and well-built, still show their bases; and on the
+ground are scattered fragments of sea-coloured glass varying in tint, like the
+Roman." Gawlikowski's excavation report locates the dug site, Lower Aynuna, on
+the western bank of Wadi Aynuna about 3 km from the harbour, notes that the
+ancient shoreline may have run closer, and observes that this "may explain the
+lack of port facilities visible in the fishing port of Khurayba." His 2022 paper
+also records a small fortified town on the cliff above the wadi breach that
+remains unexplored.
+
+**Nappo does not mention Khuraybah at all**, and he calls the Aynuna evidence
+"meager." He places the port "in the area of modern Aynuna, c.5 km from the
+coast," citing surveys that revealed "extensive architecture, including a tower
+and a necropolis." So the strongest material argument for Aynuna is made in the
+excavation report and in Casson's footnote rather than in the article the field
+cites for the identification.
+
+**Al-Wajh has more modern support than a single proposal.** Nappo's article is
+written to rebut Gatier and Salles, who suggested al-Wajh or possibly Qarna;
+Cuvigny, who argued from the Periplus description and the site's setting; and
+Hill, who argued from Chinese texts. Three independent modern advocates, and
+Qarna is a further candidate we do not carry.
+
 **The stronger textual argument is Strabo's, and it is about roads rather than
 sailing.** Strabo 16.781 has Leuke Kome on a well-travelled caravan route to
 Petra, and at 16.4.24 he describes merchandise carried "from Leuce Come to
 Petra, thence to Rhinocolura in Phoenicia near Egypt, and thence to other
 nations." Casson notes, following Beeston and Kirwan, that this can hardly be
 said of candidates as far south as Haura or Yanbu. A port that is a road-head
-for Petra has to be in the north.
+for Petra has to be in the north, and the overland distances make the point
+quantitative: Petra lies 247 km from Khuraybah, 463 km from al-Wajh, 503 km
+from al-Qusayr and 602 km from El Haura.
 
 **Strabo also brackets it with a second port.** His account of Aelius Gallus's
 expedition of 25 or 24 BC has the force landing at Leuke Kome and departing from
@@ -103,12 +138,6 @@ daily use, at exactly the Periplus horizon. Al-Wajh has been surveyed rather tha
 excavated, and the only Roman coins there are three nummi of Maximianus from
 AD 295 or 296 and three of Constantine I from the 320s, two and a half centuries
 too late. That negative is a surface negative and weaker than it sounds.
-
-**A refinement on the site itself.** Casson observes that the port "would have
-been not at 'Aynunah itself, which is a short distance inland, but at the modern
-village of Khuraybah on the water," with signs of extensive occupation of the
-early centuries AD between the two. Our coordinates point at Aynuna, and the
-harbour proper is Khuraybah.
 
 **The geometry is weak regardless.** Leuke Kome hangs off a single leg from a
 single securely located port, with no port beyond it to close the chain, so the
