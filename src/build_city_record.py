@@ -292,6 +292,25 @@ Markari or Varakkai, or a point between Kanetti and Kollam. That the Purakkad
 identification survived the collapse of the argument that produced it is a
 warning rather than a corroboration.
 
+**The consensus on Purakkad is older than it looks.** Searching the corpus for
+every spelling of the name, Purakkad, Porakad, Pirakkad and Porakkad, it appears
+in exactly two works: Schoff 1912 and Casson 1989. It appears **zero times** in
+Dayalan 2018, Dayalan 2019, De Romanis 2015, Tomber 2008 or Cobb 2018. No modern
+treatment in the library asserts it.
+
+What the recent literature does instead is decline to name a village. De Romanis
+places "Becare-Nelkynda, located on a river that flowed less than 500 stadioi
+south of Muziris, pointing to a place in the southern part of Vembanad Lake,"
+and then names four candidate rivers rather than one: the Meenachil, Manimala,
+Pampa and Achankovil. Note also his reading of "less than 500 stadioi" where the
+text says about 500, which pulls the site north of where Schoff and Casson put
+it. Dayalan lists Markari, Varakkai, or a point between Kanetti and Kollam, and
+does not mention Purakkad at all.
+
+So the apparent settlement is an artefact of which books one reads. The
+identification is 1912 and 1989 vintage, and nobody writing in the last three
+decades in this corpus has reasserted it.
+
 **Casson grades Bakare among the five names identifiable "with more confidence
 than the others."** Given that no candidate has been excavated, that the pairing
 distance is inferred, and that the proposal outlived its own justification, I do
