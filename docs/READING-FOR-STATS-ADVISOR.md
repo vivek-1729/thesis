@@ -1,138 +1,27 @@
 # Statistical methods, with published precedents in reconstructing the past
 
-Organised by method. For each, one or two papers where that method has been
-applied to a question about the ancient world, so the reference shows both the
-technique and that it transfers. Statistics journals where they exist, and
-quantitative archaeology journals otherwise.
+One line per paper. Each is a method the thesis needs, shown in a place where it
+has already been applied to a question about the ancient world, so the reference
+carries both the technique and the evidence that it transfers.
 
----
+## Send these five
 
-## 1. Errors-in-variables with Gaussian processes, for sea level and coastline
+1. Modeling sea-level change using errors-in-variables integrated Gaussian processes; Cahill, Kemp, Horton and Parnell (2015). *Annals of Applied Statistics* 9, 547-571. doi:10.1214/15-AOAS824. A GP prior on the rate of change, integrated and set in an errors-in-variables frame so proxy age uncertainty carries through; the structure for putting a band on the first-century coastline, and for the textual distances. Preprint: https://arxiv.org/pdf/1312.6761
+2. Geostatistical inference under preferential sampling; Diggle, Menezes and Su (2010). *JRSS Series C* 59, 191-232. doi:10.1111/j.1467-9876.2009.00701.x. Sampling locations that depend stochastically on the field being sampled, modelled jointly as a log-Gaussian Cox process; archaeologists dug where they already believed the port was, so absence of finds is not independent of the location being estimated.
+3. Approximate Bayesian Computation of radiocarbon and paleoenvironmental record shows population resilience on Rapa Nui; DiNapoli, Crema, Lipo, Rieth and Hunt (2021). *Nature Communications* 12. https://www.nature.com/articles/s41467-021-24252-z. ABC fitting a simulation of the past to archaeological and palaeoenvironmental data with model comparison; the wind and voyage model is a simulator with no tractable likelihood, so this is the inferential route.
+4. A simple monotone process with application to radiocarbon-dated depth chronologies; Haslett and Parnell (2008). *JRSS Series C* 57, 399-418. doi:10.1111/j.1467-9876.2008.00623.x. Age-depth reconstruction as inference on a partially observed monotone process built from gamma increments; the machinery for turning sediment cores into dated surfaces with honest uncertainty.
+5. A probabilistic framework for assessing spatio-temporal point patterns in the archaeological record; Crema, Bevan and Lake (2010). *Journal of Archaeological Science* 37. https://www.sciencedirect.com/science/article/abs/pii/S0305440309004622. Point pattern analysis where both the location and the date of each find carry uncertainty, which is the situation for the coin hoards.
 
-**Cahill, Kemp, Horton and Parnell, "Modeling sea-level change using
-errors-in-variables integrated Gaussian processes", *Annals of Applied
-Statistics* 9 (2015), 547-571.** doi:10.1214/15-AOAS824
+## The rest
 
-The closest single precedent for what I am doing. A Gaussian process prior on
-the rate of sea-level change, integrated and set in an errors-in-variables
-frame so that age uncertainty in the proxies is carried through rather than
-ignored. Inputs are tide gauges and sediment cores. I need the same structure
-to put an uncertainty band on the first-century coastline, and the
-errors-in-variables treatment is also what the textual distances need.
-
-Preprint: https://arxiv.org/pdf/1312.6761
-
-## 2. Stochastic process models for depth and age, for the cores
-
-**Haslett and Parnell, "A simple monotone process with application to
-radiocarbon-dated depth chronologies", *JRSS Series C* 57 (2008), 399-418.**
-doi:10.1111/j.1467-9876.2008.00623.x
-
-Age-depth reconstruction posed as inference on a partially observed monotone
-stochastic process, built from gamma increments arriving in a Poisson fashion.
-The template for turning sediment cores into dated surfaces with honest
-uncertainty, which is what the palaeo-coastline layer rests on.
-
-## 3. Simulation-based inference, for the voyage model
-
-**DiNapoli, Crema, Lipo, Rieth and Hunt, "Approximate Bayesian Computation of radiocarbon and
-paleoenvironmental record shows population resilience on Rapa Nui", *Nature
-Communications* 12 (2021).** https://www.nature.com/articles/s41467-021-24252-z
-
-ABC used to fit a simulation model of the past to archaeological and
-palaeoenvironmental data, with multi-model comparison. My wind and voyage model
-is a simulator with no tractable likelihood, so this is the inferential route,
-and this paper shows it working on archaeological data rather than in principle.
-
-**Rubio-Campillo, "Model selection in historical research using approximate
-Bayesian computation", *PLoS ONE* 11 (2016).**
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146491
-
-The same idea applied to choosing between competing historical explanations,
-which is structurally what choosing between candidate port locations is.
-
-Background, if the method needs a canonical citation: **Cranmer, Brehmer and
-Louppe, "The frontier of simulation-based inference", *PNAS* 117 (2020)**,
-doi:10.1073/pnas.1912789117.
-
-## 4. Preferential sampling, which is the core identification problem
-
-**Diggle, Menezes and Su, "Geostatistical inference under preferential
-sampling", *JRSS Series C* 59 (2010), 191-232.**
-doi:10.1111/j.1467-9876.2009.00701.x
-
-Sampling locations that depend stochastically on the quantity being sampled,
-handled by modelling the sampling process as a log-Gaussian Cox process jointly
-with the field of interest. This is exactly my problem: archaeologists
-excavated where they already believed the port was, so an absence of finds is
-not independent of the location being estimated.
-
-**Çadırcı and Shahtahmassebi, "Entropy-based methods to address sampling bias
-in archaeological predictive modeling", arXiv:2508.02272 (2025).** https://arxiv.org/pdf/2508.02272
-
-The archaeological statement of the same problem, and the current state of that
-literature.
-
-## 5. Spatial point processes for site distributions
-
-**Crema, Bevan and Lake, "A probabilistic framework for assessing
-spatio-temporal point patterns in the archaeological record", *Journal of
-Archaeological Science* 37 (2010).**
-https://www.sciencedirect.com/science/article/abs/pii/S0305440309004622
-
-Point pattern analysis where both the location and the date of each find carry
-uncertainty, which is the situation for the coin hoards.
-
-**Bilotti, Reindel, Isla and Mader, "Points, patterns, and predictions in
-archaeological settlement data", *Journal of Archaeological Science* 183 (2025).**
-https://www.sciencedirect.com/science/article/pii/S0305440325002341
-
-Inhomogeneous point process models with environmental covariates, used to
-estimate site-environment relationships. This is the structure of my geographic
-prior.
-
-**Herrera Malatesta, Ulloa Hung and Hofman, "Looking at the big picture: using
-spatial statistical analyses to study indigenous settlement patterns in the
-north-western Dominican Republic", *Journal of Computer Applications in
-Archaeology* 6 (2023), 16-28.** https://journal.caa-international.org/articles/10.5334/jcaa.83
-
-Open access, and a clean worked example of fitting point process models to
-settlement data.
-
-## 6. Spatial interaction models for trade networks
-
-**Evans and Rivers, "Was Thebes necessary? Contingency in spatial modelling",
-*Frontiers in Digital Humanities* 4:8 (2017).**
-doi:10.3389/fdigh.2017.00008 | preprint https://arxiv.org/pdf/1611.07839
-
-A re-examination of the rise of the Greek city-states using the Rihll and Wilson
-retail gravity model, asking how much of the outcome is forced by geography and
-how much is contingent. The precedent for treating the trade pattern as a
-gravity-type model, and a caution about how much weight that layer can bear.
-
-## 7. Bayesian summarisation of dated evidence
-
-**Price, Capriles, Hoggarth, Bocinsky, Ebert and Jones, "End-to-end Bayesian
-analysis for summarizing sets of radiocarbon dates", *Journal of Archaeological
-Science* 135 (2021), 105473.**
-https://www.sciencedirect.com/science/article/pii/S0305440321001436
-
-How to aggregate many individually uncertain dates without the artefacts that
-naive summation produces. Relevant to combining the excavation record, where
-each site's chronology is separately uncertain.
-
-## 8. Remote sensing as a measurement problem
-
-**Orengo and Petrie, "Large-scale, multi-temporal remote sensing of palaeo-river
-networks", *Remote Sensing* 9 (2017).** https://www.mdpi.com/2072-4292/9/7/735
-
-Recovering more than 8,000 km of relict channels in northwest India from
-seasonal vegetation dynamics and spectral decomposition. Open access, and the
-method I would use to reconstruct the Indus and Periyar channels. The output is
-a classification probability per pixel, which is how it enters the model rather
-than as an asserted map.
-
----
+6. Large-scale, multi-temporal remote sensing of palaeo-river networks; Orengo and Petrie (2017). *Remote Sensing* 9. https://www.mdpi.com/2072-4292/9/7/735. Over 8,000 km of relict channels recovered in northwest India from seasonal vegetation dynamics, output as a per-pixel classification probability rather than an asserted map; the method for the Indus and Periyar channels.
+7. Model selection in historical research using approximate Bayesian computation; Rubio-Campillo (2016). *PLoS ONE* 11. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146491. ABC used to choose between competing historical explanations, which is structurally what choosing between candidate port locations is.
+8. The frontier of simulation-based inference; Cranmer, Brehmer and Louppe (2020). *PNAS* 117. doi:10.1073/pnas.1912789117. The canonical citation if the method needs one.
+9. Points, patterns, and predictions in archaeological settlement data; Bilotti, Reindel, Isla and Mader (2025). *Journal of Archaeological Science* 183. https://www.sciencedirect.com/science/article/pii/S0305440325002341. Inhomogeneous point process models with environmental covariates estimating site-environment relationships; the structure of the geographic prior.
+10. Entropy-based methods to address sampling bias in archaeological predictive modeling; Çadırcı and Shahtahmassebi (2025). arXiv:2508.02272. https://arxiv.org/pdf/2508.02272. The archaeological statement of the preferential sampling problem and the current state of that literature.
+11. End-to-end Bayesian analysis for summarizing sets of radiocarbon dates; Price, Capriles, Hoggarth, Bocinsky, Ebert and Jones (2021). *Journal of Archaeological Science* 135, 105473. https://www.sciencedirect.com/science/article/pii/S0305440321001436. Aggregating many individually uncertain dates without the artefacts naive summation produces; relevant to combining site chronologies across the excavation record.
+12. Looking at the big picture: using spatial statistical analyses to study indigenous settlement patterns in the north-western Dominican Republic; Herrera Malatesta, Ulloa Hung and Hofman (2023). *Journal of Computer Applications in Archaeology* 6, 16-28. https://journal.caa-international.org/articles/10.5334/jcaa.83. Open access, and a clean worked example of fitting point process models to settlement data.
+13. Was Thebes necessary? Contingency in spatial modelling; Evans and Rivers (2017). *Frontiers in Digital Humanities* 4:8. doi:10.3389/fdigh.2017.00008. A re-examination of the rise of the Greek city-states with the Rihll and Wilson retail gravity model, asking how much of the outcome is forced by geography; the precedent for the trade-network layer, and a caution about how much weight it can bear.
 
 ## If only three
 
