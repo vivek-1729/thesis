@@ -40,6 +40,38 @@ Reconstructing the regional relative sea-level curve from coastal lowland cores,
 
 ## 3. Voyages and routes across this ocean
 
+Pati, Debdeep, Brian J. Reich, and David B. Dunson. "Bayesian Geostatistical Modelling with Informative Sampling Locations." *Biometrika* 98, no. 1 (2011): 35–48. https://doi.org/10.1093/biomet/asq067.
+
+Preferential sampling in a fully Bayesian frame. Duplicates Diggle et al. 2010, which is the canonical citation.
+
+Crema, Enrico R., Andrew Bevan, and Mark W. Lake. "A Probabilistic Framework for Assessing Spatio-Temporal Point Patterns in the Archaeological Record." *Journal of Archaeological Science* 37, no. 5 (2010): 1118–30. https://doi.org/10.1016/j.jas.2009.12.012.
+
+Spatio-temporal point patterns with uncertainty in both location and date. Useful if the hoard layer is revived.
+
+Nicholls, Geoff, and Martin Jones. "Radiocarbon Dating with Temporal Order Constraints." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 50, no. 4 (2001): 503–21. https://doi.org/10.1111/1467-9876.00250.
+
+Calendar dates under stratigraphic ordering. Needed only if we build a site chronology rather than consuming published ones.
+
+Buck, C. E., C. D. Litton, and A. F. M. Smith. "Calibration of Radiocarbon Results Pertaining to Related Archaeological Events." *Journal of Archaeological Science* 19, no. 5 (1992): 497–512. https://doi.org/10.1016/0305-4403(92)90025-X.
+
+The origin of Bayesian archaeological chronology, superseded for practical purposes by Heaton 2022.
+
+Price, Michael Holton, José M. Capriles, Julie A. Hoggarth, R. Kyle Bocinsky, Claire E. Ebert, and James Holland Jones. "End-to-End Bayesian Analysis for Summarizing Sets of Radiocarbon Dates." *Journal of Archaeological Science* 135 (2021): 105473. https://doi.org/10.1016/j.jas.2021.105473.
+
+Summarising sets of radiocarbon dates. Overlaps Heaton 2022.
+
+Rubio-Campillo, Xavier. "Model Selection in Historical Research Using Approximate Bayesian Computation." *PLOS ONE* 11, no. 1 (2016): e0146491. https://doi.org/10.1371/journal.pone.0146491.
+
+Comparing competing historical explanations using ABC.
+
+Cranmer, Kyle, Johann Brehmer, and Gilles Louppe. "The Frontier of Simulation-Based Inference." *Proceedings of the National Academy of Sciences* 117, no. 48 (2020): 30055–62. https://doi.org/10.1073/pnas.1912789117.
+
+Inference when a model can be simulated but its likelihood cannot be written down. Add to the advisor list if we commit to estimating the voyage simulator's parameters.
+
+Çadırcı, Mehmet Sıddık, and Golnaz Shahtahmassebi. "Entropy-Based Methods to Address Sampling Bias in Archaeological Predictive Modeling." arXiv, August 4, 2025. https://arxiv.org/abs/2508.02272.
+
+An unrefereed preprint stating the preferential sampling problem inside the archaeological literature.
+
 Copeland, Conrad. "Riding the Monsoon: Geography and Iron Age Trade in the Indian Ocean." *The Economic History Review* 79, no. 1 (2026): 312–41. https://doi.org/10.1111/ehr.70016.
 
 Modelling Indian Ocean trade routes using least-cost network analysis over monsoon wind vectors and palaeo sea-level, reporting 14-day outbound and 16-day return averages. The closest prior work to our voyage layer, and the source of the 44-port coordinate set in our gazetteer.
