@@ -78,33 +78,75 @@ good the material is.
 
 "barbarikon": """
 **Most likely: Banbhore, but the question is closer to unanswerable than to
-answered.** My confidence is low. The field's is genuinely divided, and its own
-advocates hedge.
+answered, and our candidate list is thinner than the literature.** My confidence
+is low. The field's is divided, and the scholar Casson leans on declined to
+identify the port at all.
 
-The text is unusually specific. It places Barbarikon on the middle of seven
-mouths of the Indus, says the other six are shallow, marshy and unnavigable, puts
-a small island offshore, and sets the capital Minnagara upriver. Ptolemy
-independently gives seven mouths and names them, with the fourth, Cariphi, as the
-middle one. That is four positional constraints, more than the Periplus gives any
-other port in this study.
+**The text is unusually specific and none of it can be used.** The Periplus
+places Barbarikon on the middle of seven mouths of the Indus, says the other six
+are shallow, marshy and unnavigable, puts a small island offshore, and sets the
+capital Minnagara upriver. Ptolemy independently gives seven mouths and names
+them, with the fourth, Cariphi, as the middle one. That is more positional
+information than the Periplus gives any other port in this study.
 
-None of them can be used. The delta has reorganised repeatedly, and the
-instability is attested within antiquity itself: Strabo, following a companion of
-Alexander, reports two mouths where Ptolemy reports seven. Casson quotes Smith's
-judgment that the changes "preclude the possibility of satisfactory
-identifications," and that judgment still holds.
+**The delta moved within antiquity itself, and has kept moving.** Strabo, at
+15.700 and 15.701, following Aristobulus who travelled with Alexander, reports
+two mouths where Ptolemy and the Periplus report seven. Casson observes that
+both figures can be right because the river changed course repeatedly, and cites
+Strabo 15.693 on a shift that caused the abandonment of a thousand cities. He
+also records a documented change in 1758 that moved the channel twelve to
+fifteen miles, citing Cousens, The Antiquities of Sind (Archaeological Survey of
+India 46, Calcutta 1929). A twenty-kilometre channel migration inside the modern
+era is the scale of instability any reconstruction has to work against.
 
-Banbhore is the only candidate anyone has proposed, and its evidence is thin for
-reasons that are physical rather than evidential. Khan's trenches never reached
-virgin soil because of water infiltration, and the Italian mission has not
-reported reaching it. The site was dug as Islamic Daybul, so thirty seasons of
-finding little at the Periplus horizon means much less than the season count
-implies. Mughal 2018 writes that Banbhore "could be identified" with Barbarikon;
-his editor's preface upgrades that to "establishes and identifies."
+**The scholar behind the famous quotation refused to identify it.** The "Smith"
+Casson cites is Vincent A. Smith, The Early History of India (Oxford, fourth
+edition 1924), and the remark is at his page 245: "the extensive changes which
+have occurred in the rivers of Sind during the course of eighteen centuries
+preclude the possibility of satisfactory identifications of either of these
+towns." Casson notes elsewhere that Smith "himself does not support the
+identification and indeed abstains from attempting any." This is not caution
+about a particular site. It is a considered judgment that the problem is not
+soluble on the available evidence, from a historian who knew the region.
 
-Minnagar is a second unsolved location tied to the first, with proposals
-hundreds of kilometres apart. Progress here depends on palaeochannel
-reconstruction and on reaching the water table, not on more reading.
+**Our candidate list is impoverished.** Casson writes that "a plethora of
+locations have been offered for the port, no two alike," and names Müller,
+Fabricius, Schoff, Tomaschek in Pauly-Wissowa (1896), Warmington, and
+Cunningham's Ancient Geography of India (1871). We carry only Banbhore. Before
+any model is fitted, those proposals need to be recovered and located, because
+a candidate set of one guarantees the answer.
+
+**Ptolemy does not corroborate a coastal Barbarikon.** He lists a Barbara at
+7.1.59 but places it far inland, so the one external check that works for Bakare
+fails here.
+
+**And Banbhore's own evidence is thin for physical reasons.** Khan's trenches of
+1958 to 1966 stopped at heavy water infiltration before virgin soil, and the
+Pakistani-Italian mission has not reported reaching it. The site was excavated as
+Islamic Daybul rather than as Barbarikon, so finding little of Periplus date
+carries much less weight than thirty seasons would ordinarily imply. Mughal's
+2018 paper states that Banbhore "could be identified" with Barbarikon; the
+editor's preface to the same volume says the study "establishes and identifies"
+it. The qualification belongs to the author.
+
+**Minnagar is a second unsolved location tied to the first.** The name means
+Saka-town. Ptolemy lists a Binagara in the area at 7.1.61, probably the same
+place. Cunningham put it at or near Tatta, "as the position at the head of the
+inferior Delta commanded the whole traffic of the river." McCrindle cites three
+further identifications, all different. More recent opinion leans slightly to
+Bahmanabad, following Herrmann in Pauly-Wissowa (1932) and Warmington, while
+Tarn will go no further than "somewhere eastward of the Indus Delta." These
+proposals lie hundreds of kilometres apart.
+
+**One firm chronological anchor.** The Periplus says Barbarikon lay in Parthian
+hands, and Gondophares, first of the Indo-Parthian kings, is securely dated to
+AD 20 to 46. That brackets the passage tightly and is one of the better dating
+controls in the whole text.
+
+**What would change this.** Reaching virgin soil at Banbhore, which means
+dewatering; recovering the palaeochannels of the delta from imagery; and
+assembling the other proposed locations so that the model has something to
+choose between.
 """,
 
 "tyndis": """
@@ -192,46 +234,69 @@ in the fifty volumes of Indian Archaeology we were able to parse, and no candida
 
 "bakare": """
 **Most likely: Purakkad, conditional on Niranam being Nelkynda.** My confidence
-in the identification is moderate and wholly derivative, but the port itself is
+in the identification is moderate and wholly derivative. But the port itself is
 better attested than the Periplus alone suggests, and it should not be treated
 as a minor place.
 
-Three independent ancient sources name it. The Periplus calls it a village at
-the mouth of Nelkynda's river, where ships waited in the roadstead "because the
-river is full of shoals and the channels are not clear." Ptolemy lists Bakare
-at 119 degrees 30 minutes. And **Pliny recommends it over Muziris**: at NH 6.104
-he writes of "alius utilior portus gentis Neacyndon, qui vocatur Becare," another
-and more useful port of the Neacyndi, and at 6.105 he adds that the pepper
-country of Cottonara sends its cargo down to Becare in dugout canoes. For Pliny
-this is the port a merchant should actually use.
+**Three independent ancient sources name it, and they disagree about its
+standing.** The Periplus calls it a village at the mouth of Nelkynda's river,
+where ships waited in the roadstead "because the river is full of shoals and the
+channels are not clear." Ptolemy lists Bakare at 7.1.8. And Pliny rates it above
+Muziris: at Natural History 6.104 he writes of "alius utilior portus gentis
+Neacyndon, qui vocatur Becare," another and more useful port of the Neacyndi,
+having just called Muziris the first emporium of India. At 6.105 he adds that the
+pepper country of Cottonara sends its cargo down to Becare in dugout canoes. For
+Pliny this is the port a merchant should actually use. The modern literature has
+followed the Periplus's "village" and largely passed over Pliny's assessment.
 
-That convergence is also what fixes the name. Casson notes that the sole Periplus
-manuscript reads "Barare," and that the accepted form Bakare is an editorial
-correction made on the authority of Ptolemy and Pliny. The three sources are
-therefore doing real work, and the name we use is not the one our only witness
-carries.
+**The name we use is an editorial correction.** Casson records that the sole
+Periplus manuscript reads "Barare," and that the accepted form Bakare is emended
+on the authority of Ptolemy and Pliny. The external sources are therefore doing
+real work, and the reading in our only witness is not the one anyone prints.
 
-**What the text does not say is the distance.** The Periplus gives 120 stadia as
-the distance from Nelkynda to the sea, and places Bakare at the mouth of the same
-river. It nowhere states the distance between the two. Casson derives it by
-treating the river mouth and the sea as one point, which is reasonable on an open
-coast and a strong assumption on a lagoon coast, where a river debouches into the
-backwater and the backwater reaches the sea through a separate bar. Every claim
-about 120 stadia constraining the pair rests on that reading.
+**The text does not give the distance everyone quotes.** The Periplus says
+Nelkynda "is situated on a river, about one hundred and twenty stadia from the
+sea," at the end of chapter 54, and then opens chapter 55 with Bakare at the
+mouth of that river. The 120 stadia measures Nelkynda to the sea. Casson converts
+it into a Nelkynda-to-Bakare distance by treating the river mouth and the sea as
+one point, joining two sentences across a chapter division. That is reasonable on
+an open coast and a strong assumption on a lagoon coast, where a river debouches
+into the backwater and the backwater reaches the sea through a separate bar.
+Every claim about 120 stadia constraining the pair rests on that reading, ours
+included.
+
+**Whether Ptolemy corroborates the river-mouth placement is unclear.** Casson
+states that "Ptolemy agrees with the Periplus in placing it at the mouth of a
+river." But Ptolemy's own coordinate list gives Bacare at 119 degrees 30 minutes
+and the mouth of the Baris at 120 degrees, as two separate entries thirty minutes
+apart, which is his ordinary spacing between neighbouring places on this coast.
+Either Casson is reading the adjacency as agreement or he is drawing on a
+descriptive passage the coordinate table does not reflect. This matters because
+the same claimed agreement supports the emendation of the name, and we cannot
+resolve it without the Greek.
 
 **The archaeology is empty.** None of Purakkad, Kallada or Thevalakara has been
-excavated, and Purakkad and Thevalakara return no entries at all in the fifty
-volumes of Indian Archaeology: A Review that parsed cleanly. Kallada has two, a
-neolithic axe from the river basin and a temple inscription, neither of them an
-excavation.
+excavated. Purakkad and Thevalakara return no entries at all across the fifty
+volumes of Indian Archaeology: A Review that parsed cleanly, and Kallada returns
+two, a neolithic axe from the river basin in 2006-07 and a temple inscription at
+East Kallada in 1963-64, neither of them an excavation.
 
-**One tension to carry forward.** Ptolemy lists Bacare and the mouth of the Baris
-as separate entries thirty minutes of longitude apart, which is his ordinary
-spacing between neighbouring places. That sits awkwardly with the Periplus
-putting Bakare at the mouth, and it means the two sources do not corroborate each
-other on the single point the identification turns on. Because the location
-follows entirely from which site is Nelkynda, the pair should be reported
-together.
+**Who proposed what.** Schoff 1912 identified it with Porakad, "for which it is a
+close transliteration," and on the distance from his Nelkynda at Kottayam. Casson
+rejected Kottayam, on the grounds that it and Pirakkad sit on different rivers
+and are further apart than 120 stades, but kept Purakkad and re-paired it with
+Niranam. McCrindle 1885 proposed Kallada instead, because its river is "the only
+navigable river on this south-west coast except the Perriyar near Kranganur," and
+placed the Baris as a stream entering the backwater near Quilon. Dayalan reports
+Markari or Varakkai, or a point between Kanetti and Kollam. That the Purakkad
+identification survived the collapse of the argument that produced it is a
+warning rather than a corroboration.
+
+**Casson grades Bakare among the five names identifiable "with more confidence
+than the others."** Given that no candidate has been excavated, that the pairing
+distance is inferred, and that the proposal outlived its own justification, I do
+not think that grade is earned. Because the location follows entirely from which
+site is Nelkynda, the pair should be reported together.
 """,
 
 "rhapta": """

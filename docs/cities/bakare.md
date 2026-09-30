@@ -7,46 +7,69 @@ Every mention of Bakarē and its proposed sites that exists in the local library
 A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
 
 **Most likely: Purakkad, conditional on Niranam being Nelkynda.** My confidence
-in the identification is moderate and wholly derivative, but the port itself is
+in the identification is moderate and wholly derivative. But the port itself is
 better attested than the Periplus alone suggests, and it should not be treated
 as a minor place.
 
-Three independent ancient sources name it. The Periplus calls it a village at
-the mouth of Nelkynda's river, where ships waited in the roadstead "because the
-river is full of shoals and the channels are not clear." Ptolemy lists Bakare
-at 119 degrees 30 minutes. And **Pliny recommends it over Muziris**: at NH 6.104
-he writes of "alius utilior portus gentis Neacyndon, qui vocatur Becare," another
-and more useful port of the Neacyndi, and at 6.105 he adds that the pepper
-country of Cottonara sends its cargo down to Becare in dugout canoes. For Pliny
-this is the port a merchant should actually use.
+**Three independent ancient sources name it, and they disagree about its
+standing.** The Periplus calls it a village at the mouth of Nelkynda's river,
+where ships waited in the roadstead "because the river is full of shoals and the
+channels are not clear." Ptolemy lists Bakare at 7.1.8. And Pliny rates it above
+Muziris: at Natural History 6.104 he writes of "alius utilior portus gentis
+Neacyndon, qui vocatur Becare," another and more useful port of the Neacyndi,
+having just called Muziris the first emporium of India. At 6.105 he adds that the
+pepper country of Cottonara sends its cargo down to Becare in dugout canoes. For
+Pliny this is the port a merchant should actually use. The modern literature has
+followed the Periplus's "village" and largely passed over Pliny's assessment.
 
-That convergence is also what fixes the name. Casson notes that the sole Periplus
-manuscript reads "Barare," and that the accepted form Bakare is an editorial
-correction made on the authority of Ptolemy and Pliny. The three sources are
-therefore doing real work, and the name we use is not the one our only witness
-carries.
+**The name we use is an editorial correction.** Casson records that the sole
+Periplus manuscript reads "Barare," and that the accepted form Bakare is emended
+on the authority of Ptolemy and Pliny. The external sources are therefore doing
+real work, and the reading in our only witness is not the one anyone prints.
 
-**What the text does not say is the distance.** The Periplus gives 120 stadia as
-the distance from Nelkynda to the sea, and places Bakare at the mouth of the same
-river. It nowhere states the distance between the two. Casson derives it by
-treating the river mouth and the sea as one point, which is reasonable on an open
-coast and a strong assumption on a lagoon coast, where a river debouches into the
-backwater and the backwater reaches the sea through a separate bar. Every claim
-about 120 stadia constraining the pair rests on that reading.
+**The text does not give the distance everyone quotes.** The Periplus says
+Nelkynda "is situated on a river, about one hundred and twenty stadia from the
+sea," at the end of chapter 54, and then opens chapter 55 with Bakare at the
+mouth of that river. The 120 stadia measures Nelkynda to the sea. Casson converts
+it into a Nelkynda-to-Bakare distance by treating the river mouth and the sea as
+one point, joining two sentences across a chapter division. That is reasonable on
+an open coast and a strong assumption on a lagoon coast, where a river debouches
+into the backwater and the backwater reaches the sea through a separate bar.
+Every claim about 120 stadia constraining the pair rests on that reading, ours
+included.
+
+**Whether Ptolemy corroborates the river-mouth placement is unclear.** Casson
+states that "Ptolemy agrees with the Periplus in placing it at the mouth of a
+river." But Ptolemy's own coordinate list gives Bacare at 119 degrees 30 minutes
+and the mouth of the Baris at 120 degrees, as two separate entries thirty minutes
+apart, which is his ordinary spacing between neighbouring places on this coast.
+Either Casson is reading the adjacency as agreement or he is drawing on a
+descriptive passage the coordinate table does not reflect. This matters because
+the same claimed agreement supports the emendation of the name, and we cannot
+resolve it without the Greek.
 
 **The archaeology is empty.** None of Purakkad, Kallada or Thevalakara has been
-excavated, and Purakkad and Thevalakara return no entries at all in the fifty
-volumes of Indian Archaeology: A Review that parsed cleanly. Kallada has two, a
-neolithic axe from the river basin and a temple inscription, neither of them an
-excavation.
+excavated. Purakkad and Thevalakara return no entries at all across the fifty
+volumes of Indian Archaeology: A Review that parsed cleanly, and Kallada returns
+two, a neolithic axe from the river basin in 2006-07 and a temple inscription at
+East Kallada in 1963-64, neither of them an excavation.
 
-**One tension to carry forward.** Ptolemy lists Bacare and the mouth of the Baris
-as separate entries thirty minutes of longitude apart, which is his ordinary
-spacing between neighbouring places. That sits awkwardly with the Periplus
-putting Bakare at the mouth, and it means the two sources do not corroborate each
-other on the single point the identification turns on. Because the location
-follows entirely from which site is Nelkynda, the pair should be reported
-together.
+**Who proposed what.** Schoff 1912 identified it with Porakad, "for which it is a
+close transliteration," and on the distance from his Nelkynda at Kottayam. Casson
+rejected Kottayam, on the grounds that it and Pirakkad sit on different rivers
+and are further apart than 120 stades, but kept Purakkad and re-paired it with
+Niranam. McCrindle 1885 proposed Kallada instead, because its river is "the only
+navigable river on this south-west coast except the Perriyar near Kranganur," and
+placed the Baris as a stream entering the backwater near Quilon. Dayalan reports
+Markari or Varakkai, or a point between Kanetti and Kollam. That the Purakkad
+identification survived the collapse of the argument that produced it is a
+warning rather than a corroboration.
+
+**Casson grades Bakare among the five names identifiable "with more confidence
+than the others."** Given that no candidate has been excavated, that the pairing
+distance is inferred, and that the proposal outlived its own justification, I do
+not think that grade is earned. Because the location follows entirely from which
+site is Nelkynda, the pair should be reported together.
 
 ## Contents
 

@@ -5,7 +5,7 @@ One file per port holding every mention of it in the local library, with Ptolemy
 | Port | Most likely | Confidence | Why |
 |---|---|---|---|
 | [Leukē Kōmē](leuke-kome.md) | Aynuna | moderate to high | the material discriminates and the distance does not |
-| [Barbarikon](barbarikon.md) | Banbhore | low | four textual constraints, none of them usable since the delta moved |
+| [Barbarikon](barbarikon.md) | Banbhore | low | Vincent Smith declined to identify it at all, and our candidate list has one entry where the literature has many |
 | [Tyndis](tyndis.md) | Ponnani to Tanur | moderate | text and material point the same way for once |
 | [Muziris](muziris.md) | Pattanam | high | a positive and a negative 9 km apart |
 | [Nelkynda](nelkynda.md) | Niranam, with weight on an unproposed site | low to moderate | the two textual constraints contradict |

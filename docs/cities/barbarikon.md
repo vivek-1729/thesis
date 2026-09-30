@@ -7,33 +7,75 @@ Every mention of Barbarikon and its proposed sites that exists in the local libr
 A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
 
 **Most likely: Banbhore, but the question is closer to unanswerable than to
-answered.** My confidence is low. The field's is genuinely divided, and its own
-advocates hedge.
+answered, and our candidate list is thinner than the literature.** My confidence
+is low. The field's is divided, and the scholar Casson leans on declined to
+identify the port at all.
 
-The text is unusually specific. It places Barbarikon on the middle of seven
-mouths of the Indus, says the other six are shallow, marshy and unnavigable, puts
-a small island offshore, and sets the capital Minnagara upriver. Ptolemy
-independently gives seven mouths and names them, with the fourth, Cariphi, as the
-middle one. That is four positional constraints, more than the Periplus gives any
-other port in this study.
+**The text is unusually specific and none of it can be used.** The Periplus
+places Barbarikon on the middle of seven mouths of the Indus, says the other six
+are shallow, marshy and unnavigable, puts a small island offshore, and sets the
+capital Minnagara upriver. Ptolemy independently gives seven mouths and names
+them, with the fourth, Cariphi, as the middle one. That is more positional
+information than the Periplus gives any other port in this study.
 
-None of them can be used. The delta has reorganised repeatedly, and the
-instability is attested within antiquity itself: Strabo, following a companion of
-Alexander, reports two mouths where Ptolemy reports seven. Casson quotes Smith's
-judgment that the changes "preclude the possibility of satisfactory
-identifications," and that judgment still holds.
+**The delta moved within antiquity itself, and has kept moving.** Strabo, at
+15.700 and 15.701, following Aristobulus who travelled with Alexander, reports
+two mouths where Ptolemy and the Periplus report seven. Casson observes that
+both figures can be right because the river changed course repeatedly, and cites
+Strabo 15.693 on a shift that caused the abandonment of a thousand cities. He
+also records a documented change in 1758 that moved the channel twelve to
+fifteen miles, citing Cousens, The Antiquities of Sind (Archaeological Survey of
+India 46, Calcutta 1929). A twenty-kilometre channel migration inside the modern
+era is the scale of instability any reconstruction has to work against.
 
-Banbhore is the only candidate anyone has proposed, and its evidence is thin for
-reasons that are physical rather than evidential. Khan's trenches never reached
-virgin soil because of water infiltration, and the Italian mission has not
-reported reaching it. The site was dug as Islamic Daybul, so thirty seasons of
-finding little at the Periplus horizon means much less than the season count
-implies. Mughal 2018 writes that Banbhore "could be identified" with Barbarikon;
-his editor's preface upgrades that to "establishes and identifies."
+**The scholar behind the famous quotation refused to identify it.** The "Smith"
+Casson cites is Vincent A. Smith, The Early History of India (Oxford, fourth
+edition 1924), and the remark is at his page 245: "the extensive changes which
+have occurred in the rivers of Sind during the course of eighteen centuries
+preclude the possibility of satisfactory identifications of either of these
+towns." Casson notes elsewhere that Smith "himself does not support the
+identification and indeed abstains from attempting any." This is not caution
+about a particular site. It is a considered judgment that the problem is not
+soluble on the available evidence, from a historian who knew the region.
 
-Minnagar is a second unsolved location tied to the first, with proposals
-hundreds of kilometres apart. Progress here depends on palaeochannel
-reconstruction and on reaching the water table, not on more reading.
+**Our candidate list is impoverished.** Casson writes that "a plethora of
+locations have been offered for the port, no two alike," and names Müller,
+Fabricius, Schoff, Tomaschek in Pauly-Wissowa (1896), Warmington, and
+Cunningham's Ancient Geography of India (1871). We carry only Banbhore. Before
+any model is fitted, those proposals need to be recovered and located, because
+a candidate set of one guarantees the answer.
+
+**Ptolemy does not corroborate a coastal Barbarikon.** He lists a Barbara at
+7.1.59 but places it far inland, so the one external check that works for Bakare
+fails here.
+
+**And Banbhore's own evidence is thin for physical reasons.** Khan's trenches of
+1958 to 1966 stopped at heavy water infiltration before virgin soil, and the
+Pakistani-Italian mission has not reported reaching it. The site was excavated as
+Islamic Daybul rather than as Barbarikon, so finding little of Periplus date
+carries much less weight than thirty seasons would ordinarily imply. Mughal's
+2018 paper states that Banbhore "could be identified" with Barbarikon; the
+editor's preface to the same volume says the study "establishes and identifies"
+it. The qualification belongs to the author.
+
+**Minnagar is a second unsolved location tied to the first.** The name means
+Saka-town. Ptolemy lists a Binagara in the area at 7.1.61, probably the same
+place. Cunningham put it at or near Tatta, "as the position at the head of the
+inferior Delta commanded the whole traffic of the river." McCrindle cites three
+further identifications, all different. More recent opinion leans slightly to
+Bahmanabad, following Herrmann in Pauly-Wissowa (1932) and Warmington, while
+Tarn will go no further than "somewhere eastward of the Indus Delta." These
+proposals lie hundreds of kilometres apart.
+
+**One firm chronological anchor.** The Periplus says Barbarikon lay in Parthian
+hands, and Gondophares, first of the Indo-Parthian kings, is securely dated to
+AD 20 to 46. That brackets the passage tightly and is one of the better dating
+controls in the whole text.
+
+**What would change this.** Reaching virgin soil at Banbhore, which means
+dewatering; recovering the palaeochannels of the delta from imagery; and
+assembling the other proposed locations so that the model has something to
+choose between.
 
 ## Contents
 
