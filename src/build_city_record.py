@@ -297,27 +297,87 @@ supports a stretch of coast, not a village.
 
 "muziris": """
 **Most likely: Pattanam.** My confidence is high for the Periyar delta and good
-for the site itself. The field's confidence is high, with Gurukkal dissenting.
+for the site. The field's is high, with Gurukkal dissenting. This is the only
+port in the study where the excavation is good enough to argue with.
 
-This is the one port where a positive and a negative sit 9 km apart. Kodungallur
-was excavated in 1969–70 precisely because it was the traditional identification,
-and everything recovered was ninth to eleventh century; the following volume
-records that the trial digs "had not yielded any tangible evidence." Pattanam, a
-few kilometres away, has produced the only quantified Early Historic assemblage
-of any candidate in this study, and the PARUR gold hoard lies 3 km off.
+**What the KCHR actually did.** P. J. Cherian directed nine seasons between 2007
+and 2015. Sixty trenches were opened, covering **less than one per cent of a
+mound of about 70 hectares**. Excavation was locus-based with a Harris Matrix
+used for the stratigraphic relationships, and ecofacts were recovered by
+flotation. The 2011 season alone ran four months and opened ten trenches of
+10 by 10 m and 9 by 4.5 m over about 250 square metres.
 
-Note what the standard argument actually secures. The Tamil poem places Muziris
-on the Periyar, which fixes the river and not the site. Ptolemy lists Muziris
-emporium and the mouth of the Pseudostomus, generally taken as the Periyar, as
-separate entries 20 minutes of longitude apart, which suggests the emporium was
-not at the mouth itself.
+**Crucially, they reached the bottom.** The catalogue records a 5 by 4 m trench
+taking two months "to reach the natural soil at a depth of 317 cm," and the
+sequence runs Iron Age over natural soil, then an Iron Age to Early Historic
+transition, then Early Historic, then medieval and modern. AMS radiocarbon on
+charcoal from aeolian sand at 340 to 370 cm places the first settlement at about
+1000 BC. **This is the direct contrast with Banbhore, where virgin soil has never
+been reached.** At Pattanam the sequence is complete and the Periplus horizon
+sits inside it rather than below the water table.
 
-Two things should temper the confidence. Schoff records that Muziris and Nelkynda
-were once placed at Mangalore and Nileshwar, 300 km north, so this identification
-has moved a long way before. And Pattanam's imports are mostly not Roman. Of
-19,654 imported sherds, under a third are Mediterranean, and the Mesopotamian
-material is largely Sasanian. Pattanam was a working port for centuries, of which
-the Periplus phase is a thin slice.
+**The wharf is the strongest structural evidence for any candidate in the
+study.** Excavation in the north-eastern sector revealed a wharf and a warehouse,
+a six-metre canoe of anjili wood in a waterlogged context, and nine teak
+bollards. The wharf is a platform of laterite, clay and lime with brick lining
+where it meets the water. The canoe and bollards are radiocarbon dated to the
+first century BC to first century AD, which is the Periplus horizon exactly. A
+clay layer 25 to 35 cm thick sealed the waterlogged deposit at about 3 m and
+prevented oxidation, preserving rice, black pepper, cardamom, frankincense,
+bark, leaves, roots, seeds, wood and pulses. Other features include brick
+foundations, burnt clay floors, ring wells, toilet features, storage jars and a
+kiln.
+
+**But the published figures do not agree with each other, and the disagreement
+is large.** Cherian's season tables to 2011, which we have used throughout, give
+3,557,118 sherds of which 3,537,464 are local, leaving about 19,654 imported, or
+0.55 per cent. The later catalogue gives **4.5 million local body sherds,
+516,676 diagnostic sherds and 140,165 non-Indian sherds**, which is an import
+share near 2.7 per cent. Four extra seasons cannot produce a sevenfold rise in
+imported material when the first five produced 19,654, so the two are counting
+different things, most likely diagnostic sherds against all sherds of non-Indian
+fabric. We have no way to reconcile them from what we hold.
+
+That matters because the import fraction is the number the whole detection
+argument rests on. At 0.55 per cent a trench at an untested candidate should be
+expected to yield essentially nothing; at 2.7 per cent it should yield five
+times as much. **Until the basis of the two counts is established, the expected
+yield at a Malabar port is uncertain by a factor of five.**
+
+The mound area is unstable too, given as 70 hectares in the catalogue against 45
+in other summaries, which is why our derived excavated area is only order of
+magnitude. This joins three discrepancies already recorded: torpedo sherds given
+as 3,098 to 2011 and "about 398" to 2014, glass as 1,338 and then about 906, and
+an arithmetic error in the ring-stones row of Cherian's Table 1.
+
+**What the identification does and does not secure.** The Tamil poem places
+Muziris on the Periyar, which fixes the river and not the site; Pattanam and
+Kodungallur are 9 km apart on the same delta. Ptolemy lists Muziris emporium and
+the mouth of the Pseudostomus as separate entries twenty minutes of longitude
+apart, which suggests the emporium was not at the mouth. Kodungallur was dug at
+five localities in 1969-70 precisely because it was the traditional
+identification, and everything recovered was ninth to eleventh century. And
+Schoff records that Muziris and Nelkynda were once placed at Mangalore and
+Nileshwar, 300 km north, so this identification has moved a long way before.
+
+**Pattanam was a port for much longer than it was Muziris.** Of the imported
+pottery, under a third is Mediterranean, and the Mesopotamian material is
+largely Sasanian and of the third to seventh centuries. The Periplus phase is a
+thin slice of a long commercial life.
+
+**What is still missing.**
+
+1. The field reports for seasons six to nine, 2012 to 2015. We hold the fifth
+   season report and the exhibition catalogue, and nothing between.
+2. A reconciliation of the sherd counts. Establishing whether "non-Indian" in
+   the catalogue means the same as "imported" in the season tables would settle
+   the expected-yield figure.
+3. Excavated area and depth trench by trench, which would let the assemblage be
+   expressed as sherds per cubic metre and compared with Ras Hafun.
+4. Gurukkal 2001, "In search of Muziris", the sceptical case against the
+   consensus, which we cite at second hand.
+5. Whether a final excavation report exists at all. Nine seasons have produced
+   interim reports and a catalogue, and we have found no synthesis.
 """,
 
 "nelkynda": """

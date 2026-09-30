@@ -377,6 +377,14 @@ Three classes carry real locational weight:
 
 ### 4.2 Pattanam, the only quantified candidate
 
+Nine KCHR seasons, 2007 to 2015, sixty trenches over under one per cent of the
+mound. Natural soil was reached at 317 cm and radiocarbon on charcoal at 340 to
+370 cm puts first settlement near 1000 BC, so unlike Banbhore the sequence is
+complete and the Periplus horizon lies inside it. The wharf context, with a
+six-metre anjili canoe and nine teak bollards radiocarbon dated to the first
+century BC or first century AD, is the strongest structural evidence for any
+candidate in the study.
+
 From P.J. Cherian's KCHR excavations, 2007–2011, *Tamil Civilization* 24.1–2,
 Tables 1–2. Every row re-added and checked.
 
@@ -722,10 +730,19 @@ He gives no reference.
 2. **Arithmetic error in Cherian 2012 Table 1.** The ring-stones row reads
    0, 0, 0, 15, 9 with a printed total of 15. The seasons sum to 24. The printed
    grand total of 48,862 antiquities uses 15, so the error is in the row.
-3. **Irreconcilable Pattanam figures.** Torpedo sherds 3,098 (Cherian, to 2011)
-   against "about 398" (a later summary, to 2014). Glass 1,338 (to 2011) against
-   "about 906" (to 2014). Both report *fewer* over a *longer* window. Recorded in
-   the `note` field rather than silently reconciled.
+3. **Irreconcilable Pattanam figures, now four of them.** Torpedo sherds 3,098
+   (Cherian, to 2011) against "about 398" (a later summary, to 2014). Glass
+   1,338 against "about 906". Both report *fewer* over a *longer* window. The
+   mound is 70 hectares in the exhibition catalogue and 45 elsewhere. And most
+   seriously, **the import share is unstable by a factor of five**: Cherian's
+   season tables give 3,557,118 sherds with 3,537,464 local, leaving about
+   19,654 imported at 0.55 per cent, while the catalogue gives 4.5 million local
+   body sherds, 516,676 diagnostic sherds and **140,165 non-Indian sherds**, an
+   import share near 2.7 per cent. Four further seasons cannot raise imported
+   material sevenfold when the first five produced 19,654, so the two are
+   counting different things. Since the import fraction is what makes an absence
+   at an untested candidate interpretable, **the expected yield at a Malabar
+   port is uncertain by a factor of five until this is resolved.**
 4. **Nappo's Leukē Kōmē distance measured from the wrong port** (see §7).
 
 ### In our own work, corrected
