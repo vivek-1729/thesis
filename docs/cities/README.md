@@ -6,7 +6,7 @@ One file per port holding every mention of it in the local library, with Ptolemy
 |---|---|---|---|
 | [Leukē Kōmē](leuke-kome.md) | Aynuna | moderate to high | the material discriminates and the distance does not |
 | [Barbarikon](barbarikon.md) | Banbhore | low | Vincent Smith declined to identify it at all, and our candidate list has one entry where the literature has many |
-| [Tyndis](tyndis.md) | Ponnani to Tanur | moderate | text and material point the same way for once |
+| [Tyndis](tyndis.md) | Ponnani to Kadalundi | moderate for the stretch, low for any village | every ancient source ranks it low, and Pliny omits it |
 | [Muziris](muziris.md) | Pattanam | high | a positive and a negative 9 km apart |
 | [Nelkynda](nelkynda.md) | Niranam, with weight on an unproposed site | low to moderate | the two textual constraints contradict |
 | [Bakarē](bakare.md) | Purakkad, conditional on Nelkynda | moderate but derivative | named only by Schoff 1912 and Casson 1989; no modern work in the corpus asserts it |

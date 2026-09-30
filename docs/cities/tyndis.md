@@ -6,32 +6,105 @@ Every mention of Tyndis and its proposed sites that exists in the local library:
 
 A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
 
-**Most likely: the Ponnani to Tanur stretch, with Ponnani itself the best single
-candidate.** My confidence is moderate, and unusually for this project the
-material points the same way as the text.
+**Most likely: the Ponnani to Kadalundi stretch, with no single village well
+supported.** My confidence in the stretch is moderate and in any one site low.
+The field has a soft consensus on Ponnani that rests on less than it appears to.
 
-Three independent lines converge on the northern Malabar coast around the
-Bharathapuzha mouth. The Periplus puts Tyndis 500 stadia north of Muziris.
-Ptolemy independently places Tindis north of Muziris, at 116°00' against
-117°00'. And Casson's Chera border argument, which the literature rarely uses,
-puts the port north of Ponnani and south of Cranganore.
+**Every ancient source that ranks Tyndis ranks it low, and that matters for what
+we should expect to find.** The Periplus (53) lists it with Naoura as "the first
+ports of trade of Limyrike, and, after these, Muziris and Nelkynda, **which are
+now the active ones**." It then calls Tyndis "a well-known village on the coast,
+in the kingdom of Keprobotos," using the word village, the same word it uses of
+Bakare, against emporion for Muziris. Schoff renders it "a village in plain sight
+by the sea", which also places it on the open shore rather than up a river as
+Muziris and Nelkynda are. The only measurement given is Muziris at 500 stadia
+from it, by river and sea.
 
-The material is the surprise. Across fifty-nine years of Indian Archaeology: A
-Review, Early Historic material in Kerala has been reported from essentially two
-places, and one of them is Taluk Ponnani, where the 1970–71 volume records
-Russet-coated Painted Ware of the early centuries AD and calls it "of great
-significance." De Romanis also cites a Tamil poem describing Tyndis among
-coconut palms, and a tradition that the port was abandoned because of piracy.
+**Pliny does not name Tyndis at all.** He gives Muziris as primum emporium
+Indiae and Becare as a more useful port, and mentions Tyndis only obliquely as
+the northern limit of Caelobothras's kingdom. Of the four Malabar ports it is
+the one he omits.
 
-Against that, the 1978–79 survey went into this valley explicitly looking for
-Roman contact and found megalithic burials instead. That is a genuine negative,
-though it was a survey rather than an excavation, and no candidate has ever been
-dug.
+**Ptolemy, a century later, upgrades it to a city** at 116 degrees, 14 degrees 30
+minutes. Between it and Muziris he lists Bramagara and Kalaikarias, and as
+Gurukkal and Whittaker note, neither carries the title of town like Tyndis nor of
+emporium like Muziris. So Ptolemy ranks it above its immediate neighbours and
+below Muziris.
 
-The honest limit is resolution. Casson accepts Ponnani or Beypore, which are
-40 km apart, and says only that "the odds are slightly in favor of Ponnani." A
-500-stadia leg carries a 68 per cent interval about 49 km wide. The evidence
-supports a stretch of coast, not a village.
+**The Peutinger Table marks Tondis**, though accounts differ on how: Gurukkal and
+Whittaker say the route "apparently by-passed 'Tondis'", while Dayalan says both
+Muziris and Tondis are well marked. Tamil tradition, through the usual equation
+of Tyndis with Tondi, treats it as an important centre, and De Romanis cites a
+poem describing it among coconut palms.
+
+**Piracy may be the reason it declined.** The Periplus places the pirate zone
+immediately to the north, listing the Sesekreienai islands, the Isle of the
+Aigidioi and the Isle of the Kaineitoi, "around which places there are pirates,"
+and only then Naoura and Tyndis. Pliny has Nitrias as a pirate stronghold
+threatening shipping bound for Muziris. And De Romanis records a tradition that
+Tyndis was abandoned because of piracy, its people moving south to Muziris and
+Nelkynda.
+
+**The consequence for the detection model is specific.** If the real Tyndis was a
+village on an open beach that declined early, its material signature should be
+far thinner than Pattanam's, possibly by an order of magnitude. That is a
+separate reason from excavation effort for why the Kerala surveys found nothing,
+and it should enter the model as a lower expected yield for this port rather than
+as a flat prior across all seven.
+
+**The material evidence, such as it is, points the right way weakly.** Across the
+fifty volumes of Indian Archaeology: A Review that parsed cleanly, Early Historic
+material in Kerala comes from essentially two places, and one is the
+Ponnani-Malappuram area, where the 1970-71 volume reports Russet-coated Painted
+Ware of the early centuries AD and calls it "of great significance." Against
+that, the 1978-79 survey went into this valley explicitly "investigating for the
+sites showing Roman contact in the Ponnani valley" and recorded megalithic
+burials and menhirs instead. That is a genuine targeted negative, though a survey
+rather than an excavation.
+
+**The candidates, and who backs them.** Schoff committed to Ponnani on the
+distance. Casson allows "Ponnani or Beypore", 40 km apart, and says only that
+"the odds are slightly in favor of Ponnani". De Romanis marks it with a question
+mark. Dayalan lists Kadalundi, Ponnani or Pantalayani Kollam.
+
+**Gurukkal and Whittaker prefer Kadalundi, on a physical argument nobody else
+makes.** In their 2001 appendix they note that Kadalundi has "the rare
+distinction for the Malabar coast of an open harbour entrance through a channel
+40 ft deep that does not need dredging", historically deep enough for large
+Portuguese vessels, which is why the Portuguese fortified it in 1531. They add
+the toponymy, kadal meaning sea and tundi navel, and the Tondi of the
+Silappadikaram, and report a megalithic pot found in house foundations at
+Nagaram at the southern harbour entrance. On a coast where everything silts, a
+channel that does not silt is a serious argument, and it cuts against Ponnani.
+They give the distances from Kodungallur as 117 km to Kadalundi and 74 km to
+Ponnani.
+
+**An independent constraint the literature rarely uses.** Casson places the
+northern border of the Chera kingdom just above Tyndis, which puts the port north
+of Ponnani and south of Cranganore. Tyndis sits at or just inside a political
+frontier, not merely at a distance.
+
+**The distance argument is weaker than it looks.** Casson's own Tyndis to Muziris
+leg implies a 144.5 m stadion and an error of 28.2 per cent against his stated
+bound of twenty per cent for short legs, and he never includes it in the appendix
+where he tests accuracy. Our earlier claim that Ponnani fits "to within 2.5 km"
+compared a straight line against a sailed distance and only the ranking survives.
+
+**None of the four candidates has ever been excavated.** Tanur, Koyilandy and
+Kadalundi return no entries at all across the fifty IAR volumes; Ponnani appears
+ten times, all of them megalithic or later.
+
+**What is still missing.**
+
+1. Beypore as a point separate from Kadalundi. Casson treats them as
+   alternatives 40 km apart and our table collapses them.
+2. The bathymetry at Kadalundi. Gurukkal and Whittaker's 40-foot channel is the
+   strongest physical argument for any Tyndis candidate and we have not checked
+   it against modern survey data.
+3. The Chera border, which is currently a sentence rather than a mapped
+   constraint.
+4. The Malabar distances measured through the backwaters rather than the open
+   coast, which the text specifies and nobody has done.
 
 ## Contents
 
