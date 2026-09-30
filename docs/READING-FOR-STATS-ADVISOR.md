@@ -1,9 +1,16 @@
 # Statistical methods, with precedents in reconstructing the past
 
-Eight papers, ordered by how much work each does for the thesis. Weighted toward
-reconstructing the physical setting, because that is what locates a port. One
-plain sentence each. Citations are Chicago, checked against Crossref. The
-geographic and voyage modelling literature is in `READING-GEOGRAPHIC.md`.
+These papers are all about building the prior: reconstructing the physical
+setting the ports sat in, before any of them can be located. That means modelling
+sea level change through time, recovering the water surface and the river
+channels that fed it, and putting a coastline in a particular place at a
+particular date, each with its uncertainty carried through rather than asserted
+away. The evidence is scattered, dated points with error bars, and the object
+wanted is a continuous surface.
+
+Eight papers, ordered by how much work each does for the thesis. One plain
+sentence each. Citations are Chicago, checked against Crossref. The geographic
+and voyage modelling literature is in `READING-GEOGRAPHIC.md`.
 
 ---
 
@@ -13,7 +20,7 @@ Reconstructing sea level change using Gaussian processes, taking into account ag
 
 **2.** Lindgren, Finn, Håvard Rue, and Johan Lindström. "An Explicit Link between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach." *Journal of the Royal Statistical Society: Series B (Statistical Methodology)* 73, no. 4 (2011): 423–98. https://doi.org/10.1111/j.1467-9868.2011.00777.x.
 
-Reconstructing a continuous surface over an irregular domain by meshing it and solving an SPDE, which is how the water surface gets built from scattered dated points.
+Reconstructing a continuous surface over an irregular domain by meshing it and solving an SPDE, which we can use to construct a water surface from scattered data points
 
 **3.** Ver Hoef, Jay M., and Erin E. Peterson. "A Moving Average Approach for Spatial Statistical Models of Stream Networks." *Journal of the American Statistical Association* 105, no. 489 (2010): 6–18. https://doi.org/10.1198/jasa.2009.ap08248.
 
