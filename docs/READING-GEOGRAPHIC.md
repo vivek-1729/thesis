@@ -40,6 +40,10 @@ Reconstructing the regional relative sea-level curve from coastal lowland cores,
 
 ## 3. Voyages and routes across this ocean
 
+Bakka, Haakon, Jarno Vanhatalo, Janine B. Illian, Daniel Simpson, and Håvard Rue. "Non-Stationary Gaussian Models with Physical Barriers." *Spatial Statistics* 29 (2019): 268–88. https://doi.org/10.1016/j.spasta.2019.01.002.
+
+The same field with land as a barrier, so correlation travels around a headland rather than through it. Built on the paper above.
+
 MacKenzie, Darryl I., James D. Nichols, Gideon B. Lachman, Sam Droege, J. Andrew Royle, and Catherine A. Langtimm. "Estimating Site Occupancy Rates When Detection Probabilities Are Less Than One." *Ecology* 83, no. 8 (2002): 2248–55. https://doi.org/10.1890/0012-9658(2002)083[2248:ESORWD]2.0.CO;2.
 
 Separating a site being unoccupied from a site being occupied but undetected, with detection modelled as a function of survey effort. The excavation record has exactly this structure and is almost never treated this way.
