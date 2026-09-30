@@ -1,6 +1,6 @@
 # Muziris
 
-Every mention of Muziris and its proposed sites that exists in the local library: 1,071 passages across 43 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Muziris and its proposed sites that exists in the local library: 1,164 passages across 44 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Assessment
 
@@ -75,19 +75,69 @@ pottery, under a third is Mediterranean, and the Mesopotamian material is
 largely Sasanian and of the third to seventh centuries. The Periplus phase is a
 thin slice of a long commercial life.
 
+**Gurukkal and Whittaker, and what they actually argued.** Their 2001 article in
+JRA is usually cited as the sceptical case against the consensus. It is not. It
+is a field reconnaissance that confirms Kodungallur and then narrows it:
+"Kodungallur or Cranganore was suggested long ago as the most plausible location
+for the ancient port. That seems to be confirmed. But Kodungallur covers a large
+area: now the choices must be narrowed down to the bays just beyond the junction
+of the Periyar and Pullut rivers."
+
+Their specific proposal is **Kottamukku**, the confluence of the Periyar and the
+Pullut, where the Portuguese fort of 1523 stands. Three arguments support it.
+The Pullut entry seen from the Periyar "appears as no more than a slight inward
+dip on the horizon," which they suggest is Ptolemy's Pseudostomos, the false
+mouth. Muciri in Tamil means hare-lip, which describes the two banks of the
+Pullut meeting the Periyar. And the Kottamukku kayal may be the LACUS MUZIRIS
+drawn on the Peutinger Table, beside which that map places an icon marked
+templum Augusti. The fort occupies "the only prominence on the inlet, the sort
+of place that one might expect a temple of Augustus to have stood," and they say
+it "is crying out for a serious excavation."
+
+**They did not propose Pattanam, and Pattanam is not where they pointed.** The
+article appeared in 2001 and the KCHR excavation began in 2007. Pattanam lies
+some 7 to 9 km south of the confluence they identified. So the most careful
+pre-excavation reconnaissance of this coast looked north and the evidence
+surfaced to the south. That is worth stating plainly, because the two are often
+presented as if the excavation had confirmed the survey.
+
+**They also challenge a load-bearing claim about the Muziris papyrus.** Casson
+read the Greek as meaning a contract made "at Muziris"; Gurukkal and Whittaker,
+following Rathbone 2000, read it as "referring to Muziris." On their reading the
+papyrus "tells us nothing about the signatories to the agreements nor where the
+contracts were drawn up, much less whether there was a Roman agent resident at
+Muziris." The document remains the best evidence for the scale of the trade and
+stops being evidence for anyone living at the port.
+
+**And they note the text itself is damaged at the crucial point.** Periplus 54
+"probably reads '(Muziris) lies on a river 500 stades from Tyndis by river and
+sea, and from [?the river mouth/coast/sea] about 20 stades'." The referent of the
+20 stadia is uncertain in the same way the 120 stadia is at Nelkynda.
+
+**Two further observations of theirs bear on the wider project.** They report
+that excavations at the Tamil ports known to have had Roman contact, Arikamedu,
+Kaveripumpattinam and Alagankulam, "have yielded only a few, stray or surface
+coins," while the hoards cluster at up-country royal centres. That is our own
+inland-coins result, reached independently in 2001. And on taphonomy, they were
+told at Kochi that three metres of silt must be dredged after every monsoon, and
+conclude that "one can expect everything dating from the Early Historic period
+to have been buried beneath several centuries of sand and clay."
+
 **What is still missing.**
 
 1. The field reports for seasons six to nine, 2012 to 2015. We hold the fifth
    season report and the exhibition catalogue, and nothing between.
 2. A reconciliation of the sherd counts. Establishing whether "non-Indian" in
    the catalogue means the same as "imported" in the season tables would settle
-   the expected-yield figure.
+   the expected-yield figure, which is currently uncertain by a factor of five.
 3. Excavated area and depth trench by trench, which would let the assemblage be
    expressed as sherds per cubic metre and compared with Ras Hafun.
-4. Gurukkal 2001, "In search of Muziris", the sceptical case against the
-   consensus, which we cite at second hand.
-5. Whether a final excavation report exists at all. Nine seasons have produced
+4. Whether a final excavation report exists at all. Nine seasons have produced
    interim reports and a catalogue, and we have found no synthesis.
+5. Kottamukku has still not been excavated, as far as anything we hold records.
+   Gurukkal and Whittaker asked for it in 2001 and the effort went to Pattanam
+   instead. For the decision layer this is a live target: the two candidates sit
+   9 km apart and only one has been tested.
 
 ## Contents
 
@@ -117,6 +167,7 @@ thin slice of a long commercial life.
     - [Sumhuram Avanzini2011](#sumhuram-avanzini2011) — 1
   - [Modern scholarship](#modern-scholarship)
     - [India Tomber2010](#india-tomber2010) — 136
+    - [Gurukkal 2001 JRA In Search of Muziris](#gurukkal-2001-jra-in-search-of-muziris) — 93
     - [Tomber 2008 Indo Roman Trade From Pots to Pepper](#tomber-2008-indo-roman-trade-from-pots-to-pepper) — 64
     - [Shajan Tomber Selvakumar Cherian 2004 JRA Locating the Ancient Port of Muziris](#shajan-tomber-selvakumar-cherian-2004-jra-locating-the-ancient-port-of-muziris) — 54
     - [Historical Archaeology Iron Age Early Historic Kerala](#historical-archaeology-iron-age-early-historic-kerala) — 48
@@ -152,7 +203,7 @@ thin slice of a long commercial life.
 |---|---|
 | Proposed sites in our table | 2 |
 | Of those, ever excavated | 2 |
-| Passages in the library | 1,071 across 43 works |
+| Passages in the library | 1,164 across 44 works |
 | Ancient sources naming it | 4 |
 
 ## Proposed locations
@@ -177,9 +228,9 @@ From the Stevenson translation of the *Geography*. Ptolemy's longitudes run from
 ## The excavation record
 
 **Pattanam**, P. J. Cherian, KCHR with ASI, 2007–2015, 9 seasons.
-Virgin soil: unstated. Excavated because the site was already proposed as this port. Publication: interim.
+Virgin soil: yes. Excavated because the site was already proposed as this port. Publication: interim.
 
-The area is derived rather than stated: 'about 1% of the mound' with a core area of 45 ha gives roughly 4,500 sq m. Treat as an order of magnitude. Excavated after Shajan et al. 2004 proposed it, so targeted.
+Natural soil reached at 317 cm in a 5x4 m trench; AMS radiocarbon on charcoal at 340-370 cm puts first settlement near 1000 BC. Sixty trenches, under 1 per cent of a mound given as 70 ha in the catalogue and 45 ha elsewhere, so the derived area is order of magnitude only. Locus-based with Harris Matrix; ecofacts by flotation.
 
 **Kodungallur (Cranganore)**, K. V. Soundara Rajan, ASI Southern Circle with Kerala Dept, 1969–1970, 2 seasons.
 Virgin soil: unstated. Excavated because the site was already proposed as this port. Publication: interim.
@@ -1621,6 +1672,196 @@ _136 passages._
 > p.48 — This reﬂ ects the greater intensity of excavation rather than archaeological pat- terns, and excavations at Pattanam have now yielded large quantities of amphorae (see Selva- kumar et al this volume).
 
 > p.55 — The Artefacts, Oxford, British Archaeological Report International Series 1508, Oxford, 107–26 Shajan, KP, Selvakumar, V and Tomber, R (2005) ‘Was Pattanam ancient Muziris?’, Man and Environ- ment 30(2), 66–73 Simpson, St J (2003) ‘From Mesopotamia to Merv:
+
+#### Gurukkal 2001 JRA In Search of Muziris
+
+_93 passages._
+
+> p.2 — 335 In search of Muziris Rajan Gurukkal and Dick Whittaker The importance of Muziris in Roman trade with India does not need any underlining.
+
+> p.2 — As for Muziris, the most important of them all, we have only a vague idea of where it was located.
+
+> p.2 — Almost every earlier study has placed Muziris at Kodungallur (Cranganore/Cranganur in its Europeanised form) at the mouth of the Periyar river and north of Kerala’s main modern port of Kochi (Cochin) (fig.
+
+> p.2 — Kodungallur is the name given to a large zone, incorporating a number of small towns of which Kodungallur itself is one, strung out along the road that runs north for several kilometres from the Periyar parallel to the coast and the inland waters of the river Pullut.
+
+> p.2 — Muziris, he said, lay between the port of Tyndis to the north and Nelkynda to the south, each stage being about 500 stades (= c.92 km) or roughly a day’s run for a ship.
+
+> p.2 — But the figure included the fact that both Muziris and Nelkynda were inland river ports, Muziris 3!/2km from the coast and Nelkynda some 22 km from the coastal station at Bakare.4A few years later, Pliny the Elder, a Roman naval official whose maritime information about the crossing to India has been proved generally reliable, added that in his day the danger from pirates made Becare, which belonged to a tribe called the Neacyndi, a preferable trading port to Muziris.
+
+> p.2 — This was partly because the traders had to lie a long way off shore at Muziris and to be loaded from lighters.> Although Pliny did not explain 1 Anexcellent guide to recent bibliography is given by De Romanis and Tchernia 1997, reviewed by C.
+
+> p.2 — the text is damaged but probably reads ‘(Muziris) lies on a river 500 stades (furlongs) from Tyndis by river and sea, and from [?the river mouth/coast/sea] about 20 stades.
+
+> p.2 — Nelkynda is just about 500 stades from Muziris, likewise by river and sea ...
+
+> p.2 — NH 6.104 says ‘Muziris, the first emporium of India, is not to be sought because of pirates nearby ...
+
+> p.3 — Pliny talked of a ‘king of Muziris’ named Caelobothras (called Keprobotos by the PME) who lived in the interior while ruling a kingdom extending to Tyndis.
+
+> p.3 — One century later Ptolemy, the Alexandrian geographer, added two other coastal sites between Tyndis and Muziris, Bramagara and Kalaikarias, although neither carried the title of ‘town’ like Tyndis, nor of ‘emporium’ like Muziris.”?
+
+> p.3 — 1) that on the same latitude as Muziris but inland by 20’ was the mouth of a river called ‘Pseudostomos’ or ‘false mouth’, false perhaps because it did not open onto the sea;
+
+> p.3 — 2) that Muziris was by now the only ‘emporium’ on the Malabar coast, a title not given to Nelcynda, which must have meant that Muziris was the main pepper port in the 2nd c.
+
+> p.3 — Pounata must surely have been the famous beryl mines near Coimbatore, despite attempts to locate it at Mysore.® Ptolemy’s evidence of Muziris’s importance was reflected by a contemporary from Alexandria, Lucian, who satirised the bogus claims of historians to veracity ‘by a long letter from Muziris’ — a name, therefore, familiar to his readers.?
+
+> p.3 — The importance of Muziris as a trading centre for Alexandrian shippers in the time of Ptolemy has been confirmed by its mention in a celebrated papyrus now in the Vienna collection (P.
+
+> p.3 — A key phrase in the contract reads ‘when the time falls due for the repayment of the loan in the agreement(s) referring to Muziris’ (taig cate Mov{eipw ...
+
+> p.3 — Unfortunately, exaggerated state- ments have been made over how much the document tells us about Muziris, since all we can deduce is that some loan agreement(s) [either singular or plural] had been contracted between a land, and cargoes are brought in and carried out by light boats.’ On the accuracy of Pliny, see De Romanis and Tchernia 1997.
+
+> p.4 — In search of Muziris 337 Cotiara, PLrRate.
+
+> p.4 — What the document does not say, however, is that a contract was made in Muziris, as has been asserted.
+
+> p.4 — It therefore tells us nothing about the signatories to the agreements nor where the contracts were drawn up — much less whether there was a Roman agent “resident at Muziris” or whether there was “a trade agreement between a vanikar [a Tamil merchant] from Muciri and a trader from Alexandria” — although all this has been claimed." The only clue we have to Greco-Roman foreigners permanently resident in the port comes from the Roman road map, the Peutinger Table (fig.
+
+> p.4 — A.D.* Both Muziris and Tondis (Tyndis) are marked there, although neither were apparently on any standard route.
+
+> p.4 — Behind the name MUZIRIS on the map there is a large lake, marked LACUS MUZIRIS, beside which is an icon marked templ(um) Augusti.
+
+> p.4 — The lake can only be a represen- tation of the famous backwaters of Kerala, but the accuracy of the map is not enough for us to be sure that the temple of Augustus was actually at Muziris (even if that seems the most likely possibility) rather than somewhere in the vicinity.
+
+> p.4 — Centres for worship of the emperor in the Roman world were usually signs of a resident Roman citizen community, although there is at 11 Casson 1989, 14 and 1990, arguing that xaté& MovCeipw means “at Muziris” rather than “referring to Muziris”;
+
+> p.5 — At all events, here at least was evidence of the prominence of Muziris in the perception of the Romans, which extended to the 4th c.
+
+> p.5 — This should warn us against automatically assuming that there was a decline in the importance of Muziris and Roman trade between the 2nd and the late 4th c., as is often done simply because of the decline in the numbers of later Roman coins found in S Indian hoards."4 In truth, late Roman copper coins of the 4th and 5th c.
+
+> p.5 — Furthermore, in the library of Ambrose, Bishop of Milan in the later 4th c., a strange work about Brahmins, which was translated and adapted into Latin in the 4th c., referred to ‘Muziris, the emporium of the whole of India this side of the Ganges’.
+
+> p.5 — made no mention of Muziris but only of a people ‘who collect pepper’, which the translator naturally assumed to be Muziris.'® Pepper, too, is being found in increasing quantities in the excavations of warehouses dating to the 4th and 5th c.
+
+> p.5 — to Indian merchant ships in the Egyptian port of Clysma at the head of the Red Sea meant that cargoes of pepper were still arriving in Rome.!® The Malabar (or Male) coast was actively exporting pepper when Cosmas Indicopleustes drew attention to the fact in the 6th c., although Muziris itself did not figure in his list of ports.!?
+
+> p.5 — Apart from the western evidence about Muziris, Muciri or Muiri (the Tamil forms of the name) also featured, if not frequently at least prominently, in early Tamil poems which have been collected in the so-called Sangam literature.
+
+> p.5 — 16 ©Muzirim totius Indiae citra Gangem emporium.
+
+> p.5 — McCrindle 1927, 52, identifies two of the 5 named ports, Mangarouth and Poudopatana respectively, as Mangalore north of Muziris and Ptolemy’s Podoperoura south of Muziris, perhaps mod.
+
+> p.5 — If so, one of two ports in between, Salopatana and Nalopatana, might be a name given to Muziris at this date.
+
+> p.6 — In search of Muziris 339 the collection called the Ettuttokai (containing 8 such anthologies), generally regarded as relatively early.
+
+> p.6 — It described the rice and pepper piled up at Muziris between the ships and the houses, the rice being exchanged for fish and the pepper for gold.
+
+> p.6 — but the later the date, the later the proof of activity at Muziris.
+
+> p.6 — The characteristics of Muziris and Karoura To summarise the ancient written sources, the sort of site one should be looking for is a port, certainly, but a port on a river inlet that silted up a few kilometres from the sea.
+
+> p.7 — Whittaker Apart from the port itself, one might expect the evident prosperity of Muziris over the centuries to preserve some trace of the huge quantities of gold and other coins exported from the West, not to mention any local currency.
+
+> p.7 — With copper, however, there are additional problems over the site finds, since it was still accepted as circulating specie in the bazaars until recently, and it has been poorly recorded.” If it is true that counter-marked and slashed pieces in the hoards of both Roman coins and local Karsapanas (of which there are many) were marks of ownership or identity tags for individual banking deposits, it suggests that hoards were often laid down well after the terminus post quem, and would be, therefore, of limited guidance in dating or topography.?” All this raises the question of the relationship of Muziris to Ptolemy’s ‘capital’ or ‘royal city’ of the Cera kingdom, Karoura.
+
+> p.7 — Was it somewhere near Muziris and therefore likely to provide a clue?
+
+> p.7 — 29 Gurukkal and Varier 1999, 202, concede that the core area of the Cera chieftain of the major lineage (ventar) was at Karur and that Muziris was a “peripheral strategic point”, while on 193 they call the Cera chieftain of the Pugalur inscription “a chieftain of the collateral branch of the Cera lineage reigning from Karur”.
+
+> p.8 — In search of Muziris 341 away in the interior®° — just over 200 km, as it happens.
+
+> p.8 — A search on the ground would naturally begin with maps, particularly those of Kodungallur/Cranganore, the site traditionally associated with Muziris.
+
+> p.8 — The most cataclysmic change, which every book says has had a profound effect on Kodungallur, was the great cyclone and flood of 1341, which opened up the present harbour of Kochi and the Vembanad backwater lake system to the sea while forming, according to tradition, the putuveppu — the new deposit of land called Wypen (Vipen) island off the coast.
+
+> p.8 — since then there have been successive fluvial deposits of sand and carbonaceous (hence dateable) clay to create new strand lines and beach ridges.*8 If Muziris had been situated somewhere here in Roman times the coast at that time would have run some 4-5 km east of its present line.
+
+> p.8 — The regular silting up of the river mouth finally forced Kodungallur to cease activity as a port.
+
+> p.9 — Map of Kodungallur/Cranganur region (Surveyor General of India 1913, scale 1 inch to 1 mile, with our additions imposed).
+
+> p.9 — (b) To north and south Alternatives to the mouth of the Periyar river as the place to locate Muziris have to be considered.
+
+> p.9 — A.D., there must have existed some possible entries into the inland river-systems between Kodungallur and Kochi.
+
+> p.9 — Parur lies just south of Kodungallur and adjoins Maleankara, where there was once a Syrian church to mark the traditional landing place of St.
+
+> p.9 — By far the most impressive site for Muziris, however, is still at the mouth of the main Periyar river, over 1 km wide at its entrance.
+
+> p.9 — The Pullut enters the Periyar from the North at a T-junction, where Kodungallur island (to the west) and the mainland coast (to the east) narrow the entry into the backwater, making the entrance almost invisible from a distance.
+
+> p.10 — In search of Muziris 343 built the fort of St Thomas at Cranganore in 1523 — now called Kottamukku, meaning ‘fort of the junction’.
+
+> p.10 — The termination kayal means lake, and might possibly have been the lake of Muziris marked on the Peutinger Table.
+
+> p.10 — Once behind the headland, as one turns north into the Pullut, there is a shallow curved bay to the left (west) created by a protrusion of Kodungallur island into the river, which then recedes after about 3 km to a N-S line, creating another shallow bay.
+
+> p.10 — This protrusion of land in the form of a triangle was presumably the result of silting or alluvial deposit and is today criss-crossed with canals and waterways, giving access by the back door, so to speak, to the sev- eral villages higher up the ridge — that is, Kottapuram (meaning ‘outside the fort’), Tirukku- lasekharapuram, Cheramanperambu, Tiruvanjikkulam, and so on — which made up the south- ern sector of greater Kodungallur.
+
+> p.10 — Some of these villages might provide further clues, for it was surely here at this confluence, and perhaps in one of the two bays, that the port of Muziris once stood.
+
+> p.10 — (d) Archaeology and place-names There have been attempts to discover traces of Muziris by archaeology.
+
+> p.10 — Two hoards of Rom- an coins have been found in the administrative district of Ermakulam, of which Kodungallur is a part, one at Panangad (Kumbalam), another more recently at Valluvally (Parur).
+
+> p.10 — Valluvally lies on a branch of the Periyar, called Ceriyappilly, which separates off at Aluva (Alwey), only c.13 km from Kodungallur — in other words, close enough to Muziris to make is probable that the coins had arrived through the port.
+
+> p.10 — Roman coins have also been reported from Kodungallur itself, although no one seems to have any knowledge of them.
+
+> p.10 — To the north of the Kodungallur complex, at various sites along the Pullut river, Megalithic (that is, Iron Age) burial goods have been found which must have belonged to the people who were living hereabouts when the Roman ships arrived.* Still further north, at Madilakam 34 Muciriin Malayalam means a mouth with three (mu) lips (ciri), i.e., with the upper lip split into two.
+
+> p.10 — 36 For example, at Kotaparampu (for which see below) and Panangad, as well as along the route between the Periyar river and the Palghat Gap, which leads to Coimbatore — places where one might expect beryl to have passed on its way to Muziris for export.
+
+> p.11 — In the south- ern villages of Kodungallur, excavations at Tiruvanjikkulam, Cheramanperambu and Tiruk- kulasekharapuram produced nothing earlier than mediaeval remains of the 9th-11th c.
+
+> p.11 — the Cera king lived near Muziris.** If this were so, presumably the Ceras had established a political centre near the coast as a result of the flourishing transmarine trade with Rome and others.
+
+> p.11 — Quite close to Kalur is a place called Karur, about 10 km east of Kottamukku, the hypothetical lake of Muziris.
+
+> p.11 — If it is debatable that the Karur 200 km away in Tamilnadu was Ptolemy’s Karoura, this site of Kalur/Karur has the advantage of being much nearer Muziris.
+
+> p.11 — There might, however, be more to be learned by examining the fate of Muziris after Roman and Tamil records stopped.
+
+> p.11 — The best evidence for continuity of the name Muziris and Ponnani river basins of Kerala (PhD thesis, Pune Univ.
+
+> p.11 — Just north of Kotaparambu is a place called Nattika, which could be Nitriae, near enough to Muziris, according to Pliny, NH 6.104, for pirates to have frightened ships away from the port.
+
+> p.11 — A.D., was found at the temple of Kulur, about 13 km east of Kodungallur;
+
+> p.12 — In search of Muziris 345 lies in the famous copper-plate inscription, now kept in the Paradesi synagogue at Kochi and thought to date from about A.D.
+
+> p.12 — 1000.41 It is the record of various aristocratic privileges, plus the tolls on ships and carts and land taxes, granted to a Jewish leader (called a ‘prince’) by the local king, Bhaskararavi Varman, who himself was living at Muyricote.42 Muricote is thought in its Tamil form to be Muyiri-kode, meaning ‘the landscape jutting out into the sea at Muziris’.
+
+> p.12 — At Tiru- vanjikkulam, one of the villages of Kodungallur, a large artificial pool or tank, traditionally associated with the Cera king, Ceraman Perumbal, is still called Joodakkulam, the Jewish tank.“ That makes a strong argument in favour of the idea that this particular sector of Kodulgallur was part of the ancient site of Muziris.
+
+> p.12 — The name Kodungallur (Cranganore/Cranganur) however, must have had nearly as long a history as Shingly, since the names seem to have been regarded as alternatives quite early on.
+
+> p.12 — In the 16th c., Assemani’s Dissertation on the Syrian Nestorians stated that ‘Sciglia is another name for Chrongalor, the city which we say belongs to the people of Cranganore in Malabar’.
+
+> p.12 — The Jews of Cranganore were expelled to Parur and other villages on several occasions in the 16th c.
+
+> p.13 — Thomas as their founder, were a prominent presence at Kodungallur when the Portuguese arrived.
+
+> p.13 — The anonymous author of Vasco da Gama’s first voyage to Malabar, who wrote the so-called Roteiro in the early 16th c., said, ‘Quorangoliz [Cranganore] is a Christian country and the king is a Christian ...
+
+> p.13 — When the Portuguese finally attacked Kodungallur in 1505, Jewish and Muslim houses were sacked but Christians were spared.
+
+> p.14 — In search of Muziris 347 CRANGANORTM* Van thn Sidermage te diem.
+
+> p.14 — What we would really like to know is what the site of Cranganor looked like before the Portuguese finally built their fort there in 1523, since so much seems to be pointing to this prominence as a clue to the forgotten history of Muziris.
+
+> p.15 — Kodungallur or Cran- ganore was suggested long ago as the most plausible location for the ancient port.
+
+> p.15 — But Kodungallur covers a large area:
+
+> p.15 — APPENDIX Searching for the ports of Tyndis to the north and Nelkynda to the south As a footnote to the search for Muziris — if Muziris was indeed at Kodungallur — we describe a rapid look at the ports to the North and to the South, Tyndis and Becare/Nelkynda, respectively, each of which the PME said was 92 km distant (which included river-travel).
+
+> p.15 — Each port thus has a reasonable case to be considered the ancient Tyndis, and there seems no sure way of deciding between the two, short of excavation, since neither fits precisely the distance from Muziris provided by the Periplus.°° On balance, Kadalundi is perhaps the more probable.
+
+> p.16 — In search of Muziris 349 founded by St.
+
+> p.16 — If Kottyam was indeed Nelkynda, the distances provided by the PME from Nelkynda to Becare on the coast (wherever it was) and to Muziris (Kodallungur) coincide pretty well.
+
+> p.16 — Coastal aggression makes it impossible to guess how far inland the site might have been, but memories of a lost harbour are reflected in place-names and legends.58 According to the PME, the distance from Muziris to Becare was c.70 km (ie., 92 km minus the 22-km inland river journey), while Kodungallur to Pirakkad measures about 96 km.
+
+> p.17 — “Archaeological excavations in Kodungallur — a general impression,” Journal of Indian History 48.1, 169-88.
+
+> p.17 — “Stages in the emergence of the Cochin-Kodungallur coast:
+
+> p.17 — “The ‘Muziris’ papyrus (SB XVII 13167):
 
 #### Tomber 2008 Indo Roman Trade From Pots to Pepper
 

@@ -1,6 +1,6 @@
 # Nelkynda
 
-Every mention of Nelkynda and its proposed sites that exists in the local library: 240 passages across 25 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Nelkynda and its proposed sites that exists in the local library: 260 passages across 26 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Assessment
 
@@ -26,6 +26,22 @@ is one of only three unround figures in the text, so the pairing constraint
 should outrank the 500-stadia leg. The 500 is also the figure most likely to be
 rescued by measuring through the Vembanad backwaters, which is what "by river and
 sea" specifies and which nobody has done.
+
+**Gurukkal and Whittaker back Kottayam, and they measure it the right way.**
+Their 2001 appendix calls Kottayam "much more plausible" on the grounds that it
+linked the pepper hills to the Vembanad and holds the medieval copper plates,
+though they concede "a single worn gold aureus of Nero is its only direct link
+with antiquity." The important part is the measurement: **"From Kottayam to the
+coast at Alappuzha, as the ferry goes, is 19 km, against the 22 km from Nelkynda
+to Becare recorded in the Greek source."** That is a network distance along the
+water, not a straight line, and on that basis Kottayam fits. It is the approach
+we have been arguing for, already applied a quarter of a century ago, and it
+reverses the verdict our straight-line measurement gives.
+
+They also note a toponymic possibility: a disused canal linking Kottayam to the
+Vembanad runs through a district called **Vaiaskara**, which they suggest "bears
+some resemblance to the ancient name Becare," and could mean the coastal port's
+name transferred to a suburb of Kottayam.
 
 Two cautions. Ptolemy places Melcynda at 120°20' in his region Aii, south of the
 Baris mouth rather than upstream of it, which does not match the Periplus's
@@ -56,6 +72,7 @@ in the fifty volumes of Indian Archaeology we were able to parse, and no candida
     - [Cherian Pattanam Evidence of Maritime Exchanges](#cherian-pattanam-evidence-of-maritime-exchanges) — 1
   - [Modern scholarship](#modern-scholarship)
     - [Re Inventing Panthalayani Kollam heritage](#re-inventing-panthalayani-kollam-heritage) — 22
+    - [Gurukkal 2001 JRA In Search of Muziris](#gurukkal-2001-jra-in-search-of-muziris) — 20
     - [Medieval Ports Maritime Activities North Malabar](#medieval-ports-maritime-activities-north-malabar) — 15
     - [Madayipara Hill2020](#madayipara-hill2020) — 13
     - [Dayalan 2018 Ancient Seaports Western Coast India](#dayalan-2018-ancient-seaports-western-coast-india) — 12
@@ -78,7 +95,7 @@ in the fifty volumes of Indian Archaeology we were able to parse, and no candida
 |---|---|
 | Proposed sites in our table | 4 |
 | Of those, ever excavated | 1 |
-| Passages in the library | 240 across 25 works |
+| Passages in the library | 260 across 26 works |
 | Ancient sources naming it | 3 |
 
 ## Proposed locations
@@ -465,6 +482,50 @@ _22 passages._
 > p.9 — The name of Panthalayni Kollam have to be reinvented in heritage map of Calicut.
 
 > p.10 — Krishna Aiyar, History of Kerala, Coimbatore,1968 Dr.P.B Salim, Malabar Paithrukavum Prathapavum, Kozhikode .2011 http://historicalleys.blogspot.in/2009/05/pantalayani-kollam-port-no-more.html http://shodhganga.inflibnet.ac.in/bitstream/10603/79628/7/07_chapter%201.pdf Contact email:
+
+#### Gurukkal 2001 JRA In Search of Muziris
+
+_20 passages._
+
+> p.2 — Muziris, he said, lay between the port of Tyndis to the north and Nelkynda to the south, each stage being about 500 stades (= c.92 km) or roughly a day’s run for a ship.
+
+> p.2 — But the figure included the fact that both Muziris and Nelkynda were inland river ports, Muziris 3!/2km from the coast and Nelkynda some 22 km from the coastal station at Bakare.4A few years later, Pliny the Elder, a Roman naval official whose maritime information about the crossing to India has been proved generally reliable, added that in his day the danger from pirates made Becare, which belonged to a tribe called the Neacyndi, a preferable trading port to Muziris.
+
+> p.2 — Nelkynda is just about 500 stades from Muziris, likewise by river and sea ...
+
+> p.3 — Both authors were clear that the principal cargo was pepper, coming for the most part from a region called Kottanarike or Cottanara, which must surely be the modern Kottanadu district centred on the town of Kottayam.
+
+> p.3 — B.C., meaning sons of the Cera clan and referring not to any one ruler but to the descent group or ruling clan as a whole.® Our two writers agree that Becare-Nelkynda was ruled by a king called Pandion, who also lived in the interior — at Modura, said Pliny, which was obviously Madurai, the historic royal city of the Pandyan kings.
+
+> p.3 — 2) that Muziris was by now the only ‘emporium’ on the Malabar coast, a title not given to Nelcynda, which must have meant that Muziris was the main pepper port in the 2nd c.
+
+> p.12 — But before this a Syrian Christian trading corporation (manigrammam) had, like the Jews, recorded grants from the local ruler on another set of copper plate, now preserved in the old seminary of Kottayam, which probably also dated from the 9th or 10th c.
+
+> p.12 — then Chinkali, then Kulan [Quilon]’, and a similar list of ports occurs in the Arab writer Shemseddin Dimishqui a few years later:
+
+> p.12 — But the name does not appear in the Genizah archives, which lists the ports of Kerala as Fandarayna (north of Calicut), Cannanore, and Kolam (Quilon);
+
+> p.15 — APPENDIX Searching for the ports of Tyndis to the north and Nelkynda to the south As a footnote to the search for Muziris — if Muziris was indeed at Kodungallur — we describe a rapid look at the ports to the North and to the South, Tyndis and Becare/Nelkynda, respectively, each of which the PME said was 92 km distant (which included river-travel).
+
+> p.15 — Turning to the South, the coastal changes in the formation of the Vembanad Lake backwaters have been so profound that it is almost anyone’s guess where a plausible port of Becare might have been situated, or how it would have linked with the inland town of Nelcynda.
+
+> p.15 — Not far from Chengannur is Niranom, the site of one of the churches supposedly the fort proper as 600 fathoms (3600 ft.) in circumference and 1!/2 fathoms (9 ft) in height.
+
+> p.16 — no doubt for this reason it had been thought a possible site for Nelcynda.
+
+> p.16 — Much more plausible seems Kottayam, a large urban centre today and a focal point of the Syrian church in the Middle Ages, half-encircled by the river Menacil which flows into the Vermbanad system.
+
+> p.16 — Not only were mediaeval copper-plate records that concern the early Christian trading community of Quilon to the south found at Kottayam , but it has always been an important trade centre that linked the eastern pepper and spice-rich hills with the Vembanad waterways.
+
+> p.16 — But a single worn gold aureus of Nero is its only direct link with antiquity.°° Ptolemy gave the name of the river on which Nelkynda stood as Baris, but, despite the fact that the PME appears to suggest that Becare and Nelcynda stood on the same river, the huge changes in the Vembanad waterways make it impossible to base much upon this evidence.” A disused canal linking Kottyam to the Vembanad in a district called Vaiaskara bears some resemblance to the ancient name Becare, which could possibly indicate that the coastal port transferred its name to a suburb of Kottyam.
+
+> p.16 — If Kottyam was indeed Nelkynda, the distances provided by the PME from Nelkynda to Becare on the coast (wherever it was) and to Muziris (Kodallungur) coincide pretty well.
+
+> p.16 — From Kottyam to the coast at Alappuzha, as the ferry goes, is 19 km, against the 22 km from Nelkynda to Becare recorded in the Greek source.
+
+> p.16 — de Padre), although Porca (Pirakkad) is there marked as the principal port between Cotchyn (Kochi) and Coulan (Quilon).
+
+> p.16 — School of Social Sciences, Mahatma Gandhi Univ., Kottayam (RG);
 
 #### Medieval Ports Maritime Activities North Malabar
 

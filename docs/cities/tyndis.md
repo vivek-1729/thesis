@@ -1,6 +1,6 @@
 # Tyndis
 
-Every mention of Tyndis and its proposed sites that exists in the local library: 132 passages across 17 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Tyndis and its proposed sites that exists in the local library: 149 passages across 18 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Assessment
 
@@ -52,6 +52,7 @@ supports a stretch of coast, not a village.
     - [Cappers 2006 Roman Foodprints at Berenike archaeobotanical](#cappers-2006-roman-foodprints-at-berenike-archaeobotanical) — 2
   - [Modern scholarship](#modern-scholarship)
     - [Re Inventing Panthalayani Kollam heritage](#re-inventing-panthalayani-kollam-heritage) — 34
+    - [Gurukkal 2001 JRA In Search of Muziris](#gurukkal-2001-jra-in-search-of-muziris) — 17
     - [Dayalan 2018 Ancient Seaports Western Coast India](#dayalan-2018-ancient-seaports-western-coast-india) — 12
     - [Archaeological Literary Ethnographic Evidence](#archaeological-literary-ethnographic-evidence) — 7
     - [Medieval Ports Maritime Activities North Malabar](#medieval-ports-maritime-activities-north-malabar) — 6
@@ -70,7 +71,7 @@ supports a stretch of coast, not a village.
 |---|---|
 | Proposed sites in our table | 4 |
 | Of those, ever excavated | 2 |
-| Passages in the library | 132 across 17 works |
+| Passages in the library | 149 across 18 works |
 | Ancient sources naming it | 3 |
 
 ## Proposed locations
@@ -347,6 +348,44 @@ _34 passages._
 > p.10 — Panthalayani Panchayath Development Plan 2018 K.V.
 
 > p.10 — Krishna Aiyar, History of Kerala, Coimbatore,1968 Dr.P.B Salim, Malabar Paithrukavum Prathapavum, Kozhikode .2011 http://historicalleys.blogspot.in/2009/05/pantalayani-kollam-port-no-more.html http://shodhganga.inflibnet.ac.in/bitstream/10603/79628/7/07_chapter%201.pdf Contact email:
+
+#### Gurukkal 2001 JRA In Search of Muziris
+
+_17 passages._
+
+> p.2 — Muziris, he said, lay between the port of Tyndis to the north and Nelkynda to the south, each stage being about 500 stades (= c.92 km) or roughly a day’s run for a ship.
+
+> p.2 — the text is damaged but probably reads ‘(Muziris) lies on a river 500 stades (furlongs) from Tyndis by river and sea, and from [?the river mouth/coast/sea] about 20 stades.
+
+> p.3 — Pliny talked of a ‘king of Muziris’ named Caelobothras (called Keprobotos by the PME) who lived in the interior while ruling a kingdom extending to Tyndis.
+
+> p.3 — One century later Ptolemy, the Alexandrian geographer, added two other coastal sites between Tyndis and Muziris, Bramagara and Kalaikarias, although neither carried the title of ‘town’ like Tyndis, nor of ‘emporium’ like Muziris.”?
+
+> p.4 — A.D.* Both Muziris and Tondis (Tyndis) are marked there, although neither were apparently on any standard route.
+
+> p.11 — The best evidence for continuity of the name Muziris and Ponnani river basins of Kerala (PhD thesis, Pune Univ.
+
+> p.11 — Ptolemy 7.1.7, however, places Nitriai north of Tyndis, perhaps at Mangalore and, therefore, beyond Cera power;
+
+> p.15 — APPENDIX Searching for the ports of Tyndis to the north and Nelkynda to the south As a footnote to the search for Muziris — if Muziris was indeed at Kodungallur — we describe a rapid look at the ports to the North and to the South, Tyndis and Becare/Nelkynda, respectively, each of which the PME said was 92 km distant (which included river-travel).
+
+> p.15 — Kadalundi, about 117 km north from Kodallungur, and Ponnani, about 74 km.*3 Kadalundi, at the mouth of the Chaliyam river, is prima facie the more attractive choice for the site of ancient Tyndis or Tundis, since the place name Kadalundi is supposedly a compound of kadal, ‘sea’, and tundi, ‘navel’.
+
+> p.15 — It is also thought to have been the location of Tondi, which appeared in the mediaeval Tamil epic, the Silappadikaram (14.136), as a town in possession of a trading fleet that paid tribute to the Cola king.
+
+> p.15 — Ponnani is a small, bustling port with its own fishing fleet and fish market standing at the mouth of the Ponnani river.
+
+> p.15 — This route through the Palghat Gap is marked on the Peutinger Table, although it apparently by-passed ‘Tondis’.
+
+> p.15 — About 6 km up- river from the town of Ponnani, and 1 km from the present river bed, there was a village called Tindilam, not far from a huge paleo-channel of an inland water, now controlled for the paddy fields by a dam.
+
+> p.15 — Ponnani’s port is plagued by sand banks and silting.
+
+> p.15 — Each port thus has a reasonable case to be considered the ancient Tyndis, and there seems no sure way of deciding between the two, short of excavation, since neither fits precisely the distance from Muziris provided by the Periplus.°° On balance, Kadalundi is perhaps the more probable.
+
+> p.15 — The fort was a thorn in the side of the Zamorin and was destroyed in 1571, forcing the Portuguese to attempt to build a fort at Ponnani (never completed).
+
+> p.15 — 55 Casson 1989, 297, concluded that the odds slightly favoured Ponnani.
 
 #### Dayalan 2018 Ancient Seaports Western Coast India
 

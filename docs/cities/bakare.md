@@ -1,6 +1,6 @@
 # Bakarē
 
-Every mention of Bakarē and its proposed sites that exists in the local library: 46 passages across 11 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
+Every mention of Bakarē and its proposed sites that exists in the local library: 60 passages across 12 works. Nothing here is drawn from the open web. Passages are verbatim and carry the page of the PDF they were read from.
 
 ## Assessment
 
@@ -84,6 +84,16 @@ So the apparent settlement is an artefact of which books one reads. The
 identification is 1912 and 1989 vintage, and nobody writing in the last three
 decades in this corpus has reasserted it.
 
+**Gurukkal and Whittaker reject Purakkad on distance, and suggest the site is
+lost.** Working from Kodungallur, they compute that "the distance from Muziris to
+Becare was c.70 km, while Kodungallur to Pirakkad measures about 96 km. That
+could mean that Becare was further north at a site, now lost." They add that
+Pirakkad today is "nothing but a sandy beach" and that "coastal aggression makes
+it impossible to guess how far inland the site might have been." This is a
+fourth position, distinct from Schoff's Purakkad, McCrindle's Kallada and
+Dayalan's Markari or Varakkai, and it agrees with our own finding that no
+proposed candidate satisfies the constraints.
+
 **Casson grades Bakare among the five names identifiable "with more confidence
 than the others."** Given that no candidate has been excavated, that the pairing
 distance is inferred, and that the proposal outlived its own justification, I do
@@ -107,6 +117,7 @@ site is Nelkynda, the pair should be reported together.
   - [Excavation reports](#excavation-reports)
     - [Cherian Pattanam Evidence of Maritime Exchanges](#cherian-pattanam-evidence-of-maritime-exchanges) — 1
   - [Modern scholarship](#modern-scholarship)
+    - [Gurukkal 2001 JRA In Search of Muziris](#gurukkal-2001-jra-in-search-of-muziris) — 14
     - [Tomber 2008 Indo Roman Trade From Pots to Pepper](#tomber-2008-indo-roman-trade-from-pots-to-pepper) — 4
     - [Dayalan 2018 Ancient Seaports Western Coast India](#dayalan-2018-ancient-seaports-western-coast-india) — 3
     - [IndiaTrade Romanis2015](#indiatrade-romanis2015) — 3
@@ -121,7 +132,7 @@ site is Nelkynda, the pair should be reported together.
 |---|---|
 | Proposed sites in our table | 3 |
 | Of those, ever excavated | 0 |
-| Passages in the library | 46 across 11 works |
+| Passages in the library | 60 across 12 works |
 | Ancient sources naming it | 3 |
 
 ## Proposed locations
@@ -241,6 +252,38 @@ _1 passages._
 > p.1 — The establishment of mid-ocean routes is often attributed to the "discovery" of monsoon winds without taking into account the long-term dynamics of maritime activities that existed before the "discovery." We have about half a dozen sources of various genres that refer to the key Early Historic port sites in the Indian Ocean Rim.3 The most important among them on the southwest coast of India were Tindis, Muziris, Nelcynda and Becare.
 
 ### Modern scholarship
+
+#### Gurukkal 2001 JRA In Search of Muziris
+
+_14 passages._
+
+> p.1 — Whittaker TAMIL Nab Alleppey Pirakkad Fig.
+
+> p.2 — But the figure included the fact that both Muziris and Nelkynda were inland river ports, Muziris 3!/2km from the coast and Nelkynda some 22 km from the coastal station at Bakare.4A few years later, Pliny the Elder, a Roman naval official whose maritime information about the crossing to India has been proved generally reliable, added that in his day the danger from pirates made Becare, which belonged to a tribe called the Neacyndi, a preferable trading port to Muziris.
+
+> p.3 — At Becare, Pliny implied, things were different, although he com- mented that here too small boats made of hollowed tree trunks brought the produce to the port.
+
+> p.3 — B.C., meaning sons of the Cera clan and referring not to any one ruler but to the descent group or ruling clan as a whole.® Our two writers agree that Becare-Nelkynda was ruled by a king called Pandion, who also lived in the interior — at Modura, said Pliny, which was obviously Madurai, the historic royal city of the Pandyan kings.
+
+> p.15 — APPENDIX Searching for the ports of Tyndis to the north and Nelkynda to the south As a footnote to the search for Muziris — if Muziris was indeed at Kodungallur — we describe a rapid look at the ports to the North and to the South, Tyndis and Becare/Nelkynda, respectively, each of which the PME said was 92 km distant (which included river-travel).
+
+> p.15 — Turning to the South, the coastal changes in the formation of the Vembanad Lake backwaters have been so profound that it is almost anyone’s guess where a plausible port of Becare might have been situated, or how it would have linked with the inland town of Nelcynda.
+
+> p.16 — But a single worn gold aureus of Nero is its only direct link with antiquity.°° Ptolemy gave the name of the river on which Nelkynda stood as Baris, but, despite the fact that the PME appears to suggest that Becare and Nelcynda stood on the same river, the huge changes in the Vembanad waterways make it impossible to base much upon this evidence.” A disused canal linking Kottyam to the Vembanad in a district called Vaiaskara bears some resemblance to the ancient name Becare, which could possibly indicate that the coastal port transferred its name to a suburb of Kottyam.
+
+> p.16 — If Kottyam was indeed Nelkynda, the distances provided by the PME from Nelkynda to Becare on the coast (wherever it was) and to Muziris (Kodallungur) coincide pretty well.
+
+> p.16 — From Kottyam to the coast at Alappuzha, as the ferry goes, is 19 km, against the 22 km from Nelkynda to Becare recorded in the Greek source.
+
+> p.16 — The river on which Becare supposedly stood could have been an opening into the Vembanad Lake, since the coast line appears on maps of the 16th and 17th c.
+
+> p.16 — On early maps Becare itself was often identified with Pirakkad (Porakkad) or Porga, today nothing but a sandy beach.
+
+> p.16 — Coastal aggression makes it impossible to guess how far inland the site might have been, but memories of a lost harbour are reflected in place-names and legends.58 According to the PME, the distance from Muziris to Becare was c.70 km (ie., 92 km minus the 22-km inland river journey), while Kodungallur to Pirakkad measures about 96 km.
+
+> p.16 — That could mean that Becare was further north at a site, now lost, which gave access to the Vembanad lake.
+
+> p.16 — de Padre), although Porca (Pirakkad) is there marked as the principal port between Cotchyn (Kochi) and Coulan (Quilon).
 
 #### Tomber 2008 Indo Roman Trade From Pots to Pepper
 

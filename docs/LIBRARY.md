@@ -107,8 +107,9 @@ identifications still in circulation are his and his reasoning is explicit.
 - `scholarship/apa-IndOc-Gulf-MuzirisPapyrus-Romanis2012.pdf` and `2014` — the
   Vienna papyrus, the best documentary evidence for the trade itself.
 - `ancient-sources/Casson-1990-ZPE-New-Light-on-Maritime-Loans-Muziris-Papyrus.pdf`
-- **[missing]** Gurukkal 2001, "In search of Muziris", *JRA* — the sceptical case
-  against the consensus.
+- `scholarship/Gurukkal-2001-JRA-In-Search-of-Muziris.pdf` — Gurukkal and
+  Whittaker's field reconnaissance, which confirms Kodungallur and narrows it to
+  the Periyar-Pullut confluence. OCR'd from an image-only scan.
 
 ### Rhapta
 
@@ -177,8 +178,6 @@ In priority order. The first three are arguments currently being taken on trust.
    coin find in India **including single and stray finds**, which is the category
    CHRE omits and the one that actually bears on harbour location. Routledge
    reissue 9780367605827.
-3. **Gurukkal 2001**, "In search of Muziris", *JRA*.
-   doi:10.1017/s1047759400019978.
 4. **Salles & Sedov (eds)**, *Qāni'. Le port antique du Hadramawt*, Brepols 2010,
    553 pp. Several hundred bronze coins; would give a second quantified anchor
    assemblage beside Pattanam and a second bronze site-find assemblage beside

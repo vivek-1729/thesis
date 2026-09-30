@@ -365,19 +365,69 @@ pottery, under a third is Mediterranean, and the Mesopotamian material is
 largely Sasanian and of the third to seventh centuries. The Periplus phase is a
 thin slice of a long commercial life.
 
+**Gurukkal and Whittaker, and what they actually argued.** Their 2001 article in
+JRA is usually cited as the sceptical case against the consensus. It is not. It
+is a field reconnaissance that confirms Kodungallur and then narrows it:
+"Kodungallur or Cranganore was suggested long ago as the most plausible location
+for the ancient port. That seems to be confirmed. But Kodungallur covers a large
+area: now the choices must be narrowed down to the bays just beyond the junction
+of the Periyar and Pullut rivers."
+
+Their specific proposal is **Kottamukku**, the confluence of the Periyar and the
+Pullut, where the Portuguese fort of 1523 stands. Three arguments support it.
+The Pullut entry seen from the Periyar "appears as no more than a slight inward
+dip on the horizon," which they suggest is Ptolemy's Pseudostomos, the false
+mouth. Muciri in Tamil means hare-lip, which describes the two banks of the
+Pullut meeting the Periyar. And the Kottamukku kayal may be the LACUS MUZIRIS
+drawn on the Peutinger Table, beside which that map places an icon marked
+templum Augusti. The fort occupies "the only prominence on the inlet, the sort
+of place that one might expect a temple of Augustus to have stood," and they say
+it "is crying out for a serious excavation."
+
+**They did not propose Pattanam, and Pattanam is not where they pointed.** The
+article appeared in 2001 and the KCHR excavation began in 2007. Pattanam lies
+some 7 to 9 km south of the confluence they identified. So the most careful
+pre-excavation reconnaissance of this coast looked north and the evidence
+surfaced to the south. That is worth stating plainly, because the two are often
+presented as if the excavation had confirmed the survey.
+
+**They also challenge a load-bearing claim about the Muziris papyrus.** Casson
+read the Greek as meaning a contract made "at Muziris"; Gurukkal and Whittaker,
+following Rathbone 2000, read it as "referring to Muziris." On their reading the
+papyrus "tells us nothing about the signatories to the agreements nor where the
+contracts were drawn up, much less whether there was a Roman agent resident at
+Muziris." The document remains the best evidence for the scale of the trade and
+stops being evidence for anyone living at the port.
+
+**And they note the text itself is damaged at the crucial point.** Periplus 54
+"probably reads '(Muziris) lies on a river 500 stades from Tyndis by river and
+sea, and from [?the river mouth/coast/sea] about 20 stades'." The referent of the
+20 stadia is uncertain in the same way the 120 stadia is at Nelkynda.
+
+**Two further observations of theirs bear on the wider project.** They report
+that excavations at the Tamil ports known to have had Roman contact, Arikamedu,
+Kaveripumpattinam and Alagankulam, "have yielded only a few, stray or surface
+coins," while the hoards cluster at up-country royal centres. That is our own
+inland-coins result, reached independently in 2001. And on taphonomy, they were
+told at Kochi that three metres of silt must be dredged after every monsoon, and
+conclude that "one can expect everything dating from the Early Historic period
+to have been buried beneath several centuries of sand and clay."
+
 **What is still missing.**
 
 1. The field reports for seasons six to nine, 2012 to 2015. We hold the fifth
    season report and the exhibition catalogue, and nothing between.
 2. A reconciliation of the sherd counts. Establishing whether "non-Indian" in
    the catalogue means the same as "imported" in the season tables would settle
-   the expected-yield figure.
+   the expected-yield figure, which is currently uncertain by a factor of five.
 3. Excavated area and depth trench by trench, which would let the assemblage be
    expressed as sherds per cubic metre and compared with Ras Hafun.
-4. Gurukkal 2001, "In search of Muziris", the sceptical case against the
-   consensus, which we cite at second hand.
-5. Whether a final excavation report exists at all. Nine seasons have produced
+4. Whether a final excavation report exists at all. Nine seasons have produced
    interim reports and a catalogue, and we have found no synthesis.
+5. Kottamukku has still not been excavated, as far as anything we hold records.
+   Gurukkal and Whittaker asked for it in 2001 and the effort went to Pattanam
+   instead. For the decision layer this is a live target: the two candidates sit
+   9 km apart and only one has been tested.
 """,
 
 "nelkynda": """
@@ -401,6 +451,22 @@ is one of only three unround figures in the text, so the pairing constraint
 should outrank the 500-stadia leg. The 500 is also the figure most likely to be
 rescued by measuring through the Vembanad backwaters, which is what "by river and
 sea" specifies and which nobody has done.
+
+**Gurukkal and Whittaker back Kottayam, and they measure it the right way.**
+Their 2001 appendix calls Kottayam "much more plausible" on the grounds that it
+linked the pepper hills to the Vembanad and holds the medieval copper plates,
+though they concede "a single worn gold aureus of Nero is its only direct link
+with antiquity." The important part is the measurement: **"From Kottayam to the
+coast at Alappuzha, as the ferry goes, is 19 km, against the 22 km from Nelkynda
+to Becare recorded in the Greek source."** That is a network distance along the
+water, not a straight line, and on that basis Kottayam fits. It is the approach
+we have been arguing for, already applied a quarter of a century ago, and it
+reverses the verdict our straight-line measurement gives.
+
+They also note a toponymic possibility: a disused canal linking Kottayam to the
+Vembanad runs through a district called **Vaiaskara**, which they suggest "bears
+some resemblance to the ancient name Becare," and could mean the coastal port's
+name transferred to a suburb of Kottayam.
 
 Two cautions. Ptolemy places Melcynda at 120°20' in his region Aii, south of the
 Baris mouth rather than upstream of it, which does not match the Periplus's
@@ -487,6 +553,16 @@ does not mention Purakkad at all.
 So the apparent settlement is an artefact of which books one reads. The
 identification is 1912 and 1989 vintage, and nobody writing in the last three
 decades in this corpus has reasserted it.
+
+**Gurukkal and Whittaker reject Purakkad on distance, and suggest the site is
+lost.** Working from Kodungallur, they compute that "the distance from Muziris to
+Becare was c.70 km, while Kodungallur to Pirakkad measures about 96 km. That
+could mean that Becare was further north at a site, now lost." They add that
+Pirakkad today is "nothing but a sandy beach" and that "coastal aggression makes
+it impossible to guess how far inland the site might have been." This is a
+fourth position, distinct from Schoff's Purakkad, McCrindle's Kallada and
+Dayalan's Markari or Varakkai, and it agrees with our own finding that no
+proposed candidate satisfies the constraints.
 
 **Casson grades Bakare among the five names identifiable "with more confidence
 than the others."** Given that no candidate has been excavated, that the pairing

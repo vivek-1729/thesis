@@ -682,6 +682,18 @@ Kannetri, Markari, Varakkai, and Beypore as a point separate from Kadalundi.
 > poem ... talks of the city where the beautiful vessels, the masterpieces of the
 > Yavanas, **stir white foam on the Periyar**, river of Kerala." — Casson 1989
 
+**Gurukkal and Whittaker (2001) are routinely miscited, ours included.** Their
+JRA article is not a sceptical case against the consensus. It confirms
+Kodungallur and narrows it to the bays beyond the Periyar-Pullut confluence at
+Kottamukku, which they say "is crying out for a serious excavation." They
+published six years before the Pattanam dig began, and Pattanam lies 7 to 9 km
+south of the spot they identified. The most careful pre-excavation survey of
+this coast pointed one way and the evidence surfaced the other. They also read
+the Muziris papyrus, with Rathbone, as "referring to Muziris" rather than
+recording a contract made there, which removes it as evidence for a Roman agent
+resident at the port; and they note that Periplus 54 is damaged at the point
+where it gives Muziris's 20 stadia, so the referent is uncertain.
+
 Note what this secures and what it does not. The Tamil poem places Muziris on the
 Periyar. It does not place it at Pattanam rather than Kodungallur, which are 9 km
 apart on the same delta. And the identification has moved a long way before:
