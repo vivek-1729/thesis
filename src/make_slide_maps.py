@@ -199,7 +199,8 @@ def nelkynda_bakare():
     is what this map tests; the text itself does not state it."""
     bbox = (76.02, 76.98, 8.82, 9.92)
     fig, ax = frame(bbox, 8.4,
-                    "Bakarē lies 120 stadia from Nelkynda, the text's most precise figure")
+                    "Casson reads the text's 120 stadia as the distance from Nelkynda to Bakarē",
+                    min_flow=28)
     for k, col in [("niranam", ARC), ("kottayam_kerala", "#b4459b")]:
         lo, la = xy(k)
         band(ax, la, lo, 120 * LO, 120 * HI, color=col, alpha=0.10)
