@@ -66,38 +66,42 @@ def cumulative_distance():
 
 # ------------------------------------------------------------------ figure 2
 def inland_map():
-    """Where the hoards actually sit, with distance from the coast contoured.
-    This is figure 1 put back into space: the ports are on the shoreline and the
-    coins cluster in the band 100 to 200 km inland."""
+    """Where the hoards sit, against where the ports could be.
+
+    Each disputed port is drawn as a circle enclosing every location proposed
+    for it, so the figure carries the width of the disagreement rather than
+    asserting a point. Distance from the coast is contoured, which is figure 1
+    put back into space.
+    """
     import numpy as np
     D = [r for r in csv.DictReader(open(ROOT / "data/processed/chre_hoard_distances.csv"))
          if r["country"] == "India" and r["lat"]]
     S = {r["site_key"]: r for r in csv.DictReader(open(ROOT / "data/raw/site_aliases.csv"))}
+    PORTS = [("Tyndis", ["ponnani", "tanur", "kadalundi", "koyilandy"]),
+             ("Muziris", ["pattanam", "kodungallur"]),
+             ("Nelkynda", ["niranam", "kottayam_kerala", "kollam", "neendakara"]),
+             ("Bakar\u0113", ["purakkad", "kallada", "thevalakara"])]
     bbox = (74.0, 80.6, 7.9, 14.2)
     aspect = 1 / math.cos(math.radians((bbox[2] + bbox[3]) / 2))
     w = 9.6; h = w * (bbox[3] - bbox[2]) * aspect / (bbox[1] - bbox[0])
     fig, ax = plt.subplots(figsize=(w, h + 0.95)); fig.patch.set_facecolor("white")
     bm.draw(ax, bbox, river_lw=(0.4, 1.4), min_flow=200)
 
-    # distance to the coastline, on a grid, so the inland bands can be drawn
     pts = []
     for shp, parts, _ in bm._read("ne_10m_coastline.shp"):
         for seg in bm._clip(shp, parts, bbox, pad=3.0):
             pts.extend(seg)
     P = np.array(pts)
-    gx = np.linspace(bbox[0], bbox[1], 190)
-    gy = np.linspace(bbox[2], bbox[3], 190)
+    gx = np.linspace(bbox[0], bbox[1], 190); gy = np.linspace(bbox[2], bbox[3], 190)
     GX, GY = np.meshgrid(gx, gy)
     kx = 111.32 * math.cos(math.radians((bbox[2] + bbox[3]) / 2))
     dist = np.full(GX.shape, 1e9)
     for i in range(0, len(P), 3):
-        d = np.hypot((GX - P[i, 0]) * kx, (GY - P[i, 1]) * 110.57)
-        np.minimum(dist, d, out=dist)
+        np.minimum(dist, np.hypot((GX - P[i, 0]) * kx, (GY - P[i, 1]) * 110.57), out=dist)
     cs = ax.contour(GX, GY, dist, levels=[25, 100, 200], colors="#b4459b",
-                    linewidths=[1.4, 1.1, 1.1], linestyles=[(0, (5, 3))] * 3, zorder=5)
+                    linewidths=[1.3, 1.0, 1.0], linestyles=[(0, (5, 3))] * 3, zorder=5)
     ax.clabel(cs, fmt=lambda v: f"{v:.0f} km", fontsize=9, colors="#b4459b",
               inline_spacing=6)
-    # the contours are only meaningful on land, so cover the sea back over them
     from matplotlib.collections import PolyCollection
     ocean = [sg for shp, parts, _ in bm._read("ne_10m_ocean.shp")
              for sg in bm._clip(shp, parts, bbox)]
@@ -109,31 +113,50 @@ def inland_map():
         ax.plot([float(r["lon"])], [float(r["lat"])], "o",
                 ms=4 + 13 * (min(n, 2500) / 2500) ** 0.45,
                 mfc=IND, mec="white", mew=0.8, alpha=0.9, zorder=6)
-    for k, lbl, dy in [("ponnani", "Tyndis candidates", 0.0),
-                       ("pattanam", "Muziris", 0.0),
-                       ("niranam", "Nelkynda candidates", 0.13),
-                       ("purakkad", "Bakar\u0113 candidates", -0.52)]:
-        t = S[k]
-        ax.plot([float(t["lon"])], [float(t["lat"])], marker="s", ms=8.5,
-                mfc="#1baf7a", mec="white", mew=1.5, zorder=8)
-        ax.text(float(t["lon"]) - 0.13, float(t["lat"]) + dy, lbl, ha="right",
-                va="center", fontsize=10, color=INK, fontweight="bold",
-                path_effects=[pe.withStroke(linewidth=3.2, foreground="white")])
+
+    # each port as the circle enclosing every location proposed for it
+    def km(a, b):
+        la = (a[1] + b[1]) / 2
+        return math.hypot((a[0] - b[0]) * 111.32 * math.cos(math.radians(la)),
+                          (a[1] - b[1]) * 110.57)
+    LBL = {"Tyndis": (0.52, 0.30, "left"), "Muziris": (0.24, 0.02, "left"),
+           "Nelkynda": (0.50, 0.30, "left"), "Bakar\u0113": (0.46, -0.58, "left")}
+    for name, keys in PORTS:
+        q = [(float(S[k]["lon"]), float(S[k]["lat"])) for k in keys if k in S]
+        cx = sum(x for x, _ in q) / len(q); cy = sum(y for _, y in q) / len(q)
+        rad = max(km((cx, cy), t) for t in q)
+        la = rad / 110.57; lo = rad / (111.32 * math.cos(math.radians(cy)))
+        th = [i * math.pi / 180 for i in range(0, 361, 2)]
+        xs = [cx + lo * math.cos(t) for t in th]; ys = [cy + la * math.sin(t) for t in th]
+        ax.fill(xs, ys, color=ARB, alpha=0.16, lw=0, zorder=7)
+        ax.plot(xs, ys, color=ARB, lw=1.7, zorder=7.5)
+        for x, y in q:
+            ax.plot([x], [y], marker="s", ms=5.5, mfc=ARB, mec="white", mew=1.0,
+                    zorder=8)
+        dx, dy, ha = LBL[name]
+        ax.text(cx + dx, cy + dy, f"{name}\n{len(q)} proposals, {rad:.0f} km",
+                ha=ha, va="center", fontsize=9.8, color=INK, fontweight="bold",
+                linespacing=1.35, zorder=10,
+                path_effects=[pe.withStroke(linewidth=3.6, foreground="white")])
+
     hh = [plt.Line2D([], [], marker="o", ls="none", ms=5, mfc=IND, mec="white",
                      label="Hoard of under 100 coins"),
           plt.Line2D([], [], marker="o", ls="none", ms=13, mfc=IND, mec="white",
                      label="Hoard of over 1,000 coins"),
-          plt.Line2D([], [], marker="s", ls="none", ms=8.5, mfc="#1baf7a", mec="white",
-                     label="Disputed port"),
-          plt.Line2D([], [], color="#b4459b", lw=1.3, ls=(0, (5, 3)),
+          plt.Line2D([], [], marker="s", ls="none", ms=6, mfc=ARB, mec="white",
+                     label="Proposed location for a port"),
+          plt.Line2D([], [], color=ARB, lw=1.7,
+                     label="Circle enclosing all proposals for one port"),
+          plt.Line2D([], [], color="#b4459b", lw=1.2, ls=(0, (5, 3)),
                      label="Distance from the coast")]
-    lg = ax.legend(handles=hh, loc="lower left", frameon=True, fontsize=9.4,
+    lg = ax.legend(handles=hh, loc="lower left", frameon=True, fontsize=9.2,
                    labelcolor=INK2, borderpad=0.7)
+    lg.set_zorder(11)
     lg.get_frame().set_edgecolor(RULE); lg.get_frame().set_facecolor("white")
     ax.set_xlim(*bbox[:2]); ax.set_ylim(*bbox[2:]); ax.set_aspect(aspect)
     ax.set_xticks([]); ax.set_yticks([])
     for sp in ax.spines.values(): sp.set_visible(False)
-    head(fig, "The ports are on the shoreline, the coins are one to two hundred km inland")
+    head(fig, "The ports could be anywhere in these circles; the coins are inland of all of them")
     fig.subplots_adjust(left=0.006, right=0.994, top=1 - 0.95 / (h + 0.95), bottom=0.006)
     fig.savefig(OUT / "21_coin_inland_map.png", dpi=220, facecolor="white")
     print("wrote 21_coin_inland_map.png")
