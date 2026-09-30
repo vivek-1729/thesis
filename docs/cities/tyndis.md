@@ -34,16 +34,35 @@ below Muziris.
 **The Peutinger Table marks Tondis**, though accounts differ on how: Gurukkal and
 Whittaker say the route "apparently by-passed 'Tondis'", while Dayalan says both
 Muziris and Tondis are well marked. Tamil tradition, through the usual equation
-of Tyndis with Tondi, treats it as an important centre, and De Romanis cites a
-poem describing it among coconut palms.
+of Tyndis with Tondi, treats it as an important centre.
 
-**Piracy may be the reason it declined.** The Periplus places the pirate zone
+**De Romanis agrees it was minor, and brackets the pepper coast.** In the 2015
+volume he writes: "Less important was Tyndis (= Tamil Toṇdi = Ponnāni?),
+located some 500 stadioi north of Muziris, and Naoura (= Tamil Naravu),
+presumably further north. The estimated distances of Nelkynda and Tyndis from
+Muziris suggest that the pepper emporia of the mid 1st century ce extended in
+latitude just a little less than the region delimited by Tomé Pires — from
+Chettuva to Kayamkulam — for his estimate of the Malabar pepper production."
+
+Two things follow. He identifies Tyndis with Ponnani but marks it with a
+question mark. And he offers a regional bracket, from Chettuva to Kayamkulam,
+derived from a sixteenth-century Portuguese estimate of where pepper was grown.
+That bracket is worth testing against the candidates, since Ponnani and Kadalundi
+both lie north of Chettuva, which sits awkwardly with his own suggestion.
+
+**Piracy may be the reason it declined, but the evidence for that is thinner
+than it is usually made to look.** The Periplus places the pirate zone
 immediately to the north, listing the Sesekreienai islands, the Isle of the
 Aigidioi and the Isle of the Kaineitoi, "around which places there are pirates,"
 and only then Naoura and Tyndis. Pliny has Nitrias as a pirate stronghold
-threatening shipping bound for Muziris. And De Romanis records a tradition that
-Tyndis was abandoned because of piracy, its people moving south to Muziris and
-Nelkynda.
+threatening shipping bound for Muziris. The specific claim that Tyndis was
+abandoned to piracy comes from **Cappers 2006, p.98**, in a paragraph about
+coconuts: "Due to the activity of pirates, Tyndis was abandoned, as the people
+moved to the more southerly Muziris and Nelkynda." It carries no citation of its
+own. The de Romanis 1997 reference in the preceding sentence attaches to the
+Tamil poem about coconut palms, not to the piracy statement, and nothing in the
+de Romanis work we hold repeats it. **Treat it as Cappers's assertion until de
+Romanis 1997 can be checked.**
 
 **The consequence for the detection model is specific.** If the real Tyndis was a
 village on an open beach that declined early, its material signature should be

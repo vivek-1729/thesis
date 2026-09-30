@@ -27,6 +27,12 @@ should outrank the 500-stadia leg. The 500 is also the figure most likely to be
 rescued by measuring through the Vembanad backwaters, which is what "by river and
 sea" specifies and which nobody has done.
 
+**A candidate we do not carry: Varkala.** De Romanis notes that "the distances
+indicated by the Periplus recommend not locating Nelkynda near Varkala; Banaji's
+arguments to the contrary in this volume are dubious." So Banaji proposes Varkala
+in the same 2015 volume and De Romanis rejects it on distance. Neither the
+proposal nor the rebuttal is in our candidate table.
+
 **Gurukkal and Whittaker back Kottayam, and they measure it the right way.**
 Their 2001 appendix calls Kottayam "much more plausible" on the grounds that it
 linked the pepper hills to the Vembanad and holds the medieval copper plates,
