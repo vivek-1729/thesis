@@ -637,13 +637,22 @@ Casson's own alternative is stronger: "The suggestion that Nelkynda was
 **Niranom (Neranom)**, which is about 500 stades from Muziris and which is on the
 Pambiyar twelve miles east of Pirakkad, at least puts the port of trade and its
 harbor **on the same stream and the proper distance from each other**." Twelve
-miles is 19.3 km, almost exactly 120 stadia at 155 m. Our own measurement of
-Niranam to Purakkad gives 21.2 km.
+miles is 19.3 km, which would be almost exactly 120 stadia at 155 m. But Casson
+derives his coordinate for Niranam *from* that twelve-mile statement, noting
+that "the town is not indicated on modern maps, even on that done on the scale
+of 1:250,000." Measured to the geocoded modern village at 9.3437 N, 76.5231 E,
+Purakkad is **14.7 km** away, not 19.3. The figure that makes the pairing
+attractive is overstated in the source by about a third.
 
-**The contradiction.** The pair constraint picks Niranam–Purakkad at 21.2 km,
-but the coastal distance from Muziris rejects Niranam at 106 km against a
-72–102 km band. This is precisely what the backwater measurement in 2.5 may
-dissolve.
+**The contradiction, and it has changed sides.** We previously held a Niranam
+coordinate 9 km south of the village, taken from an older gazetteer. Corrected
+to the geocoded position, which agrees with Casson's own derived figure to
+2.8 km, the two constraints swap. Niranam now sits **96.0 km** from Muziris in
+a straight line, comfortably inside the 72–102 km band implied by 500 stadia;
+and **14.7 km** from Purakkad, below the 17.3–24.5 km band implied by 120
+stadia. Before the correction it satisfied the 120 and failed the 500. It now
+satisfies the 500 and fails the 120. The pair still cannot satisfy both, but
+the reason is the opposite of the one we reported.
 
 De Romanis places "Becare-Nelkynda, located on a river that flowed **less than
 500 stadioi south of Muziris**, pointing to a place in **the southern part of
