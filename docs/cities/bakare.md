@@ -6,30 +6,47 @@ Every mention of Bakarē and its proposed sites that exists in the local library
 
 A provisional reading of the evidence assembled below, written before the model has been fitted. It states what the present evidence supports and how firmly, and the fitted posterior may disagree with it.
 
-**Most likely: Purakkad, conditional on Niranam being Nelkynda.** My confidence in
-the geometry is moderate and in the identification wholly derivative. Casson
-grades Bakarē among the securer names, which I think is unwarranted.
+**Most likely: Purakkad, conditional on Niranam being Nelkynda.** My confidence
+in the identification is moderate and wholly derivative, but the port itself is
+better attested than the Periplus alone suggests, and it should not be treated
+as a minor place.
 
-Bakarē is defined relationally rather than absolutely: 120 stadia downriver from
-Nelkynda, at the river mouth. That is the most precise figure the Periplus gives
-for any port in this study. Every stated value at or above 200 stadia is a round
-hundred, whereas 120 is one of only three unround figures in the text, alongside
-20 and 60, which makes it the value most likely to reflect direct knowledge. A
-120-stadia leg carries a 68 per cent interval about 12 km wide, against 49 km for
-a 500-stadia leg.
+Three independent ancient sources name it. The Periplus calls it a village at
+the mouth of Nelkynda's river, where ships waited in the roadstead "because the
+river is full of shoals and the channels are not clear." Ptolemy lists Bakare
+at 119 degrees 30 minutes. And **Pliny recommends it over Muziris**: at NH 6.104
+he writes of "alius utilior portus gentis Neacyndon, qui vocatur Becare," another
+and more useful port of the Neacyndi, and at 6.105 he adds that the pepper
+country of Cottonara sends its cargo down to Becare in dugout canoes. For Pliny
+this is the port a merchant should actually use.
 
-So Bakarē is the best-constrained of the Malabar ports and the worst-evidenced.
-None of Purakkad, Kallada or Thevalakara has been excavated. Purakkad and
-Thevalakara have no entries at all in the Indian Archaeology series, and Kallada
-has two, a neolithic axe from the river basin and a temple inscription, neither
-of them an excavation. The most reliable measurement in the document
-points at a stretch of coast no archaeologist has tested.
+That convergence is also what fixes the name. Casson notes that the sole Periplus
+manuscript reads "Barare," and that the accepted form Bakare is an editorial
+correction made on the authority of Ptolemy and Pliny. The three sources are
+therefore doing real work, and the name we use is not the one our only witness
+carries.
 
-One tension worth keeping. Ptolemy lists Bacare and the mouth of the Baris as
-separate entries 30 minutes of longitude apart, which sits awkwardly with the
-Periplus placing Bakarē at the mouth. Because the identification depends entirely
-on which site is Nelkynda, the pair stands or falls together and should be
-reported as a pair.
+**What the text does not say is the distance.** The Periplus gives 120 stadia as
+the distance from Nelkynda to the sea, and places Bakare at the mouth of the same
+river. It nowhere states the distance between the two. Casson derives it by
+treating the river mouth and the sea as one point, which is reasonable on an open
+coast and a strong assumption on a lagoon coast, where a river debouches into the
+backwater and the backwater reaches the sea through a separate bar. Every claim
+about 120 stadia constraining the pair rests on that reading.
+
+**The archaeology is empty.** None of Purakkad, Kallada or Thevalakara has been
+excavated, and Purakkad and Thevalakara return no entries at all in the fifty
+volumes of Indian Archaeology: A Review that parsed cleanly. Kallada has two, a
+neolithic axe from the river basin and a temple inscription, neither of them an
+excavation.
+
+**One tension to carry forward.** Ptolemy lists Bacare and the mouth of the Baris
+as separate entries thirty minutes of longitude apart, which is his ordinary
+spacing between neighbouring places. That sits awkwardly with the Periplus
+putting Bakare at the mouth, and it means the two sources do not corroborate each
+other on the single point the identification turns on. Because the location
+follows entirely from which site is Nelkynda, the pair should be reported
+together.
 
 ## Contents
 
