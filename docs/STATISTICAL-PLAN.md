@@ -33,6 +33,13 @@ One statistical method per evidence stream, then an integration layer and a deci
   - *Approach:* Monte Carlo agent-based simulation.
   - *Details:* ERA5 wind climatology combined with a square-rig polar performance curve, run over thousands of simulated voyages.
   - *Output:* A reachability distribution, which replaces the conventional assumption of a fixed 500 stadia sailed per day.
+  - *Open decision:* as written this is forward simulation producing a covariate, not
+    inference. It becomes simulation-based inference only if the simulator's own
+    parameters, the daily run, leeway, and the seasonal departure window, are
+    estimated by comparing simulated voyage durations against the durations the
+    Periplus states. That version would let the stadion and the voyage model be
+    estimated jointly rather than separately, and it is the only place in the plan
+    where ABC would be doing real work. Not yet committed to.
 
 ## Integration layer
 
