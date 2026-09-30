@@ -12,7 +12,7 @@ Datoo's bracket from Pangani to the Rufiji but disputes the point within it.
 
 The Periplus places Rhapta two days' sail beyond Menuthias, an island 300 stadia
 offshore. At a 155 m stadion that is 46.5 km, and measured from island shore to
-mainland shore Pemba fits at 42.9 km against Zanzibar at 30.7 and Mafia at 14.8.
+mainland shore Pemba fits at 42.8 km against Zanzibar at 36.1 and Mafia at 14.8.
 If Menuthias is Pemba, two days south lands near Pangani or a little below it,
 favouring the northern end of the bracket.
 

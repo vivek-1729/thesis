@@ -244,39 +244,52 @@ def nelkynda_bakare():
 
 # ------------------------------------------------------------------- Rhapta
 def rhapta():
-    """300 stadia offshore is 46.5 km. Measured island shore to mainland
-    shore, Pemba fits and the usual candidates do not."""
-    bbox = (38.30, 40.40, -8.45, -4.70)
+    """300 stadia offshore is 46.5 km. The three candidate islands are measured
+    shore to shore against the Natural Earth coastline, not by eye, and the
+    endpoints below come from data/processed/menuthias_distances.json."""
+    import json
+    D = json.loads((ROOT / "data/processed/menuthias_distances.json").read_text())
+    bbox = (38.30, 40.45, -8.45, -4.42)
     fig, ax = frame(bbox, 7.6,
                     "Menuthias lies 300 stadia offshore, which is 46.5 km",
                     min_flow=30)
-    ISL = [("Pemba", 39.78, -5.22, 42.9, 39.06, -5.22, FOUND),
-           ("Zanzibar", 39.33, -6.13, 30.7, 39.00, -6.13, TESTED),
-           ("Mafia", 39.75, -7.85, 14.8, 39.52, -7.85, TESTED)]
-    for name, ilon, ilat, km, mlon, mlat, col in ISL:
-        ax.plot([mlon, ilon], [mlat, ilat], color=col, lw=2.0, zorder=6,
-                solid_capstyle="round")
-        ax.text((mlon + ilon) / 2, ilat + 0.10, f"{km} km", fontsize=10,
-                color=col, ha="center", fontweight="bold",
-                path_effects=[pe.withStroke(linewidth=3.2, foreground="white")])
-        ax.text(ilon + 0.10, ilat - 0.16, name, fontsize=11, color=INK,
+    TARGET = 46.5
+    order = ["Pemba", "Zanzibar", "Mafia"]
+    LBL = {"Pemba": (0.10, -0.20), "Zanzibar": (0.10, -0.22), "Mafia": (0.10, -0.26)}
+    for name in order:
+        d = D[name]
+        (ilon, ilat), (mlon, mlat) = d["island"], d["mainland"]
+        near = abs(d["km"] - TARGET) < 6
+        col = FOUND if near else TESTED
+        ax.plot([mlon, ilon], [mlat, ilat], color=col, lw=2.4, zorder=7,
+                solid_capstyle="butt")
+        for x, y in ((mlon, mlat), (ilon, ilat)):
+            ax.plot([x], [y], marker="o", ms=4.5, mfc=col, mec="white", mew=1.0,
+                    zorder=8, ls="none")
+        mx, my = (mlon + ilon) / 2, (mlat + ilat) / 2
+        off = -0.14 if name == "Pemba" else 0.12
+        ax.text(mx, my + off, f"{d['km']:.1f} km", fontsize=10.5, color=col,
+                ha="center", va="center", fontweight="bold",
+                path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
+        dx, dy = LBL[name]
+        ax.text(ilon + dx, ilat + dy, name, fontsize=11.5, color=INK,
                 fontweight="bold",
-                path_effects=[pe.withStroke(linewidth=3.2, foreground="white")])
+                path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
+    # the target, drawn to the same scale so the three can be read against it
+    ref_lat, ref_lon = -4.62, 38.40
+    dlon = TARGET / (111.32 * math.cos(math.radians(ref_lat)))
+    ax.plot([ref_lon, ref_lon + dlon], [ref_lat, ref_lat], color=INK, lw=2.6,
+            zorder=7, solid_capstyle="butt")
+    ax.text(ref_lon + dlon / 2, ref_lat + 0.11, "300 stadia = 46.5 km",
+            fontsize=10, color=INK, ha="center", fontweight="bold",
+            path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
     for k, lbl, dx, ha in [("pangani", "Pangani", -0.06, "right"),
                            ("dar_es_salaam", "Dar es Salaam", -0.06, "right"),
                            ("rufiji", "Rufiji delta", -0.06, "right")]:
         lo, la = xy(k)
         mark(ax, lo, la, lbl, NONE, dx, 0.0, ha, size=10, weight="bold")
-    # the target, drawn to the same scale so the three can be read against it
-    ref_lat, ref_lon = -4.95, 38.55
-    dlon = 46.5 / (111.32 * math.cos(math.radians(ref_lat)))
-    ax.plot([ref_lon, ref_lon + dlon], [ref_lat, ref_lat], color=INK, lw=2.6,
-            zorder=7, solid_capstyle="round")
-    ax.text(ref_lon + dlon / 2, ref_lat + 0.10, "300 stadia = 46.5 km", fontsize=10,
-            color=INK, ha="center", fontweight="bold",
-            path_effects=[pe.withStroke(linewidth=3.4, foreground="white")])
     legend(ax, [("Mainland candidate for Rhapta", NONE),
-                ("Island shore to mainland shore", TESTED)], loc="lower right")
+                ("Island shore to mainland shore", TESTED)], loc="center right")
     bm.scalebar(ax, bbox)
     fig.savefig(OUT / "14_rhapta.png", dpi=220, facecolor="white")
     print("wrote 14_rhapta.png")

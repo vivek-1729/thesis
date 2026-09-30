@@ -683,8 +683,8 @@ Chittick and later Chami for the Rufiji delta, with Chami additionally reporting
 submerged structures off Mafia Island. Hughes 2016 attempted a GIS approach.
 
 The Periplus places Menuthias 300 stadia off the mainland, about 46.5 km at 155 m.
-Measured island shore to mainland shore, **that favours Pemba at 42.9 km**
-against a target of 46.5, not Zanzibar at 30.7 or Mafia at 14.8. (An earlier
+Measured island shore to mainland shore, **that favours Pemba at 42.8 km**
+against a target of 46.5, not Zanzibar at 36.1 or Mafia at 14.8. (An earlier
 version of this analysis claimed Zanzibar; that was wrong and is corrected here.)
 
 The one claim of Periplus-period material is Chami's report of Roman glass beads
