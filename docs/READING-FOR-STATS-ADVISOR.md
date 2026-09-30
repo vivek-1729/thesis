@@ -13,11 +13,11 @@ Reconstructing sea level change using Gaussian processes, taking into account ag
 
 **2.** Lindgren, Finn, Håvard Rue, and Johan Lindström. "An Explicit Link between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach." *Journal of the Royal Statistical Society: Series B (Statistical Methodology)* 73, no. 4 (2011): 423–98. https://doi.org/10.1111/j.1467-9868.2011.00777.x.
 
-Fitting spatial fields on awkwardly shaped domains by turning them into sparse Markov random fields. The machinery the next two papers extend.
+Fitting a spatial field on a coastline-shaped domain, by meshing it and solving an SPDE instead of inverting a dense covariance. This is how every surface here gets computed.
 
 **3.** Bakka, Haakon, Jarno Vanhatalo, Janine B. Illian, Daniel Simpson, and Håvard Rue. "Non-Stationary Gaussian Models with Physical Barriers." *Spatial Statistics* 29 (2019): 268–88. https://doi.org/10.1016/j.spasta.2019.01.002.
 
-A spatial field in which correlation is blocked by land instead of passing through it, so two points either side of a headland are not treated as neighbours.
+The same field with land as a barrier, so correlation travels around a headland rather than through it. Built on the paper above.
 
 **4.** Ver Hoef, Jay M., and Erin E. Peterson. "A Moving Average Approach for Spatial Statistical Models of Stream Networks." *Journal of the American Statistical Association* 105, no. 489 (2010): 6–18. https://doi.org/10.1198/jasa.2009.ap08248.
 
@@ -38,7 +38,3 @@ A review putting the competing approaches to sea-level reconstruction into one h
 **8.** Upton, Maeve, Andrew Parnell, Andrew Kemp, Gerard McCarthy, and Niamh Cahill. "A Noisy-Input Generalized Additive Model for Relative Sea-Level Change along the Atlantic Coast of North America." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 74, no. 1 (2024): 34–82. https://doi.org/10.1093/jrsssc/qlae044.
 
 Separating a sea-level signal into regional, local and common parts when the inputs are themselves uncertain.
-
-**9.** Ashe, Erica L., Nicole S. Khan, Lauren T. Toth, Andrea Dutton, and Robert E. Kopp. "A Statistical Framework for Integrating Nonparametric Proxy Distributions into Geological Reconstructions of Relative Sea Level." *Advances in Statistical Climatology, Meteorology and Oceanography* 8, no. 1 (2022): 1–29. https://doi.org/10.5194/ascmo-8-1-2022.
-
-Combining proxies whose uncertainties are differently shaped, without first forcing them into a common form.
