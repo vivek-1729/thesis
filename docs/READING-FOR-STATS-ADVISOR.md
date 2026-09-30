@@ -1,104 +1,68 @@
-# Statistical methods, with published precedents in reconstructing the past
+# Statistical methods, with precedents in reconstructing the past
 
-Statistics papers only. Each is a method the thesis needs, shown somewhere it has
-already been applied to a question about the ancient world, so the reference
-carries both the technique and the evidence that it transfers. Citations are
-Chicago, checked against Crossref.
-
-The geographic, remote sensing and voyage modelling literature is not statistics
-and has been moved to `READING-GEOGRAPHIC.md`.
+Statistics papers only. Each is a process the thesis needs, and where possible
+one that has already been applied to archaeological or historical data. Citations
+are Chicago, checked against Crossref. The geographic, remote sensing and voyage
+modelling literature is in `READING-GEOGRAPHIC.md`.
 
 ---
 
-## 1. The sampling problem
-
-Not the layer with the most data, and deliberately so. Thirteen of twenty-two
-candidates have never been excavated and only six sites have quantified finds,
-so almost all of the archaeological layer's content is in the pattern of
-absences. Excavation happened where scholars already believed the port was,
-which means an absence of finds is not independent of the location being
-estimated, and the layer says nothing at all until that is modelled. The
-practical caveat is that the number of campaigns is too small to estimate the
-preferentiality parameter reliably, so the realistic use is a sensitivity
-analysis over it, with `targeted_at_port` from the campaign table entering as an
-observed covariate rather than leaving the mechanism fully latent.
-
-Diggle, Peter J., Raquel Menezes, and Ting-li Su. "Geostatistical Inference under Preferential Sampling." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 59, no. 2 (2010): 191–232. https://doi.org/10.1111/j.1467-9876.2009.00701.x.
+**1.** Diggle, Peter J., Raquel Menezes, and Ting-li Su. "Geostatistical Inference under Preferential Sampling." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 59, no. 2 (2010): 191–232. https://doi.org/10.1111/j.1467-9876.2009.00701.x.
 
 Estimating a spatial field using a joint model for the sampling process, taking into account that the sample locations were chosen by what was expected to be found there.
 
-Çadırcı, Mehmet Sıddık, and Golnaz Shahtahmassebi. "Entropy-Based Methods to Address Sampling Bias in Archaeological Predictive Modeling." arXiv, August 4, 2025. https://arxiv.org/abs/2508.02272.
+**2.** Pati, Debdeep, Brian J. Reich, and David B. Dunson. "Bayesian Geostatistical Modelling with Informative Sampling Locations." *Biometrika* 98, no. 1 (2011): 35–48. https://doi.org/10.1093/biomet/asq067.
 
-Correcting archaeological predictive models using entropy-weighted measures of survey coverage, taking into account uneven sampling.
+The same problem in a fully Bayesian frame, with the sampling intensity and the field linked through shared latent structure rather than through a single dependence parameter.
 
----
+**3.** Diggle, Peter J., Paula Moraga, Barry Rowlingson, and Benjamin M. Taylor. "Spatial and Spatio-Temporal Log-Gaussian Cox Processes: Extending the Geostatistical Paradigm." *Statistical Science* 28, no. 4 (2013). https://doi.org/10.1214/13-STS441.
 
-## 2. Reconstructing a past surface from dated proxies
+Modelling event locations as a point process whose intensity is itself a random field, which is the machinery underneath both the sampling correction and the hoard distribution.
 
-The machinery behind the coastline layer. The evidence is dated points with error
-bars, and the object wanted is a continuous surface with error bars.
-
-Cahill, Niamh, Andrew C. Kemp, Benjamin P. Horton, and Andrew C. Parnell. "Modeling Sea-Level Change Using Errors-in-Variables Integrated Gaussian Processes." *The Annals of Applied Statistics* 9, no. 2 (2015): 547–71. https://doi.org/10.1214/15-AOAS824.
+**4.** Cahill, Niamh, Andrew C. Kemp, Benjamin P. Horton, and Andrew C. Parnell. "Modeling Sea-Level Change Using Errors-in-Variables Integrated Gaussian Processes." *The Annals of Applied Statistics* 9, no. 2 (2015): 547–71. https://doi.org/10.1214/15-AOAS824.
 
 Reconstructing sea level change using Gaussian processes, taking into account age uncertainty.
 
-Haslett, John, and Andrew Parnell. "A Simple Monotone Process with Application to Radiocarbon-Dated Depth Chronologies." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 57, no. 4 (2008): 399–418. https://doi.org/10.1111/j.1467-9876.2008.00623.x.
+**5.** Haslett, John, and Andrew Parnell. "A Simple Monotone Process with Application to Radiocarbon-Dated Depth Chronologies." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 57, no. 4 (2008): 399–418. https://doi.org/10.1111/j.1467-9876.2008.00623.x.
 
 Building age-depth chronologies from sediment cores using a monotone stochastic process, taking into account radiocarbon calibration error.
 
----
+**6.** Heaton, Timothy J. "Non-Parametric Calibration of Multiple Related Radiocarbon Determinations and Their Calendar Age Summarisation." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 71, no. 5 (2022): 1918–56. https://doi.org/10.1111/rssc.12599.
 
-## 3. Rounded and coarsened measurements
+Calibrating a set of related radiocarbon dates jointly using a Dirichlet process mixture, taking into account that a non-monotone calibration curve turns single dates into multimodal posteriors.
 
-The layer with the most data. Every stated distance in the Periplus is rounded:
-82 per cent of stadia figures are multiples of 100, and every value at or above
-2,000 is an exact multiple of 1,000. The observation is an interval, not a point.
+**7.** Nicholls, Geoff, and Martin Jones. "Radiocarbon Dating with Temporal Order Constraints." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 50, no. 4 (2001): 503–21. https://doi.org/10.1111/1467-9876.00250.
 
-Heitjan, Daniel F., and Donald B. Rubin. "Ignorability and Coarse Data." *The Annals of Statistics* 19, no. 4 (1991): 2244–53. https://doi.org/10.1214/aos/1176348396.
+Estimating calendar dates under known stratigraphic ordering, which is how excavation layers constrain each other and how a site sequence becomes one chronological model.
 
-Treating an observation that is known only to fall in a set rather than at a point, and giving the conditions under which the coarsening mechanism can be ignored. The formal framework for the rounding in the text, and the reason it cannot simply be ignored here.
+**8.** MacKenzie, Darryl I., James D. Nichols, Gideon B. Lachman, Sam Droege, J. Andrew Royle, and Catherine A. Langtimm. "Estimating Site Occupancy Rates When Detection Probabilities Are Less Than One." *Ecology* 83, no. 8 (2002): 2248–55. https://doi.org/10.1890/0012-9658(2002)083[2248:ESORWD]2.0.CO;2.
 
----
+Separating a site being unoccupied from a site being occupied but undetected, with detection modelled as a function of survey effort. The excavation record has exactly this structure and is almost never treated this way.
 
-## 4. Prior quantitative work on this ocean
-
-Copeland, Conrad. "Riding the Monsoon: Geography and Iron Age Trade in the Indian Ocean." *The Economic History Review* 79, no. 1 (2026): 312–41. https://doi.org/10.1111/ehr.70016.
-
-Modelling Indian Ocean trade routes using least-cost network analysis over monsoon wind vectors and palaeo sea-level, reporting 14-day outbound and 16-day return averages. The closest prior work to the voyage layer, the source of the 44-port coordinate set in our gazetteer, and the benchmark any simulation has to be checked against.
-
----
-
-## 5. Point processes for the distribution of finds
-
-Crema, Enrico R., Andrew Bevan, and Mark W. Lake. "A Probabilistic Framework for Assessing Spatio-Temporal Point Patterns in the Archaeological Record." *Journal of Archaeological Science* 37, no. 5 (2010): 1118–30. https://doi.org/10.1016/j.jas.2009.12.012.
+**9.** Crema, Enrico R., Andrew Bevan, and Mark W. Lake. "A Probabilistic Framework for Assessing Spatio-Temporal Point Patterns in the Archaeological Record." *Journal of Archaeological Science* 37, no. 5 (2010): 1118–30. https://doi.org/10.1016/j.jas.2009.12.012.
 
 Analysing site distributions using spatio-temporal point processes, taking into account uncertainty in both the location and the date of each find.
 
----
+**10.** Buck, C. E., C. D. Litton, and A. F. M. Smith. "Calibration of Radiocarbon Results Pertaining to Related Archaeological Events." *Journal of Archaeological Science* 19, no. 5 (1992): 497–512. https://doi.org/10.1016/0305-4403(92)90025-X.
 
-## 6. Combining many uncertain dates
+The paper that put archaeological chronology into a Bayesian frame, treating stratigraphic and historical knowledge as a prior over the dates rather than as commentary on them.
 
-Price, Michael Holton, José M. Capriles, Julie A. Hoggarth, R. Kyle Bocinsky, Claire E. Ebert, and James Holland Jones. "End-to-End Bayesian Analysis for Summarizing Sets of Radiocarbon Dates." *Journal of Archaeological Science* 135 (2021): 105473. https://doi.org/10.1016/j.jas.2021.105473.
+**11.** Price, Michael Holton, José M. Capriles, Julie A. Hoggarth, R. Kyle Bocinsky, Claire E. Ebert, and James Holland Jones. "End-to-End Bayesian Analysis for Summarizing Sets of Radiocarbon Dates." *Journal of Archaeological Science* 135 (2021): 105473. https://doi.org/10.1016/j.jas.2021.105473.
 
 Summarising many radiocarbon dates using a single end-to-end Bayesian model, taking into account calibration uncertainty at every stage.
 
----
-
-## 7. Simulation-based inference, only if we commit to it
-
-Relevant only if the voyage simulator is used to *estimate* its own parameters
-against the durations the Periplus states. If the simulator is only run forward
-to produce a reachability covariate, this section is background rather than
-method. That decision is open, and is recorded in `STATISTICAL-PLAN.md`.
-
-DiNapoli, Robert J., Enrico R. Crema, Carl P. Lipo, Timothy M. Rieth, and Terry L. Hunt. "Approximate Bayesian Computation of Radiocarbon and Paleoenvironmental Record Shows Population Resilience on Rapa Nui (Easter Island)." *Nature Communications* 12, no. 1 (2021): 3939. https://doi.org/10.1038/s41467-021-24252-z.
-
-Inferring past population change using approximate Bayesian computation, taking into account a simulation model with no tractable likelihood.
-
-Rubio-Campillo, Xavier. "Model Selection in Historical Research Using Approximate Bayesian Computation." *PLOS ONE* 11, no. 1 (2016): e0146491. https://doi.org/10.1371/journal.pone.0146491.
+**12.** Rubio-Campillo, Xavier. "Model Selection in Historical Research Using Approximate Bayesian Computation." *PLOS ONE* 11, no. 1 (2016): e0146491. https://doi.org/10.1371/journal.pone.0146491.
 
 Comparing competing historical explanations using approximate Bayesian computation, rather than fitting a single model.
 
-Cranmer, Kyle, Johann Brehmer, and Gilles Louppe. "The Frontier of Simulation-Based Inference." *Proceedings of the National Academy of Sciences* 117, no. 48 (2020): 30055–62. https://doi.org/10.1073/pnas.1912789117.
+**13.** Cranmer, Kyle, Johann Brehmer, and Gilles Louppe. "The Frontier of Simulation-Based Inference." *Proceedings of the National Academy of Sciences* 117, no. 48 (2020): 30055–62. https://doi.org/10.1073/pnas.1912789117.
 
-Surveying methods for inference when a model can be simulated but its likelihood cannot be written down.
+Surveying methods for inference when a model can be simulated but its likelihood cannot be written down. Relevant only if the voyage simulator is used to estimate its own parameters rather than to produce a covariate, which is an open decision recorded in `STATISTICAL-PLAN.md`.
+
+**14.** Crema, Enrico R. "Statistical Modelling in Archaeology: Some Recent Trends and Future Perspectives." *Journal of Archaeological Science* 180 (2025): 106295. https://doi.org/10.1016/j.jas.2025.106295.
+
+A survey of where statistical modelling in archaeology currently stands, useful for locating this thesis within that literature.
+
+**15.** Çadırcı, Mehmet Sıddık, and Golnaz Shahtahmassebi. "Entropy-Based Methods to Address Sampling Bias in Archaeological Predictive Modeling." arXiv, August 4, 2025. https://arxiv.org/abs/2508.02272.
+
+Correcting archaeological predictive models using entropy-weighted measures of survey coverage. An unrefereed preprint, kept only because it is the one direct statement of the preferential sampling problem inside the archaeological literature.
