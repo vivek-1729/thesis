@@ -1,6 +1,6 @@
 # Statistical methods, with precedents in reconstructing the past
 
-Eleven papers, one per statistical process the thesis needs, chosen so that
+Nine papers, one per statistical process the thesis needs, chosen so that
 nothing here duplicates anything else. Weighted toward reconstructing the
 physical setting, since that is what actually locates the ports. Citations are Chicago, checked against
 Crossref. The geographic, remote sensing and voyage modelling literature is in
@@ -40,14 +40,6 @@ Treating elevation error as a spatially correlated random field, simulating from
 
 Building age-depth chronologies from sediment cores using a monotone stochastic process, taking into account radiocarbon calibration error.
 
-**9.** Heaton, Timothy J. "Non-Parametric Calibration of Multiple Related Radiocarbon Determinations and Their Calendar Age Summarisation." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 71, no. 5 (2022): 1918–56. https://doi.org/10.1111/rssc.12599.
-
-Calibrating a set of related radiocarbon dates jointly using a Dirichlet process mixture, taking into account that a non-monotone calibration curve turns single dates into multimodal posteriors.
-
-**10.** MacKenzie, Darryl I., James D. Nichols, Gideon B. Lachman, Sam Droege, J. Andrew Royle, and Catherine A. Langtimm. "Estimating Site Occupancy Rates When Detection Probabilities Are Less Than One." *Ecology* 83, no. 8 (2002): 2248–55. https://doi.org/10.1890/0012-9658(2002)083[2248:ESORWD]2.0.CO;2.
+**9.** MacKenzie, Darryl I., James D. Nichols, Gideon B. Lachman, Sam Droege, J. Andrew Royle, and Catherine A. Langtimm. "Estimating Site Occupancy Rates When Detection Probabilities Are Less Than One." *Ecology* 83, no. 8 (2002): 2248–55. https://doi.org/10.1890/0012-9658(2002)083[2248:ESORWD]2.0.CO;2.
 
 Separating a site being unoccupied from a site being occupied but undetected, with detection modelled as a function of survey effort. The excavation record has exactly this structure and is almost never treated this way.
-
-**11.** Crema, Enrico R. "Statistical Modelling in Archaeology: Some Recent Trends and Future Perspectives." *Journal of Archaeological Science* 180 (2025): 106295. https://doi.org/10.1016/j.jas.2025.106295.
-
-A survey of where statistical modelling in archaeology currently stands, included so the rest can be judged against what the field already does.

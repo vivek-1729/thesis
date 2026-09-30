@@ -40,6 +40,14 @@ Reconstructing the regional relative sea-level curve from coastal lowland cores,
 
 ## 3. Voyages and routes across this ocean
 
+Heaton, Timothy J. "Non-Parametric Calibration of Multiple Related Radiocarbon Determinations and Their Calendar Age Summarisation." *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 71, no. 5 (2022): 1918–56. https://doi.org/10.1111/rssc.12599.
+
+Calibrating a set of related radiocarbon dates jointly using a Dirichlet process mixture, taking into account that a non-monotone calibration curve turns single dates into multimodal posteriors.
+
+Crema, Enrico R. "Statistical Modelling in Archaeology: Some Recent Trends and Future Perspectives." *Journal of Archaeological Science* 180 (2025): 106295. https://doi.org/10.1016/j.jas.2025.106295.
+
+A survey of where statistical modelling in archaeology currently stands, included so the rest can be judged against what the field already does.
+
 Pati, Debdeep, Brian J. Reich, and David B. Dunson. "Bayesian Geostatistical Modelling with Informative Sampling Locations." *Biometrika* 98, no. 1 (2011): 35–48. https://doi.org/10.1093/biomet/asq067.
 
 Preferential sampling in a fully Bayesian frame. Duplicates Diggle et al. 2010, which is the canonical citation.
