@@ -21,7 +21,7 @@ sea, so nothing can be measured until the old channels are back on the map.
 
 - **[Indian Archaeology: A Review](https://asi.nic.in/indian-archaeology-a-review/).** The Archaeological Survey of India's annual record of every excavation and survey in the country, 1953 to 2014. We use it to measure how hard anyone has looked at each candidate.
 - **[Coin Hoards of the Roman Empire](https://chre.ashmus.ox.ac.uk/).** Findspots, contents and burial dates for Roman coin hoards worldwide. The South Asian export gives 627 hoards; after dropping out-of-region and ungeoreferenced records we hold 427 hoards covering roughly 417,000 coins. We use it for the distribution of Roman currency across the Indian interior.
-- **Archaeological record at the candidates.** Compiled from the excavation reports for every proposed site. One table records the digs: who, when, how many seasons, how deep, whether undisturbed soil was reached and whether they were looking for the port, which is what separates a site that produced nothing from one that was never properly dug. The other records what came out, as published counts by find type, classified against Tomber's ware typology (Tomber 2008) so figures from different reports mean the same thing. So far: 27 campaigns across 26 candidate sites, and 61 quantified find records, from only 6 sites.
+- **Excavated assemblages.** The material dug out of the candidate sites and the securely identified ports: potsherds, coins, beads and imported containers, counted and classified by origin. Pattanam alone has produced about 4.5 million sherds, some 140,000 of them non-Indian. This is what shows which places were trading, with whom, and when.
 
 ## 3. Textual
 
