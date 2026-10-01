@@ -1,33 +1,33 @@
 # Evidence and data sources
 
-Candidates for a given port sit 25 to 150 km apart, so resolution at that scale
-is the criterion throughout.
+Candidates for a given port sit 25 to 150 km apart. Anything that cannot resolve
+at that scale is not worth the effort.
 
 ## 1. Geographic
 
-The blocking stream: the Periplus gives the Malabar distances by river and by
-sea, so nothing can be measured until the channels are reconstructed.
+The blocking stream. The Periplus gives the Malabar distances by river and by
+sea, so nothing can be measured until the old channels are back on the map.
 
-- **FABDEM.** Global 30 m elevation, canopy and buildings removed. Needed because a relict channel has one to two metres of relief and raw satellite elevation measures treetops.
-- **ICESat-2 ATL08.** Global spaceborne lidar ground returns, used to check FABDEM under canopy.
-- **CORONA.** Declassified US satellite imagery, 1960 to 1972, covering all four regions. Shows channel traces before modern land use erased them.
-- **ERA5.** Hourly global wind reanalysis, 1940 to present. The input to the voyage model.
-- **GEBCO.** Global bathymetry grid.
-- **HydroRIVERS.** Global river network, about 8.5 million reaches. Held.
-- **Historic chart series.** Admiralty 750 and 751 (1857), TNA manuscript series ADM 352, Survey of India one-inch sheets (1911–13). Archival, not a dataset; must be georeferenced and digitised.
-- **Kerala Holocene cores.** *Specific papers, not a dataset.* Five Kuttanad boreholes and the Vembanad lagoon sequence, in Maya et al. 2022 and the related NCESS literature. The only evidence that is both dated and at the candidates. Extraction is manual.
+- **FABDEM.** Global 30 m elevation, with tree canopy and buildings stripped out. We use it to find dead river channels, which survive as troughs a metre or two deep.
+- **ICESat-2 ATL08.** A satellite laser that reads ground height through gaps in the canopy. Used to check FABDEM where the vegetation is thick.
+- **CORONA.** Declassified US spy photographs, 1960 to 1972. They show the ground before irrigation and road building wiped the channel traces out.
+- **ERA5.** Hourly wind going back to 1940. Feeds the voyage simulation.
+- **GEBCO.** Global seabed depth. Tells us where a ship could get in and anchor.
+- **HydroRIVERS.** Every river in the world as mapped lines, about 8.5 million reaches. Already held. Gives the modern network to compare the old one against.
+- **Historic charts.** Admiralty 750 and 751 from 1857, the manuscript originals at the National Archives, Survey of India sheets from 1911 to 1913. Paper maps, not a dataset, so they have to be scanned and georeferenced. They show the backwaters before the dams and the reclamation.
+- **Kerala Holocene cores.** A handful of papers rather than a dataset. Five boreholes through Kuttanad plus the Vembanad lagoon sequence. The only dated evidence of where water stood, and it is at the candidates.
 
 ## 2. Material
 
-- **Indian Archaeology: A Review**, 1953–54 to 2013–14. 7,053 fieldwork entries from 50 parsed volumes. The only systematic record of where anyone has looked, which is what makes absence readable. Thirteen of twenty-two candidates have never been excavated.
-- **Coin Hoards of the Roman Empire.** 427 hoards and 7,778 coins after cleaning from 627. A regional trade signal, not a locational one: 73 per cent of coins lie over 25 km inland. Single and stray finds, the category that would bear on harbour location, are omitted and sit in Turner 1989.
-- **Excavation campaigns.** 27 rows, hand-built from site reports, covering all 23 candidates: seasons dug, whether virgin soil was reached, whether the dig targeted the port.
-- **Quantified finds.** 61 rows from 6 sites, with ware typology from Tomber 2008. Thin, and Pattanam's published import share disagrees with itself by a factor of five.
+- **Indian Archaeology: A Review.** The Archaeological Survey's annual record of every dig in India, 1953 to 2014. 7,053 entries from 50 parsed volumes. Tells us where people looked, which is what makes a lack of finds mean anything. Thirteen of twenty-two candidates have never been dug.
+- **Coin Hoards of the Roman Empire.** Findspots and contents of Roman coin hoards. 427 hoards and 7,778 coins after cleaning. Shows trade reached the interior but cannot point at a harbour: 73 per cent of the coins lie more than 25 km inland. Single and stray finds, the category that would help, are not in it.
+- **Excavation campaigns.** Our own table, 27 rows covering all 23 candidates. Seasons dug, whether they reached virgin soil, whether they were looking for the port.
+- **Quantified finds.** Our own table, 61 rows from 6 sites, pottery counted by type against Tomber's typology. Thin, and Pattanam's own published numbers disagree by a factor of five.
 
 ## 3. Textual
 
-- **The Periplus corpus.** The Periplus in Schoff and Casson, Ptolemy with McCrindle, Pliny *NH* 6, the Muziris papyrus, the Tamil Sangam poems and the Peutinger Table, extracted to 51 distance statements, 23 Ptolemaic coordinates and about 1,000 port passages. Rounded day-counts rather than measurements: 82 per cent of stadia are multiples of 100. Yields rankings, not fits.
+- **The ancient sources.** The Periplus in Schoff and Casson, Ptolemy with McCrindle, Pliny book 6, the Muziris papyrus, the Tamil Sangam poems and the Peutinger Table. Pulled into 51 distance statements, 23 coordinates and about a thousand passages. The distances are rounded day-counts, so they rank candidates rather than place them.
 
 ## 4. Later settlement
 
-- **Documented later ports and place-name continuity** per candidate, plus colonial survey maps. This is how the candidate list was assembled, so it is a source of bias in the hypothesis set rather than evidence for any member of it.
+- **Later ports and place names.** Which candidates were working harbours in medieval and colonial times. Worth knowing, but this is how the candidate list was built in the first place, so it biases the hypothesis set rather than testing it.
