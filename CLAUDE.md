@@ -32,6 +32,7 @@ looking for patterns.
 | Path | What |
 |---|---|
 | `docs/FINDINGS.md` | Everything the evidence has shown. Read this first |
+| `docs/EVIDENCE.md` | Every class of evidence, what it settles, and its status |
 | `docs/STATISTICAL-PLAN.md` | The method per evidence stream, and the decision layer |
 | `docs/READING-NEXT.md` | The reading queue, geographic first |
 | `docs/LIBRARY.md` | What is held, and what to read per port |
