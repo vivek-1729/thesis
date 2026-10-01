@@ -33,7 +33,7 @@ looking for patterns.
 |---|---|
 | `docs/FINDINGS.md` | Everything the evidence has shown. Read this first |
 | `docs/STATISTICAL-PLAN.md` | The method per evidence stream, and the decision layer |
-| `docs/TIMELINE.md` | Three phases, current position marked |
+| `docs/READING-NEXT.md` | The reading queue, geographic first |
 | `docs/LIBRARY.md` | What is held, and what to read per port |
 | `docs/SEDIMENT-CORES.md` | Core evidence near each port, and where core data lives |
 |  `docs/cities/*.md` | One file per port holding every mention in the library |

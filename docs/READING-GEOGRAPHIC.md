@@ -2,9 +2,8 @@
 
 Not statistics. These are the domain papers behind Phase 1's geographic step and
 the voyage layer: coastline and channel reconstruction, monsoon routing, and
-worked archaeological applications of spatial models. Read for method and for
-data, not to send to a statistician. The statistics papers are in
-`READING-FOR-STATS-ADVISOR.md`.
+worked archaeological applications of spatial models. Read for method and for data. The
+prioritised queue is in `READING-NEXT.md`.
 
 Citations are Chicago, checked against Crossref.
 
