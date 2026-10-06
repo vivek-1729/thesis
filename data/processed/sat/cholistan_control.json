@@ -1,0 +1,70 @@
+{
+ "region": "cholistan",
+ "bbox": [
+  71.2,
+  28.68,
+  71.45,
+  28.88
+ ],
+ "hydro": "as",
+ "start": "2022-01-01",
+ "end": "2024-12-31",
+ "note": "Hakra palaeochannel, Cholistan desert near Derawar",
+ "shape": [
+  2264,
+  2485
+ ],
+ "results": [
+  {
+   "label": "cholistan / spectral PCA",
+   "auc": 0.5692114033194662,
+   "n_pos": 82415,
+   "n_neg": 120250,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "cholistan / spectral PCA / riparian",
+   "auc": 0.752416553125,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": true,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "cholistan / topographic",
+   "auc": 0.5720267152586997,
+   "n_pos": 82415,
+   "n_neg": 120250,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "cholistan / topographic / riparian",
+   "auc": 0.503416583125,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "cholistan / topographic, linear",
+   "auc": 0.3954403790057494,
+   "n_pos": 82415,
+   "n_neg": 120250,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "cholistan / topographic, linear / riparian",
+   "auc": 0.45389709,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  }
+ ]
+}

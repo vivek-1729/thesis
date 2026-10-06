@@ -1,0 +1,43 @@
+{
+ "region": "ghaggar",
+ "bbox": [
+  73.15,
+  29.15,
+  73.35,
+  29.32
+ ],
+ "hydro": "as",
+ "start": "2022-01-01",
+ "end": "2024-12-31",
+ "note": "Ghaggar-Hakra palaeochannel near Anupgarh, Rajasthan",
+ "shape": [
+  1913,
+  1972
+ ],
+ "results": [
+  {
+   "label": "ghaggar / spectral PCA",
+   "auc": 0.5609546956281096,
+   "n_pos": 57386,
+   "n_neg": 95864,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "ghaggar / topographic",
+   "auc": 0.5233530037495264,
+   "n_pos": 57386,
+   "n_neg": 95864,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "ghaggar / topographic, linear",
+   "auc": 0.40611879394634565,
+   "n_pos": 57386,
+   "n_neg": 95864,
+   "pass": false,
+   "threshold": 0.75
+  }
+ ]
+}

@@ -89,4 +89,30 @@ the Kuttanad cores, which is a defensible outcome and worth establishing early.
 
 ## Results
 
-Recorded here as each phase completes.
+| Site | Control | Spectral PCA | Topographic |
+|---|---|---|---|
+| Cholistan, Hakra bed | riparian | **0.752 pass** | 0.503 fail |
+| Indus delta, Banbhore | riparian | **0.814 pass** | 0.491 fail |
+| Ghaggar, Anupgarh | HydroRIVERS | 0.561 fail | 0.523 fail |
+| Cholistan | HydroRIVERS | 0.569 fail | 0.572 fail |
+| Indus delta | HydroRIVERS | 0.605 fail | 0.650 fail |
+
+**The spectral arm works and the topographic arm does not.** Multi-season PCA
+separates channel-associated ground from ordinary ground at 0.81 in the Indus
+delta and 0.75 in Cholistan, both at or above the threshold fixed in advance.
+The detrended Copernicus DEM sits at chance, 0.49 and 0.50.
+
+**Two controls, and only one of them is sound.** HydroRIVERS fails everywhere,
+including at sites where the spectral detector demonstrably works, which makes
+it a bad control rather than a bad detector. It is built from a 500 m DEM, so at
+10 m pixels its lines sat a median of 417 m from any water in the Ghaggar box,
+and in irrigated country it traces canals rather than channels. The riparian
+control, the ring of dry ground just outside visible water, is derived from the
+imagery and is correctly located by construction.
+
+**Why the terrain arm fails.** A channel is one to two metres deep and the
+Copernicus DEM is 30 m horizontally with metre-scale vertical noise, so the
+signal sits under the noise floor. Detrending gives a standard deviation of
+1.2 to 3.5 m across these sites, which is the same order as the feature. This is
+a resolution problem, not a method problem, and it is where better elevation
+data would change the answer.

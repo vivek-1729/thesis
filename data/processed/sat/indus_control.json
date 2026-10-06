@@ -1,0 +1,70 @@
+{
+ "region": "indus",
+ "bbox": [
+  67.45,
+  24.7,
+  67.7,
+  24.92
+ ],
+ "hydro": "as",
+ "start": "2022-01-01",
+ "end": "2024-12-31",
+ "note": "Indus delta around Banbhore",
+ "shape": [
+  2463,
+  2553
+ ],
+ "results": [
+  {
+   "label": "indus / spectral PCA",
+   "auc": 0.6045981614795597,
+   "n_pos": 80045,
+   "n_neg": 271828,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "indus / spectral PCA / riparian",
+   "auc": 0.813924039375,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": true,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "indus / topographic",
+   "auc": 0.6498384496871841,
+   "n_pos": 80045,
+   "n_neg": 271828,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "indus / topographic / riparian",
+   "auc": 0.4913212575,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "indus / topographic, linear",
+   "auc": 0.5423411891235419,
+   "n_pos": 80045,
+   "n_neg": 271828,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "indus / topographic, linear / riparian",
+   "auc": 0.4309169975,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  }
+ ]
+}

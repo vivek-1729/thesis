@@ -89,10 +89,15 @@ def copernicus_dem(bbox, like_profile=None, shape=None):
     if not items:
         raise RuntimeError(f"no Copernicus DEM tile for {bbox}")
 
+    # The Copernicus DEM sits in a public S3 bucket, so GDAL has to be told to
+    # make unsigned requests rather than looking for credentials it will not find.
+    env = rasterio.Env(AWS_NO_SIGN_REQUEST="YES",
+                       GDAL_DISABLE_READDIR_ON_OPEN="EMPTY_DIR")
+
     tiles = []
     for it in items:
         key = "data" if "data" in it.assets else list(it.assets)[0]
-        with rasterio.open(it.assets[key].href) as src:
+        with env, rasterio.open(it.assets[key].href) as src:
             t = Transformer.from_crs("EPSG:4326", src.crs, always_xy=True)
             x0, y0 = t.transform(bbox[0], bbox[1])
             x1, y1 = t.transform(bbox[2], bbox[3])

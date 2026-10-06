@@ -29,6 +29,12 @@ REGIONS = {
     "ghaggar": dict(bbox=[73.15, 29.15, 73.35, 29.32], hydro="as",
                     start="2022-01-01", end="2024-12-31",
                     note="Ghaggar-Hakra palaeochannel near Anupgarh, Rajasthan"),
+    # Desert Cholistan around Derawar. The Hakra bed here is unirrigated and the
+    # relict channel is visible on the ground, which is the condition Orengo and
+    # Petrie's method assumes and the Anupgarh box turned out not to meet.
+    "cholistan": dict(bbox=[71.20, 28.68, 71.45, 28.88], hydro="as",
+                      start="2022-01-01", end="2024-12-31",
+                      note="Hakra palaeochannel, Cholistan desert near Derawar"),
     # Barbarikon. Repeated avulsion, and the shelf cores carry a hiatus over
     # the Periplus period, so imagery carries more weight here.
     "indus": dict(bbox=[67.45, 24.70, 67.70, 24.92], hydro="as",
@@ -78,6 +84,11 @@ def run(name, limit=10):
                 region=cfg["hydro"], label=f"{name} / {label}"))
         except RuntimeError as e:
             print(f"  {label}: {e}")
+        try:
+            results.append(control.evaluate_riparian(
+                score, comps["dry"], label=f"{name} / {label} / riparian"))
+        except RuntimeError as e:
+            print(f"  {label} riparian: {e}")
 
     figure(name, cfg, comps, spec, topo, dem, profile)
     rec = {"region": name, **cfg, "shape": list(shape), "results": results}
