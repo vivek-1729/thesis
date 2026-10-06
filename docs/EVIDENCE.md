@@ -15,13 +15,13 @@ sea, so nothing can be measured until the old channels are back on the map.
 - **[GEBCO](https://www.gebco.net/).** Global seabed depth. Tells us where a ship could get in and anchor.
 - **[HydroRIVERS](https://www.hydrosheds.org/products/hydrorivers).** Every river in the world as mapped lines. Gives the modern network to compare the old one against.
 - **Historic charts.** Admiralty 750 and 751 from 1857, the manuscript originals in series ADM 352 at [The National Archives](https://discovery.nationalarchives.gov.uk/), and Survey of India sheets from 1911 to 1913. Paper maps, not a dataset, so they have to be scanned and georeferenced. They show the backwaters before the dams and the reclamation.
-- **Kerala Holocene cores.** Columns of mud drilled out of the ground, whose layers can be radiocarbon dated to establish whether water stood at a site in the deep past. Published as individual papers rather than as a dataset, led by [Maya et al. 2022](https://doi.org/10.1016/b978-0-323-90085-0.00026-7) on boreholes through Kuttanad and the Vembanad lagoon.
+- **Holocene cores.** Columns of mud drilled out of the ground, whose layers can be radiocarbon dated to establish whether water stood at a site in the deep past. Published as individual papers rather than as a dataset, led by [Maya et al. 2022](https://doi.org/10.1016/b978-0-323-90085-0.00026-7) on boreholes through Kuttanad and the Vembanad lagoon.
 
 ## 2. Material
 
-- **[Indian Archaeology: A Review](https://asi.nic.in/indian-archaeology-a-review/).** The Archaeological Survey of India's annual record of every excavation and survey in the country, 1953 to 2014. We use it to measure how hard anyone has looked at each candidate.
-- **[Coin Hoards of the Roman Empire](https://chre.ashmus.ox.ac.uk/).** Findspots, contents and burial dates for Roman coin hoards worldwide. The South Asian export gives 627 hoards; after dropping out-of-region and ungeoreferenced records we hold 427 hoards covering roughly 417,000 coins. We use it for the distribution of Roman currency across the Indian interior.
-- **Excavated assemblages.** The material dug out of the candidate sites and the securely identified ports: potsherds, coins, beads and imported containers, counted and classified by origin. Pattanam alone has produced about 4.5 million sherds, some 140,000 of them non-Indian. This is what shows which places were trading, with whom, and when.
+- **[Indian Archaeology: A Review](https://asi.nic.in/indian-archaeology-a-review/).** The Archaeological Survey of India's annual record of every excavation and survey in the country, 1953 to 2014. We use it to better understand the nature of trade that existed around those locations. One city in south India has produced 4.5 million shards of pottery.
+
+- **[Coin Hoards of the Roman Empire](https://chre.ashmus.ox.ac.uk/).** Findspots, contents and burial dates for Roman coin hoards worldwide. The South Asian region is the richest for this and holds 427 hoards covering roughly 417,000 coins. We use it for the distribution of Roman currency across the Indian interior.
 
 ## 3. Textual
 

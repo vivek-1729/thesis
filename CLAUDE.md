@@ -47,8 +47,16 @@ looking for patterns.
 Large third-party geodata (HydroRIVERS, Natural Earth 10m) is gitignored and
 re-downloadable.
 
-Python is at `/Library/Developer/CommandLineTools/usr/bin/python3`. The stack is
-pyshp, PyMuPDF, matplotlib and pandas. No GDAL, no geopandas.
+Two Python environments. The existing work runs on
+`/Library/Developer/CommandLineTools/usr/bin/python3` with pyshp, PyMuPDF,
+matplotlib and pandas, and no GDAL. The geospatial work runs in `.venv`, Python
+3.13, with rasterio (GDAL 3.12 bundled in the wheel), pystac-client, pyproj,
+shapely and earthengine-api. `.venv` is gitignored.
+
+Satellite imagery is read anonymously over STAC from
+`earth-search.aws.element84.com/v1`, which serves `sentinel-2-l2a`,
+`landsat-c2-l2` and `cop-dem-glo-30` as cloud-optimised GeoTIFFs. No Earth Engine
+account is needed for this.
 
 ## Facts established so far
 
