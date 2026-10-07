@@ -15,14 +15,15 @@
   "gained_km2": 16.355807004668822,
   "net_change_km2": 9.916900386694913,
   "land_cover_km2": {
-   "tree cover": 986.9431904043888,
-   "shrubland": 0.3247843549806945,
-   "grassland": 59.65584523023023,
-   "cropland": 56.08170317926552,
-   "built-up": 61.60303721393733,
-   "bare": 19.88225345105594,
-   "permanent water": 284.67916518874273,
-   "herbaceous wetland": 14.693274502250162
+   "tree cover": 965.5778307728965,
+   "shrubland": 0.18018339507087483,
+   "grassland": 61.08671336755776,
+   "cropland": 60.49468221232489,
+   "built-up": 90.50505944177648,
+   "bare": 1.2855101043291826,
+   "permanent water": 296.7802214358556,
+   "herbaceous wetland": 6.678141713950365,
+   "mangroves": 1.2749110810897193
   },
   "note": "Muziris: Periyar delta, Pattanam and Kodungallur"
  },
@@ -42,14 +43,14 @@
   "gained_km2": 154.3845348194432,
   "net_change_km2": 139.21560778188402,
   "land_cover_km2": {
-   "tree cover": 542.7804144486352,
-   "shrubland": 0.2952570736857902,
-   "grassland": 23.512026662120107,
-   "cropland": 255.53019647058642,
-   "built-up": 32.63767138429043,
-   "bare": 8.200404689206367,
-   "permanent water": 519.1469452883409,
-   "herbaceous wetland": 105.56768661590777
+   "tree cover": 513.8072704467484,
+   "shrubland": 0.1669834349893929,
+   "grassland": 29.030070172905955,
+   "cropland": 230.28457814703097,
+   "built-up": 54.92995995537438,
+   "bare": 0.9017105489427216,
+   "permanent water": 541.4308846876754,
+   "herbaceous wetland": 117.11914523910582
   },
   "note": "Nelkynda and Bakare: Pamba and southern Vembanad"
  },
@@ -69,14 +70,15 @@
   "gained_km2": 5.042937993528465,
   "net_change_km2": 2.2475111261190914,
   "land_cover_km2": {
-   "tree cover": 933.4242758099311,
-   "shrubland": 0.08603635607037488,
-   "grassland": 10.623980564935678,
-   "cropland": 28.08936084722178,
-   "built-up": 37.25827040773919,
-   "bare": 18.560457059988856,
-   "permanent water": 448.85846196304607,
-   "herbaceous wetland": 2.3207174992666912
+   "tree cover": 934.7706693119447,
+   "shrubland": 0.012829982922775202,
+   "grassland": 15.14088925863036,
+   "cropland": 22.964160022011992,
+   "built-up": 51.2897434959884,
+   "bare": 1.587899062912884,
+   "permanent water": 450.9172968697126,
+   "herbaceous wetland": 2.328264548044794,
+   "mangroves": 0.20980795603126506
   },
   "note": "Tyndis: Kadalundi to Ponnani"
  },
@@ -96,15 +98,15 @@
   "gained_km2": 224.38587888142393,
   "net_change_km2": 168.82486506712885,
   "land_cover_km2": {
-   "tree cover": 29.479230730418656,
-   "shrubland": 609.4574137199152,
-   "grassland": 55.54984029685528,
-   "cropland": 580.1108685090943,
-   "built-up": 64.12272155254949,
-   "bare": 1248.632193760685,
-   "permanent water": 312.78795548584054,
-   "herbaceous wetland": 2.703991220434014,
-   "mangroves": 169.87308067195102
+   "tree cover": 76.13425280034521,
+   "shrubland": 667.0548010876156,
+   "grassland": 112.26382144197076,
+   "cropland": 595.5163556792322,
+   "built-up": 56.62738638495696,
+   "bare": 1071.873432966451,
+   "permanent water": 328.10754624066,
+   "herbaceous wetland": 0.25419752175567695,
+   "mangroves": 164.88550182475583
   },
   "note": "Barbarikon: Indus delta around Banbhore"
  },
@@ -124,16 +126,44 @@
   "gained_km2": 0.49187907238116013,
   "net_change_km2": 0.3236225069321564,
   "land_cover_km2": {
-   "tree cover": 0.8019325014545259,
-   "shrubland": 0.380612633939077,
-   "grassland": 1.0393913639833618,
-   "cropland": 0.9389801878283112,
-   "built-up": 9.801623391297408,
-   "bare": 1107.552234337532,
-   "permanent water": 209.23721594423026,
-   "herbaceous wetland": 0.01763980121642781
+   "tree cover": 0.891488415322544,
+   "shrubland": 1.6642473993806701,
+   "grassland": 1.0739925125232779,
+   "cropland": 1.2578535175098908,
+   "built-up": 7.613609586567419,
+   "bare": 1108.3317778605194,
+   "permanent water": 208.93259014630038,
+   "herbaceous wetland": 0.004070723357637187
   },
   "note": "Leuke Kome: Aynuna and Khuraybah"
+ },
+ {
+  "region": "rufiji",
+  "bbox": [
+   39.0,
+   -8.2,
+   39.5,
+   -7.7
+  ],
+  "pixel_km2": 0.0007618972314486353,
+  "ever_water_km2": 805.09528067731,
+  "permanent_km2": 615.9009601639849,
+  "seasonal_km2": 189.19432051332512,
+  "lost_km2": 48.206761628218054,
+  "gained_km2": 86.80676106510026,
+  "net_change_km2": 38.59999943688221,
+  "land_cover_km2": {
+   "tree cover": 757.9582227620459,
+   "shrubland": 91.41014413751292,
+   "grassland": 1075.875080528618,
+   "cropland": 47.94847846675697,
+   "built-up": 1.729506715388402,
+   "bare": 4.265100701649461,
+   "permanent water": 678.4039614431051,
+   "herbaceous wetland": 60.07712049418779,
+   "mangroves": 329.92131054527675
+  },
+  "note": "Rhapta: Rufiji delta"
  },
  {
   "region": "cholistan",
@@ -151,13 +181,13 @@
   "gained_km2": 3.53414399452984,
   "net_change_km2": 3.532796113525061,
   "land_cover_km2": {
-   "tree cover": 0.3726890978213199,
-   "shrubland": 16.6692443860986,
-   "grassland": 0.1280486954539797,
-   "cropland": 368.50123153947237,
-   "built-up": 2.339921424295882,
-   "bare": 741.2941161981603,
-   "permanent water": 2.914792672834012
+   "tree cover": 1.9059037407571295,
+   "shrubland": 14.177686348765112,
+   "grassland": 10.637476889713767,
+   "cropland": 363.23438651329946,
+   "built-up": 1.3087924556401505,
+   "bare": 737.8893687800892,
+   "permanent water": 3.0664292858716196
   },
   "note": "control: Hakra bed, Cholistan"
  }

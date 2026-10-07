@@ -81,20 +81,35 @@ def surface_water(bbox, shape=None, layers=("occurrence", "seasonality",
     return out
 
 
-def land_cover(bbox, shape=None, year=2021):
-    """ESA WorldCover at 10 m, the most recent year available."""
+def land_cover(bbox, shape=None):
+    """ESA WorldCover at 10 m, from whichever tile covers the box.
+
+    The tiles are 3 degrees square, so a box can return several items of which
+    only one actually contains it. Taking the most recent blindly fails on the
+    Rufiji, which straddles a tile edge; try each and keep the first that reads.
+    """
     items = sorted(_client().search(collections=["esa-worldcover"], bbox=bbox).items(),
-                   key=lambda i: i.datetime or 0)
-    if not items:
-        raise RuntimeError(f"no WorldCover tile over {bbox}")
-    return _read(items[-1].assets["map"].href, bbox, shape)
+                   key=lambda i: i.datetime or 0, reverse=True)
+    for it in items:
+        if "map" not in it.assets:
+            continue
+        try:
+            a = _read(it.assets["map"].href, bbox, shape, tries=1)
+        except Exception:
+            continue
+        if a is not None and (a > 0).any():
+            return a
+    return None
 
 
 def summarise(bbox, name=""):
     """Water extent, seasonality and loss, as areas in square kilometres."""
     gsw = surface_water(bbox)
     shape = gsw["occurrence"].shape
-    lc = land_cover(bbox, shape=shape)
+    try:
+        lc = land_cover(bbox, shape=shape)
+    except Exception:
+        lc = None
 
     # Pixel area from the box, which is adequate at these latitudes.
     import math

@@ -77,3 +77,42 @@ grid. Check what a box actually looks like before building a test on it.
 The riparian control sits beside present water, so it demonstrates detection of
 channel-associated ground rather than of a channel that is now dry. Closing it
 needs a hand-digitised relict meander in the Indus delta as a second positive.
+
+
+## Water history, a second data layer
+
+The JRC Global Surface Water product is built from every Landsat scene from 1984
+to 2021 at 30 m, and is already made, so it needs no processing of ours. With
+ESA WorldCover at 10 m it gives a modern water baseline for every port region.
+
+| Region | Ever water km² | Permanent | Seasonal | Lost since 1984 |
+|---|---|---|---|---|
+| Rhapta, Rufiji delta | 805 | 616 | 189 | 6.0% |
+| Nelkynda and Bakarē, Pamba | 780 | 494 | 287 | 1.9% |
+| Barbarikon, Indus delta | 565 | 226 | 339 | **9.8%** |
+| Tyndis, Kadalundi to Ponnani | 451 | 434 | 17 | 0.6% |
+| Muziris, Periyar delta | 295 | 250 | 46 | 2.2% |
+| Leukē Kōmē, Aynuna | 210 | 209 | 1 | 0.1% |
+
+**The limitation comes first.** The record starts in 1984, eight years after the
+Thanneermukkom barrage and the Idukki dam. It cannot answer the pre-dam
+question. It is the modern surface that the historic charts will be differenced
+against, which is the Giosan 2006 procedure with its first half still missing.
+
+**What it does show.** The water body the Malabar distances ran through is not a
+fixed thing even today: the Pamba box swings from 494 km² permanent to 780 km²
+at full seasonal extent, so 37 per cent of its water surface is seasonal. Any
+sailed distance through that system has to be quoted with a season attached.
+
+The Indus delta is the most mobile, losing 9.8 per cent of its water surface in
+under forty years, which is consistent with the barrage diversions and supports
+treating Barbarikon's geography as the least stable of the seven.
+
+Aynuna is the opposite, 209 of 210 km² permanent and 0.1 per cent lost. An arid
+coast that has not moved, which is a reason to treat the Leukē Kōmē landscape as
+broadly unchanged and to put the reconstruction effort elsewhere.
+
+**One caution on the gained figures.** Kerala shows large gains, 154 km² net in
+the Pamba box, which is almost certainly paddy, aquaculture and reservoirs
+rather than natural water. "Gained" in this product means a surface that now
+holds water, not a channel that has reopened.
