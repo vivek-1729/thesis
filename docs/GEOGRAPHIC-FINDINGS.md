@@ -1,0 +1,160 @@
+# Geographic evidence: what the work established
+
+The Phase 1 geographic step, start to finish. Four satellite methods tried, the
+borehole record read, the historic chart archives harvested. Most of the
+headline results are negative, and they are more useful than they sound, because
+each one closes off a line of enquiry with a number attached.
+
+Detail lives in `SATELLITE-PLAN.md`, `SATELLITE-LEARNINGS.md`,
+`SEDIMENT-CORES.md` and `KERALA-RECONSTRUCTION.md`.
+
+---
+
+## 1. The headline
+
+**Imagery finds buried channels in arid terrain and cannot do it in Kerala.**
+Multi-season optical PCA scores **AUC 0.814 in the Indus delta** and **0.752 in
+Cholistan**, against a threshold of 0.75 fixed before any run. It scores **0.583
+at the Periyar** and **0.456 at the Pamba**.
+
+So **Barbarikon can be worked with imagery and the four Malabar ports cannot.**
+That is the single most consequential outcome, and it redirects effort from
+satellites to archives for most of the thesis.
+
+## 2. Kerala defeats four independent methods
+
+| Method | Result |
+|---|---|
+| Multi-season optical PCA | 0.576 Periyar, 0.456 Pamba |
+| L-band radar (ALOS PALSAR) added | 0.583 Periyar, 0.455 Pamba |
+| Detrended Copernicus DEM | 0.537 Periyar, 0.430 Pamba |
+| Borehole lithology | the buried sands are beach deposits |
+
+**And the reason is not what I assumed.** I added radar because canopy seemed the
+obstacle. It moved the Periyar by 0.007. Figure 28 shows the real problem: the
+terrain is full of sharp linear structure and all of it is the Kuttanad polder
+system, paddy bunds and canals in a dense mesh. An across-shore spectrum returns
+2.1, 3.5 and 7.9 km, which are polder scales. **The Malabar surface has been
+re-cut into features that look exactly like palaeochannels.**
+
+The subsurface route fails separately. Eight of seventeen boreholes hold a sand
+body sealed under finer sediment, the classic buried-channel signature, but
+Maya and colleagues identify them as beach and littoral deposits from
+transgressive and regressive cycles, and marine fauna appear in every thick one.
+
+## 3. Nothing dates to the Periplus
+
+This recurs across every stream and should be stated once, plainly.
+
+- **Kerala cores.** 27 radiocarbon dates across 15 sites. The three youngest are
+  2460, 2580 and 2730 BP, roughly 510, 630 and 780 BC. **Nothing within five
+  centuries of AD 50.**
+- **Indus shelf.** Core Indus-23 carries a hiatus from 8 ka to 1.3 ka. The
+  Periplus falls inside the gap.
+- **Historic charts.** 1857 for the Admiralty sheets, around 1700 for the
+  earliest Dutch one. Seventeen centuries late at best.
+- **JRC water record.** Begins 1984, eight years after the Thanneermukkom
+  barrage and the Idukki dam.
+
+Every geographic layer is therefore a prior on the landscape, not a measurement
+of it at the right date, and the posterior has to carry that.
+
+## 4. What the archives gave, which was more than expected
+
+I had been treating historic charts as a reading-room problem. They are not.
+
+**Admiralty sheets, Wikimedia Commons, public domain, 80 to 176 megapixels.**
+Malabar 749, 750 and 751 of 1857 covering the whole coast; Indus 41 and 118 of
+1897, which is Oldham's survey and the exact material Giosan and colleagues
+digitised; Red Sea 8a to 8c of 1873. Sheet 749 is the one covering Muziris and
+Tyndis that I had reported missing.
+
+**Gallica: 915 sheets catalogued, 791 of them dated before 1800.** 249 Malabar,
+387 Red Sea, 147 Arabia, 50 Zanzibar, 36 Cochin, 27 Indus and Sind. Served over
+IIIF at 50 to 95 megapixels. Twelve downloaded so far.
+
+**David Rumsey: 49 sheets**, JSON search and IIIF both working.
+
+**The best single item is the pre-1700 Dutch chart**, *"avec les Sondes"*,
+covering 9°N to 16°N. Figure 29 crops its southern end at full scale and it
+lands on our candidates: Cranckenoore for Kodungallur, Porcae for Purakkad with
+the Dutch legend *Hyerbegint het Ryck Porcae*, the barrier spit, the backwater
+behind it, and soundings in fathoms along the whole approach.
+
+**Those soundings carry an argument.** Off Purakkad, 6 to 12 fathoms close
+inshore, roughly 11 to 22 m, ample for any ancient vessel. At the Cranganore and
+Vypin entrance, 3 to 5 fathoms, roughly 5 to 9 m, with shoals drawn at the mouth.
+That is the pattern Gurukkal and Whittaker propose for Bakarē displacing Muziris,
+a silted bar against a deep approach, recorded as measurement at the earliest
+date anyone sounded this coast. It is around 1700, not AD 50, and proves nothing
+about antiquity, but it is the earliest bathymetry for Malabar we have found.
+
+## 5. Two claims in the literature that pull against each other
+
+**The coast may have been finished before the Periplus.** Shajan and colleagues,
+reporting Mathai and Nair 1988: the sand ridges and backwaters "emerged between
+7000 and 2000 years BP", and "the development of the coast was almost completed
+by 2000 years BP". If that holds, the first-century shoreline near the Periyar
+is close to the modern one and the Muziris reconstruction problem is small.
+Everything rests on one 1988 paper that the later literature cites without
+rechecking, which is a pattern that has misled us before.
+
+**The Vembanad is held to be unreconstructible.** Gurukkal and Whittaker on the
+1341 cyclone that opened the Kochi gap: "it is almost anyone's guess where a
+plausible port of Becare might have been situated", and "the huge changes in the
+Vembanad waterways make it impossible to base much upon this evidence". That is
+the consensus, and it applies exactly where Nelkynda and Bakarē sit.
+
+Reconciling these two is the first substantive question for the Malabar chapter.
+
+## 6. Modern water, measured
+
+From the JRC 1984-2021 record, in km². Figure 26.
+
+| Region | Ever water | Permanent | Seasonal | Lost since 1984 |
+|---|---|---|---|---|
+| Rhapta, Rufiji | 805 | 616 | 189 | 6.0% |
+| Nelkynda and Bakarē, Pamba | 780 | 494 | 287 | 1.9% |
+| Barbarikon, Indus | 565 | 226 | 339 | **9.8%** |
+| Tyndis | 451 | 434 | 17 | 0.6% |
+| Muziris, Periyar | 295 | 250 | 46 | 2.2% |
+| Leukē Kōmē, Aynuna | 210 | 209 | 1 | 0.1% |
+
+**The Pamba box is 37 per cent seasonal**, swinging from 494 to 780 km². Any
+sailed distance through that system has to be quoted with a season attached.
+**Aynuna is static**, which supports treating the Leukē Kōmē landscape as broadly
+unchanged and spending the effort elsewhere. **The Indus is the most mobile of
+the seven.**
+
+## 7. Methodological lessons worth keeping
+
+**Pre-registering the threshold is why the Kerala result is a finding** rather
+than a disappointment to argue around.
+
+**HydroRIVERS is not usable as ground truth.** Built from a 500 m DEM, its lines
+sat a median of 417 m from any water and traced irrigation canals. It fails even
+where the detector demonstrably works.
+
+**A "principled" rule can be worse than an arbitrary one.** Choosing the PCA
+component by spatial linearity picked PC1, which is brightness, and dropped the
+Indus score from 0.814 to 0.719. Open water is linear too.
+
+**Check what a test site actually looks like before building a test on it.** The
+first site, the Ghaggar near Anupgarh, was chosen because it is in Orengo and
+Petrie's study region and turned out to be wall-to-wall irrigated field grid.
+
+## 8. What would change the picture
+
+**Priju et al. 2018** maps buried channels in the Periyar basin by electrical
+resistivity, which sees sand bodies through the engineered surface that defeated
+everything we tried. The highest-value item outstanding.
+
+**Narayana et al. 2001** on a palaeodelta at the Periyar mouth, about 50 km² and
+up to 6 km wide, which is the Muziris landscape.
+
+**Mathai and Nair 1988**, because the 2000 BP claim is load-bearing and unchecked.
+
+**TanDEM-X at 12 m**, which would test whether terrain can contribute anywhere,
+since the current failure is resolution rather than method.
+
+**Ibn Battuta**, who was on this coast in 1342, within a year of the flood.
