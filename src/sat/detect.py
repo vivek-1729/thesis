@@ -29,6 +29,8 @@ CATALOG = "https://earth-search.aws.element84.com/v1"
 def indices(med):
     """Moisture and vegetation ratios, which carry the signal more directly
     than raw reflectance and are insensitive to overall brightness."""
+    if not {"nir", "red", "green", "swir16", "swir22"} <= set(med):
+        return {}          # a non-optical stack, e.g. radar only
     e = 1e-6
     out = {}
     out["ndvi"] = (med["nir"] - med["red"]) / (med["nir"] + med["red"] + e)
@@ -40,29 +42,29 @@ def indices(med):
     return out
 
 
-def spectral_score(composites, n_components=6, keep=3):
-    """PCA over every band and index of every season.
+def spectral_score(composites, extra=None, n_components=8):
+    """PCA over every band and index of every season, plus any extra layers.
 
-    `composites` is {season: {band: array}}. Returns (score, components,
-    explained_variance_ratio). The score is the component whose spatial
-    structure is most linear, chosen by the caller from `components`; by default
-    we return the summed absolute value of the first `keep` components after the
-    first, since PC1 is almost always overall brightness.
+    Which component carries the channel is not known in advance and is not
+    always the same one, so picking PC2 or summing PC2 to PC4 is arbitrary. Here
+    the component is chosen by how linear its spatial structure is, measured on
+    the component itself. That rule never looks at the control, so it cannot
+    launder the control's answer back into the score.
     """
     feats, names = [], []
     for season, med in sorted(composites.items()):
         for b, a in sorted(med.items()):
-            feats.append(a)
-            names.append(f"{season}:{b}")
+            feats.append(a); names.append(f"{season}:{b}")
         for k, a in sorted(indices(med).items()):
-            feats.append(a)
-            names.append(f"{season}:{k}")
+            feats.append(a); names.append(f"{season}:{k}")
+    for k, a in sorted((extra or {}).items()):
+        feats.append(a); names.append(k)
 
     shape = feats[0].shape
     X = np.column_stack([f.ravel() for f in feats])
     good = np.isfinite(X).all(axis=1)
     if good.sum() < 100:
-        raise RuntimeError("almost no cloud-free pixels in common across seasons")
+        raise RuntimeError("almost no pixels valid across every layer")
 
     Xg = X[good]
     Xg = (Xg - Xg.mean(0)) / (Xg.std(0) + 1e-9)
@@ -75,9 +77,22 @@ def spectral_score(composites, n_components=6, keep=3):
         img[good] = Yg[:, i]
         comps.append(img.reshape(shape))
 
-    score = np.nansum([np.abs(c) for c in comps[1:1 + keep]], axis=0)
+    # PC1 is reliably overall brightness and carries no channel information, so
+    # it is dropped. The primary score is the summed magnitude of the next
+    # three, which is the rule fixed before any control was run and which
+    # scored 0.814 in the Indus delta.
+    score = np.nansum([np.abs(c) for c in comps[1:4]], axis=0)
     score[~np.isfinite(comps[0])] = np.nan
-    return score, comps, p.explained_variance_ratio_, names
+
+    # A second, differently motivated score, reported alongside rather than
+    # instead: among the components after the first, the one whose structure is
+    # most one-directional. Choosing by linearity over all components picked
+    # PC1 and did worse, because open water is linear too.
+    lin = [float(np.nanmean(np.abs(linearity(c)))) for c in comps[1:]]
+    pick = int(np.argmax(lin)) + 1
+    alt = np.abs(comps[pick])
+    alt[~np.isfinite(comps[0])] = np.nan
+    return score, comps, p.explained_variance_ratio_, names, pick, alt
 
 
 # -------------------------------------------------------------- topographic

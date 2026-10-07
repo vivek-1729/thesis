@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
-from sat import stack, detect, control
+from sat import stack, detect, control, sar
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "processed" / "sat"
@@ -66,8 +66,25 @@ def run(name, limit=10):
               f"{100 * np.isfinite(med['red']).mean():.0f}% valid")
 
     shape = comps["dry"]["red"].shape
-    spec, pcs, evr, names = detect.spectral_score(comps)
-    print(f"  PCA variance explained: {', '.join(f'{v:.2f}' for v in evr[:5])}")
+
+    # L-band radar, which sees ground through canopy that optical cannot.
+    try:
+        radar = sar.palsar(bbox, shape=shape, profile=profile)
+        print(f"  PALSAR: {', '.join(radar)} "
+              f"(HV median {np.nanmedian(radar['sar_hv']):.1f} dB)")
+    except RuntimeError as e:
+        radar = None
+        print(f"  PALSAR unavailable: {e}")
+
+    spec, pcs, evr, names, pick, alt = detect.spectral_score(comps)
+    print(f"  optical PCA variance: {', '.join(f'{v:.2f}' for v in evr[:5])}; "
+          f"most linear component after PC1 is PC{pick + 1}")
+    scores = [("optical PCA", spec), ("optical PCA, most linear", alt)]
+    if radar:
+        sp2, _, _, _, _, _ = detect.spectral_score(comps, extra=radar)
+        scores.append(("optical + SAR PCA", sp2))
+        sar_only, _, _, _, _, _ = detect.spectral_score({"sar": radar})
+        scores.append(("SAR only PCA", sar_only))
 
     dem = detect.copernicus_dem(bbox, shape=shape)
     topo = detect.topographic_score(dem)
@@ -75,9 +92,8 @@ def run(name, limit=10):
           f"detrended sd {np.nanstd(topo):.2f} m")
 
     results = []
-    for label, score in (("spectral PCA", spec),
-                         ("topographic", topo),
-                         ("topographic, linear", detect.linearity(topo))):
+    scores += [("topographic", topo), ("topographic, linear", detect.linearity(topo))]
+    for label, score in scores:
         try:
             results.append(control.evaluate(
                 score, bbox, profile, comps["dry"],
