@@ -46,8 +46,22 @@ Narayana, A. C., C. P. Priju, and A. Chakrabarti. "Identification of a Palaeo-De
 *A buried delta at the mouth of the Periyar is the Muziris question in geological form, and somebody has already looked for it. Read before doing any more work on Muziris.*
 
 **`mathai-nair-1988-cochin-kodungallur-coast.pdf`**
-Mathai, T., and S. B. Nair. "Stages in the Emergence of the Cochin-Kodungallur Coast: Evidence for the Interaction of Marine and Fluvial Processes." (1988). Chase the full citation through Maya et al. 2017 or Shajan et al. 2004.
+Mathai, T., and S. B. Nair. "Stages in the Emergence of the Cochin-Kodungallur Coast: Evidence for the Interaction of Marine and Fluvial Processes." *Proceedings of the Indian Academy of Sciences* 54, no. 3 (1988): 439–47. No DOI; ias.ac.in blocks scripted access but serves free PDFs in a browser.
 *The source of the claim that the Kerala coast was "almost completed by 2000 years BP", which if true means the first-century coastline near the Periyar is close to the modern one. A great deal rests on this one paper and nobody in the later literature seems to have rechecked it.*
+
+**`priju-2018-periyar-paleochannels.pdf`** — highest priority of the whole list
+Priju, C. P., Jiby Francis, P. R. Arun, and N. B. Narasimha Prasad. "Delineation of Paleochannels in Periyar River Basin of Kerala Using Remote Sensing and Electrical Resistivity Methods." *Water Science and Technology Library* (2018): 391–400.
+https://doi.org/10.1007/978-981-10-5801-1_27
+*Someone has already mapped the buried channels of the Periyar basin, and they used electrical resistivity, which sees sand bodies through the engineered surface that defeated every method we tried. This is the paper that may hand us the Muziris channel network.*
+
+**`narayana-2001-periyar-paleodelta.pdf`**
+Narayana, A. C., C. P. Priju, and A. Chakrabarti. "Identification of a Palaeodelta near the Mouth of Periyar River in Central Kerala." *Journal of the Geological Society of India* 57, no. 6 (2001): 545–47.
+https://doi.org/10.17491/jgsi/2001/570609
+*A buried delta of about 50 km², up to 6 km wide, at the Periyar mouth. This is the Muziris landscape.*
+
+**`padmalal-2013-bayhead-delta.pdf`**
+Padmalal, D., K. M. Nair, K. P. N. Kumaran, K. Sajan, S. Vishnu Mohan, K. Maya, V. Santhosh, S. Anooja, and R. Limaye. "Climate and Sea Level Changes in a Holocene Bay Head Delta, Kerala, Southwest Coast of India." In *Climate Change and Island and Coastal Vulnerability*, 191–208. 2013.
+https://doi.org/10.1007/978-94-007-6016-5_13
 
 ---
 
