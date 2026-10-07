@@ -1,0 +1,121 @@
+{
+ "region": "pamba",
+ "bbox": [
+  76.33,
+  9.28,
+  76.55,
+  9.5
+ ],
+ "hydro": "as",
+ "start": "2022-01-01",
+ "end": "2024-12-31",
+ "note": "Pamba and the southern Vembanad, Niranam to Purakkad",
+ "shape": [
+  2443,
+  2426
+ ],
+ "results": [
+  {
+   "label": "pamba / optical PCA",
+   "auc": 0.5492580073661747,
+   "n_pos": 113105,
+   "n_neg": 258937,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "pamba / optical PCA / riparian",
+   "auc": 0.456175475,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "pamba / optical PCA, most linear",
+   "auc": 0.43060987865379075,
+   "n_pos": 113105,
+   "n_neg": 258937,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "pamba / optical PCA, most linear / riparian",
+   "auc": 0.46719791,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "pamba / optical + SAR PCA",
+   "auc": 0.5493098308511417,
+   "n_pos": 113105,
+   "n_neg": 258937,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "pamba / optical + SAR PCA / riparian",
+   "auc": 0.454570503125,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "pamba / SAR only PCA",
+   "auc": 0.4728953616226964,
+   "n_pos": 119979,
+   "n_neg": 265523,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "pamba / SAR only PCA / riparian",
+   "auc": 0.50029503,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "pamba / topographic",
+   "auc": 0.5787874457190131,
+   "n_pos": 119979,
+   "n_neg": 265523,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "pamba / topographic / riparian",
+   "auc": 0.429639205,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  },
+  {
+   "label": "pamba / topographic, linear",
+   "auc": 0.4629333663681678,
+   "n_pos": 119979,
+   "n_neg": 265523,
+   "pass": false,
+   "threshold": 0.75
+  },
+  {
+   "label": "pamba / topographic, linear / riparian",
+   "auc": 0.5685632325,
+   "n_pos": 40000,
+   "n_neg": 40000,
+   "pass": false,
+   "threshold": 0.75,
+   "control": "riparian"
+  }
+ ]
+}
