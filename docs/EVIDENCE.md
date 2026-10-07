@@ -14,7 +14,7 @@ sea, so nothing can be measured until the old channels are back on the map.
 - **[ERA5](https://cds.climate.copernicus.eu/).** Hourly wind going back to 1940. Feeds the voyage simulation.
 - **[GEBCO](https://www.gebco.net/).** Global seabed depth. Tells us where a ship could get in and anchor.
 - **[HydroRIVERS](https://www.hydrosheds.org/products/hydrorivers).** Every river in the world as mapped lines. Gives the modern network to compare the old one against.
-- **Historic charts.** Admiralty 750 and 751 from 1857, the manuscript originals in series ADM 352 at [The National Archives](https://discovery.nationalarchives.gov.uk/), and Survey of India sheets from 1911 to 1913. Paper maps, not a dataset, so they have to be scanned and georeferenced. They show the backwaters before the dams and the reclamation.
+- **Historic Admiralty charts.** Held: sheets 749, 750 and 751 of 1857 covering the whole Malabar coast, 41 and 118 of 1897 covering the Indus delta, and 8a to 8c of 1873 covering the Red Sea. Downloaded from Wikimedia Commons at 80 to 176 megapixels, public domain. They carry individual depth soundings in fathoms, a graticule to georeference against, and the coastline as surveyed before any barrage. Still to acquire: the manuscript originals in series ADM 352 at [The National Archives](https://discovery.nationalarchives.gov.uk/) and the Survey of India sheets of 1911 to 1913.
 - **Holocene cores.** Columns of mud drilled out of the ground, whose layers can be radiocarbon dated to establish whether water stood at a site in the deep past. Published as individual papers rather than as a dataset, led by [Maya et al. 2022](https://doi.org/10.1016/b978-0-323-90085-0.00026-7) on boreholes through Kuttanad and the Vembanad lagoon.
 
 ## 2. Material

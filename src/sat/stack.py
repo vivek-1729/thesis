@@ -20,6 +20,12 @@ from rasterio.windows import from_bounds
 from rasterio.enums import Resampling
 
 CATALOG = "https://earth-search.aws.element84.com/v1"
+
+# Some Earth Search assets are handed out as s3:// rather than https, which GDAL
+# will try to sign. These buckets are public, so tell it not to.
+GDAL_OPTS = dict(AWS_NO_SIGN_REQUEST="YES",
+                 GDAL_DISABLE_READDIR_ON_OPEN="EMPTY_DIR",
+                 GDAL_HTTP_MAX_RETRY="3", GDAL_HTTP_RETRY_DELAY="2")
 CACHE = pathlib.Path(__file__).resolve().parents[2] / "data" / "processed" / "sat"
 
 # Sentinel-2 asset keys on Earth Search. 10 m and 20 m bands; everything is
@@ -70,7 +76,7 @@ def read_scene(item, bbox, bands=BANDS):
 
     # Shape and georeferencing come from the first 10 m band. Every other band
     # is resampled onto that grid so the 20 m ones line up exactly.
-    with rasterio.open(item.assets[bands[0]].href) as src:
+    with rasterio.Env(**GDAL_OPTS), rasterio.open(item.assets[bands[0]].href) as src:
         w0 = _window(src, bbox)
         if (w0.col_off < 0 or w0.row_off < 0
                 or w0.col_off + w0.width > src.width
@@ -83,7 +89,7 @@ def read_scene(item, bbox, bands=BANDS):
     def grab(b):
         # COG reads are network-bound, so these parallelise almost linearly.
         # Each thread gets its own GDAL environment; sharing one is not safe.
-        with rasterio.Env():
+        with rasterio.Env(**GDAL_OPTS):
             with rasterio.open(item.assets[b].href) as src:
                 w = _window(src, bbox)
                 if (w.col_off < 0 or w.row_off < 0
@@ -100,7 +106,7 @@ def read_scene(item, bbox, bands=BANDS):
     if any(v is None for v in out.values()):
         return None
 
-    with rasterio.Env():
+    with rasterio.Env(**GDAL_OPTS):
         with rasterio.open(item.assets["scl"].href) as src:
             w = _window(src, bbox)
             if (w.col_off < 0 or w.row_off < 0
