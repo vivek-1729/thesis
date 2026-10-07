@@ -1,0 +1,18 @@
+site,landform,length_m,lat,lon,buried_sand_body,sand_body_depth_m,capped_by,marine_indicators,note
+Muthukulam,younger coastal plain,3,9.1690,76.4860,no,,,shells in silt/clay,sand 0-1 m over clayey silt and silty clay with tree trunks and subfossil logs
+Ramapuram,younger coastal plain,18,9.1200,76.4900,yes,12.0-18.0,clay 7.5-12.0 m,pelecypod and gastropod shells of marine affinity,sand above and below a mid-core clay; lower sand full of shells
+Valiyazhikkal,younger coastal plain,20,9.1560,76.4700,yes,7.5-9.0,clayey mud 4.0-6.0 m,,four stacked sand units separated by mud; littoral zone
+Ayiramthengu,younger coastal plain,26,9.1700,76.4900,yes,10.8-16.8,clayey mud 9.8-10.8 m,molluscan shells; dinoflagellates and foraminiferal linings,6 m white sand sealed under stiff clay; hard laterite at 25 m
+Parayakadavu,younger coastal plain,14,9.0700,76.5200,no,,,pelecypod and gastropod shells,6.5 m sand over sandy silt with shells
+Ponmana,younger coastal plain,10,8.9900,76.5400,no,,,none; sands devoid of shells,sand on lateritic basement
+Chavara South,younger coastal plain,8,8.9800,76.5400,no,,,none,sand on hard laterite basement
+Govindamuttom,younger coastal plain,14,9.1300,76.5000,no,,,shell dusts,10.2 m sand over 1 m clayey mud on laterite
+Puthiyakavu,older coastal plain,6,9.0500,76.5800,no,,,none,3 m sand on laterite
+Pathiyur,older coastal plain,16,9.1100,76.5600,yes,10.0-14.0,greyish green mud 4.2-10.0 m,broken and unbroken molluscan shells in the mud,lower sand sealed under 5.8 m of mud; on a minor channel draining the wetlands
+Eruva,older coastal plain,8,9.1400,76.5700,no,,,pelecypods and gastropods,sand and silt over organic-rich grey clay
+Vettiyar,wetland,10,9.1800,76.6100,yes,7.5-9.5,silt and clay 0-7.5 m,,2 m sand sealed under 7.5 m of silt and clay; peat at 3.4-4.9 m; Pallikkal floodplain
+Karunagapalli south,wetland,14,9.0600,76.5300,yes,1.9-14.0,mud 0.9-1.9 m,,thick sand under a thin mud cap; Achankovil floodplain
+Chunakkara,wetland,10,9.1900,76.6300,no,,,broken shells and shell dusts,7 m sand over 2.3 m mud on ferruginous conglomerate
+Komallur,wetland,12,9.2100,76.6000,yes,1.0-5.0,clay 0-1.0 m and peat,,4 m sand between clay above and clay below; peat at about 1 m
+Valummelpunja,wetland,8,9.2000,76.6400,yes,4.8-7.3,clay 3.9-4.8 m,,lower clayey sand under a clay interlayer on conglomerate
+Vayyankarachira,wetland,0.8,9.2200,76.6200,no,,,,very short core; clay over mud
