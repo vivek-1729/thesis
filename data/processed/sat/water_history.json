@@ -1,0 +1,164 @@
+[
+ {
+  "region": "periyar",
+  "bbox": [
+   76.1,
+   10.05,
+   76.45,
+   10.4
+  ],
+  "pixel_km2": 0.0007570730885330875,
+  "ever_water_km2": 295.3872069529547,
+  "permanent_km2": 249.9310245712511,
+  "seasonal_km2": 45.45618238170364,
+  "lost_km2": 6.438906617973909,
+  "gained_km2": 16.355807004668822,
+  "net_change_km2": 9.916900386694913,
+  "land_cover_km2": {
+   "tree cover": 986.9431904043888,
+   "shrubland": 0.3247843549806945,
+   "grassland": 59.65584523023023,
+   "cropland": 56.08170317926552,
+   "built-up": 61.60303721393733,
+   "bare": 19.88225345105594,
+   "permanent water": 284.67916518874273,
+   "herbaceous wetland": 14.693274502250162
+  },
+  "note": "Muziris: Periyar delta, Pattanam and Kodungallur"
+ },
+ {
+  "region": "pamba",
+  "bbox": [
+   76.25,
+   9.2,
+   76.6,
+   9.55
+  ],
+  "pixel_km2": 0.0007590156135881495,
+  "ever_water_km2": 780.391011298019,
+  "permanent_km2": 493.8960138554904,
+  "seasonal_km2": 286.4949974425286,
+  "lost_km2": 15.168927037559168,
+  "gained_km2": 154.3845348194432,
+  "net_change_km2": 139.21560778188402,
+  "land_cover_km2": {
+   "tree cover": 542.7804144486352,
+   "shrubland": 0.2952570736857902,
+   "grassland": 23.512026662120107,
+   "cropland": 255.53019647058642,
+   "built-up": 32.63767138429043,
+   "bare": 8.200404689206367,
+   "permanent water": 519.1469452883409,
+   "herbaceous wetland": 105.56768661590777
+  },
+  "note": "Nelkynda and Bakare: Pamba and southern Vembanad"
+ },
+ {
+  "region": "tyndis",
+  "bbox": [
+   75.7,
+   11.0,
+   76.05,
+   11.35
+  ],
+  "pixel_km2": 0.000754704877810306,
+  "ever_water_km2": 450.93390037702443,
+  "permanent_km2": 434.27228078960627,
+  "seasonal_km2": 16.661619587418127,
+  "lost_km2": 2.7954268674093736,
+  "gained_km2": 5.042937993528465,
+  "net_change_km2": 2.2475111261190914,
+  "land_cover_km2": {
+   "tree cover": 933.4242758099311,
+   "shrubland": 0.08603635607037488,
+   "grassland": 10.623980564935678,
+   "cropland": 28.08936084722178,
+   "built-up": 37.25827040773919,
+   "bare": 18.560457059988856,
+   "permanent water": 448.85846196304607,
+   "herbaceous wetland": 2.3207174992666912
+  },
+  "note": "Tyndis: Kadalundi to Ponnani"
+ },
+ {
+  "region": "indus",
+  "bbox": [
+   67.3,
+   24.55,
+   67.85,
+   25.05
+  ],
+  "pixel_km2": 0.0006983448399881235,
+  "ever_water_km2": 564.7319184428758,
+  "permanent_km2": 225.98858028919668,
+  "seasonal_km2": 338.74333815367913,
+  "lost_km2": 55.561013814295094,
+  "gained_km2": 224.38587888142393,
+  "net_change_km2": 168.82486506712885,
+  "land_cover_km2": {
+   "tree cover": 29.479230730418656,
+   "shrubland": 609.4574137199152,
+   "grassland": 55.54984029685528,
+   "cropland": 580.1108685090943,
+   "built-up": 64.12272155254949,
+   "bare": 1248.632193760685,
+   "permanent water": 312.78795548584054,
+   "herbaceous wetland": 2.703991220434014,
+   "mangroves": 169.87308067195102
+  },
+  "note": "Barbarikon: Indus delta around Banbhore"
+ },
+ {
+  "region": "aynuna",
+  "bbox": [
+   35.05,
+   27.95,
+   35.4,
+   28.3
+  ],
+  "pixel_km2": 0.0006784538929395312,
+  "ever_water_km2": 209.9421295389944,
+  "permanent_km2": 208.66120858912458,
+  "seasonal_km2": 1.2809209498698348,
+  "lost_km2": 0.16825656544900375,
+  "gained_km2": 0.49187907238116013,
+  "net_change_km2": 0.3236225069321564,
+  "land_cover_km2": {
+   "tree cover": 0.8019325014545259,
+   "shrubland": 0.380612633939077,
+   "grassland": 1.0393913639833618,
+   "cropland": 0.9389801878283112,
+   "built-up": 9.801623391297408,
+   "bare": 1107.552234337532,
+   "permanent water": 209.23721594423026,
+   "herbaceous wetland": 0.01763980121642781
+  },
+  "note": "Leuke Kome: Aynuna and Khuraybah"
+ },
+ {
+  "region": "cholistan",
+  "bbox": [
+   71.2,
+   28.68,
+   71.55,
+   28.98
+  ],
+  "pixel_km2": 0.0006739405023893669,
+  "ever_water_km2": 3.7808062184043485,
+  "permanent_km2": 0.5041074957872465,
+  "seasonal_km2": 3.276698722617102,
+  "lost_km2": 0.0013478810047787338,
+  "gained_km2": 3.53414399452984,
+  "net_change_km2": 3.532796113525061,
+  "land_cover_km2": {
+   "tree cover": 0.3726890978213199,
+   "shrubland": 16.6692443860986,
+   "grassland": 0.1280486954539797,
+   "cropland": 368.50123153947237,
+   "built-up": 2.339921424295882,
+   "bare": 741.2941161981603,
+   "permanent water": 2.914792672834012
+  },
+  "note": "control: Hakra bed, Cholistan"
+ }
+]
