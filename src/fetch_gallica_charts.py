@@ -31,6 +31,19 @@ CHARTS = {
     # East Africa
     "zanzibar-1784":                  ("btv1b8595694g", "Plan of the island of Zanzibar, from a French ms., 1784"),
     "zanzibar-1846":                  ("btv1b8440031q", "Plan de Zanzibar, 1846"),
+    # Large-scale harbour plans, found by filtering the 915-sheet catalogue for
+    # sheets that are both plans and name one of our places.
+    "cochin-plan-1787":               ("btv1b53257823x", "Plan de Cochin et des environs en 1787"),
+    "cochin-ville-18c":               ("btv1b8593208q", "Plan de la ville de Cochin, 17.."),
+    "tellicherry-road-1784":          ("btv1b8593197c", "Plan of Tellicherry road on the Malabar coast, 1784"),
+    "mangalore-1778":                 ("btv1b53257834s", "Plan et vue de Mangalor a la cote Malabar, 1778"),
+    "mahe-malabar-1764":              ("btv1b85932027", "Plan de Mahe a la coste de Malabar, 1764"),
+    "mahe-riviere-1727":              ("btv1b53258321g", "Cours de la riviere de Mahe, 1727"),
+    "indus-coast-ms-18c":             ("btv1b53052857p", "Carte manuscrite des cotes de l'Inde depuis l'embouchure du fleuve Indus, 17.."),
+    "mekran-indus-1799":              ("btv1b53261831p", "Plan de la cote du Mekran depuis l'Indus jusqu'au golfe persique, 1799-1800"),
+    "yanbu-harbour-1779":             ("btv1b8592979w", "Plan of Yambo harbour on the coast of Arabia in the Red Sea, 24 10 N, 1779"),
+    "zanzibar-18c-a":                 ("btv1b532648181", "Plan de l'isle de Zanzibar a la cote d'Afrique, 17.."),
+    "east-africa-delgado-1770s":      ("btv1b53264790c", "Carte reduite d'une partie de la cote d'Afrique depuis le cap Delgade, 1770-1780"),
 }
 
 
