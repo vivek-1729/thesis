@@ -41,6 +41,10 @@ Tiwari, Pooja, Biswajeet Thakur, Purnima Srivastava, Sanjay Kumar Singh Gahlaud,
 https://www.mdpi.com/2571-550X/8/1/3
 *Late Holocene specifically, so of the six this is the one most likely to reach the Periplus horizon.*
 
+**`narayana-2001-periyar-paleodelta.pdf`**
+Narayana, A. C., C. P. Priju, and A. Chakrabarti. "Identification of a Palaeo-Delta near the Mouth of Periyar River in Central Kerala." (2001). Cited by Maya et al. 2017 ref [?]; chase the full citation from there.
+*A buried delta at the mouth of the Periyar is the Muziris question in geological form, and somebody has already looked for it. Read before doing any more work on Muziris.*
+
 ---
 
 ## Already held

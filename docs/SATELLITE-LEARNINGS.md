@@ -116,3 +116,42 @@ broadly unchanged and to put the reconstruction effort elsewhere.
 the Pamba box, which is almost certainly paddy, aquaculture and reservoirs
 rather than natural water. "Gained" in this product means a surface that now
 holds water, not a channel that has reopened.
+
+
+## Why Kerala fails, shown rather than argued
+
+Figure 28 puts the Copernicus DEM, its detrended residual and its slope over the
+strand plain from Purakkad to Niranam. The terrain is not featureless. It is
+full of sharp, high-contrast linear structure. All of it is the Kuttanad polder
+system: paddy bunds, canals and field boundaries, in a dense rectilinear mesh
+that reaches right across the plain.
+
+That is the confound, and it is worth stating as a finding rather than as an
+excuse. The problem on the Malabar coast is not that the ground is invisible
+under canopy. It is that the visible ground has been comprehensively re-cut by
+twentieth-century engineering into features that look exactly like
+palaeochannels to any detector keyed on linearity. An across-shore spectrum of
+the detrended surface returns dominant wavelengths of 2.1, 3.5 and 7.9 km, which
+are polder and ridge-set scales, not the few hundred metres a single beach ridge
+or channel occupies.
+
+**So surface methods are exhausted for Kerala.** Optical failed at 0.58 and
+0.46, L-band radar added 0.007, and terrain is dominated by modern
+infrastructure. Three independent surface approaches, all negative.
+
+## What is left, and it is not imagery
+
+**Borehole stratigraphy.** A buried channel is a sand body at depth bounded by
+finer sediment. This is subsurface, so it is immune to whatever has been done to
+the surface since. We hold 17 cores with logged lithology from Maya et al. 2017
+and the paper publishes transects between them. This is the method that works
+here, and it is reading and tabulation rather than computation.
+
+**The 1857 charts.** They record the surface before the polders, the barrage and
+the reclamation. Already acquired.
+
+**Somebody has already done this for Muziris.** Maya et al. cite Narayana,
+Priju and Chakrabarti (2001), "Identification of a palaeo-delta near the mouth
+of Periyar River in central Kerala." A buried delta at the Periyar mouth is the
+Muziris question directly, and we have not read it. It should be added to the
+acquisition list.
