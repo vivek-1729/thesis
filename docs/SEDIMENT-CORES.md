@@ -71,6 +71,37 @@ southwest coast is the Muziris question in geological form. Read this one first.
 
 ---
 
+### What we now hold
+
+Maya et al. 2017 is open access and has been acquired. It is a larger dataset
+than the abstract suggests: **17 boreholes, 8 to 26 m long, with 27 radiocarbon
+dates across 15 sites**, plus lithology, grain size, heavy minerals and
+palynology. Extracted to `data/raw/kerala_cores.csv`.
+
+The transect runs through Thottapally, Haripad, Thakazhi, Ramapuram, Muthukulam,
+Ayiramthengu and Pathiyur, which is the Nelkynda and Bakarē stretch.
+
+**The record does not reach the Periplus.** Of 27 dates, 16 are Late Pleistocene
+and 11 Holocene, and the three youngest are 2460 ± 120 BP at Ramapuram, 2580 ±
+110 BP at Ayiramthengu and 2730 ± 30 BP at Vatta kayal. In calendar terms those
+are roughly 510, 630 and 780 BC. **Nothing in this dataset dates within five
+centuries of AD 50.** The Kerala core record therefore has a gap over the
+Periplus horizon, in the same way the Indus shelf does, and the gap has to be
+stated rather than interpolated across.
+
+What the dates do establish is the Late Pleistocene to mid-Holocene framework:
+when the lagoons formed, where the sea stood, and which surfaces are too young
+to have existed in antiquity. That is a prior on the landscape, not a
+measurement of it at the right date.
+
+Still to acquire, all paywalled and all available through Harvard: Maya et al.
+2022 for the five Kuttanad boreholes specifically, Narayana et al. 2017 on the
+palaeodelta, Padmalal et al. 2011 on Kollam, Alappat et al. 2015 for the OSL
+beach-ridge dates, and Shaji et al. 2022 for the sea-level curve. Tiwari et al.
+2025 on Vembanad is open access but MDPI blocks automated download.
+
+---
+
 ## 3. Indus delta: Barbarikon
 
 **Offshore only, and the record has a hole exactly where we need it.**

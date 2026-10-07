@@ -1,0 +1,28 @@
+site,lab_number,material,depth_m_from,depth_m_to,c14_bp,c14_err,source,note
+Eruva,,shell,2.10,2.20,36218,813,Maya et al. 2017 Table 5 [42],
+Eruva,,shell,4.03,4.05,39193,923,Maya et al. 2017 Table 5 [42],
+Eruva,,shell,6.64,6.64,42490,860,Maya et al. 2017 Table 5 [42],
+Muthukulam,,wood,1.27,1.35,3662,114,Maya et al. 2017 Table 5 [42],
+Muthukulam,,wood,2.07,2.12,6276,112,Maya et al. 2017 Table 5 [42],
+Muthukulam,,wood,3.00,3.10,7176,82,Maya et al. 2017 Table 5 [42],
+Pathiyur,,sediment,5.00,5.00,40000,,Maya et al. 2017 Table 5,greater than 40000; infinite age
+Pathiyur,,sediment,9.00,9.00,28830,2330,Maya et al. 2017 Table 5,
+Chunakkara,BS-3475,sediment,1.90,1.90,33040,3400,Maya et al. 2017 Table 5,
+Chunakkara,BS-3472,sediment,9.00,9.00,44060,190,Maya et al. 2017 Table 5,
+Vettiyar,BS-3473,peat,3.50,3.50,5460,40,Maya et al. 2017 Table 5,
+Komallur,,peat,1.00,1.00,20600,1030,Maya et al. 2017 Table 5,
+Komallur,,sediment,10.00,10.00,43738,574,Maya et al. 2017 Table 5,
+Ayiramthengu,BS-2595,shell,4.80,4.80,2580,110,Maya et al. 2017 Table 5,closest date to the Periplus horizon
+Ayiramthengu,BS-2596,sediment,20.40,20.40,40000,,Maya et al. 2017 Table 5,infinite age
+Valummelpunja,BS-3474,sediment,5.00,5.00,46570,3480,Maya et al. 2017 Table 5,
+Karunagapalli,BS-3482,sediment,6.90,6.90,7270,250,Maya et al. 2017 Table 5,
+Vayyankarachira,BS-3559,sediment,0.30,0.30,16190,360,Maya et al. 2017 Table 5,
+Vatta kayal,BS-3560,wood,2.00,2.00,9680,120,Maya et al. 2017 Table 5,
+Vatta kayal,BS-3566,wood,2.00,2.00,2730,30,Maya et al. 2017 Table 5,
+Parayakadavu,,shell,6.50,6.50,4610,100,Maya et al. 2017 Table 5 [18],
+Karipuzha,,sediment,3.80,3.80,7140,90,Maya et al. 2017 Table 5 [18],
+Karipuzha,,shell,8.50,8.50,43470,1820,Maya et al. 2017 Table 5 [18],
+Ramapuram,,wood,3.00,3.00,2460,120,Maya et al. 2017 Table 5 [18],closest date to the Periplus horizon
+Ramapuram,,shell,7.60,7.60,22450,710,Maya et al. 2017 Table 5 [18],
+Ramapuram,,shell,12.00,12.00,39370,1000,Maya et al. 2017 Table 5 [18],
+Thevalakkara,BS-2916,sediment,11.00,11.00,41788,574,Maya et al. 2017 Table 5 [14],
