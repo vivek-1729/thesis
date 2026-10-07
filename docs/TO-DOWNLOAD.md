@@ -45,6 +45,10 @@ https://www.mdpi.com/2571-550X/8/1/3
 Narayana, A. C., C. P. Priju, and A. Chakrabarti. "Identification of a Palaeo-Delta near the Mouth of Periyar River in Central Kerala." (2001). Cited by Maya et al. 2017 ref [?]; chase the full citation from there.
 *A buried delta at the mouth of the Periyar is the Muziris question in geological form, and somebody has already looked for it. Read before doing any more work on Muziris.*
 
+**`mathai-nair-1988-cochin-kodungallur-coast.pdf`**
+Mathai, T., and S. B. Nair. "Stages in the Emergence of the Cochin-Kodungallur Coast: Evidence for the Interaction of Marine and Fluvial Processes." (1988). Chase the full citation through Maya et al. 2017 or Shajan et al. 2004.
+*The source of the claim that the Kerala coast was "almost completed by 2000 years BP", which if true means the first-century coastline near the Periyar is close to the modern one. A great deal rests on this one paper and nobody in the later literature seems to have rechecked it.*
+
 ---
 
 ## Already held

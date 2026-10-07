@@ -53,6 +53,60 @@ the mid-Holocene. That is a mappable line, and it is the nearest dated shoreline
 constraint to antiquity that exists for this coast. Any candidate sitting
 seaward of it needs its ground shown to have existed by AD 50.
 
+## Two findings in the library that bear directly on this
+
+**The coast may have been essentially finished before the Periplus.** Shajan,
+Tomber, Selvakumar and Cherian 2004, reporting Mathai and Nair:
+
+> "these sand ridges and backwater bodies emerged between 7000 and 2000 years
+> BP, and that the development of the coast was almost completed by 2000 years
+> BP."
+
+If that holds, the first-century coastline around the Periyar is closer to the
+modern one than I have been assuming, and the reconstruction problem for Muziris
+is much smaller than for the ports further south. It is a strong claim resting
+on one 1988 paper and it needs checking, but it is the most consequential
+sentence I have found in the library on this question.
+
+**The Vembanad is a different case, and the experts say it is not
+reconstructible.** Gurukkal and Whittaker 2001 on the 1341 event:
+
+> "the great cyclone and flood of 1341, which opened up the present harbour of
+> Kochi and the Vembanad backwater lake system to the sea while forming ... the
+> putuveppu, the new deposit of land called Wypen island"
+
+and on what follows from it:
+
+> "the coastal changes in the formation of the Vembanad Lake backwaters have
+> been so profound that it is almost anyone's guess where a plausible port of
+> Becare might have been situated, or how it would have linked with the inland
+> town of Nelcynda."
+
+> "the huge changes in the Vembanad waterways make it impossible to base much
+> upon this evidence."
+
+So the consensus position is that the Vembanad cannot be reconstructed, and the
+Vembanad is exactly where Nelkynda and Bakarē sit. That is worth stating plainly
+rather than working around, and it means our contribution there is bounding the
+uncertainty rather than removing it.
+
+**A target profile, from the same paper.** Gurukkal and Whittaker summarise what
+is being looked for: "a port on a river inlet that silted up a few kilometres
+from the sea." Silting is the mechanism they propose for why Bakarē displaced
+Muziris, since a loaded ship could no longer cross the bar.
+
+## Two leads this opens
+
+**Mathai, T. and S. B. Nair (1988)**, "Stages in the emergence of the
+Cochin-Kodungallur coast: evidence for the interaction of marine and fluvial
+processes." The source of the 2000 BP claim, cited by both Shajan et al. and
+Maya et al. Acquire and check it, because a great deal rests on it.
+
+**Ibn Battuta.** He was on this coast in 1342, within a year of the flood. Any
+description he gives of the ports and the waterways is the closest thing to an
+eyewitness account of the coast at the moment it changed, and it predates every
+European map by a century and a half.
+
 ## What this means for the thesis
 
 The honest position on Kerala is that no method recovers a first-century channel
