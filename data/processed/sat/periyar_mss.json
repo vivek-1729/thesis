@@ -1,0 +1,52 @@
+{
+ "bbox": [
+  76.1,
+  10.05,
+  76.45,
+  10.4
+ ],
+ "start": "1972-01-01",
+ "end": "1976-12-31",
+ "n_scenes": 5,
+ "crs": "EPSG:32643",
+ "transform": [
+  60.0,
+  0.0,
+  620411.6625898998,
+  0.0,
+  -60.0,
+  1150001.0724939755
+ ],
+ "scenes": [
+  {
+   "id": "LM01_L1GS_155053_19720919_02_T2",
+   "date": "1972-09-19",
+   "platform": "landsat-1",
+   "ndwi_threshold": 0.217
+  },
+  {
+   "id": "LM01_L1GS_155053_19721130_02_T2",
+   "date": "1972-11-30",
+   "platform": "landsat-1",
+   "ndwi_threshold": 0.2627
+  },
+  {
+   "id": "LM01_L1TP_155053_19730123_02_T2",
+   "date": "1973-01-23",
+   "platform": "landsat-1",
+   "ndwi_threshold": 0.1678
+  },
+  {
+   "id": "LM01_L1TP_155053_19730210_02_T2",
+   "date": "1973-02-10",
+   "platform": "landsat-1",
+   "ndwi_threshold": 0.2051
+  },
+  {
+   "id": "LM01_L1TP_155053_19730228_02_T2",
+   "date": "1973-02-28",
+   "platform": "landsat-1",
+   "ndwi_threshold": 0.2123
+  }
+ ]
+}
