@@ -124,3 +124,43 @@ Narayana, Priju and Chakrabarti (2001) on a palaeo-delta at the mouth of the
 Periyar is the one remaining lead, and it addresses Muziris directly. Maya et
 al. 2022 for the Kuttanad boreholes specifically, and Alappat et al. 2015, whose
 OSL dates may reach closer to the first century than the radiocarbon does.
+
+
+## The pre-1700 Dutch chart, and what it shows
+
+`library/charts-gallica/malabar-canara-soundings-c1700.jpg`, the "Carte
+particuliere des costes de Canara et de Malabar, avec les Sondes", 8856 by 6200
+pixels, covers 9°N to 16°N from Goa to below Cochin. Figure 29 is a full-scale
+crop of its southern end.
+
+It lands directly on our candidates and it is Dutch, from the VOC period when
+they held Cochin, so it predates the 1857 Admiralty survey by roughly 150 years
+and every modern intervention by far more.
+
+Legible on that crop:
+
+- **Cranckenoore**, which is Cranganore, Kodungallur, the traditional Muziris
+  identification.
+- **Porcae**, which is Purakkad, the principal Bakarē candidate, with the Dutch
+  legend *Hyerbegint het Ryck Porcae*, "here begins the kingdom of Porcae".
+- **Baspin** and **Balyporte**, the Vypin and Vaipin shore formed, by tradition,
+  in the 1341 event.
+- The barrier spit drawn continuously, with the backwater behind it.
+- Soundings in fathoms along the whole approach, and the latitude scale on the
+  border, which is what makes the sheet georeferenceable.
+
+**The soundings are the point.** Off Purakkad they read 6, 7, 10, 11 and 12
+fathoms close inshore, roughly 11 to 22 m, which is ample for any ancient
+vessel. Around the Cranganore and Vypin entrance they read 3, 4½ and 5 fathoms,
+roughly 5 to 9 m, and shoal patches are drawn at the mouth itself.
+
+That contrast bears directly on Gurukkal and Whittaker's proposed mechanism for
+Bakarē displacing Muziris, that "silting up of the river mouth made it
+impossible for a fully loaded ship to cross the sand bar". It does not
+demonstrate the mechanism, since this is around 1700 and not AD 50. What it does
+is show the pattern they describe as a measured fact at the earliest date
+anybody recorded it: a deep approach at Purakkad and a shoal, bar-obstructed
+entrance at Cranganore.
+
+**This is the earliest bathymetry for the Malabar coast we have found anywhere**,
+and it is free, public domain and already downloaded.
