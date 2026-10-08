@@ -95,9 +95,12 @@ pre-1700 Dutch sheet carries soundings and lands on Cranganore and Purakkad.
 | Source | Status | Size |
 |---|---|---|
 | Kerala boreholes, Maya et al. 2017 | Held, extracted | 17 cores, 27 radiocarbon dates |
+| Rufiji and Zanzibar cores, Punwong 2013 | Held, not extracted | sea-level index points |
+| SEAMIS sea-level database, Mann et al. 2019 | Held | 213 index points, none in Kerala |
 | Dutch chart soundings | Transcribed | 20, Cranganore and Purakkad |
 | Kuttanad boreholes, Maya et al. 2022 | **Not acquired** | the five named cores |
-| Periyar palaeodelta, Narayana et al. 2001 | **Not acquired** | ~50 km², 6 km wide |
+| Periyar palaeodelta, Narayana et al. 2001 | **Open access, one click** | ~50 km², 6 km wide |
+| Periyar-mouth cores, Das et al. 2024 | **Open access, one click** | 3 cores, youngest 1.1 cal kyr BP |
 | Periyar resistivity, Priju et al. 2018 | **Not acquired** | sees through the polders |
 | OSL beach ridges, Alappat et al. 2015 | **Not acquired** | dated shorelines |
 | Sea-level curve, Shaji et al. 2022 | **Not acquired** | the datum |
@@ -108,6 +111,11 @@ pre-1700 Dutch sheet carries soundings and lands on Cranganore and Purakkad.
 2580 and 2730 BP, so roughly 510, 630 and 780 BC. The Indus shelf core carries a
 hiatus from 8 ka to 1.3 ka. The charts reach 1700. The satellite record begins
 1972. Nothing touches the first century.
+
+The second literature sweep moved the floor without crossing it. Das et al.
+report Holocene sediment at the Periyar mouth down to 1.1 cal kyr BP, and
+Punwong dates a Zanzibar index point to 1359 cal BP. Both are around eight
+centuries late. See `LITERATURE-SWEEP.md`.
 
 ---
 
@@ -148,8 +156,11 @@ curve and the Kuttanad cores, which narrows the geographic prior considerably.
 **Cannot be built from any of this.** A first-century channel network in Kerala;
 four methods have failed. A reconstruction of the Vembanad before 1341, which
 the consensus holds to be impossible. Absolute depths at any candidate in AD 50.
-And a location for Rhapta, where there is one securely identified neighbour in
-three thousand kilometres of coast.
+And a location for Rhapta, where there is still one securely identified
+neighbour in three thousand kilometres of coast. Rhapta did gain a dated
+geographic layer from Punwong's Rufiji and Zanzibar cores, which is more than it
+had, but a relative sea-level curve constrains the coastline rather than naming
+the port.
 
 **Only excavation closes it.** Everything here narrows the search. A dated
 harbour structure or an inscription naming the port is what settles it, which is

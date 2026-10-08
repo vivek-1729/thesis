@@ -4,9 +4,13 @@ Drop every PDF into `library/geomorphology/` using the **filename given in bold*
 and I will extract the cores, dates and coordinates the same way I did for
 Maya 2017.
 
-All five Elsevier items are one ScienceDirect session through the Harvard
-library proxy. The MDPI one is open access and just needs a click, since their
-Cloudflare blocks automated download.
+The Elsevier items are one ScienceDirect session through the Harvard library
+proxy. The ones marked open access need no proxy at all, only a browser: those
+publishers answer a scripted request with a challenge page rather than the file,
+which is a block on automation and not on access.
+
+`LITERATURE-SWEEP.md` lists nine more of those, found after this page was
+written, and says which gap each one bears on.
 
 ---
 
@@ -41,10 +45,6 @@ Tiwari, Pooja, Biswajeet Thakur, Purnima Srivastava, Sanjay Kumar Singh Gahlaud,
 https://www.mdpi.com/2571-550X/8/1/3
 *Late Holocene specifically, so of the six this is the one most likely to reach the Periplus horizon.*
 
-**`narayana-2001-periyar-paleodelta.pdf`**
-Narayana, A. C., C. P. Priju, and A. Chakrabarti. "Identification of a Palaeo-Delta near the Mouth of Periyar River in Central Kerala." (2001). Cited by Maya et al. 2017 ref [?]; chase the full citation from there.
-*A buried delta at the mouth of the Periyar is the Muziris question in geological form, and somebody has already looked for it. Read before doing any more work on Muziris.*
-
 **`mathai-nair-1988-cochin-kodungallur-coast.pdf`**
 Mathai, T., and S. B. Nair. "Stages in the Emergence of the Cochin-Kodungallur Coast: Evidence for the Interaction of Marine and Fluvial Processes." *Proceedings of the Indian Academy of Sciences* 54, no. 3 (1988): 439–47. No DOI; ias.ac.in blocks scripted access but serves free PDFs in a browser.
 *The source of the claim that the Kerala coast was "almost completed by 2000 years BP", which if true means the first-century coastline near the Periyar is close to the modern one. A great deal rests on this one paper and nobody in the later literature seems to have rechecked it.*
@@ -54,10 +54,15 @@ Priju, C. P., Jiby Francis, P. R. Arun, and N. B. Narasimha Prasad. "Delineation
 https://doi.org/10.1007/978-981-10-5801-1_27
 *Someone has already mapped the buried channels of the Periyar basin, and they used electrical resistivity, which sees sand bodies through the engineered surface that defeated every method we tried. This is the paper that may hand us the Muziris channel network.*
 
-**`narayana-2001-periyar-paleodelta.pdf`**
+**`narayana-2001-periyar-paleodelta.pdf`** — open access, just blocked to scripts
 Narayana, A. C., C. P. Priju, and A. Chakrabarti. "Identification of a Palaeodelta near the Mouth of Periyar River in Central Kerala." *Journal of the Geological Society of India* 57, no. 6 (2001): 545–47.
 https://doi.org/10.17491/jgsi/2001/570609
-*A buried delta of about 50 km², up to 6 km wide, at the Periyar mouth. This is the Muziris landscape.*
+*A buried delta of about 50 km², up to 6 km wide, at the Periyar mouth. This is the Muziris landscape. A second DOI, 10.17491/jgsi/2001/580409, carries the same title at 58, no. 4: 368–69 with no authors and is probably a discussion. Worth taking both while you are there.*
+
+**`das-2024-muziris-cores.pdf`** — open access, just blocked to scripts
+Das, Prasenjit, D. Padmalal, K. P. N. Kumaran, Ruta B. Limaye, S. Vishnu Mohan, Upasana S. Banerji, and Ravi Bhushan. "Tracing the Late Quaternary Coastal Evolution of Central Kerala, India, around the Lost Ancient Port Muziris Using Multi-Proxy Study of the Sedimentary Archives." *Quaternary Science Advances* 14 (2024): 100197.
+https://doi.org/10.1016/j.qsa.2024.100197
+*Three drilled cores at the Periyar mouth, with Holocene sediment down to 1.1 cal kyr BP. That is the youngest dated material anyone has reported on this coast, and about 1,350 years younger than the floor of the cores we hold.*
 
 **`padmalal-2013-bayhead-delta.pdf`**
 Padmalal, D., K. M. Nair, K. P. N. Kumaran, K. Sajan, S. Vishnu Mohan, K. Maya, V. Santhosh, S. Anooja, and R. Limaye. "Climate and Sea Level Changes in a Holocene Bay Head Delta, Kerala, Southwest Coast of India." In *Climate Change and Island and Coastal Vulnerability*, 191–208. 2013.
