@@ -8,10 +8,10 @@ from sat import shoreline, landsat_mss as mss, water, stack
 
 ROOT = pathlib.Path('.')
 BBOX = [76.30, 9.20, 76.60, 9.55]
-EARLY, LATE = "1972-76", "1984-2021"
+EARLY, LATE = "1972-74", "1984-2021"
 C_EARLY, C_LATE, INK = "#f59e0b", "#38bdf8", "#1f2937"
 
-freq, meta = mss.water_extent(BBOX, "pamba")
+freq, meta = mss.water_extent(BBOX, "pamba", start="1972-01-01", end="1975-12-31")
 w_early = freq > 0.6
 gsw = water.surface_water(BBOX, shape=w_early.shape, layers=("occurrence",))
 w_late = gsw["occurrence"] > 60

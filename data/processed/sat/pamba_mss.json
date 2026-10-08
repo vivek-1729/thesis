@@ -6,8 +6,8 @@
   9.55
  ],
  "start": "1972-01-01",
- "end": "1976-12-31",
- "n_scenes": 11,
+ "end": "1975-12-31",
+ "n_scenes": 10,
  "crs": "EPSG:32643",
  "transform": [
   60.0,
@@ -77,12 +77,6 @@
    "date": "1974-02-23",
    "platform": "landsat-1",
    "ndwi_threshold": 0.2345
-  },
-  {
-   "id": "LM02_L1TP_154053_19761205_02_T2",
-   "date": "1976-12-05",
-   "platform": "landsat-2",
-   "ndwi_threshold": 0.0737
   }
  ]
 }
