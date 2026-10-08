@@ -39,6 +39,7 @@ looking for patterns.
 | `docs/NEEDS-FROM-YOU.md` | Accounts, papers and decisions that are blocked on the user |
 | `docs/STATISTICAL-PLAN.md` | The method per evidence stream, and the decision layer |
 | `docs/READING-NEXT.md` | The reading queue, geographic first |
+| `docs/LITERATURE-SWEEP.md` | The geographic literature sweep, and which gaps it closed |
 | `docs/LIBRARY.md` | What is held, and what to read per port |
 | `docs/SEDIMENT-CORES.md` | Core evidence near each port, and where core data lives |
 |  `docs/cities/*.md` | One file per port holding every mention in the library |
