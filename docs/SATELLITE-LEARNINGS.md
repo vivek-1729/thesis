@@ -72,6 +72,26 @@ grid. Check what a box actually looks like before building a test on it.
   never succeeds against a mask that is one large connected component, and a
   per-pixel AUC does not see shape anyway.
 
+## The circularity check, and it passes
+
+The water index is one of the 24 features fed to the PCA, and the same index
+defines the control labels, so the score and the label were not fully
+independent. The detector could in principle have scored well beside water by
+rediscovering the index it had been handed.
+
+Re-running with features withheld settles it:
+
+| Region | All 24 features | Water index removed | Index and its two bands removed |
+|---|---|---|---|
+| Indus delta | 0.814 | **0.816** | **0.820** |
+| Periyar | 0.574 | 0.560 | 0.560 |
+
+The Indus result does not depend on it at all, and in fact improves slightly as
+the feature is withheld. Removing green and near-infrared as well, so that the
+score shares no input with the label, still gives 0.820. The pass is real.
+
+Kerala fails under every variant, so that result is not an artefact either.
+
 ## The gap still open
 
 The riparian control sits beside present water, so it demonstrates detection of
