@@ -33,6 +33,7 @@ looking for patterns.
 |---|---|
 | `docs/FINDINGS.md` | Everything the evidence has shown. Read this first |
 | `docs/EVIDENCE.md` | Every class of evidence, what it settles, and its status |
+| `docs/DATA.md` | The totality of data: held, reachable, and unobtainable |
 | `docs/METHOD.md` | The four lines of geographic evidence, written for a new reader |
 | `docs/GEOGRAPHIC-FINDINGS.md` | What the Phase 1 geographic work established |
 | `docs/NEEDS-FROM-YOU.md` | Accounts, papers and decisions that are blocked on the user |
