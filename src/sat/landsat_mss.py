@@ -157,3 +157,28 @@ def water_extent(bbox, name, start="1972-01-01", end="1976-12-31"):
          "transform": list(profile["transform"])[:6], "scenes": used}
     meta.write_text(json.dumps(m, indent=1))
     return freq, m
+
+
+def composite(bbox, start="1972-01-01", end="1976-12-31"):
+    """Median MSS composite over the period, for display.
+
+    MSS has no blue band, so the conventional rendering is false colour with
+    near-infrared standing in for red. Vegetation comes out red and water almost
+    black, which suits a shoreline figure.
+    """
+    stacks, shape = {b: [] for b in BANDS}, None
+    for it in search(bbox, start, end):
+        got = read_scene(it, bbox)
+        if got is None:
+            continue
+        arrays, _, shp = got
+        if shape is None:
+            shape = shp
+        elif shp != shape:
+            continue
+        for b in BANDS:
+            stacks[b].append(arrays[b])
+    if shape is None:
+        raise RuntimeError(f"no usable MSS scenes for {bbox}")
+    with np.errstate(invalid="ignore"):
+        return {b: np.nanmedian(np.dstack(v), axis=2) for b, v in stacks.items() if v}
