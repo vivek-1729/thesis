@@ -938,3 +938,48 @@ and zero excavations, while `disputed_candidates.csv` holds four candidates for
 the port including the excavated one. The city-record builder is not matching
 the port name. Recorded here rather than fixed, since it affects the generated
 documents and not the underlying tables.
+
+## 12. The Sangam corpus, read in Tamil rather than at second hand
+
+`DATA.md` recorded the Sangam poems as held at second hand only, meaning every
+Sangam reference in this project was quoted from a modern scholar. Project
+Madurai publishes the corpus in Tamil, public domain, so 40 files covering 17
+works are now in `library/sangam`, with counts in
+`data/processed/sangam_port_mentions.csv`.
+
+This does not replace a translation. The standard English versions are in
+copyright and the poems still have to be read. What the original gives is the
+one thing a translation cannot be searched for reliably: which poems contain the
+port names, counted rather than recalled.
+
+**Most of the names cannot be counted, and finding that out was the work.** A
+first pass searched for all eight names and reported 57 occurrences of Naura and
+313 of Vanci. Both are artefacts. *Naravu* is the ordinary word for toddy, and
+the Tamil commentaries printed alongside the poems gloss it as *kal*, toddy, in
+nearly every instance. *Vanci* is an oath, a deceit, a creeper and a category of
+poetry before it is the Cera capital. *Pakai* in this spelling appears inside a
+poet's epithet, a sweet syrup and a headwrap. Those three are now marked
+uncountable in the script rather than silently dropped.
+
+**What can be counted.**
+
+| Name | Occurrences | Distinct works |
+|---|---|---|
+| Yavana, a western foreigner | 295 | 16 of 17 |
+| Korkai, the Pandya pearl port | 40 | 8 |
+| Tondi, behind Tyndis | 23 | 6 |
+| **Muciri, behind Muziris** | **9** | **2** |
+| Nelkinda | **0** | 0 |
+
+**Muciri appears in Akananuru and Purananuru and nowhere else in the corpus.**
+That is the whole indigenous textual basis for the identification of Muziris,
+and it matches the passages the scholarship cites. The counts include the modern
+Tamil commentary printed with each poem, which repeats the name when glossing
+it, so nine occurrences is an upper bound on nine distinct mentions.
+
+**Nelkynda is absent entirely**, under this spelling, from all seventeen works.
+
+This bears directly on the standing note in `CLAUDE.md` that Muziris is treated
+as secure and included because the security is narrower than it looks. The
+indigenous corpus names it in two works. It names the Yavanas who came to trade
+in sixteen.
