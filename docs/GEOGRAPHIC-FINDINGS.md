@@ -158,3 +158,41 @@ up to 6 km wide, which is the Muziris landscape.
 since the current failure is resolution rather than method.
 
 **Ibn Battuta**, who was on this coast in 1342, within a year of the flood.
+
+## 9. There is no measured bathymetry at any of the seven approaches
+
+The depth layer was listed as available and unused, on the assumption that
+gathering it was a download away. It was, and the download is worth almost
+nothing, which is the finding.
+
+GMRT serves a 61 m grid over all seven port boxes against GEBCO's 450 m, so it
+looked like a clear improvement. It publishes two layers, though: the filled
+grid it will hand you, and the same grid with the interpolated cells removed.
+Differencing them says which cells rest on a real sounding.
+
+| Region | Sea cells | Median depth | Measured | Cells under 20 m | Of those, measured |
+|---|---|---|---|---|---|
+| Muziris, Periyar | 455,968 | 27.9 m | **0.0%** | 102,917 | **0.0%** |
+| Nelkynda and Bakarē, Pamba | 550,211 | 35.0 m | **0.0%** | 127,843 | **0.0%** |
+| Tyndis | 533,764 | 29.0 m | **0.0%** | 121,556 | **0.0%** |
+| Barbarikon, Indus | 431,731 | 11.6 m | **0.0%** | 310,479 | **0.0%** |
+| Leukē Kōmē, Aynuna | 143,145 | 8.3 m | **0.0%** | 110,320 | **0.0%** |
+| Rhapta, Rufiji | 511,556 | 7.9 m | **0.0%** | 425,155 | **0.0%** |
+
+Two and a half million marine cells across the seven approaches, and not one of
+them carries a measurement. The 61 m cell is a 450 m cell wearing a smaller
+coat, and a depth read off it would have been an artefact of exactly the kind
+recorded in `FINDINGS.md` §8.
+
+**The method is not at fault, which was checked rather than assumed.** The same
+two layers over Monterey Bay and the Hudson shelf valley come back 100 per cent
+measured. An empty mask on these coasts means an empty mask.
+
+**What follows is the useful part.** The historic chart soundings were described
+in §4 as the earliest bathymetry for Malabar. In the shallow approach they are
+also the only point-measured bathymetry the project can obtain at all, short of
+a national hydrographic office. The twenty soundings transcribed from the
+pre-1700 Dutch sheet are not a curiosity to be checked against a modern survey.
+There is no modern survey to check them against, so the charts carry the depth
+evidence by themselves and the error budget on reading them matters more than
+had been assumed.
