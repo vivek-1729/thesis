@@ -1,0 +1,7 @@
+port,station,code,distance_km,lat,lon,span_start,span_end,spring_range_m,neap_range_m,form_factor,regime,M2_m,S2_m,K1_m,O1_m,hours_fitted,var_explained,rms_residual_m,tide_sd_m,nontidal_sd_m,seasonal_range_m
+Muziris,Cochin,coch,27,9.96,76.26,2025-09-01,2026-10-12,0.58,0.26,1.04,"mixed, mainly semidiurnal",0.212,0.079,0.196,0.105,4357,0.535,0.213,0.228,0.213,0.414
+Tyndis,Cochin,coch,141,9.96,76.26,2025-09-01,2026-10-12,0.58,0.26,1.04,"mixed, mainly semidiurnal",0.212,0.079,0.196,0.105,4357,0.535,0.213,0.228,0.213,0.414
+Nelkynda and Bakarē,Cochin,coch,63,9.96,76.26,2025-09-01,2026-10-12,0.58,0.26,1.04,"mixed, mainly semidiurnal",0.212,0.079,0.196,0.105,4357,0.535,0.213,0.228,0.213,0.414
+Barbarikon,Karachi,uhslc:1471,43,24.81,66.97,1990-01-01,1991-01-01,2.22,1.01,0.61,"mixed, mainly semidiurnal",0.807,0.301,0.446,0.224,8036,0.965,0.138,0.723,0.138,0.118
+Leukē Kōmē,Aqaba,aqab,146,29.40897,34.97872,2025-09-01,2026-10-12,0.72,0.38,0.1,semidiurnal,0.276,0.086,0.025,0.011,9756,0.675,0.15,0.216,0.15,0.303
+Rhapta,Zanzibar,uhslc:1511,194,-6.15,39.18,2015-01-01,2016-01-01,3.72,1.29,0.14,semidiurnal,1.252,0.608,0.163,0.088,8761,0.993,0.084,1.013,0.084,0.121

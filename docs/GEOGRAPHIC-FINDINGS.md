@@ -196,3 +196,47 @@ pre-1700 Dutch sheet are not a curiosity to be checked against a modern survey.
 There is no modern survey to check them against, so the charts carry the depth
 evidence by themselves and the error budget on reading them matters more than
 had been assumed.
+
+## 10. The tide, which did not need the registration it was behind
+
+`NEEDS-FROM-YOU.md` put the tide behind an AVISO or TPXO account. It does not
+need one. The IOC Sea Level Station Monitoring Facility serves observed sea
+level from 2,387 stations without an account, and the University of Hawaii
+archive holds the long records, so the range can be fitted from observation
+rather than taken from a model.
+
+The two sources are complementary rather than redundant. The IOC network is real
+time, so several of its stations hold only weeks. Hawaii has forty years at
+Zanzibar and ten at Karachi, and nothing at all in India.
+
+| Port | Station | Distance | Spring range | Neap range | Regime |
+|---|---|---|---|---|---|
+| Muziris | Cochin | 27 km | 0.58 m | 0.26 m | mixed, mainly semidiurnal |
+| Nelkynda and Bakarē | Cochin | 63 km | 0.58 m | 0.26 m | mixed, mainly semidiurnal |
+| Tyndis | Cochin | 141 km | 0.58 m | 0.26 m | mixed, mainly semidiurnal |
+| Barbarikon | Karachi | 43 km | 2.22 m | 1.01 m | mixed, mainly semidiurnal |
+| Leukē Kōmē | Aqaba | 146 km | 0.72 m | 0.38 m | semidiurnal |
+| Rhapta | Zanzibar | 194 km | 3.72 m | 1.29 m | semidiurnal |
+
+**The spread is the point. Rhapta's spring tide is six times Muziris's.** A
+navigability argument that treats the seven ports alike is wrong by metres at
+one end of the range and by centimetres at the other. At the Rufiji a bar that
+blocks a laden ship at low water is no obstacle six hours later; on the Malabar
+coast the tide will not lift a ship over anything.
+
+**Kerala's fit is poor, and the reason is a second finding.** The harmonic fit
+explains 99 per cent of the variance at Zanzibar and 54 per cent at Cochin. That
+is not a bad record. At Cochin the tidal standard deviation is 0.228 m and the
+non-tidal residual is 0.213 m, so the two are the same size, and the monthly
+means of the residual run from +0.27 m in March to −0.14 m in July. A seasonal
+swing of 0.41 m against a 0.58 m spring range is the monsoon, and it averages
+away over a month at Zanzibar but not here.
+
+So on the Malabar coast **the season a sounding was taken in matters about as
+much as the state of the tide**. That compounds §9: the chart soundings carry
+the depth evidence alone, and they now carry two error terms of comparable size
+rather than one.
+
+**What this is not.** The fit is the astronomical tide. Surge is not in it, the
+gauge datum is not the chart datum, and Aynuna's figure comes from 146 km up the
+Gulf of Aqaba, which is the same body of water but not the same coast.
