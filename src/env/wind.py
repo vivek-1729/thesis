@@ -16,7 +16,7 @@ every way in turn to 1 when it never shifts. A square-rigged ship on a monsoon
 crossing cares about the second at least as much as the first, because a strong
 wind that boxes the compass is not a passage.
 """
-import math, pathlib, urllib.request, csv
+import math, pathlib, time, urllib.request, csv
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 CACHE = ROOT / "data" / "cache" / "wind"
@@ -57,8 +57,20 @@ def fetch(var, i_lat, i_lon):
     if not p.exists():
         u = (BASE.format(v=var)
              + f"?{var}%5B0:937%5D%5B{i_lat}:{i_lat}%5D%5B{i_lon}:{i_lon}%5D")
-        with urllib.request.urlopen(u, timeout=180) as r:
-            p.write_bytes(r.read())
+        # The PSL server is slow and intermittently drops a connection, and a
+        # cell takes long enough that losing the whole run to one timeout is
+        # expensive. Retry, and leave anything that still fails to the caller.
+        last = None
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(u, timeout=420) as r:
+                    p.write_bytes(r.read())
+                break
+            except Exception as e:
+                last = e
+                time.sleep(5 * (attempt + 1))
+        else:
+            raise RuntimeError(f"{var} at [{i_lat},{i_lon}]: {last}")
     vals = []
     for line in p.read_text().splitlines():
         if not line.startswith("[") or "," not in line:
@@ -113,7 +125,11 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     rows = []
     for name, (lat, lon) in SITES.items():
-        c = climatology(lat, lon)
+        try:
+            c = climatology(lat, lon)
+        except Exception as e:
+            print(f"  {name:26s} failed: {str(e)[:60]}", flush=True)
+            continue
         if not c:
             print(f"  {name:26s} no data")
             continue
