@@ -240,3 +240,59 @@ rather than one.
 **What this is not.** The fit is the astronomical tide. Surge is not in it, the
 gauge datum is not the chart datum, and Aynuna's figure comes from 146 km up the
 Gulf of Aqaba, which is the same body of water but not the same coast.
+
+## 11. Wind, the fourth stream, started
+
+Evidence stream four had been declared and never begun, because `DATA.md`
+listed ERA5 and ERA5 needs a Copernicus key. The NCEP reanalysis needs nothing,
+runs from 1948, and is served as plain text, so the monsoon climatology is a
+download. 132 rows in `data/processed/wind_climatology.csv`, eleven sites by
+twelve months.
+
+Two quantities per month. Speed is obvious. **Steadiness** is the vector mean
+divided by the mean speed, so it runs from 0 when the wind blows every way in
+turn to 1 when it never shifts. A square-rigged ship cares about the second at
+least as much as the first, because a strong wind that boxes the compass is not
+a passage.
+
+### The Arabian Sea crossing, which is the Hippalus run
+
+| | J | F | M | A | M | J | J | A | S | O | N | D |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| m/s | 6.8 | 5.2 | 3.2 | 1.4 | 4.2 | 11.5 | **14.6** | 13.0 | 7.2 | 2.3 | 6.3 | 7.3 |
+| from | NE | NE | NE | NNE | SW | SW | **SW** | SW | SW | NNE | NE | NE |
+| steadiness | 1.00 | 0.99 | 0.98 | 0.54 | 0.98 | 1.00 | **1.00** | 1.00 | 1.00 | 0.80 | 0.99 | 0.99 |
+
+**Steadiness reaches 1.00 in both directions.** June to September the wind is
+southwest at 11 to 15 m/s and never varies; November to February it is northeast
+at 5 to 7 m/s and never varies. The two switching months, April and October, are
+the only unreliable ones, at 0.54 and 0.80. The Periplus sails out on one and
+home on the other, and the reanalysis says those are the only two months a ship
+would want to avoid.
+
+### The result that inverts the intuition
+
+**The open-sea leg is the most reliable wind on the whole route, and the Red Sea
+is the least.** Mid Red Sea steadiness runs 0.82 to 0.98 and the speed never
+exceeds 4.3 m/s, and the direction is northerly in all twelve months. So the
+sheltered coastal leg, where Leukē Kōmē sits, is the one with light and
+comparatively variable wind and a foul breeze for anything working north, while
+the thousand-mile open crossing is a conveyor belt. That is consistent with
+Leukē Kōmē existing at all: a port that exists to put cargo onto camels is what
+you build when the sea leg north is the hard part.
+
+### The rest
+
+**Malabar landfall** is westerly at 7.7 m/s in July and drops to 1.5 m/s in
+November, so the approach is onshore and strong exactly when the crossing
+delivers a ship to it. **Rhapta** reverses between NNE in January and SSE from
+April to September, at a gentler 4 to 6 m/s, with steadiness above 0.97 in
+eleven months of twelve.
+
+### The limitation, which is not small
+
+The grid is 2.5 degrees, about 275 km. **Muziris, Tyndis and Nelkynda fall in
+one cell**, so the table cannot distinguish the three Malabar ports and does not
+pretend to. This is a monsoon layer, not a local wind at a river mouth. It is
+the right resolution for the open-sea legs, which are the legs that depend on
+wind, and the wrong one for anything inshore.

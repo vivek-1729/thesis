@@ -1,0 +1,133 @@
+site,lat,lon,month,speed_ms,vector_ms,steadiness,from_deg,from_compass,years
+Muziris approach,10.0,76.0,1,0.76,0.29,0.375,303,WNW,78
+Muziris approach,10.0,76.0,2,2.09,2.02,0.966,294,WNW,78
+Muziris approach,10.0,76.0,3,3.33,3.26,0.977,288,WNW,78
+Muziris approach,10.0,76.0,4,3.53,3.45,0.978,285,WNW,78
+Muziris approach,10.0,76.0,5,4.61,4.52,0.98,285,WNW,78
+Muziris approach,10.0,76.0,6,5.88,5.81,0.988,277,W,78
+Muziris approach,10.0,76.0,7,6.3,6.19,0.983,287,WNW,78
+Muziris approach,10.0,76.0,8,5.98,5.9,0.986,293,WNW,78
+Muziris approach,10.0,76.0,9,5.04,4.94,0.98,294,WNW,78
+Muziris approach,10.0,76.0,10,2.81,2.71,0.965,282,WNW,78
+Muziris approach,10.0,76.0,11,1.07,0.51,0.478,283,WNW,78
+Muziris approach,10.0,76.0,12,1.05,0.72,0.681,89,E,78
+Tyndis approach,11.0,75.5,1,0.76,0.29,0.375,303,WNW,78
+Tyndis approach,11.0,75.5,2,2.09,2.02,0.966,294,WNW,78
+Tyndis approach,11.0,75.5,3,3.33,3.26,0.977,288,WNW,78
+Tyndis approach,11.0,75.5,4,3.53,3.45,0.978,285,WNW,78
+Tyndis approach,11.0,75.5,5,4.61,4.52,0.98,285,WNW,78
+Tyndis approach,11.0,75.5,6,5.88,5.81,0.988,277,W,78
+Tyndis approach,11.0,75.5,7,6.3,6.19,0.983,287,WNW,78
+Tyndis approach,11.0,75.5,8,5.98,5.9,0.986,293,WNW,78
+Tyndis approach,11.0,75.5,9,5.04,4.94,0.98,294,WNW,78
+Tyndis approach,11.0,75.5,10,2.81,2.71,0.965,282,WNW,78
+Tyndis approach,11.0,75.5,11,1.07,0.51,0.478,283,WNW,78
+Tyndis approach,11.0,75.5,12,1.05,0.72,0.681,89,E,78
+Nelkynda approach,9.0,76.0,1,0.76,0.29,0.375,303,WNW,78
+Nelkynda approach,9.0,76.0,2,2.09,2.02,0.966,294,WNW,78
+Nelkynda approach,9.0,76.0,3,3.33,3.26,0.977,288,WNW,78
+Nelkynda approach,9.0,76.0,4,3.53,3.45,0.978,285,WNW,78
+Nelkynda approach,9.0,76.0,5,4.61,4.52,0.98,285,WNW,78
+Nelkynda approach,9.0,76.0,6,5.88,5.81,0.988,277,W,78
+Nelkynda approach,9.0,76.0,7,6.3,6.19,0.983,287,WNW,78
+Nelkynda approach,9.0,76.0,8,5.98,5.9,0.986,293,WNW,78
+Nelkynda approach,9.0,76.0,9,5.04,4.94,0.98,294,WNW,78
+Nelkynda approach,9.0,76.0,10,2.81,2.71,0.965,282,WNW,78
+Nelkynda approach,9.0,76.0,11,1.07,0.51,0.478,283,WNW,78
+Nelkynda approach,9.0,76.0,12,1.05,0.72,0.681,89,E,78
+Barbarikon approach,24.0,67.0,1,1.55,1.22,0.791,354,N,78
+Barbarikon approach,24.0,67.0,2,2.01,1.73,0.859,278,W,78
+Barbarikon approach,24.0,67.0,3,3.76,3.73,0.992,254,WSW,78
+Barbarikon approach,24.0,67.0,4,5.55,5.52,0.995,243,WSW,78
+Barbarikon approach,24.0,67.0,5,6.9,6.86,0.994,235,SW,78
+Barbarikon approach,24.0,67.0,6,6.65,6.61,0.994,221,SW,78
+Barbarikon approach,24.0,67.0,7,6.3,6.26,0.995,225,SW,78
+Barbarikon approach,24.0,67.0,8,6.21,6.18,0.995,227,SW,78
+Barbarikon approach,24.0,67.0,9,5.19,5.16,0.993,233,SW,78
+Barbarikon approach,24.0,67.0,10,2.96,2.88,0.974,255,WSW,78
+Barbarikon approach,24.0,67.0,11,1.61,1.11,0.687,331,NNW,78
+Barbarikon approach,24.0,67.0,12,1.79,1.63,0.91,14,NNE,78
+Leukē Kōmē approach,28.0,35.0,1,2.32,2.14,0.923,357,N,78
+Leukē Kōmē approach,28.0,35.0,2,2.43,2.25,0.926,347,NNW,78
+Leukē Kōmē approach,28.0,35.0,3,2.6,2.47,0.953,344,NNW,78
+Leukē Kōmē approach,28.0,35.0,4,2.79,2.73,0.978,342,NNW,78
+Leukē Kōmē approach,28.0,35.0,5,3.8,3.75,0.987,340,NNW,78
+Leukē Kōmē approach,28.0,35.0,6,5.26,5.22,0.994,339,NNW,78
+Leukē Kōmē approach,28.0,35.0,7,4.75,4.72,0.995,331,NNW,78
+Leukē Kōmē approach,28.0,35.0,8,4.77,4.75,0.994,332,NNW,78
+Leukē Kōmē approach,28.0,35.0,9,4.72,4.67,0.989,337,NNW,78
+Leukē Kōmē approach,28.0,35.0,10,3.35,3.3,0.986,345,NNW,78
+Leukē Kōmē approach,28.0,35.0,11,2.81,2.65,0.944,359,N,78
+Leukē Kōmē approach,28.0,35.0,12,2.5,2.33,0.932,3,N,78
+Rhapta approach,-8.0,39.5,1,4.97,4.9,0.986,29,NNE,78
+Rhapta approach,-8.0,39.5,2,4.35,4.25,0.978,32,NNE,78
+Rhapta approach,-8.0,39.5,3,2.14,1.82,0.852,84,E,78
+Rhapta approach,-8.0,39.5,4,3.76,3.66,0.972,154,SSE,78
+Rhapta approach,-8.0,39.5,5,5.17,5.09,0.985,153,SSE,78
+Rhapta approach,-8.0,39.5,6,5.71,5.66,0.991,156,SSE,78
+Rhapta approach,-8.0,39.5,7,5.72,5.68,0.994,151,SSE,78
+Rhapta approach,-8.0,39.5,8,5.14,5.09,0.99,134,SE,78
+Rhapta approach,-8.0,39.5,9,4.75,4.67,0.983,118,ESE,78
+Rhapta approach,-8.0,39.5,10,4.41,4.35,0.987,106,ESE,78
+Rhapta approach,-8.0,39.5,11,4.16,4.08,0.982,84,E,78
+Rhapta approach,-8.0,39.5,12,4.44,4.35,0.981,47,NE,78
+Arabian Sea crossing,14.0,60.0,1,6.8,6.77,0.997,39,NE,78
+Arabian Sea crossing,14.0,60.0,2,5.2,5.16,0.991,41,NE,78
+Arabian Sea crossing,14.0,60.0,3,3.23,3.16,0.979,44,NE,78
+Arabian Sea crossing,14.0,60.0,4,1.36,0.73,0.535,21,NNE,78
+Arabian Sea crossing,14.0,60.0,5,4.25,4.17,0.981,233,SW,78
+Arabian Sea crossing,14.0,60.0,6,11.51,11.5,0.999,231,SW,78
+Arabian Sea crossing,14.0,60.0,7,14.64,14.63,1.0,227,SW,78
+Arabian Sea crossing,14.0,60.0,8,12.96,12.95,0.999,227,SW,78
+Arabian Sea crossing,14.0,60.0,9,7.19,7.17,0.998,230,SW,78
+Arabian Sea crossing,14.0,60.0,10,2.27,1.82,0.802,23,NNE,78
+Arabian Sea crossing,14.0,60.0,11,6.27,6.22,0.991,42,NE,78
+Arabian Sea crossing,14.0,60.0,12,7.31,7.27,0.994,39,NE,78
+"Guardafui, gulf mouth",12.0,51.0,1,5.64,5.62,0.996,67,ENE,78
+"Guardafui, gulf mouth",12.0,51.0,2,5.09,5.06,0.993,75,ENE,78
+"Guardafui, gulf mouth",12.0,51.0,3,4.6,4.55,0.989,82,E,78
+"Guardafui, gulf mouth",12.0,51.0,4,3.57,3.51,0.983,90,E,78
+"Guardafui, gulf mouth",12.0,51.0,5,2.15,1.83,0.853,123,ESE,78
+"Guardafui, gulf mouth",12.0,51.0,6,5.87,5.8,0.988,215,SW,78
+"Guardafui, gulf mouth",12.0,51.0,7,9.02,8.97,0.994,220,SW,78
+"Guardafui, gulf mouth",12.0,51.0,8,7.41,7.35,0.993,219,SW,78
+"Guardafui, gulf mouth",12.0,51.0,9,3.14,2.76,0.879,189,S,78
+"Guardafui, gulf mouth",12.0,51.0,10,2.69,2.54,0.946,86,E,78
+"Guardafui, gulf mouth",12.0,51.0,11,4.04,4.0,0.992,62,ENE,78
+"Guardafui, gulf mouth",12.0,51.0,12,5.47,5.45,0.996,61,ENE,78
+Malabar landfall,10.0,72.0,1,2.71,2.65,0.978,14,NNE,78
+Malabar landfall,10.0,72.0,2,3.37,3.3,0.979,354,N,78
+Malabar landfall,10.0,72.0,3,2.97,2.82,0.95,333,NNW,78
+Malabar landfall,10.0,72.0,4,2.64,2.51,0.952,309,NW,78
+Malabar landfall,10.0,72.0,5,4.39,4.26,0.969,286,WNW,78
+Malabar landfall,10.0,72.0,6,7.63,7.55,0.989,267,W,78
+Malabar landfall,10.0,72.0,7,7.72,7.58,0.982,271,W,78
+Malabar landfall,10.0,72.0,8,6.76,6.63,0.981,280,W,78
+Malabar landfall,10.0,72.0,9,5.54,5.44,0.981,290,WNW,78
+Malabar landfall,10.0,72.0,10,3.09,2.91,0.942,287,WNW,78
+Malabar landfall,10.0,72.0,11,1.53,1.05,0.683,349,N,78
+Malabar landfall,10.0,72.0,12,2.08,1.92,0.923,36,NE,78
+"Red Sea, middle",20.0,38.0,1,4.23,3.97,0.94,29,NNE,78
+"Red Sea, middle",20.0,38.0,2,4.32,4.02,0.93,28,NNE,78
+"Red Sea, middle",20.0,38.0,3,4.09,3.87,0.947,35,NE,78
+"Red Sea, middle",20.0,38.0,4,3.73,3.52,0.944,53,NE,78
+"Red Sea, middle",20.0,38.0,5,3.68,3.4,0.926,39,NE,78
+"Red Sea, middle",20.0,38.0,6,4.3,4.2,0.976,8,N,78
+"Red Sea, middle",20.0,38.0,7,3.25,2.67,0.821,355,N,78
+"Red Sea, middle",20.0,38.0,8,3.27,2.83,0.866,344,NNW,78
+"Red Sea, middle",20.0,38.0,9,3.69,3.58,0.969,4,N,78
+"Red Sea, middle",20.0,38.0,10,3.19,2.85,0.892,68,ENE,78
+"Red Sea, middle",20.0,38.0,11,3.93,3.62,0.922,59,ENE,78
+"Red Sea, middle",20.0,38.0,12,4.07,3.72,0.913,40,NE,78
+"Mozambique channel, north",-8.0,41.0,1,4.97,4.9,0.986,29,NNE,78
+"Mozambique channel, north",-8.0,41.0,2,4.35,4.25,0.978,32,NNE,78
+"Mozambique channel, north",-8.0,41.0,3,2.14,1.82,0.852,84,E,78
+"Mozambique channel, north",-8.0,41.0,4,3.76,3.66,0.972,154,SSE,78
+"Mozambique channel, north",-8.0,41.0,5,5.17,5.09,0.985,153,SSE,78
+"Mozambique channel, north",-8.0,41.0,6,5.71,5.66,0.991,156,SSE,78
+"Mozambique channel, north",-8.0,41.0,7,5.72,5.68,0.994,151,SSE,78
+"Mozambique channel, north",-8.0,41.0,8,5.14,5.09,0.99,134,SE,78
+"Mozambique channel, north",-8.0,41.0,9,4.75,4.67,0.983,118,ESE,78
+"Mozambique channel, north",-8.0,41.0,10,4.41,4.35,0.987,106,ESE,78
+"Mozambique channel, north",-8.0,41.0,11,4.16,4.08,0.982,84,E,78
+"Mozambique channel, north",-8.0,41.0,12,4.44,4.35,0.981,47,NE,78
