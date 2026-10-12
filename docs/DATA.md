@@ -22,7 +22,7 @@ The only stream that speaks about the first century directly.
 | Positional assertions across the literature | Held | 61 |
 | Pliny, *NH* 6 | Held | |
 | Muziris papyrus, de Romanis | Held | |
-| Tamil Sangam poems | **At second hand only** | |
+| Tamil Sangam poems | Held in Tamil, 17 works | 40 files, `library/sangam` |
 | Tabula Peutingeriana | Noted, not worked | |
 
 **What it supports.** Relative spacing along a coast, within a wide band. The
@@ -44,6 +44,7 @@ They yield rankings, not fits.
 | Survey effort per site | Hand-built | 65 sites |
 | Excavation reports | Held | 25 PDFs, 290 MB |
 | Single and stray coin finds, Turner 1989 | **Not acquired** | the category CHRE omits |
+| Aynuna excavated coins | Extracted, checked | 28, `aynuna_coins.csv` |
 
 **What it supports.** A positive find of the right date is close to decisive. An
 absence is almost always an absence of excavation: thirteen of twenty-two
@@ -65,7 +66,8 @@ The largest stream by volume and the thinnest by date.
 | Admiralty sheets, Wikimedia | Held | 9 sheets, 153 MB, 80–176 MP each |
 | Gallica, downloaded | Held | 25 sheets, 142 MB |
 | Gallica, catalogued | Metadata only | **915 sheets, 791 dated before 1800** |
-| David Rumsey | Catalogued | 49 sheets |
+| Gallica, selected | Chosen, **download blocked** | 132 naming a candidate's neighbourhood |
+| David Rumsey, downloaded | Held | 48 sheets, 46 MB, noisy catalogue |
 | Survey of India 58 B/C/G, 1911–13 | **Not online** | Map Collection |
 | ADM 352 manuscript originals | **Not online** | National Archives |
 | Qatar Digital Library | **Blocks scripts** | India Office Records |
@@ -84,8 +86,8 @@ pre-1700 Dutch sheet carries soundings and lands on Cranganore and Purakkad.
 | ALOS PALSAR, L-band radar | 25 m | annual mosaics | Streamed |
 | Copernicus DEM | 30 m | global | Streamed |
 | ESA WorldCover | 10 m | 2021 | Streamed |
-| GEBCO bathymetry | ~450 m | global | Available, unused |
-| ERA5 wind | hourly, 1940– | global | Available, unused |
+| GMRT bathymetry | 61 m | global | Gathered. **0% measured at all 7 ports** |
+| NCEP wind | monthly, 1948– | 2.5°, global | Gathered, 132 rows |
 | HydroRIVERS | vector | global | Held, judged unusable as control |
 | CORONA, declassified | 2–8 m | 1960–72 | **Needs a USGS account** |
 | TanDEM-X | 12 m | global | **Needs a DLR proposal** |
@@ -95,7 +97,7 @@ pre-1700 Dutch sheet carries soundings and lands on Cranganore and Purakkad.
 | Source | Status | Size |
 |---|---|---|
 | Kerala boreholes, Maya et al. 2017 | Held, extracted | 17 cores, 27 radiocarbon dates |
-| Rufiji and Zanzibar cores, Punwong 2013 | Held, not extracted | sea-level index points |
+| Rufiji and Zanzibar cores, Punwong 2013 | Extracted | 26 dates, `tanzania_cores.csv` |
 | SEAMIS sea-level database, Mann et al. 2019 | Held | 213 index points, none in Kerala |
 | Dutch chart soundings | Transcribed | 20, Cranganore and Purakkad |
 | Kuttanad boreholes, Maya et al. 2022 | **Not acquired** | the five named cores |
@@ -105,7 +107,7 @@ pre-1700 Dutch sheet carries soundings and lands on Cranganore and Purakkad.
 | OSL beach ridges, Alappat et al. 2015 | **Not acquired** | dated shorelines |
 | Sea-level curve, Shaji et al. 2022 | **Not acquired** | the datum |
 | Mathai and Nair 1988 | **Not acquired** | the 2000 BP claim, unchecked |
-| Tide model, FES2022 or TPXO | **Needs registration** | largest error in soundings |
+| Tidal range, observed | Fitted at 6 ports | IOC and Hawaii gauges, no account |
 
 **The date problem, stated once.** Kerala's youngest radiocarbon dates are 2460,
 2580 and 2730 BP, so roughly 510, 630 and 780 BC. The Indus shelf core carries a
@@ -123,7 +125,7 @@ centuries late. See `LITERATURE-SWEEP.md`.
 
 | Source | Status |
 |---|---|
-| ERA5 wind climatology | Available, model not built |
+| NCEP wind climatology | Gathered; 11 sites, 12 months |
 | Square-rig performance, Whitewright 2007 | Held |
 | Ship tonnage from the Muziris papyrus | Held, via de Romanis |
 | Copeland's 44-port model coordinates | Held, in the gazetteer |
