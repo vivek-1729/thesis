@@ -885,3 +885,56 @@ legs in Casson's accuracy tables, with the conventional 185.2 m drawn as a
 line and a second axis reading the same quantity as a day's run in nautical
 miles. The disputed ports are deliberately absent, since plotting a Malabar leg
 would assume the identification in question.
+
+## 11. The Aynuna coin catalogue, read
+
+The 450-page Aynuna report had been held and unread, and its coin catalogue was
+described as possibly decisive for Leukē Kōmē. It has now been extracted to
+`data/processed/aynuna_coins.csv`, twenty-eight coins with section, issuing
+authority, metal, diameter and find context.
+
+**The extraction is checked rather than trusted.** Gawlikowski states his own
+totals in the paragraph after the catalogue: twenty-eight coins, two completely
+obliterated, fourteen of the remainder Nabataean. The script reproduces all
+three, and an earlier version did not. That version read twenty-five coins,
+missed the opening entry because it sits under a section heading on the page
+before the running head, missed a coin found stuck to another and published
+under a shared inventory number, and carried a ruler list stopping at Hadrian,
+so every fourth-century coin fell through as unattributed.
+
+**The dated sequence.** Twenty-two of the twenty-eight carry a date.
+
+| Authority | Count | Dates |
+|---|---|---|
+| Local Northwest Arabian imitation | 1 | 3rd–2nd c. BC |
+| Anonymous Nabataean | 6 | 2nd–1st c. BC |
+| Obodas III | 1 | 30–9 BC |
+| Aretas IV | 4 | 9 BC – AD 40 |
+| Elagabalus | 1 | AD 218–222 |
+| Constantinian house | 4 | AD 306–340 |
+| Khusro II imitation | 1 | AD 590–628 |
+| Baybars | 1 | 1260–1277 |
+| Ottoman and Egyptian | 2 | 1805–1861 |
+
+**No coin at Aynuna was struck by an authority whose reign includes AD 50.** The
+latest minting date before the Periplus is Aretas IV's death in AD 40, and the
+next coin on the site is Elagabalus, 178 years later.
+
+**The sharper form of this is Gawlikowski's own.** He writes that none can be
+safely attributed to any Nabataean king after Aretas IV. The kings after Aretas
+IV are Malichus II, AD 40 to 70, and Rabbel II, AD 70 to 106. Malichus II
+reigned across the Periplus almost exactly, and his coinage is absent here.
+
+**What this does not establish.** Coins circulate long after they are struck, so
+an Aretas IV bronze lost in AD 50 is unremarkable and the site was plainly in
+use. The absence is of coins *minted* in the Periplus window, not of occupation
+during it, and twenty-eight coins is a small sample from four seasons. What it
+does show is that the numismatic evidence at Aynuna peaks before the Periplus
+and resumes long after, which is a different shape from the one a port at its
+height in AD 50 would leave.
+
+**A bug this surfaced.** `docs/cities/leuke-kome.md` reports zero proposed sites
+and zero excavations, while `disputed_candidates.csv` holds four candidates for
+the port including the excavated one. The city-record builder is not matching
+the port name. Recorded here rather than fixed, since it affects the generated
+documents and not the underlying tables.
