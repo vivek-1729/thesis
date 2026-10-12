@@ -109,6 +109,8 @@ def draw_candidates(ax, ports, s=20):
     """Competing identifications from the literature, with a ring over their spread."""
     import math
     cand = pd.read_csv(RAW / "disputed_candidates.csv")
+        # Some candidates are named in the literature with no defensible coordinate.
+        cand = cand.dropna(subset=["lat", "lon"])
     cand = cand[cand.port.isin(ports)]
     for _, d in cand.groupby("port"):
         clat, clon = d.lat.mean(), d.lon.mean()

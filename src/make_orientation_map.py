@@ -148,6 +148,8 @@ def main():
     # --- candidate spread for the six named in the brief ---------------------
     import math
     cand = pd.read_csv(RAW / "disputed_candidates.csv")
+    # Some candidates are named in the literature with no defensible coordinate.
+    cand = cand.dropna(subset=["lat", "lon"])
     for port, d in cand.groupby("port"):
         clat, clon = d.lat.mean(), d.lon.mean()
         r_km = max(math.hypot((x.lat - clat) * 110.57,
