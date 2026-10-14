@@ -1,0 +1,11 @@
+box,kind,west,south,east,north,multibeam,trackline_bathymetry
+"Muziris, Periyar",port,75.85,10.0,76.45,10.45,0,0
+"Nelkynda and Bakarē, Pamba",port,76.0,9.15,76.6,9.6,0,4
+Tyndis,port,75.45,10.95,76.05,11.4,0,0
+"Barbarikon, Indus",port,67.0,24.3,67.85,25.05,0,0
+"Leukē Kōmē, Aynuna",port,35.0,27.9,35.45,28.35,0,0
+"Rhapta, Rufiji",port,38.9,-8.3,39.6,-7.6,0,0
+Pemba and Unguja channels,nearby,38.7,-6.7,40.1,-4.7,0,12
+Mumbai shelf,nearby,72.4,18.7,73.0,19.2,0,6
+Monterey Bay,control,-122.1,36.55,-121.75,36.9,34,21
+Hudson shelf valley,control,-73.95,40.25,-73.55,40.55,16,45

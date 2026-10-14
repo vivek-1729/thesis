@@ -117,6 +117,8 @@ and Purakkad.
 | ESA WorldCover | 10 m | 2021 | Streamed |
 | HydroRIVERS | vector | global | Held, 535 MB, judged unusable as control |
 | Natural Earth 10m | vector | global | Held, 32 MB |
+| **ICESat-2 ATL24 bathymetry** | along-track | 2018– | **Needs a free Earthdata login**; 220–606 granules per port |
+| NOAA multibeam and tracklines | survey | global | No multibeam at any port; **4 tracklines at Pamba, 12 at the Menuthias channels** |
 | CORONA, declassified | 2–8 m | 1960–72 | **Needs a USGS account** |
 | TanDEM-X | 12 m | global | **Needs a DLR proposal** |
 
@@ -209,6 +211,8 @@ Gathered after it turned out none of it needed an account.
 | Item | Blocker |
 |---|---|
 | CORONA 1960s imagery | USGS EarthExplorer registration |
+| ICESat-2 ATL24, the best depth data that exists here | a free NASA Earthdata login |
+| 16 NOAA tracklines: 4 at the Nelkynda approach, 12 at the Menuthias channels | an NCEI order |
 | Nine open-access PDFs | a browser; publishers block scripts, not access |
 | Eight paywalled papers | the Harvard proxy |
 | 132 selected Gallica sheets | the address is Cloudflare-blocked after a too-fast run |
@@ -234,7 +238,13 @@ African palaeo-shorelines (`10.1016/j.geomorph.2021.107896`), the Al Wajh lagoon
 ### Does not exist, as far as any search has shown
 
 - **Measured bathymetry at any of the seven approaches.** 2.5 million marine
-  cells across six port boxes, not one resting on a real sounding.
+  cells across six port boxes, not one resting on a real sounding. NOAA's
+  archive independently holds no multibeam at any of them and four single-beam
+  tracklines across all six, those four at one port. Searched
+  exhaustively: GMRT, GEBCO, NOAA multibeam, NOAA tracklines, crowd-sourced
+  bathymetry, EMODnet, the Allen Coral Atlas and the Indian hydrographic
+  office. ICESat-2 ATL24 is the only open source that would add measurement,
+  and water clarity rather than coverage is what decides whether it works.
 - **A Roman wreck from the Indian Ocean.**
 - **A Kerala sea-level index point.** SEAMIS standardises 213 for the region and
   none is on the Malabar coast.

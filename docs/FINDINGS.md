@@ -19,7 +19,7 @@ Everything in quotation marks is verbatim from the source named.
 | III. The material record | 5–10 |
 | IV. The landscape | 11–22 |
 | V. Port by port | 23 |
-| VI. What went wrong, and what is left | 24–26 |
+| VI. What went wrong, and what is left | 24–27 |
 
 ---
 
@@ -1117,18 +1117,37 @@ bracketed.
    numismatic category that bears on harbour location, and §7 shows why the
    hoards do not. CHRE omits the category entirely.
 
-**Tier 3, would widen coverage rather than settle anything.**
+**Tier 3, would put measurement where there is none, without settling a
+location.** The first two of these are the answer to §19, and they are listed
+below Tier 2 only because depth constrains a port rather than naming one.
 
-7. **TanDEM-X at 12 m.** The Copernicus DEM failed at 30 m because a channel is
+7. **ICESat-2 ATL24, and it is the best answer to §19.** NASA's along-track
+   coastal bathymetry product derives seafloor returns from the ATLAS photon
+   lidar, with refraction correction and per-point uncertainty already applied,
+   and reported accuracies of roughly 0.3 to 1 m RMSE in clear shallow water.
+   An exhaustive search for better bathymetry turned up nothing else that is
+   both open and actually measured. Coverage over the port boxes is not the
+   constraint: 220 to 606 granules each, 2018 onward. **Water clarity is.** The
+   Red Sea at Aynuna and the Mafia channel are the plausible cases; Kerala in
+   monsoon turbidity is the doubtful one, and that is the test to run first.
+   Needs a free NASA Earthdata registration, which is the same five minutes as
+   the USGS account already on the blocked list.
+
+8. **Sixteen NOAA bathymetry tracklines that nobody has ordered**: four across
+   the Nelkynda and Bakarē approach, the one place on this coast where the
+   depth question is sharpest, and twelve across the Pemba and Unguja channels,
+   which is the water the Menuthias notice measures across. See §19.
+
+9. **TanDEM-X at 12 m.** The Copernicus DEM failed at 30 m because a channel is
    one to two metres deep and detrending leaves a residual standard deviation of
    1.2 to 4.7 m. The failure is resolution, not method, so 12 m is the test of
    whether terrain can contribute anywhere. A DLR proposal, and speculative.
 
-8. **CORONA, 1960–72 at 2 to 8 m.** The sharpest pre-dam imagery available, and
+10. **CORONA, 1960–72 at 2 to 8 m.** The sharpest pre-dam imagery available, and
    the only optical record before the Thanneermukkom barrage and the Idukki dam
    that is finer than Landsat's 79 m.
 
-9. **Ibn Battuta**, on this coast in 1342, within a year of the flood that §15
+11. **Ibn Battuta**, on this coast in 1342, within a year of the flood that §15
    says reorganised the Vembanad.
 
 **What has dropped off this list, and why that is worth recording.** Three items
@@ -1169,6 +1188,45 @@ recorded in §24.
 **The method is not at fault, which was checked rather than assumed.** The same
 two layers over Monterey Bay and the Hudson shelf valley come back 100 per cent
 measured. An empty mask on these coasts means an empty mask.
+
+**An independent archive, and it does not quite agree.** GMRT's mask could in
+principle reflect what GMRT ingests rather than what exists, so the holdings of
+the NOAA National Centers for Environmental Information, the largest public
+bathymetry archive and a separate compilation, were queried over the same boxes.
+
+| Box | Multibeam | Bathymetry tracklines |
+|---|---:|---:|
+| Muziris, Periyar | 0 | 0 |
+| **Nelkynda and Bakarē, Pamba** | 0 | **4** |
+| Tyndis | 0 | 0 |
+| Barbarikon, Indus | 0 | 0 |
+| Leukē Kōmē, Aynuna | 0 | 0 |
+| Rhapta, Rufiji | 0 | 0 |
+| Pemba and Unguja channels *(nearby)* | 0 | 12 |
+| Mumbai shelf *(nearby)* | 0 | 6 |
+| Monterey Bay *(control)* | 34 | 21 |
+| Hudson shelf valley *(control)* | 16 | 45 |
+
+**Four surveys across six port approaches, and no multibeam anywhere.** The
+controls return 116, so the query is sound and the zeros are real. But the
+Pamba box is not zero, and that correction matters more than the pattern it
+spoils: a first pass tested only four of the six boxes, found nothing in any of
+them, and would have gone into this document as "zero at every port". Four
+tracklines cross the Nelkynda and Bakarē approach, which is the one place on
+this coast where the depth question is sharpest, because Pliny calls Bakarē the
+more useful port and §20 measures that contrast on a chart from 1700.
+
+**The nearby counts carry the rest of it.** Twelve tracklines cross the Pemba
+and Unguja channels and six the Mumbai shelf, so single-beam survey on these
+coasts is not absent in general. It is absent at five of the six approaches in
+particular. That is a statement about where research vessels have run, not
+about the ocean, and it means the gap is closeable at specific places rather
+than being a property of the sea.
+
+**Two of those places bear on arguments already in this document.** The four
+Pamba tracklines sit on the Nelkynda and Bakarē approach. The twelve in the
+Pemba and Unguja channels sit on the water the 300-stadia Menuthias notice
+measures across, which §23 currently settles on a grid with nothing under it.
 
 ### Is the interpolation at least approximately right?
 
@@ -1763,16 +1821,22 @@ He gives no reference.
    readings within it, so they do not average. Done correctly the figure is 15
    sigma. The conclusion held either way, which is exactly why it would not
    have been caught by looking at the conclusion.
-6. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
-7. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
-8. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
+6. **Nearly reported "no survey at any port" from a four-of-six sample.** The
+   NOAA holdings query was first run over four port boxes, returned zero in
+   every one, and the pattern was written up. Running the remaining two found
+   four bathymetry tracklines across the Nelkynda and Bakarē approach. The
+   conclusion barely changed and the actionable item did: there is survey data
+   to order at the one port where the depth argument is sharpest.
+7. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
+8. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
+9. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
    says the promontory Papica, not Astakapra.
-9. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
+10. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
    the volumes with a Devanagari OCR model, so English came out as mojibake. An
    early search over that derived text falsely showed every Kerala candidate
    absent from 59 years of reporting. Artefact, discarded. The PDFs carry a clean
    English text layer and were re-extracted from directly.
-10. **Chapter and title assignment is unreliable in some IAR volumes, and one
+11. **Chapter and title assignment is unreliable in some IAR volumes, and one
    candidate notice was nearly lost to it.** The 2006-07 entry reporting "the
    first time a neolithic axe has been discovered from the higher reaches of the
    Kallada river basin" carries the title "MUGHAL INSCRIPTION, KANNAUJ" in our
@@ -1781,7 +1845,7 @@ He gives no reference.
    exploration in Mahbubnagar under archaeological chemistry. Any count that
    rests on the chapter field, including the 75 Kerala fieldwork entries in §3.2,
    should be treated as approximate until the chapter boundaries are re-derived.
-11. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
+12. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
    PRADESH" carries three internal spaces, so the boundary regex missed it and
    Madhya Pradesh districts were absorbed into the Kerala block; six of eight
    apparent Kerala Early Historic entries were from Sagar, Vidisha, Chhatarpur,
@@ -1790,7 +1854,7 @@ He gives no reference.
    Pattanam. And the first entry of every block was dropped because the pattern
    required whitespace after the separator, which silently removed the Cranganore
    excavation.
-12. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
+13. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
    182,000 works, mostly organised crime; "Quseir al-Qadim" 1.5 million. Raw hit
    counts are useless as an attention metric.
 ---
@@ -1838,3 +1902,132 @@ legs in Casson's accuracy tables, with the conventional 185.2 m drawn as a
 line and a second axis reading the same quantity as a day's run in nautical
 miles. The disputed ports are deliberately absent, since plotting a Malabar leg
 would assume the identification in question.
+
+---
+
+## 27. What in here is publishable, and what is not
+
+An honest audit of originality. The test applied to each result is whether it is
+new, non-obvious, defensible from evidence already held, and of interest to
+someone who does not care about these seven ports. Most findings in this
+document pass the first three and fail the fourth, which is normal: they are
+thesis chapters, not papers. Three clear that bar.
+
+### Paper 1. The stadion is a speed, not a length
+
+**The claim.** The Periplus does not measure distance. It records sailing time,
+converted to stadia by a fixed rule, and the conventional 185.2 m conversion
+every modern reconstruction depends on is an artefact of that same rule rather
+than a measurement of it.
+
+**The evidence, all of it already assembled.**
+
+1. The rounding structure. 33 stadia statements, 27 of them multiples of 100.
+   All nine values at or above 2,000 are exact multiples of 1,000, which is 2,
+   3, 4, 7 and 12 whole day-and-night runs. The only unround figures anywhere
+   are 20, 60 and 120, and every one of them is a short local measure.
+2. Casson's own appendix states the rule and does not carry it through: "Their
+   rule of thumb was 1000 stades to a day-and-night run, 500 to a day's run."
+3. The conventional figure is circular. "Approximately ten stades correspond to
+   a nautical mile" gives 1852/10 = 185.2 m exactly. It was never measured from
+   the text.
+4. Computed leg by leg from Casson's own numbers, over legs whose endpoints are
+   all securely located, the implied stadion runs from 96.5 m to 217.6 m, a
+   2.3-fold spread that misidentification cannot explain.
+5. Read as speed instead, those same figures are daily runs of 26 to 59 nautical
+   miles, which is the ordinary range for a square-rigged merchantman between
+   beating into a headwind and running with the monsoon.
+6. **The wind data closes the loop.** On the Arabian Sea crossing the reanalysis
+   gives 14.6 m/s from the south-west in July and 6.8 m/s from the north-east in
+   January, both at steadiness 1.00. A ship's day-run differs by season and by
+   leg, by about the factor the scatter shows. The scatter is not noise in the
+   text. It is the wind.
+
+**The out-of-sample test, which already passes.** The 155 m calibration was
+fitted on four legs in the Red Sea and the Gulf of Aden. Applied to an
+independent problem it does real work: the 300-stadia Menuthias notice lands
+within 7 per cent of the measured Pemba channel at 155 m and misses by 12 per
+cent at 185.2 m, and Zanzibar is out by 31 per cent on the best reading
+available. A calibration that transfers to a problem it was not fitted on is
+the strongest evidence here.
+
+**Why anyone else cares.** Every reconstruction of Indian Ocean and Red Sea
+geography from the Periplus inherits the 185.2 m figure. If the unit is a speed,
+the error on a stated distance is not a measurement error but a wind
+distribution, which changes both the central estimate and the shape of the
+uncertainty on every port in the text. The argument is also general: the same
+reasoning applies to any periplous.
+
+**What is still needed.** The per-leg implied stadion as a function of season,
+bearing and leg type, which is open question 1 in §25 and has not been run.
+That is the analysis that would turn a strong argument into a quantitative one.
+
+### Paper 2. Absence of evidence when the searching was not independent of the belief
+
+**The claim.** In site-location problems the standard correction for unequal
+survey effort is not enough, because effort is itself a function of the prior.
+Excavators dig where they already believe the site was, so detection and
+location cannot be estimated separately without the field's existing opinion
+entering the likelihood disguised as evidence.
+
+**The evidence.** Kodungallur was dug in 1969–70 *because* it was the
+traditional Muziris and produced nothing earlier than the ninth century;
+Banbhore was dug as Islamic Daybul and the Barbarikon identification came
+afterwards. Those two absences are not the same kind of evidence and no amount
+of care about excavated area will distinguish them. The project holds what is
+needed to model it: 7,053 parsed fieldwork entries spanning 1953 to 2014, 27
+excavation campaigns across 26 candidate sites, survey effort for 65 sites, and
+the `targeted_at_port` flag with usable variation, six of the twelve excavated
+candidates having been targeted at the port and six not. Thirteen of
+twenty-two candidates have never been excavated at all.
+
+**Why anyone else cares.** This is a general defect in archaeological predictive
+modelling, and the fix is a joint model rather than a two-stage one. The nearest
+existing literature treats sampling bias as a function of accessibility and
+modern land use; treating it as a function of the hypothesis under test is the
+step that has not been taken.
+
+**What is still needed.** The model itself. Everything above is the data layer.
+
+### Paper 3. A short methods note: global bathymetry grids are interpolation where harbours are
+
+**The claim.** Work on ancient harbour navigability routinely reads depth from
+global compilations. Across seven ancient approaches those compilations contain
+no measurement at all, and they are biased deep exactly in the shallows, which
+is the direction that makes a port look usable when it was not.
+
+**The evidence.** 2.5 million marine cells across six port boxes, 1.2 million of
+them shallower than 20 m, and the GMRT data mask is empty at every one.
+Independently, NOAA's archive holds no multibeam at all in those boxes and four
+bathymetry tracklines across all six, while returning 34 and 21 at Monterey Bay,
+so the query and the mask are both sound. Tested against the only ground truth these
+coasts have, the circa-1700 Dutch soundings, the grid's fifth percentile at the
+Cranganore entrance is 8.4 m against chart readings of 5.5 to 9.1 m: 2.1 per
+cent of its cells are as shallow as the chart's shoalest. The grid cannot see
+the bar, and the bar is the whole question.
+
+**Why anyone else cares.** It is a one-figure caution with a wide blast radius,
+and the remedy is specific: check the data mask, not the grid, and prefer
+ICESat-2 ATL24 or an archived trackline where one exists.
+
+**What is still needed.** Nothing. This one is finished and could be written up
+as it stands.
+
+### What is not original, and should not be claimed
+
+- **Menuthias is Pemba.** That is Datoo's, from 1970. Our contribution is to
+  confirm his channel widths by independent measurement, 31.0 and 22.1 miles
+  against his 30 and 22.5, and to note that the 155 m stadion fits him better
+  than the conventional one does.
+- **The Pangani-to-Rufiji bracket for Rhapta.** Also Datoo's. What is ours is
+  that his meteorological weighting toward the northern half does not survive
+  the reanalysis, which is a correction to him rather than a new result.
+- **The 1341 flood and the reorganisation of the Vembanad.** Standard in the
+  Kerala literature.
+- **Roman coins in India being an interior phenomenon.** The pattern is known;
+  our contribution is the quantity, 73 per cent more than 25 km inland, and the
+  inference that coins cannot point at a harbour.
+- **The failure of channel detection in Kerala.** The method is Orengo and
+  Petrie's. The negative result and its cause, a polder system that mimics
+  palaeochannels at exactly the scales the detector keys on, are ours and are
+  worth a paragraph in someone else's methods section rather than a paper.
