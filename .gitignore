@@ -7,6 +7,12 @@
 data/raw/hydrorivers/
 data/raw/ne10m/
 
+# Regenerable caches. Every one of these is re-fetched on demand by the script
+# that uses it: data/cache by src/env/*, data/processed/sat by src/sat/*. They
+# are large and they are not evidence, so they do not belong in history.
+data/cache/
+data/processed/sat/
+
 # Caches and scratch
 __pycache__/
 *.pyc
