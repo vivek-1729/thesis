@@ -1,13 +1,29 @@
-# Findings
+# The Periplus port project
 
-What the assembled evidence has actually shown, as of September 2026. This
-distils the working documents written during evidence gathering; those have been
-deleted and their content is here. Per-port detail with verbatim passages is in `docs/cities/`, one file
-per port.
+Everything this project has established, and the method behind it. One document;
+the working notes written during evidence gathering have been folded in here and
+deleted.
+
+The companion is `DATA.md`, which inventories what is held, what is still
+reachable and what does not exist. Per-port detail with verbatim passages is in
+`docs/cities/`, one generated file per port.
 
 Everything in quotation marks is verbatim from the source named.
 
+**Contents**
+
+| Part | Sections |
+|---|---|
+| I. The problem and the approach | 1–3 |
+| II. The text | 4 |
+| III. The material record | 5–10 |
+| IV. The landscape | 11–22 |
+| V. Port by port | 23 |
+| VI. What went wrong, and what is left | 24–26 |
+
 ---
+
+# Part I. The problem and the approach
 
 ## 1. The problem
 
@@ -31,10 +47,260 @@ Tanzania. **Muziris** is treated as secure and is included because the security
 is narrower than it looks.
 
 ---
+---
 
-## 2. The Periplus as a measuring instrument
+## 2. Four lines of geographic evidence
 
-### 2.1 The text rounds large distances and not small ones
+Written for a reader coming to the project cold. This is the method; what it
+produced is in Part IV.
+
+**The coastline reconstruction is not a refinement of this project. It is a
+precondition the standard commentary states and then does not act on.** Casson,
+Appendix 1: "A further complication is that extensive changes have taken place
+in the coastline." And quoting Smith, who "prudently observes that 'the
+extensive changes which have occurred in the rivers of Sind during the course of
+eighteen centuries preclude the possibility of satisfactory identifications of
+either of these towns [Barbarikon and Minnagar].'" Both are correct, both are
+load-bearing, and both are routinely ignored by arguments that measure across
+the modern coastline.
+
+### 2.1 Where was the coastline?
+
+**The question.** The Indian coast has moved. Before anything else, we need to
+know whether a candidate site was on the water at all in AD 50.
+
+**The evidence.** Old sea charts, because they are the only record of this coast
+before modern engineering: a Dutch chart of around 1700, British Admiralty
+surveys of 1857, and satellite imagery from 1972 onward. Alongside them, the
+land itself. A beach ridge is a fossil shoreline, a sand bank stranded as the
+coast built seaward, and Kerala has two sets that geologists have already dated.
+
+**Steps**
+1. Pin each historic chart onto modern coordinates by matching features that
+   still exist, recording how well the fit worked.
+2. Trace the coastline from each chart and each satellite epoch.
+3. Map the beach ridges from elevation data.
+4. Attach published dates to each ridge set.
+5. Assemble the results into a sequence of dated coastlines.
+
+**Output.** A coastline for each date, drawn as a band rather than a line, since
+an eighteenth-century chart is not accurate to the metre. Plus one hard
+geological boundary: land seaward of the younger ridge set formed after the
+mid-Holocene and did not exist in antiquity.
+
+**Why it matters.** It eliminates candidates. A proposed port standing on ground
+that formed after AD 50 is finished without any further argument.
+
+**Statistics**
+1. Combine scanning, pinning and tracing error into a single positional
+   uncertainty for each coastline.
+2. Represent each coastline as a band of that width.
+3. Claim the coast has moved only where two bands fail to overlap.
+
+---
+
+### 2.2 How deep was the water, and could a ship get in?
+
+**The question.** A harbour is useless if a loaded ship cannot enter it. This is
+the test that genuinely separates the candidates.
+
+**The evidence.** The historic charts carry depth soundings, individual
+measurements written across the water; both the 1700 Dutch sheet and the 1857
+Admiralty sheet have them. Sediment cores, columns of mud drilled from the
+ground, whose layers can be radiocarbon dated to establish how fast the seabed
+filled in. And a published sea-level curve for this coast.
+
+**Steps**
+1. Transcribe the soundings from each chart as located points.
+2. Record each chart's depth reference, or flag it as unknown, since surveys of
+   this period measured from different baselines.
+3. Correct for tide, which is the largest single source of error in historic
+   soundings.
+4. Extract the stratigraphy and radiocarbon dates from each core.
+5. Reconstruct how much sediment has accumulated at each location since
+   antiquity.
+6. Subtract that from where sea level stood to obtain the depth of water
+   available at any date.
+
+**Output.** For each candidate, at each date, the probability that a ship of a
+given draught could enter. A Roman merchant vessel drew roughly two to four and
+a half metres.
+
+**Why it matters.** This is the strongest discriminator available. Pliny writes
+that Bakarē was "a more useful port" than Muziris; this converts that sentence
+into a testable claim.
+
+**Statistics**
+1. Interpolate the soundings by a method that returns its own uncertainty, so
+   depth far from any measurement is correctly reported as less certain.
+2. Fit an age-depth model to each core: a curve from depth to date that can only
+   increase, with error bars.
+3. Fit a sea-level curve that carries the dating error of each point through to
+   the result.
+4. Combine all three, propagating every uncertainty, into a posterior on water
+   depth.
+5. Report the probability that a given draught could enter at a given date.
+
+---
+
+### 2.3 Where did the rivers run?
+
+**The question.** The Periplus gives the Indian distances "by river and by sea".
+They cannot be measured until we know where the water was.
+
+**The evidence.** Satellite imagery, because a buried river leaves a damp line
+that crops grow differently over. And the historic charts, which drew the
+waterways directly.
+
+**Steps**
+1. Assemble several years of satellite imagery for each region.
+2. Separate the images by season, since the signal is a soil-moisture effect
+   strongest in the dry months.
+3. Extract the pattern that recurs across dates, which is the buried channel,
+   from the noise that does not.
+4. Validate against a channel already known to exist, with the pass mark fixed
+   in advance.
+5. Where that fails, trace the waterways from the historic charts instead.
+6. Build a network of navigable water for each date.
+
+**Output.** A map of navigable water per epoch, usable as a network to measure
+routes through.
+
+**The result so far.** It works in the arid Indus delta, scoring 0.81 against a
+pass mark of 0.75 set beforehand. It fails in Kerala at 0.58 and 0.46, because
+that landscape has been cut through with paddy bunds and canals that resemble
+ancient rivers. Four separate methods have now failed there, so Kerala rests on
+the charts.
+
+**Why it matters.** It converts a stated distance into something measurable
+along a real route rather than a straight line across land.
+
+**Statistics**
+1. Keep the detector's output as a probability for each pixel rather than a
+   binary map.
+2. Validate against a known channel, with the threshold fixed before running.
+3. Measure routes through each epoch's network separately.
+4. Treat the disagreement between epochs as the genuine uncertainty on the
+   landscape.
+
+---
+
+### 2.4 How fast did ships actually sail?
+
+**The question.** The Periplus measures in stadia, but ancient sailors estimated
+sea distances from elapsed time. The unit is therefore a speed, and we need to
+know what speed.
+
+**The evidence.** Modern wind records, reliable here because the monsoon has
+changed little in two thousand years. And the measured performance of
+square-rigged vessels.
+
+**Steps**
+1. Assemble wind climatology for the basin.
+2. Attach a performance curve for a square-rigged ship.
+3. Simulate many voyages between ports whose locations are secure.
+4. Record the distribution of elapsed times.
+5. Compare it against the durations the text actually states.
+
+**Output.** A conversion from "three days' sail" into a distance with a range
+attached.
+
+**Why it matters.** Every distance in the text currently rests on an assumed
+conversion. This replaces the assumption with a measurement.
+
+**Statistics**
+1. Run the simulation repeatedly to obtain a distribution of travel times rather
+   than a single figure.
+2. Compare that distribution against the stated durations.
+3. Optionally, estimate the ship's performance from those durations, which
+   requires a method for fitting models that can be simulated but whose
+   likelihood cannot be written down.
+
+---
+
+### How the four combine
+
+Lines 1 and 2 establish where a port could have been and whether a ship could
+reach it. Line 3 supplies the routes along which distances are measured. Line 4
+fixes the units the ancient text is written in.
+
+Together they yield a probability map of where each lost port stood, with every
+source of uncertainty carried through rather than assumed away.
+
+---
+
+## 3. The statistical plan
+
+One method per evidence stream, then an integration layer and a decision layer.
+
+### Evidence streams
+
+- **Textual distances**
+  - *Approach:* Errors-in-variables regression with an interval-censored response.
+  - *Details:* Stated stadia are rounded to the nearest 100, so the likelihood is the probability that the true distance divided by the stadion length falls inside the rounding interval. The stadion length is a parameter to be estimated, not a constant assumed in advance.
+  - *Output:* A distance-consistency likelihood for each candidate location, and a posterior distribution for the stadion.
+
+- **Archaeological record**
+  - *Approach:* Occupancy model with imperfect detection.
+  - *Details:* Detection probability is logistic in the number of excavation seasons, whether virgin soil was reached, and the decade of work. The detection model is fitted on the 7,053 extracted IAR entries and applied to the 23 candidate sites.
+  - *Output:* A posterior probability that each candidate was an occupied port, with absence of evidence discounted in proportion to survey effort.
+  - *The column that makes this honest:* `targeted_at_port`. Kodungallur was dug
+    in 1969–70 *because* it was the traditional Muziris and returned nothing
+    earlier than the ninth century; Banbhore was dug as Islamic Daybul and the
+    Barbarikon identification came later. Those two absences are not the same
+    kind of evidence, and no amount of care about excavated area distinguishes
+    them. Excavation effort is not independent of prior belief about location, so
+    if detection is estimated separately and then fed into a location model, the
+    field's existing opinion enters the likelihood disguised as evidence. The
+    column has usable variation: of the twelve candidates excavated at all, six
+    were targeted at the port and six were not.
+
+- **Coin hoards**
+  - *Approach:* Log-Gaussian Cox process with thinning.
+  - *Details:* Hoard intensity is modelled on distance to the coast, proximity to the Palghat gap, and elevation, then thinned by a modern discovery probability to correct for reporting bias.
+  - *Output:* An intensity surface, and a test of whether hoard locations carry any locational signal at all.
+
+- **Hydrology**
+  - *Approach:* Supervised classification of relict channels.
+  - *Details:* Multispectral satellite imagery classified against labelled palaeochannel training data; classification probabilities are retained rather than thresholded into a binary mask.
+  - *Output:* A probabilistic covariate giving the chance that a navigable channel existed at a given location in antiquity.
+
+- **Bathymetry**
+  - *Approach:* Uncertainty propagation.
+  - *Details:* Digital elevation model error and sea-level reconstruction error are pushed through to an anchorability index rather than treating depth as exactly known.
+  - *Output:* An anchorability covariate carrying explicit error bars.
+
+- **Wind and voyage**
+  - *Approach:* Monte Carlo agent-based simulation.
+  - *Details:* ERA5 wind climatology combined with a square-rig polar performance curve, run over thousands of simulated voyages.
+  - *Output:* A reachability distribution, which replaces the conventional assumption of a fixed 500 stadia sailed per day.
+  - *Open decision:* as written this is forward simulation producing a covariate, not
+    inference. It becomes simulation-based inference only if the simulator's own
+    parameters, the daily run, leeway, and the seasonal departure window, are
+    estimated by comparing simulated voyage durations against the durations the
+    Periplus states. That version would let the stadion and the voyage model be
+    estimated jointly rather than separately, and it is the only place in the plan
+    where ABC would be doing real work. Not yet committed to.
+
+### Integration layer
+
+- **Approach:** Bayesian spatial logistic regression with a conditional autoregressive prior.
+- **Details:** The covariates produced above enter as predictors, the occupancy layer supplies the observation model, and the whole is fitted by MCMC in Stan.
+- **Output:** A posterior surface over coastal locations, and a posterior over identification sets that includes the possibility that the true site is none of the named candidates.
+
+### Decision layer
+
+- **Approach:** Bayesian optimal search allocation.
+- **Details:** For each possible survey location, compute the expected reduction in posterior entropy that excavating there would produce.
+- **Output:** A ranked list of where to excavate next, with expected information gain attached to each location.
+
+---
+
+# Part II. The text
+
+## 4. The Periplus as a measuring instrument
+
+### 4.1 The text rounds large distances and not small ones
 
 33 of 51 distance statements are in stadia. **82 per cent are multiples of 100.**
 Every value at or above 200 is a round hundred, without exception. The only
@@ -50,14 +316,14 @@ literature uses them.
 
 *Source: `data/processed/distances.csv`.*
 
-### 2.2 Most distance statements are not sailing legs
+### 4.2 Most distance statements are not sailing legs
 
 Only 22 of 51 are legs between ports. The rest are 7 inland, 5 offsets, 5
 extents, 5 widths, 3 upriver, 2 runs. 18 of 51 are in days rather than stadia.
 Any treatment of the Periplus as a list of sailing distances is using under half
 the corpus.
 
-### 2.3 The stadion calibrates to about 155 m, not the conventional 185 m
+### 4.3 The stadion calibrates to about 155 m, not the conventional 185 m
 
 Median of four legs with securely identified endpoints. That shifts every derived
 position by about 16 per cent, which is enough to change which candidate fits.
@@ -71,7 +337,7 @@ and "approximately ten stades correspond to a nautical mile," which implies abou
 values rather than a single median.** Whether the implied stadion drifts by
 region, leg length or leg type is the open question.
 
-### 2.4 Casson's own table is internally inconsistent
+### 4.4 Casson's own table is internally inconsistent
 
 Casson prints identifications with the distance in nautical miles between each
 port and the next (Appendix 1, Table II). Two legs are given in the Periplus as
@@ -92,7 +358,7 @@ Three readings, not exclusive. One or more identifications is wrong. The two leg
 ran through different amounts of backwater. Or the author was simply not being
 precise, which is what the rounding structure in 2.1 supports.
 
-### 2.5 "By river and sea" — the single most consequential textual finding
+### 4.5 "By river and sea" — the single most consequential textual finding
 
 The Periplus does not say the Malabar distances were sailed along the coast. It
 says they were *διά τε ποταμοῦ καὶ διὰ θαλάσσης*, "by river and sea."
@@ -120,7 +386,7 @@ straight-line measurement. If the 500 stadia runs through the backwaters, the
 straight-line figure understates it, and candidates excluded as too far south may
 sit at the correct distance along the water.
 
-### 2.6 Straight-line against sailed distance is still unresolved
+### 4.6 Straight-line against sailed distance is still unresolved
 
 Every distance argument in this literature compares a straight line against a
 distance the text records as sailed. Measuring along every vertex of the modern
@@ -129,7 +395,7 @@ coastline vertices — but that path follows every estuary and no vessel would.
 The true value sits between and nearer the low end. **Distance results should
 therefore be stated as rankings, not as fits.**
 
-### 2.7 The stadion is not a length. It is a speed
+### 4.7 The stadion is not a length. It is a speed
 
 Casson's Appendix 2 states how the figures were made: "The ancients never
 actually measured distances at sea, for they lacked the means... Their rule of
@@ -162,7 +428,7 @@ between coasting into a headwind and running with the monsoon. **The scatter is
 the wind.** That connects the textual stream directly to the voyage simulation
 rather than leaving them as separate chapters.
 
-### 2.8 Four further problems in Casson's use of the distances
+### 4.8 Four further problems in Casson's use of the distances
 
 1. **His stated error bounds are violated by his own numbers.** He says short
    legs are "either exact or at most twenty percent off"; Okēlis to Eudaimōn
@@ -186,7 +452,7 @@ rather than leaving them as separate chapters.
    range from 15 per cent low to 92 per cent high, so a 5 per cent total shows
    the errors are roughly mean-zero and says nothing about any single leg.
 
-### 2.9 What the error structure means for locating anything
+### 4.9 What the error structure means for locating anything
 
 The error is multiplicative, with **sd of log(stated/actual) = 0.311** across
 Casson's eleven legs. A 500-stadia leg at a 155 m stadion is 77.5 km, with a
@@ -201,9 +467,13 @@ outrank the long ones, and now there is a number attached.
 
 ---
 
-## 3. The archaeological record
+---
 
-### 3.1 What was extracted
+# Part III. The material record
+
+## 5. The archaeological record
+
+### 5.1 What was extracted
 
 Searching *Indian Archaeology: A Review* for candidate names only finds sites
 somebody had already connected to a Periplus port, and a site can be excavated
@@ -218,7 +488,7 @@ by `src/extract_iar_entries.py`.
 This makes the question regional rather than site-by-site: not "has anyone dug at
 Ponnani" but **"what has been found on this coast, of what date, since 1953."**
 
-### 3.2 Kerala in full
+### 5.2 Kerala in full
 
 308 entries fall in Kerala state blocks; 238 are confirmed by naming a Kerala
 district; **75 of those sit in the fieldwork chapters** rather than in
@@ -265,7 +535,7 @@ area.** That is a stronger statement about Tyndis than any number of individual
 absences at named villages, and it was invisible to a name-matched search because
 the 1970–71 entries are filed under districts, not under Ponnani as a site.
 
-### 3.3 Kerala is not under-investigated; it is under-yielding
+### 5.3 Kerala is not under-investigated; it is under-yielding
 
 Normalising fieldwork entries by state area:
 
@@ -293,7 +563,7 @@ and this extraction does not settle it.
 subset additionally verified by district name. The table is for comparison
 between states, where the same method applies throughout.)*
 
-### 3.4 Absence is mostly absence of excavation
+### 5.4 Absence is mostly absence of excavation
 
 **Thirteen of the twenty-two disputed candidates have never been excavated.**
 Niranam, Neendakara, Purakkad, Pirakkad and Thevalakara have **zero appearances**
@@ -315,7 +585,7 @@ argument for those three has to be carried by distance and coastal geomorphology
 with material culture used to show the chosen candidate is at least not
 contradicted.
 
-### 3.5 Two tested negatives, which are a different thing from untested absence
+### 5.5 Two tested negatives, which are a different thing from untested absence
 
 - **IAR 1978–79 no. 40.** The ASI Southern Circle explored Malappuram and Palghat
   "while investigating for the sites showing **Roman contact in the Ponnani
@@ -327,7 +597,7 @@ contradicted.
   Chera. The next volume records the trial digs "had not yielded any tangible
   evidence."
 
-### 3.6 Excavation is blocked by water, not by absence, at several sites
+### 5.6 Excavation is blocked by water, not by absence, at several sites
 
 At Banbhore, Khan's trenches (1958–66) never reached virgin soil: "the virgin
 soil was not reached due to heavy water infiltration, and information on the
@@ -340,7 +610,7 @@ at Sumhuram and Myos Hormos.
 The decisive fact at Banbhore is not what was recovered but that the trenches
 stopped at the water table, which changes the meaning of everything above them.
 
-### 3.7 No counterpart series exists outside India
+### 5.7 No counterpart series exists outside India
 
 *Indian Archaeology: A Review* has no equivalent for Arabia, Pakistan or East
 Africa. For **Leukē Kōmē, Barbarikon and Rhapta** the equivalent has to be
@@ -350,9 +620,9 @@ reached, whether virgin soil was hit, and where it was published.
 
 ---
 
-## 4. Material assemblages
+## 6. Material assemblages
 
-### 4.1 The typology comes first
+### 6.1 The typology comes first
 
 Roberta Tomber's *Indo-Roman Trade: From Pots to Pepper* (Duckworth 2008)
 supplies the controlled vocabulary. Her central warning is that much of the
@@ -375,7 +645,7 @@ Three classes carry real locational weight:
   archaeological pepper comes from Egypt's Eastern Desert, so its distribution
   maps preservation conditions rather than trade.
 
-### 4.2 Pattanam, the only quantified candidate
+### 6.2 Pattanam, the only quantified candidate
 
 Nine KCHR seasons, 2007 to 2015, sixty trenches over under one per cent of the
 mound. Natural soil was reached at 317 cm and radiocarbon on charcoal at 340 to
@@ -408,7 +678,7 @@ sites, a substantial part of Pattanam's imported pottery records Gulf traffic of
 the third to seventh centuries, not Mediterranean traffic of the first.
 **Pattanam was a port for much longer than it was Muziris.**
 
-### 4.3 How the extraction was done and how well it worked
+### 6.3 How the extraction was done and how well it worked
 
 A miner scans all 96 library texts for a site name and an artefact class in the
 same sentence, binds any quantity to the nearest artefact mention, and records
@@ -428,9 +698,9 @@ per cent. The remaining errors are semantic and need a reader.
 
 ---
 
-## 5. Coins
+## 7. Coins
 
-### 5.1 Roman coins in India do not mark ports
+### 7.1 Roman coins in India do not mark ports
 
 Of 121 Indian hoards in the Coin Hoards of the Roman Empire database, 98 lie more
 than 25 km from the coast, and they account for **73 per cent of all recorded
@@ -457,14 +727,14 @@ overwhelmingly Rome and Lyon, against 15 per cent in Egypt's own hoards, where
 41 per cent came from Alexandria. Egyptian circulating currency did not travel
 east; what moved was western gold acting as specie.
 
-### 5.2 Sri Lanka is the opposite case and must not be pooled
+### 7.2 Sri Lanka is the opposite case and must not be pooled
 
 67 hoards, 220,901 coins, 85 per cent coastal. But these are enormous late-Roman
 **bronze** hoards of the fourth and fifth centuries — Beragama 70,000, Godavaya
 30,000, Tissamaharama 30,000. Aggregating them with Indian Julio-Claudian gold
 produced a completely misleading first result.
 
-### 5.3 Hoards and site finds are different evidence classes
+### 7.3 Hoards and site finds are different evidence classes
 
 India: 790 gold, 184 silver, almost no bronze; 756 aurei, 180 denarii. Aynuna,
 the only excavated Arabian assemblage: 24 bronze, 1 silver. The first is stored
@@ -474,7 +744,7 @@ more informative, and it is precisely the category the hoard databases omit.
 Indian Roman coins occur overwhelmingly as hoards and rarely in excavation; the
 Red Sea is the reverse.
 
-### 5.4 Coverage gaps are structural, not search failures
+### 7.4 Coverage gaps are structural, not search failures
 
 CHRE has **no country entry for Tanzania, Kenya, Somalia or Ethiopia**. Nearest
 hoard to any Rhapta candidate: 2,100–2,400 km. To Banbhore: 406 km. To Aynuna:
@@ -492,12 +762,12 @@ eighth-century Muslim gold found in 1866, later silver, a Chinese Northern Song
 bronze. Kilwa: sultanate coins c. 1200–1400. Mafia: medieval coins from Kisimani
 Mafia.
 
-### 5.5 Indian reign distribution is bimodal
+### 7.5 Indian reign distribution is bimodal
 
 985 specimens. Claudius 134, Tiberius 116, Augustus 114, Nero 92, for 456
 Julio-Claudian, then a second peak at Hadrian 116 and Antoninus Pius 75.
 
-### 5.6 What we hold
+### 7.6 What we hold
 
 `data/processed/site_find_coins.csv`, 30 records: Aynuna's 25 excavated coins
 plus assemblage totals for Myos Hormos, Berenike and Sumhuram. Smagur 2025 in
@@ -511,7 +781,7 @@ candidate has nothing, and for the East African ones there is nothing to find.
 
 ---
 
-## 6. Later settlement, and the circularity it reveals
+## 8. Later settlement, and the circularity it reveals
 
 `data/raw/later_settlement.csv`, 20 sites with attested occupation after the
 Periplus horizon, each with period range, evidence, confidence grade and source.
@@ -551,7 +821,480 @@ all. Banbhore has both, and that is its problem.
 
 ---
 
-## 7. Port by port
+## 9. The Aynuna coin catalogue, read
+
+The 450-page Aynuna report had been held and unread, and its coin catalogue was
+described as possibly decisive for Leukē Kōmē. It has now been extracted to
+`data/processed/aynuna_coins.csv`, twenty-eight coins with section, issuing
+authority, metal, diameter and find context.
+
+**The extraction is checked rather than trusted.** Gawlikowski states his own
+totals in the paragraph after the catalogue: twenty-eight coins, two completely
+obliterated, fourteen of the remainder Nabataean. The script reproduces all
+three, and an earlier version did not. That version read twenty-five coins,
+missed the opening entry because it sits under a section heading on the page
+before the running head, missed a coin found stuck to another and published
+under a shared inventory number, and carried a ruler list stopping at Hadrian,
+so every fourth-century coin fell through as unattributed.
+
+**The dated sequence.** Twenty-two of the twenty-eight carry a date.
+
+| Authority | Count | Dates |
+|---|---|---|
+| Local Northwest Arabian imitation | 1 | 3rd–2nd c. BC |
+| Anonymous Nabataean | 6 | 2nd–1st c. BC |
+| Obodas III | 1 | 30–9 BC |
+| Aretas IV | 4 | 9 BC – AD 40 |
+| Elagabalus | 1 | AD 218–222 |
+| Constantinian house | 4 | AD 306–340 |
+| Khusro II imitation | 1 | AD 590–628 |
+| Baybars | 1 | 1260–1277 |
+| Ottoman and Egyptian | 2 | 1805–1861 |
+
+**No coin at Aynuna was struck by an authority whose reign includes AD 50.** The
+latest minting date before the Periplus is Aretas IV's death in AD 40, and the
+next coin on the site is Elagabalus, 178 years later.
+
+**The sharper form of this is Gawlikowski's own.** He writes that none can be
+safely attributed to any Nabataean king after Aretas IV. The kings after Aretas
+IV are Malichus II, AD 40 to 70, and Rabbel II, AD 70 to 106. Malichus II
+reigned across the Periplus almost exactly, and his coinage is absent here.
+
+**What this does not establish.** Coins circulate long after they are struck, so
+an Aretas IV bronze lost in AD 50 is unremarkable and the site was plainly in
+use. The absence is of coins *minted* in the Periplus window, not of occupation
+during it, and twenty-eight coins is a small sample from four seasons. What it
+does show is that the numismatic evidence at Aynuna peaks before the Periplus
+and resumes long after, which is a different shape from the one a port at its
+height in AD 50 would leave.
+
+**A bug this surfaced.** `docs/cities/leuke-kome.md` reports zero proposed sites
+and zero excavations, while `disputed_candidates.csv` holds four candidates for
+the port including the excavated one. The city-record builder is not matching
+the port name. Recorded here rather than fixed, since it affects the generated
+documents and not the underlying tables.
+
+## 10. The Sangam corpus, read in Tamil rather than at second hand
+
+`DATA.md` recorded the Sangam poems as held at second hand only, meaning every
+Sangam reference in this project was quoted from a modern scholar. Project
+Madurai publishes the corpus in Tamil, public domain, so 40 files covering 17
+works are now in `library/sangam`, with counts in
+`data/processed/sangam_port_mentions.csv`.
+
+This does not replace a translation. The standard English versions are in
+copyright and the poems still have to be read. What the original gives is the
+one thing a translation cannot be searched for reliably: which poems contain the
+port names, counted rather than recalled.
+
+**Most of the names cannot be counted, and finding that out was the work.** A
+first pass searched for all eight names and reported 57 occurrences of Naura and
+313 of Vanci. Both are artefacts. *Naravu* is the ordinary word for toddy, and
+the Tamil commentaries printed alongside the poems gloss it as *kal*, toddy, in
+nearly every instance. *Vanci* is an oath, a deceit, a creeper and a category of
+poetry before it is the Cera capital. *Pakai* in this spelling appears inside a
+poet's epithet, a sweet syrup and a headwrap. Those three are now marked
+uncountable in the script rather than silently dropped.
+
+**What can be counted.**
+
+| Name | Occurrences | Distinct works |
+|---|---|---|
+| Yavana, a western foreigner | 295 | 16 of 17 |
+| Korkai, the Pandya pearl port | 40 | 8 |
+| Tondi, behind Tyndis | 23 | 6 |
+| **Muciri, behind Muziris** | **9** | **2** |
+| Nelkinda | **0** | 0 |
+
+**Muciri appears in Akananuru and Purananuru and nowhere else in the corpus.**
+That is the whole indigenous textual basis for the identification of Muziris,
+and it matches the passages the scholarship cites. The counts include the modern
+Tamil commentary printed with each poem, which repeats the name when glossing
+it, so nine occurrences is an upper bound on nine distinct mentions.
+
+**Nelkynda is absent entirely**, under this spelling, from all seventeen works.
+
+This bears directly on the standing note in `CLAUDE.md` that Muziris is treated
+as secure and included because the security is narrower than it looks. The
+indigenous corpus names it in two works. It names the Yavanas who came to trade
+in sixteen.
+
+---
+
+# Part IV. The landscape
+
+## 11. Imagery finds buried channels in arid terrain and cannot do it in Kerala
+
+Multi-season optical PCA scores **AUC 0.814 in the Indus delta** and **0.752 in
+Cholistan**, against a threshold of 0.75 fixed before any run. It scores **0.583
+at the Periyar** and **0.456 at the Pamba**.
+
+So **Barbarikon can be worked with imagery and the four Malabar ports cannot.**
+That is the single most consequential outcome, and it redirects effort from
+satellites to archives for most of the thesis.
+
+## 12. Kerala defeats four independent methods
+
+| Method | Result |
+|---|---|
+| Multi-season optical PCA | 0.576 Periyar, 0.456 Pamba |
+| L-band radar (ALOS PALSAR) added | 0.583 Periyar, 0.455 Pamba |
+| Detrended Copernicus DEM | 0.537 Periyar, 0.430 Pamba |
+| Borehole lithology | the buried sands are beach deposits |
+
+**And the reason is not what I assumed.** I added radar because canopy seemed the
+obstacle. It moved the Periyar by 0.007. Figure 28 shows the real problem: the
+terrain is full of sharp linear structure and all of it is the Kuttanad polder
+system, paddy bunds and canals in a dense mesh. An across-shore spectrum returns
+2.1, 3.5 and 7.9 km, which are polder scales. **The Malabar surface has been
+re-cut into features that look exactly like palaeochannels.**
+
+The subsurface route fails separately. Eight of seventeen boreholes hold a sand
+body sealed under finer sediment, the classic buried-channel signature, but
+Maya and colleagues identify them as beach and littoral deposits from
+transgressive and regressive cycles, and marine fauna appear in every thick one.
+
+## 13. Nothing dates to the Periplus
+
+This recurs across every stream and should be stated once, plainly.
+
+- **Kerala cores.** 27 radiocarbon dates across 15 sites. The three youngest are
+  2460, 2580 and 2730 BP, roughly 510, 630 and 780 BC. **Nothing within five
+  centuries of AD 50.**
+- **Indus shelf.** Core Indus-23 carries a hiatus from 8 ka to 1.3 ka. The
+  Periplus falls inside the gap.
+- **Historic charts.** 1857 for the Admiralty sheets, around 1700 for the
+  earliest Dutch one. Seventeen centuries late at best.
+- **JRC water record.** Begins 1984, eight years after the Thanneermukkom
+  barrage and the Idukki dam.
+
+Every geographic layer is therefore a prior on the landscape, not a measurement
+of it at the right date, and the posterior has to carry that.
+
+## 14. What the archives gave, which was more than expected
+
+I had been treating historic charts as a reading-room problem. They are not.
+
+**Admiralty sheets, Wikimedia Commons, public domain, 80 to 176 megapixels.**
+Malabar 749, 750 and 751 of 1857 covering the whole coast; Indus 41 and 118 of
+1897, which is Oldham's survey and the exact material Giosan and colleagues
+digitised; Red Sea 8a to 8c of 1873. Sheet 749 is the one covering Muziris and
+Tyndis that I had reported missing.
+
+**Gallica: 915 sheets catalogued, 791 of them dated before 1800.** 249 Malabar,
+387 Red Sea, 147 Arabia, 50 Zanzibar, 36 Cochin, 27 Indus and Sind. Served over
+IIIF at 50 to 95 megapixels. Twelve downloaded so far.
+
+**David Rumsey: 49 sheets**, JSON search and IIIF both working.
+
+**The best single item is the pre-1700 Dutch chart**, *"avec les Sondes"*,
+covering 9°N to 16°N. Figure 29 crops its southern end at full scale and it
+lands on our candidates: Cranckenoore for Kodungallur, Porcae for Purakkad with
+the Dutch legend *Hyerbegint het Ryck Porcae*, the barrier spit, the backwater
+behind it, and soundings in fathoms along the whole approach.
+
+**Those soundings carry an argument.** Off Purakkad, 6 to 12 fathoms close
+inshore, roughly 11 to 22 m, ample for any ancient vessel. At the Cranganore and
+Vypin entrance, 3 to 5 fathoms, roughly 5 to 9 m, with shoals drawn at the mouth.
+That is the pattern Gurukkal and Whittaker propose for Bakarē displacing Muziris,
+a silted bar against a deep approach, recorded as measurement at the earliest
+date anyone sounded this coast. It is around 1700, not AD 50, and proves nothing
+about antiquity, but it is the earliest bathymetry for Malabar we have found.
+
+## 15. Two claims in the literature that pull against each other
+
+**The coast may have been finished before the Periplus.** Shajan and colleagues,
+reporting Mathai and Nair 1988: the sand ridges and backwaters "emerged between
+7000 and 2000 years BP", and "the development of the coast was almost completed
+by 2000 years BP". If that holds, the first-century shoreline near the Periyar
+is close to the modern one and the Muziris reconstruction problem is small.
+Everything rests on one 1988 paper that the later literature cites without
+rechecking, which is a pattern that has misled us before.
+
+**The Vembanad is held to be unreconstructible.** Gurukkal and Whittaker on the
+1341 cyclone that opened the Kochi gap: "it is almost anyone's guess where a
+plausible port of Becare might have been situated", and "the huge changes in the
+Vembanad waterways make it impossible to base much upon this evidence". That is
+the consensus, and it applies exactly where Nelkynda and Bakarē sit.
+
+Reconciling these two is the first substantive question for the Malabar chapter.
+
+## 16. Modern water, measured
+
+From the JRC 1984-2021 record, in km². Figure 26.
+
+| Region | Ever water | Permanent | Seasonal | Lost since 1984 |
+|---|---|---|---|---|
+| Rhapta, Rufiji | 805 | 616 | 189 | 6.0% |
+| Nelkynda and Bakarē, Pamba | 780 | 494 | 287 | 1.9% |
+| Barbarikon, Indus | 565 | 226 | 339 | **9.8%** |
+| Tyndis | 451 | 434 | 17 | 0.6% |
+| Muziris, Periyar | 295 | 250 | 46 | 2.2% |
+| Leukē Kōmē, Aynuna | 210 | 209 | 1 | 0.1% |
+
+**The Pamba box is 37 per cent seasonal**, swinging from 494 to 780 km². Any
+sailed distance through that system has to be quoted with a season attached.
+**Aynuna is static**, which supports treating the Leukē Kōmē landscape as broadly
+unchanged and spending the effort elsewhere. **The Indus is the most mobile of
+the seven.**
+
+## 17. Lessons worth keeping, methodological and technical
+
+**Pre-registering the threshold is why the Kerala result is a finding** rather
+than a disappointment to argue around.
+
+**HydroRIVERS is not usable as ground truth.** Built from a 500 m DEM, its lines
+sat a median of 417 m from any water and traced irrigation canals. It fails even
+where the detector demonstrably works.
+
+**A "principled" rule can be worse than an arbitrary one.** Choosing the PCA
+component by spatial linearity picked PC1, which is brightness, and dropped the
+Indus score from 0.814 to 0.719. Open water is linear too.
+
+**Check what a test site actually looks like before building a test on it.** The
+first site, the Ghaggar near Anupgarh, was chosen because it is in Orengo and
+Petrie's study region and turned out to be wall-to-wall irrigated field grid.
+
+**Four technical notes**, hard-won and easy to lose.
+
+- GDAL's boundless read path builds a VRT per call and is **not thread-safe**.
+  Require scenes that fully contain the box instead; Sentinel-2 tiles are 110 km
+  and our boxes are 20 km, so most do.
+- The Copernicus DEM is in a public S3 bucket and needs
+  `AWS_NO_SIGN_REQUEST=YES`.
+- Planetary Computer assets need `planetary_computer.sign_inplace`, which issues
+  an anonymous token; no account.
+- Negative controls should be a random pixel sample. Shape-matched placement
+  never succeeds against a mask that is one large connected component, and a
+  per-pixel AUC does not see shape anyway.
+
+
+## 18. What would change the picture
+
+**Priju et al. 2018** maps buried channels in the Periyar basin by electrical
+resistivity, which sees sand bodies through the engineered surface that defeated
+everything we tried. The highest-value item outstanding.
+
+**Narayana et al. 2001** on a palaeodelta at the Periyar mouth, about 50 km² and
+up to 6 km wide, which is the Muziris landscape. The second sweep found it open
+access, so this one is a click rather than a request; see `DATA.md`.
+
+**Das et al. 2024**, three cores at the Periyar mouth reaching 1.1 cal kyr BP,
+which is the youngest dated material anyone has reported on this coast and about
+1,350 years younger than the floor of the cores we hold.
+
+**Mathai and Nair 1988**, because the 2000 BP claim is load-bearing and unchecked.
+
+**TanDEM-X at 12 m**, which would test whether terrain can contribute anywhere,
+since the current failure is resolution rather than method.
+
+**Ibn Battuta**, who was on this coast in 1342, within a year of the flood.
+
+## 19. There is no measured bathymetry at any of the seven approaches
+
+The depth layer was listed as available and unused, on the assumption that
+gathering it was a download away. It was, and the download is worth almost
+nothing, which is the finding.
+
+GMRT serves a 61 m grid over all seven port boxes against GEBCO's 450 m, so it
+looked like a clear improvement. It publishes two layers, though: the filled
+grid it will hand you, and the same grid with the interpolated cells removed.
+Differencing them says which cells rest on a real sounding.
+
+| Region | Sea cells | Median depth | Measured | Cells under 20 m | Of those, measured |
+|---|---|---|---|---|---|
+| Muziris, Periyar | 455,968 | 27.9 m | **0.0%** | 102,917 | **0.0%** |
+| Nelkynda and Bakarē, Pamba | 550,211 | 35.0 m | **0.0%** | 127,843 | **0.0%** |
+| Tyndis | 533,764 | 29.0 m | **0.0%** | 121,556 | **0.0%** |
+| Barbarikon, Indus | 431,731 | 11.6 m | **0.0%** | 310,479 | **0.0%** |
+| Leukē Kōmē, Aynuna | 143,145 | 8.3 m | **0.0%** | 110,320 | **0.0%** |
+| Rhapta, Rufiji | 511,556 | 7.9 m | **0.0%** | 425,155 | **0.0%** |
+
+Two and a half million marine cells across the seven approaches, and not one of
+them carries a measurement. The 61 m cell is a 450 m cell wearing a smaller
+coat, and a depth read off it would have been an artefact of exactly the kind
+recorded in §24.
+
+**The method is not at fault, which was checked rather than assumed.** The same
+two layers over Monterey Bay and the Hudson shelf valley come back 100 per cent
+measured. An empty mask on these coasts means an empty mask.
+
+**What follows is the useful part.** The historic chart soundings were described
+in §4 as the earliest bathymetry for Malabar. In the shallow approach they are
+also the only point-measured bathymetry the project can obtain at all, short of
+a national hydrographic office. The twenty soundings transcribed from the
+pre-1700 Dutch sheet are not a curiosity to be checked against a modern survey.
+There is no modern survey to check them against, so the charts carry the depth
+evidence by themselves and the error budget on reading them matters more than
+had been assumed.
+
+## 20. The tide, which did not need the registration it was behind
+
+The tide had been recorded as blocked on an AVISO or TPXO account. It is not
+need one. The IOC Sea Level Station Monitoring Facility serves observed sea
+level from 2,387 stations without an account, and the University of Hawaii
+archive holds the long records, so the range can be fitted from observation
+rather than taken from a model.
+
+The two sources are complementary rather than redundant. The IOC network is real
+time, so several of its stations hold only weeks. Hawaii has forty years at
+Zanzibar and ten at Karachi, and nothing at all in India.
+
+| Port | Station | Distance | Spring range | Neap range | Regime |
+|---|---|---|---|---|---|
+| Muziris | Cochin | 27 km | 0.58 m | 0.26 m | mixed, mainly semidiurnal |
+| Nelkynda and Bakarē | Cochin | 63 km | 0.58 m | 0.26 m | mixed, mainly semidiurnal |
+| Tyndis | Cochin | 141 km | 0.58 m | 0.26 m | mixed, mainly semidiurnal |
+| Barbarikon | Karachi | 43 km | 2.22 m | 1.01 m | mixed, mainly semidiurnal |
+| Leukē Kōmē | Aqaba | 146 km | 0.72 m | 0.38 m | semidiurnal |
+| Rhapta | Zanzibar | 194 km | 3.72 m | 1.29 m | semidiurnal |
+
+**The spread is the point. Rhapta's spring tide is six times Muziris's.** A
+navigability argument that treats the seven ports alike is wrong by metres at
+one end of the range and by centimetres at the other. At the Rufiji a bar that
+blocks a laden ship at low water is no obstacle six hours later; on the Malabar
+coast the tide will not lift a ship over anything.
+
+**Kerala's fit is poor, and the reason is a second finding.** The harmonic fit
+explains 99 per cent of the variance at Zanzibar and 54 per cent at Cochin. That
+is not a bad record. At Cochin the tidal standard deviation is 0.228 m and the
+non-tidal residual is 0.213 m, so the two are the same size, and the monthly
+means of the residual run from +0.27 m in March to −0.14 m in July. A seasonal
+swing of 0.41 m against a 0.58 m spring range is the monsoon, and it averages
+away over a month at Zanzibar but not here.
+
+So on the Malabar coast **the season a sounding was taken in matters about as
+much as the state of the tide**. That compounds §9: the chart soundings carry
+the depth evidence alone, and they now carry two error terms of comparable size
+rather than one.
+
+**What this is not.** The fit is the astronomical tide. Surge is not in it, the
+gauge datum is not the chart datum, and Aynuna's figure comes from 146 km up the
+Gulf of Aqaba, which is the same body of water but not the same coast.
+
+## 21. Wind, the fourth stream, started
+
+Evidence stream four had been declared and never begun, because `DATA.md`
+listed ERA5 and ERA5 needs a Copernicus key. The NCEP reanalysis needs nothing,
+runs from 1948, and is served as plain text, so the monsoon climatology is a
+download. 132 rows in `data/processed/wind_climatology.csv`, eleven sites by
+twelve months.
+
+Two quantities per month. Speed is obvious. **Steadiness** is the vector mean
+divided by the mean speed, so it runs from 0 when the wind blows every way in
+turn to 1 when it never shifts. A square-rigged ship cares about the second at
+least as much as the first, because a strong wind that boxes the compass is not
+a passage.
+
+### The Arabian Sea crossing, which is the Hippalus run
+
+| | J | F | M | A | M | J | J | A | S | O | N | D |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| m/s | 6.8 | 5.2 | 3.2 | 1.4 | 4.2 | 11.5 | **14.6** | 13.0 | 7.2 | 2.3 | 6.3 | 7.3 |
+| from | NE | NE | NE | NNE | SW | SW | **SW** | SW | SW | NNE | NE | NE |
+| steadiness | 1.00 | 0.99 | 0.98 | 0.54 | 0.98 | 1.00 | **1.00** | 1.00 | 1.00 | 0.80 | 0.99 | 0.99 |
+
+**Steadiness reaches 1.00 in both directions.** June to September the wind is
+southwest at 11 to 15 m/s and never varies; November to February it is northeast
+at 5 to 7 m/s and never varies. The two switching months, April and October, are
+the only unreliable ones, at 0.54 and 0.80. The Periplus sails out on one and
+home on the other, and the reanalysis says those are the only two months a ship
+would want to avoid.
+
+### The result that inverts the intuition
+
+**The open-sea leg is the most reliable wind on the whole route, and the Red Sea
+is the least.** Mid Red Sea steadiness runs 0.82 to 0.98 and the speed never
+exceeds 4.3 m/s, and the direction is northerly in all twelve months. So the
+sheltered coastal leg, where Leukē Kōmē sits, is the one with light and
+comparatively variable wind and a foul breeze for anything working north, while
+the thousand-mile open crossing is a conveyor belt. That is consistent with
+Leukē Kōmē existing at all: a port that exists to put cargo onto camels is what
+you build when the sea leg north is the hard part.
+
+### The rest
+
+**Malabar landfall** is westerly at 7.7 m/s in July and drops to 1.5 m/s in
+November, so the approach is onshore and strong exactly when the crossing
+delivers a ship to it. **Rhapta** reverses between NNE in January and SSE from
+April to September, at a gentler 4 to 6 m/s, with steadiness above 0.97 in
+eleven months of twelve.
+
+### The limitation, which is not small
+
+The grid is 2.5 degrees, about 275 km. **Muziris, Tyndis and Nelkynda fall in
+one cell**, so the table cannot distinguish the three Malabar ports and does not
+pretend to. This is a monsoon layer, not a local wind at a river mouth. It is
+the right resolution for the open-sea legs, which are the legs that depend on
+wind, and the wrong one for anything inshore.
+
+## 22. What the second literature sweep closed
+
+The first sweep asked Crossref about ports and excavations and returned
+archaeology. The questions blocking the geographic layer went unasked, so
+gaps were recorded as unclosable without having been searched for. A second
+sweep on OpenAlex, 575 works over seven gap groups, asked them.
+
+
+**Rhapta now has a dated geographic layer, which it did not have before.**
+Punwong's 2013 Leeds thesis holds radiocarbon-dated cores from the northern
+Rufiji Delta and from Unguja Ukuu and Makoba Bay on Zanzibar, with altitudes
+recorded above and below mean sea level and formal sea-level index points
+calculated from mangrove zonation. The Rufiji cores run to 1173 cal BP at
+-0.94 m amsl; the Unguja Ukuu core B-UU-1 gives 1359 ± 48 cal BP. Held as
+`library/oa-harvest/rhapta-tanzania_Punwong2013_*.pdf`, 295 pages.
+
+This matters beyond the dates. The index points come with indicative ranges,
+which is the form the errors-in-variables sea-level method in
+§3 expects, and no other port region has supplied them yet.
+
+**A standardised regional sea-level database exists, and it stops short of
+Kerala.** Mann and colleagues' SEAMIS database covers Southeast Asia, the
+Maldives, India and Sri Lanka, with 213 index points and 333 limiting points.
+Its two Indian sites are at 9.29°N 79.22°E and 13.75°N 80.21°E, both on the
+southeastern coast. The Malabar coast contributes nothing to it. So SEAMIS
+supplies the protocol and the glacial isostatic adjustment predictions but not
+the Kerala datum, and the datum still has to come from Shaji et al. 2022.
+
+**Narayana, Priju and Chakrabarti 2001 is open access**, which the acquisition
+list did not know. It carries two DOIs for the same title, and the authored
+record is the paper: *Journal of the Geological Society of India* 57, no. 6
+(2001): 545–47, `10.17491/jgsi/2001/570609`. The second,
+`10.17491/jgsi/2001/580409`, is two pages at 58, no. 4: 368–69, with no authors
+attached, so it is probably a discussion. Worth taking both.
+
+**Das et al. 2024 works the Muziris coast directly** and did not appear in the
+first sweep. Three drilled cores at the Periyar mouth, geochemical,
+mineralogical, palynological and geochronological, with Holocene sediments at
+1.1–8.1 cal kyr BP. The youngest of those is around AD 850, against the 2460 BP
+floor of the cores we hold. Open access in *Quaternary Science Advances* 14
+(2024): 100197, `10.1016/j.qsa.2024.100197`.
+
+---
+
+### What it did not close
+
+**Nothing reaches the first century.** The nearest dated material in anything
+acquired is Das et al.'s 1.1 cal kyr BP at the Periyar mouth and Punwong's
+1359 cal BP at Unguja Ukuu. Both are eight centuries late. The finding in
+§13 stands.
+
+**Priju et al. 2018 is still the outstanding item.** The sweep turned up Priju
+et al. 2021 instead, 33 vertical electrical soundings from Ernakulam to Chettuva
+on the Muziris coast with a modelled subsurface lithology. It is a salinity
+study: the words palaeochannel and buried do not occur in it. Useful as
+subsurface control on the Periyar coast, not a substitute.
+
+**Alappat et al. 2015 and Shaji et al. 2022 remain paywalled.** Both are
+Elsevier, both are on the existing list, and the sweep found no open copy.
+
+---
+
+---
+
+# Part V. Port by port
+
+## 23. Port by port
 
 ### Leukē Kōmē
 
@@ -767,7 +1510,11 @@ He gives no reference.
 
 ---
 
-## 8. Errors found
+---
+
+# Part VI. What went wrong, and what is left
+
+## 24. Errors found
 
 ### In published sources
 
@@ -843,7 +1590,8 @@ He gives no reference.
 
 ---
 
-## 9. Open questions, not yet run
+
+## 25. Open questions, not yet run
 
 1. Per-leg implied stadion. Does it drift by region, leg length or leg type?
 2. Malabar distances measured through the backwaters rather than the open coast.
@@ -858,7 +1606,7 @@ He gives no reference.
 
 ---
 
-## 10. Maps that would serve these
+## 26. Maps that would serve these
 
 Built: the six-port overview, the Malabar distance bands, and seven per-port
 panels.
@@ -885,101 +1633,3 @@ legs in Casson's accuracy tables, with the conventional 185.2 m drawn as a
 line and a second axis reading the same quantity as a day's run in nautical
 miles. The disputed ports are deliberately absent, since plotting a Malabar leg
 would assume the identification in question.
-
-## 11. The Aynuna coin catalogue, read
-
-The 450-page Aynuna report had been held and unread, and its coin catalogue was
-described as possibly decisive for Leukē Kōmē. It has now been extracted to
-`data/processed/aynuna_coins.csv`, twenty-eight coins with section, issuing
-authority, metal, diameter and find context.
-
-**The extraction is checked rather than trusted.** Gawlikowski states his own
-totals in the paragraph after the catalogue: twenty-eight coins, two completely
-obliterated, fourteen of the remainder Nabataean. The script reproduces all
-three, and an earlier version did not. That version read twenty-five coins,
-missed the opening entry because it sits under a section heading on the page
-before the running head, missed a coin found stuck to another and published
-under a shared inventory number, and carried a ruler list stopping at Hadrian,
-so every fourth-century coin fell through as unattributed.
-
-**The dated sequence.** Twenty-two of the twenty-eight carry a date.
-
-| Authority | Count | Dates |
-|---|---|---|
-| Local Northwest Arabian imitation | 1 | 3rd–2nd c. BC |
-| Anonymous Nabataean | 6 | 2nd–1st c. BC |
-| Obodas III | 1 | 30–9 BC |
-| Aretas IV | 4 | 9 BC – AD 40 |
-| Elagabalus | 1 | AD 218–222 |
-| Constantinian house | 4 | AD 306–340 |
-| Khusro II imitation | 1 | AD 590–628 |
-| Baybars | 1 | 1260–1277 |
-| Ottoman and Egyptian | 2 | 1805–1861 |
-
-**No coin at Aynuna was struck by an authority whose reign includes AD 50.** The
-latest minting date before the Periplus is Aretas IV's death in AD 40, and the
-next coin on the site is Elagabalus, 178 years later.
-
-**The sharper form of this is Gawlikowski's own.** He writes that none can be
-safely attributed to any Nabataean king after Aretas IV. The kings after Aretas
-IV are Malichus II, AD 40 to 70, and Rabbel II, AD 70 to 106. Malichus II
-reigned across the Periplus almost exactly, and his coinage is absent here.
-
-**What this does not establish.** Coins circulate long after they are struck, so
-an Aretas IV bronze lost in AD 50 is unremarkable and the site was plainly in
-use. The absence is of coins *minted* in the Periplus window, not of occupation
-during it, and twenty-eight coins is a small sample from four seasons. What it
-does show is that the numismatic evidence at Aynuna peaks before the Periplus
-and resumes long after, which is a different shape from the one a port at its
-height in AD 50 would leave.
-
-**A bug this surfaced.** `docs/cities/leuke-kome.md` reports zero proposed sites
-and zero excavations, while `disputed_candidates.csv` holds four candidates for
-the port including the excavated one. The city-record builder is not matching
-the port name. Recorded here rather than fixed, since it affects the generated
-documents and not the underlying tables.
-
-## 12. The Sangam corpus, read in Tamil rather than at second hand
-
-`DATA.md` recorded the Sangam poems as held at second hand only, meaning every
-Sangam reference in this project was quoted from a modern scholar. Project
-Madurai publishes the corpus in Tamil, public domain, so 40 files covering 17
-works are now in `library/sangam`, with counts in
-`data/processed/sangam_port_mentions.csv`.
-
-This does not replace a translation. The standard English versions are in
-copyright and the poems still have to be read. What the original gives is the
-one thing a translation cannot be searched for reliably: which poems contain the
-port names, counted rather than recalled.
-
-**Most of the names cannot be counted, and finding that out was the work.** A
-first pass searched for all eight names and reported 57 occurrences of Naura and
-313 of Vanci. Both are artefacts. *Naravu* is the ordinary word for toddy, and
-the Tamil commentaries printed alongside the poems gloss it as *kal*, toddy, in
-nearly every instance. *Vanci* is an oath, a deceit, a creeper and a category of
-poetry before it is the Cera capital. *Pakai* in this spelling appears inside a
-poet's epithet, a sweet syrup and a headwrap. Those three are now marked
-uncountable in the script rather than silently dropped.
-
-**What can be counted.**
-
-| Name | Occurrences | Distinct works |
-|---|---|---|
-| Yavana, a western foreigner | 295 | 16 of 17 |
-| Korkai, the Pandya pearl port | 40 | 8 |
-| Tondi, behind Tyndis | 23 | 6 |
-| **Muciri, behind Muziris** | **9** | **2** |
-| Nelkinda | **0** | 0 |
-
-**Muciri appears in Akananuru and Purananuru and nowhere else in the corpus.**
-That is the whole indigenous textual basis for the identification of Muziris,
-and it matches the passages the scholarship cites. The counts include the modern
-Tamil commentary printed with each poem, which repeats the name when glossing
-it, so nine occurrences is an upper bound on nine distinct mentions.
-
-**Nelkynda is absent entirely**, under this spelling, from all seventeen works.
-
-This bears directly on the standing note in `CLAUDE.md` that Muziris is treated
-as secure and included because the security is narrower than it looks. The
-indigenous corpus names it in two works. It names the Yavanas who came to trade
-in sixteen.

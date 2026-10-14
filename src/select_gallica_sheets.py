@@ -61,7 +61,7 @@ NOT_A_PLACE = (r"cochin[\s-]?chin|\bcochin china|(?:n\.|noel)\s+cochin|"
                r"xum day|vung l|pulo |nha shang|cape varelle|turon|tonquin")
 
 # Depth is the scarce quantity, so a sheet advertising soundings earns its place
-# whatever it is named. See GEOGRAPHIC-FINDINGS section 9.
+# whatever it is named. See `docs/FINDINGS.md` section 19.
 SOUNDINGS = r"sonde|soundings|brasse|fathom|bancs? de sable|mud bank"
 
 # What the chart cannot be about and still be relevant. These are the northern

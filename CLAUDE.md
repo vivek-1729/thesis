@@ -31,22 +31,16 @@ looking for patterns.
 
 | Path | What |
 |---|---|
-| `docs/FINDINGS.md` | Everything the evidence has shown. Read this first |
-| `docs/EVIDENCE.md` | Every class of evidence, what it settles, and its status |
-| `docs/DATA.md` | The totality of data: held, reachable, and unobtainable |
-| `docs/METHOD.md` | The four lines of geographic evidence, written for a new reader |
-| `docs/GEOGRAPHIC-FINDINGS.md` | What the Phase 1 geographic work established |
-| `docs/NEEDS-FROM-YOU.md` | Accounts, papers and decisions that are blocked on the user |
-| `docs/STATISTICAL-PLAN.md` | The method per evidence stream, and the decision layer |
-| `docs/READING-NEXT.md` | The reading queue, geographic first |
-| `docs/LITERATURE-SWEEP.md` | The geographic literature sweep, and which gaps it closed |
-| `docs/LIBRARY.md` | What is held, and what to read per port |
-| `docs/SEDIMENT-CORES.md` | Core evidence near each port, and where core data lives |
-|  `docs/cities/*.md` | One file per port holding every mention in the library |
+| `docs/FINDINGS.md` | **The one document.** The problem, the method, everything established, the errors, what is left. Read this first |
+| `docs/DATA.md` | Every dataset held, reachable or non-existent, plus the reading list by component |
+| `docs/cities/*.md` | Generated. One file per port holding every mention in the library |
 | `data/raw/` | Hand-curated tables. Candidates, ware typology, survey effort, CHRE export |
-| `data/processed/` | Derived tables. IAR entries, distances, port passages, hoard distances |
-| `src/` | Extraction, mining and mapping scripts |
+| `data/processed/` | Derived tables. IAR entries, distances, port passages, coins, cores, tides, wind |
+| `data/cache/` | Gridded environmental pulls: bathymetry, tide gauges, wind |
+| `src/` | Extraction, mining, satellite and mapping scripts |
+| `src/env/` | Bathymetry, tides and wind |
 | `figures/` | Output maps |
+| `notebooks/` | Three notebooks reproducing the presentation figures |
 | `../library/` | The PDF library, outside the repo. Text layers cached in `text-cache/` |
 
 Large third-party geodata (HydroRIVERS, Natural Earth 10m) is gitignored and
@@ -106,7 +100,10 @@ These are load-bearing and should not be re-derived. Full detail in
 
 ## Immediate work
 
-- Measure the Malabar distances through the backwaters
-- Add the five missing candidates: Nakkada, Nirkunnam, Kannetri, Markari, Varakkai
+- Measure the Malabar distances through the backwaters. Still the single most
+  consequential unfinished measurement
 - Build the excavation-coverage map for the whole basin, not just Kerala
-- Phase 1 geographic evidence: palaeochannels, coastlines, bathymetry
+- Read the four held excavation reports: Qana, Sumhuram, Ras Hafun, Myos Hormos
+- Fix the city-record builder, which reports zero candidates for Leukē Kōmē
+  while the candidate table holds four
+- The nine open-access PDFs that need a browser, listed in `docs/DATA.md` §7

@@ -1,8 +1,7 @@
 """Tidal range at each port, fitted from observed sea level rather than modelled.
 
-`NEEDS-FROM-YOU.md` recorded the tide as the largest error on the chart
-soundings and put it behind an AVISO or TPXO registration. It does not have to
-be. The IOC Sea Level Station Monitoring Facility serves observed sea level from
+The tide had been recorded as the largest error on the chart soundings, and put
+behind an AVISO or TPXO registration. It does not have to be. The IOC Sea Level Station Monitoring Facility serves observed sea level from
 2,387 stations with no account, and a harmonic fit to a year of it gives the
 range directly, which is the quantity the soundings need.
 

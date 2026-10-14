@@ -3,7 +3,7 @@
 ._*
 ~$*
 
-# Large third-party geodata (re-downloadable; see docs/DATA-SOURCES.md)
+# Large third-party geodata (re-downloadable; see docs/DATA.md)
 data/raw/hydrorivers/
 data/raw/ne10m/
 

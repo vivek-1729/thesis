@@ -9,8 +9,8 @@ What makes it worth tabulating rather than citing is the index points. A
 mangrove grows within a known height band relative to sea level, so a dated
 mangrove peat at a known altitude constrains where the sea stood, with an
 indicative range attached. That is the form the errors-in-variables sea-level
-method in `STATISTICAL-PLAN.md` expects, and no other port region has supplied
-it.
+method in `docs/FINDINGS.md` section 3 expects, and no other port region has
+supplied it.
 
 The tables are laid out in columns that the PDF's text layer returns one cell
 per line, so this reads them positionally rather than by regular expression, and
