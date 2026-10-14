@@ -1069,28 +1069,79 @@ Petrie's study region and turned out to be wall-to-wall irrigated field grid.
   per-pixel AUC does not see shape anyway.
 
 
-## 18. What would change the picture
+## 18. What would change the picture, ranked by what it would settle
 
-**Priju et al. 2018** maps buried channels in the Periyar basin by electrical
-resistivity, which sees sand bodies through the engineered surface that defeated
-everything we tried. The highest-value item outstanding.
+The project's own decision layer, turned on its acquisition list. The question
+is not which paper is most interesting but which one would most narrow the
+posterior, and those are different orderings. An item that would move one port
+from "unlocatable" to "bracketed" beats one that refines a port already
+bracketed.
 
-**Narayana et al. 2001** on a palaeodelta at the Periyar mouth, about 50 km² and
-up to 6 km wide, which is the Muziris landscape. The second sweep found it open
-access, so this one is a click rather than a request; see `DATA.md`.
+**Tier 1, would change a conclusion.**
 
-**Das et al. 2024**, three cores at the Periyar mouth reaching 1.1 cal kyr BP,
-which is the youngest dated material anyone has reported on this coast and about
-1,350 years younger than the floor of the cores we hold.
+1. **Priju et al. 2018**, buried channels in the Periyar basin by electrical
+   resistivity. Still the highest-value item outstanding, and §11 and §12 are
+   why: four surface methods failed in Kerala because the Kuttanad polders
+   re-cut the ground into palaeochannel-like features. Resistivity reads the
+   sand body under that surface. It is the only method anyone has applied here
+   that is immune to the thing which defeated us, and it bears on Muziris, the
+   port whose security §4 and §10 both show to be narrower than it looks.
 
-**Mathai and Nair 1988**, because the 2000 BP claim is load-bearing and unchecked.
+2. **Maya et al. 2022**, the five lower Kuttanad boreholes by name. These sit
+   inside the Nelkynda and Bakarē zone, which is the only part of the Malabar
+   coast where no dated subsurface evidence exists at a candidate. Everything we
+   hold for Kerala comes from Maya et al. 2017, whose nearest cores are not at
+   the candidates.
 
-**TanDEM-X at 12 m**, which would test whether terrain can contribute anywhere,
-since the current failure is resolution rather than method.
+3. **Shaji et al. 2022**, the Kerala sea-level curve. §22 established that the
+   standardised regional database stops short of Malabar, so this is the datum
+   and there is no substitute. Without it the coastline reconstruction in §2.1
+   has no vertical reference and the depth work in §19 and §20 has nothing to
+   reduce historic soundings to.
 
-**Ibn Battuta**, who was on this coast in 1342, within a year of the flood.
+**Tier 2, would remove an assumption the thesis currently carries.**
 
-## 19. There is no measured bathymetry at any of the seven approaches
+4. **Mathai and Nair 1988.** The claim that the Kerala coast was "almost
+   completed by 2000 years BP" is load-bearing: if true, the first-century
+   shoreline near the Periyar is close to the modern one and the whole Muziris
+   reconstruction problem shrinks. The later literature cites it without
+   rechecking, which is the pattern recorded in §24 as having misled this
+   project before.
+
+5. **Narayana et al. 2001** and **Das et al. 2024**, both at the Periyar mouth
+   and both open access, so both are a click rather than a request. Das reaches
+   1.1 cal kyr BP, about 1,350 years younger than the floor of the cores we
+   hold, which does not touch the Periplus but is the closest anything comes.
+
+6. **Turner 1989, Appendix 1.** Single and stray coin finds are the one
+   numismatic category that bears on harbour location, and §7 shows why the
+   hoards do not. CHRE omits the category entirely.
+
+**Tier 3, would widen coverage rather than settle anything.**
+
+7. **TanDEM-X at 12 m.** The Copernicus DEM failed at 30 m because a channel is
+   one to two metres deep and detrending leaves a residual standard deviation of
+   1.2 to 4.7 m. The failure is resolution, not method, so 12 m is the test of
+   whether terrain can contribute anywhere. A DLR proposal, and speculative.
+
+8. **CORONA, 1960–72 at 2 to 8 m.** The sharpest pre-dam imagery available, and
+   the only optical record before the Thanneermukkom barrage and the Idukki dam
+   that is finer than Landsat's 79 m.
+
+9. **Ibn Battuta**, on this coast in 1342, within a year of the flood that §15
+   says reorganised the Vembanad.
+
+**What has dropped off this list, and why that is worth recording.** Three items
+sat here until recently as things that might change the picture, and each was
+resolved by doing the work rather than by acquiring anything. The tide was
+behind a registration and is now fitted from observation, §20. The depth layer
+was assumed to be a download away and turned out to contain no measurement at
+all, §19. Datoo 1970 was cited at second hand through every Rhapta argument in
+the literature, and reading it directly changed what the bracket means, §23.
+The lesson transfers: before acquiring, check whether the thing is already
+answerable.
+
+## 19. There is no measured bathymetry at any approach, and the grid that fills the gap is wrong where it matters
 
 The depth layer was listed as available and unused, on the assumption that
 gathering it was a download away. It was, and the download is worth almost
@@ -1119,22 +1170,53 @@ recorded in §24.
 two layers over Monterey Bay and the Hudson shelf valley come back 100 per cent
 measured. An empty mask on these coasts means an empty mask.
 
-**What follows is the useful part.** The historic chart soundings were described
-in §4 as the earliest bathymetry for Malabar. In the shallow approach they are
-also the only point-measured bathymetry the project can obtain at all, short of
-a national hydrographic office. The twenty soundings transcribed from the
-pre-1700 Dutch sheet are not a curiosity to be checked against a modern survey.
-There is no modern survey to check them against, so the charts carry the depth
-evidence by themselves and the error budget on reading them matters more than
-had been assumed.
+### Is the interpolation at least approximately right?
 
-## 20. The tide, which did not need the registration it was behind
+An unmeasured grid is not automatically a wrong one, so the next question is
+whether it reproduces the depths a surveyor actually recorded. The twenty
+soundings transcribed from the circa-1700 Dutch sheet are the only ground truth
+these coasts have. They carry chart-crop pixels rather than coordinates, so they
+cannot be compared point to point with anything; they can be compared as a
+distribution against the grid over the water the chart covers.
 
-The tide had been recorded as blocked on an AVISO or TPXO account. It is not
-need one. The IOC Sea Level Station Monitoring Facility serves observed sea
-level from 2,387 stations without an account, and the University of Hawaii
-archive holds the long records, so the range can be fitted from observation
-rather than taken from a model.
+| Group | n | Chart, metres | Grid 5th–95th percentile |
+|---|---:|---|---|
+| Cranganore entrance | 3 | 5.5–9.1 | 8.4–30.5 |
+| Cranganore approach | 8 | 9.1–21.9 | 8.4–30.5 |
+| Purakkad approach | 9 | 11.0–21.9 | 4.8–32.8 |
+
+**The grid cannot see the bar.** At Cranganore the chart's three entrance
+soundings run 5.5 to 9.1 m, and the grid's fifth percentile over the same water
+is 8.4 m: only **2.1 per cent of its cells are as shallow as the chart's
+shoalest reading**. The shoal that the Dutch surveyor drew, sounded and labelled
+is the one feature a global compilation smooths away, and it is the only feature
+that decides whether a laden ship could enter.
+
+That is the sharper form of the finding. The grid is not merely unmeasured in
+the shallow approach. It is unmeasured and systematically too deep there, which
+is the direction that would make a port look navigable when it was not.
+
+**What follows.** The historic chart soundings were described in §14 as the
+earliest bathymetry for Malabar. They are also the only bathymetry: there is
+nothing modern to check them against, and the one modern product that covers
+them disagrees in the shallows by more than the quantity under discussion. The
+twenty transcribed soundings therefore carry the depth evidence by themselves,
+and the error budget on reading them, which §20 sets out, matters more than had
+been assumed.
+
+**The honest limit on the comparison.** The grid box is larger than the water
+the chart's soundings sit on, and the soundings are not georeferenced, so this
+is a comparison of ranges rather than of places. Georeferencing the Dutch sheet
+would convert it into a point-to-point test, and that is the single piece of
+work that would most improve this section.
+
+## 20. The tide, fitted from observation, and what it does to a historic sounding
+
+The tide had been recorded as blocked on an AVISO or TPXO registration. It is
+not. The IOC Sea Level Station Monitoring Facility serves observed sea level
+from 2,387 stations without an account, and the University of Hawaii archive
+holds the long records, so the range can be fitted from observation rather than
+taken from a model.
 
 The two sources are complementary rather than redundant. The IOC network is real
 time, so several of its stations hold only weeks. Hawaii has forty years at
@@ -1163,10 +1245,49 @@ means of the residual run from +0.27 m in March to −0.14 m in July. A seasonal
 swing of 0.41 m against a 0.58 m spring range is the monsoon, and it averages
 away over a month at Zanzibar but not here.
 
-So on the Malabar coast **the season a sounding was taken in matters about as
-much as the state of the tide**. That compounds §9: the chart soundings carry
-the depth evidence alone, and they now carry two error terms of comparable size
-rather than one.
+### What this makes a circa-1700 sounding worth
+
+§19 left the twenty transcribed soundings carrying the depth evidence alone.
+The tide fit turns that into an error budget.
+
+| Term | Metres | Source |
+|---|---:|---|
+| Tide, half the Cochin spring range | ±0.29 | fitted, this project |
+| Season, half the non-tidal annual swing | ±0.21 | fitted, this project |
+| Reading a half-fathom engraving | ±0.46 | the chart's own precision |
+| **Quantifiable, in quadrature** | **±0.58** | |
+| Vertical datum of the sheet | unknown | and larger than all of the above |
+
+**The transcription error is larger than the tide.** That is the opposite of
+what the project assumed when it recorded the tide as the largest single source
+of error in historic soundings. Half a fathom is 0.91 m, so a half-fathom
+reading uncertainty is ±0.46 m, against ±0.29 m for the tide. Transcribing the
+soundings more carefully, or at higher zoom, would buy more than the whole tide
+model did.
+
+**The datum is unknown and dominates, which is why the comparison is internal.**
+Nobody knows what a Dutch chart of about 1700 reduced its soundings to. Within
+one sheet, surveyed by one hand, that offset is common to every reading and
+cancels on a difference. So the usable quantity is not an absolute depth at
+either place but the contrast between them:
+
+> **Purakkad approach minus Cranganore entrance: 8.84 m ± 0.59, which is 15
+> standard errors.**
+
+**The error propagation here is deliberately conservative**, and the naive
+version would have been wrong in the flattering direction. Treating all three
+terms as independent per sounding gives ±0.39 and 22.9 sigma. But a surveyor
+sounds one approach over a few hours and the other on a different day, so the
+tidal and seasonal offsets are common to a visit rather than independent between
+readings within it, and only the transcription error averages down. Done that
+way the figure is ±0.59, and 15 sigma rather than 23.
+
+**What that contrast settles, and what it does not.** It settles that the
+difference Gurukkal and Whittaker propose for Bakarē displacing Muziris, a
+silted bar against a deep approach, is real in the earliest measurement anyone
+made of this coast, and by a margin fifteen times its own uncertainty. It does
+not settle anything about antiquity. The sheet is around 1700, seventeen
+centuries late, and §13 applies to it as much as to everything else.
 
 **What this is not.** The fit is the astronomical tide. Surge is not in it, the
 gauge datum is not the chart datum, and Aynuna's figure comes from 146 km up the
@@ -1454,10 +1575,76 @@ later argument inherits this bracket. Mathew argued for the Pangani mouth;
 Chittick and later Chami for the Rufiji delta, with Chami additionally reporting
 submerged structures off Mafia Island. Hughes 2016 attempted a GIS approach.
 
-The Periplus places Menuthias 300 stadia off the mainland, about 46.5 km at 155 m.
-Measured island shore to mainland shore, **that favours Pemba at 42.8 km**
-against a target of 46.5, not Zanzibar at 36.1 or Mafia at 14.8. (An earlier
-version of this analysis claimed Zanzibar; that was wrong and is corrected here.)
+#### Datoo read directly, and his weighting tested
+
+The bracket had been carried at second hand through every Rhapta argument in
+this project. Read directly, Datoo does not simply give a bracket. He weights
+it, and the weighting is the part the literature drops.
+
+His bracket is explicit: "The outside limits of this locality might be said to
+be the mouths of the Pangani and the Rufiji rivers, given that the port was
+situated on a river (though not necessarily a large one)." So is the weighting:
+"in view of the meteorological conditions analysed above, it is arguable that a
+higher probability of port location for trade with the Red Sea can be assigned
+to the northern rather than the southern section of this locality, that is, to
+the stretch between Pangani and Dar es Salaam."
+
+**The weighting rests on one meteorological claim**, taken from Met Office pilot
+charts: the north-east monsoon blows with a constancy of 41 to 60 per cent only
+as far as about 4°S in February, retreating to the equator in March. A ship out
+of the Red Sea arrives in late February or March, so "it would be imprudent to
+sail far to the south of these limits if the length of sojourn in East African
+waters was intended to be relatively short."
+
+**That claim does not survive the reanalysis.** A latitude transect down the
+coast at 40°E, from NCEP monthly means since 1948, gives the steadiness of any
+flow carrying a northerly component:
+
+| Latitude | Dec | Jan | Feb | Mar |
+|---|---|---|---|---|
+| 2.5°S | 0.97 | 0.99 | 0.98 | — |
+| 5.0°S | 0.98 | 0.99 | 0.98 | — |
+| 7.5°S | 0.98 | 0.99 | 0.98 | 0.85 |
+| 10.0°S | 0.98 | 0.96 | 0.95 | — |
+
+A dash is a month when the flow is not out of the north at all. In February a
+dependable northerly reaches **at least 10°S**, the southern end of the
+transect, not the 4°S Datoo reports, and it does so at a steadiness of 0.95 and
+above. His northern weighting therefore loses the support it was resting on.
+
+**Two honest limits on that test.** Steadiness, the vector mean over the scalar
+mean, is not the Met Office's constancy, which counts the share of observations
+falling in one direction octant; the two are related and not identical. And
+Datoo's case is partly about the round trip, not just the outbound wind: he
+argues a ship must be back in the Gulf of Aden by the end of April, before the
+westerlies and the gales off the Horn. Nothing here tests that, and it is the
+part a voyage simulation would address.
+
+**What it changes.** The Rufiji end of the bracket was being discounted on a
+basis that does not hold, and every satellite, water and core layer this project
+has built for Rhapta sits in the Rufiji box. That work is on the part of the
+bracket Datoo argued against, and the argument against it is weaker than it
+looked.
+
+#### Menuthias, measured
+
+The Periplus places Menuthias 300 stadia off the mainland. Measured as the
+shortest water gap between coastlines on a 61 m grid:
+
+| Island | Narrowest channel | 300 stadia at 155 m | at the conventional 185.2 m |
+|---|---|---|---|
+| **Pemba** | **49.8 km** (31.0 miles) | 46.5 km, **93%** | 55.6 km, 112% |
+| Unguja, that is Zanzibar | 35.5 km (22.1 miles) | 131% | 157% |
+
+**Both stadia favour Pemba, and this project's calibration fits it better.** At
+155 m the notice lands within 7 per cent of the Pemba channel, which is well
+inside the rounding structure of §4.1, where 300 is a round hundred. Zanzibar is
+out by 31 per cent on the most favourable reading available.
+
+The measurement also confirms Datoo, who gives the channels as 30 and 22.5
+miles without a source; independently measured they are 31.0 and 22.1. An
+earlier figure in this file, 42.8 km for Pemba, was 7 km short and is corrected
+here.
 
 The one claim of Periplus-period material is Chami's report of four Roman glass
 beads from Mkukutu, 40 km inland of the Rufiji delta, *Current Anthropology* 40
@@ -1556,17 +1743,36 @@ He gives no reference.
    Everything we have said about 120 stadia as the tightest constraint on the
    pair rests on Casson's reading, not on the text.
 3. Claimed the 300-stadia Menuthias notice favours Zanzibar. Measured island
-   shore to mainland shore it favours **Pemba**.
-4. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
-5. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
-6. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
+   shore to mainland shore it favours **Pemba**. The correction then carried a
+   wrong number for three months: Pemba was recorded at 42.8 km, and measured
+   as the shortest gap between coastlines on a 61 m grid it is 49.8 km. The
+   conclusion was right and the figure under it was out by 7 km, which is the
+   kind of error that survives because it points the way you already decided.
+4. **Measured a strait by walking across raster rows, and got 0.1 km.** The
+   first attempt at the Menuthias channels stepped west to east along each row
+   looking for the first land, then the next, which in the Pemba and Zanzibar
+   channels finds a mangrove islet rather than the far shore. Labelling land as
+   connected components and taking the shortest distance between the mainland
+   and the island gives the right answer. A result three orders of magnitude
+   out is easy to catch; the lesson is that the same bug at ten per cent would
+   not have been.
+5. **Nearly propagated a correlated error as an independent one.** The
+   Purakkad-to-Cranganore depth contrast in §20 came out at 22.9 sigma when all
+   three error terms were averaged down across soundings. Two of them, the tide
+   and the season, are common to a survey visit rather than independent between
+   readings within it, so they do not average. Done correctly the figure is 15
+   sigma. The conclusion held either way, which is exactly why it would not
+   have been caught by looking at the conclusion.
+6. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
+7. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
+8. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
    says the promontory Papica, not Astakapra.
-7. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
+9. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
    the volumes with a Devanagari OCR model, so English came out as mojibake. An
    early search over that derived text falsely showed every Kerala candidate
    absent from 59 years of reporting. Artefact, discarded. The PDFs carry a clean
    English text layer and were re-extracted from directly.
-8. **Chapter and title assignment is unreliable in some IAR volumes, and one
+10. **Chapter and title assignment is unreliable in some IAR volumes, and one
    candidate notice was nearly lost to it.** The 2006-07 entry reporting "the
    first time a neolithic axe has been discovered from the higher reaches of the
    Kallada river basin" carries the title "MUGHAL INSCRIPTION, KANNAUJ" in our
@@ -1575,7 +1781,7 @@ He gives no reference.
    exploration in Mahbubnagar under archaeological chemistry. Any count that
    rests on the chapter field, including the 75 Kerala fieldwork entries in §3.2,
    should be treated as approximate until the chapter boundaries are re-derived.
-9. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
+11. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
    PRADESH" carries three internal spaces, so the boundary regex missed it and
    Madhya Pradesh districts were absorbed into the Kerala block; six of eight
    apparent Kerala Early Historic entries were from Sagar, Vidisha, Chhatarpur,
@@ -1584,10 +1790,9 @@ He gives no reference.
    Pattanam. And the first entry of every block was dropped because the pattern
    required whitespace after the separator, which silently removed the Cranganore
    excavation.
-10. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
+12. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
    182,000 works, mostly organised crime; "Quseir al-Qadim" 1.5 million. Raw hit
    counts are useless as an attention metric.
-
 ---
 
 

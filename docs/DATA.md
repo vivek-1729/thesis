@@ -28,6 +28,7 @@ The only stream that speaks about the first century directly.
 | Ptolemy's coordinates | Held | 497 for India, 23 on these coasts |
 | Ptolemy control points | Derived | 8, `ptolemy_control_points.csv` |
 | Positional assertions across the literature | Hand-built | 61, `positional_assertions.csv` |
+| **Datoo 1970, Rhapta** | **Held and read** | `library/scholarship`, via Harvard ILL |
 | **Tamil Sangam corpus, in Tamil** | **Held** | **40 files, 17 works, `library/sangam`** |
 | Sangam port-name counts | Derived | 46 rows, `sangam_port_mentions.csv` |
 | Casson 1989, Schoff 1912, Ptolemy, Cosmas, McCrindle | Held | 6 PDFs, 123 MB |
@@ -94,7 +95,7 @@ The largest stream by volume and the thinnest by date.
 | Gallica, catalogued | Metadata | 915 sheets, 791 dated before 1800 |
 | **Gallica, selected** | **Chosen, download blocked** | **132 naming a candidate's neighbourhood** |
 | David Rumsey | Held | 50 files, 43 MB, noisy catalogue |
-| Dutch chart soundings | Transcribed | 20 points, Cranganore and Purakkad |
+| Dutch chart soundings | Transcribed, error budget fitted | 20 points; ±0.58 m quantifiable, datum unknown |
 | Survey of India 58 B/C/G, 1911–13 | **Not online** | Harvard Map Collection |
 | ADM 352 manuscript originals | **Not online** | The National Archives |
 | Qatar Digital Library | **Blocks scripts** | India Office Records |
@@ -128,6 +129,7 @@ Gathered after it turned out none of it needed an account.
 | **GMRT bathymetry** | **Gathered, 6 port boxes** | 65 MB; **0 % measured at every one** |
 | **Tidal range, fitted from observation** | **6 ports** | `tidal_range.csv`; IOC and Hawaii gauges, 59 MB |
 | **NCEP wind climatology** | **11 sites × 12 months** | 132 rows, 1948– |
+| **East African coast wind transect** | **5 latitudes × 12 months** | tests Datoo's meteorological claim |
 
 ### Subsurface and dated
 
@@ -214,7 +216,7 @@ Gathered after it turned out none of it needed an account.
 | ADM 352 manuscript charts | The National Archives, in person |
 | Qatar Digital Library | blocks programmatic access entirely |
 | Turner 1989, *Roman Coins from India* | out of print; Appendix 1 is the stray-find catalogue |
-| Datoo 1970 on Rhapta | Taylor and Francis, half an hour |
+
 | Khan, *Banbhore: A Preliminary Report* | the original excavation |
 | Salles and Sedov 2010, *Qāni'* | print only, 553 pp |
 | Is Naura in or out? | your decision |
