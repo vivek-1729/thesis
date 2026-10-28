@@ -228,6 +228,91 @@ serve as the modern end of a comparison.
 
 ---
 
+## 8. Three of the four maps are now held, from an archive no index covers
+
+Section 7 said the four palaeochannel maps needed a browser or the proxy. Three
+of them did not.
+
+**Narayana, Priju and Chakrabarti 2001 is held.** It was never a browser-only
+item. The Journal of the Geological Society of India runs an Open Journal
+Systems instance with free PDFs back to the 1960s, and the paper downloads
+directly from it. The reason the project had it marked otherwise is that the
+publisher DOI resolves to a challenge page while the journal's own archive does
+not, and no index had pointed at the archive: Unpaywall does not cover it and
+the OpenAlex sweep in `src/query_geo_literature.py` never saw it.
+
+That is the more useful finding. JGSI is where the Indian coastal-geomorphology
+literature was published, which is to say most of the geomorphic evidence for
+four of the seven ports. `src/harvest_jgsi.py` sweeps it on twenty-two queries
+across Malabar and the Indus, filters on the title because the search is full
+text and a query for Periyar returns the Annual General Meeting proceedings, and
+deduplicates on the title because papers are often deposited twice under
+different identifiers.
+
+**Orengo and Petrie 2017 is held**, from the Cambridge repository rather than
+from MDPI, which refuses scripted requests.
+
+**Giosan et al. 2012 is not, and now has a definite reason.** It is in PubMed
+Central as PMC3387054, but Europe PMC answers a request for the file with
+`Article with id PMC3387054 is not open access one`. PNAS deposits under the
+free-to-read-after-six-months arrangement rather than an open licence, so the
+paper is free to a person in a browser and closed to anything else. That is a
+one-click item and will not become anything else.
+
+**Priju et al. 2018 is still paywalled, and there is a better target behind it.**
+The author's institutional page at the Centre for Water Resources Development
+and Management lists two funded projects behind the published chapter, one
+funded by DST-SERB and one completed on 31 December 2022, titled *An integrated
+study of Paleo-channel aquifers of Periyar river basin using hydrogeological,
+geo-electrical and isotope methods*. Those carry final technical reports with
+the sounding positions in them and none of it is published. The address is
+`priju@cwrdm.org`, and an email is recorded in `docs/things-for-you.md` as the
+highest-return action outstanding.
+
+**A fourth paper turned up that was not being looked for.** Punwong, Selby and
+Marchant 2018, in *Estuarine, Coastal and Shelf Science*, is the peer-reviewed
+publication of the Tanzanian cores that `src/extract_punwong_cores.py` reads out
+of Punwong's 2013 thesis. The accepted manuscript is open at White Rose. It
+matters because it converts those dates into sea-level index points: it states
+the indicative range for mangrove as -1.14 m to +0.57 m relative to mean tide
+level, which the thesis does not, and it rejects two dates for reconstruction,
+at 19 cm in core BNR and 115 cm in core CNR. Our extraction independently flags
+the first of those as post-bomb, which is a check on the extraction passing.
+
+---
+
+## 9. The 2001 figure georeferences to about seventy metres
+
+Figure 2 of Narayana, Priju and Chakrabarti is the only published map of the
+palaeo-landscape at the Periyar mouth. It marks two palaeodeltas, at Munambam
+and at Varapuzha, two yazoo belts, and a line labelled ANCIENT SHORELINE running
+inland of the modern coast from near Krishnan Kotta through Parur and again
+south of Edapalli past Chitrapuzha.
+
+It georeferences for the same reason the Admiralty sheets do. It carries its own
+graticule, labelled 76 degrees 10 to 25 minutes east along the top and 10
+degrees 15 down to 9 degrees 55 north down the right. `src/charts/narayana_fig2.py`
+fits an affine transform through eleven ticks.
+
+**The result is 12.9 m per pixel, with an RMS residual of 5.2 pixels or 67 m and
+a worst case of 117 m.** The figure is not better than that, and the reason is
+visible in the ticks: the top and bottom borders disagree about where a given
+meridian sits, by an amount that falls from 33 pixels at 76 degrees 15 to 16
+pixels at 76 degrees 25. A rotation would give a constant offset and so would a
+shear. A page curving into the binding of a scanned journal gives this.
+
+**The fit was checked against five places the map names and the gazetteer
+places independently**, at Munambam, Parur, Alwaye, Ernakulam and Kodungallur.
+All five predicted positions land on their printed labels.
+
+**The caveat is the one the paper states itself.** It assigns no age to the
+ancient shoreline or to either palaeodelta, and closes by saying that efforts
+are being made to date the geomorphic elements. Nothing on this figure is a
+first-century coastline until something dates it. What the figure gives is a
+mapped landform, at seventy metres, on the same ground as the candidates.
+
+---
+
 ## Still open from this work
 
 - Sheets 751, Indus 41 and 118, and Red Sea 8a to 8c.
