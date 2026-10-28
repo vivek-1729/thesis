@@ -1,0 +1,829 @@
+source,port,band,km,site,lat,lon,kind,material,date,bp,err,note,reference
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4552,9920,80,NA,"[{""reference"": ""Goring-Morris 1991, 212""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4568,9970,120,NA,"[{""reference"": ""Goring-Morris 1991, 212""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4572,9790,100,NA,"[{""reference"": ""Goring-Morris 1991, 212""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,107.4,Ujrat el-Mehed 1,28.57,33.93,settlement,charcoal,Pta-2703,8220,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,"Timma Mines, Site F2",29.7878,34.9889,smelting site,charcoal,OxA-5912,2925,60,NA,"[{""reference"": ""RADON""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-926B,5400,100,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1216,6090,65,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-989,5640,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-2999,6460,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1514,8200,90,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1518,4990,50,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1606,6680,85,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1608,5690,55,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1700,7950,110,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5121,4863,39,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5076,5186,34,NA,"[{""reference"": ""Görsdorf 2002a""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5246,4850,33,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5247A,4709,80,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5249,4879,30,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5250,5025,29,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,Bln-5273,4667,60,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5274,4859,31,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4551,9790,100,NA,"[{""reference"": ""Goring-Morris 1991, Kuijt and Bar-Yosef 1994""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4577,9870,100,NA,"[{""reference"": ""Goring-Morris 1991, Kuijt and Bar-Yosef 1994""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4568,9970,120,NA,"[{""reference"": ""Goring-Morris 1991, Kuijt and Bar-Yosef 1994""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1"
+XRONOS,Leukē Kōmē,within 200 km,115.9,Tbeik,28.82,33.94,settlement,charcoal,Pta-2700,10350,100,NA,"[{""reference"": ""Bar-Yosef 1981d, Gopher 1985""}, {""reference"": ""Flohretal2016""}, {""reference"": ""p3k14c""}, {""reference"": """
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1630,5625,70,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1608,5690,55,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3000,8430,80,NA,"[{""reference"": ""Goring-Morris and Gopher 1983, Weinstein 1984, Avner et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1692,6350,90,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1509,7870,55,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1520,7990,55,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1701,8290,80,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1609,8685,70,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1510,9100,85,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5118,5026,34,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5076,5186,34,NA,"[{""reference"": ""Görsdorf 2002a""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.6,Judayid J 2,29.83,35.48,,charcoal,SMU-806,12750,1000,NA,"[{""reference"": ""Henry 1982, Valla 1987b, Henry 1989, Schyle 1996""}, {""reference"": ""Henry 1982 Valla 1987b Henry 1989 Sch"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1701,8290,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1216,6060,65,"Tomb V, hearth 28, 15 cm below surface","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,171.9,Yotvata 6,29.8956,35.0601,settlement,charcoal,RT-1439,3980,60,NA,"[{""reference"": ""Avner and Carmi  2001""}, {""reference"": ""NERD""}]"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,SUERC-16757,8101,40,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,Wk-22549,32111,780,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,148.8,Kitumbako,-7.145333,37.631333,,bulk sediment,OS-60147,10650,50,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,142.2,Unguja Ukuu,-6.320833,39.377528,,bulk sediment,UBA-16628,4211,25,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics from Unguja Ukuu, Zanzibar. Quaternary"
+XRONOS,Rhapta,within 200 km,142.2,Unguja Ukuu,-6.320833,39.377528,,bulk sediment,UBA-19485,0,0,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics from Unguja Ukuu, Zanzibar. Quaternary"
+XRONOS,Rhapta,within 200 km,142.2,Unguja Ukuu,-6.320833,39.377528,,bulk sediment,UBA-16629,560,19,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics from Unguja Ukuu, Zanzibar. Quaternary"
+XRONOS,Rhapta,within 200 km,142.2,Unguja Ukuu,-6.320833,39.377528,,bulk sediment,UBA-16630,5973,36,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics from Unguja Ukuu, Zanzibar. Quaternary"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-41806,0,0,NA,"[{""reference"": ""Woodroffe, S. A., Long, A. J., Punwong, P., Selby, K., Bryant, C. L., & Marchant, R. (2015). Radiocarbon"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44341,3053,37,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,148.8,Kitumbako,-7.145333,37.631333,,bulk sediment,Wk-22550,2161,30,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15379,5078,26,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15381,309,23,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,Wk-26859,1292,30,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15384,3117,35,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1214,5980,130,"Hearth 22, 20 cm below surface; Tomb V, hearth 22, 20 cm below surface","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Lovell 2001; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1609,8685,70,"depth: 156-169; Locus 28 (36-1), Q34","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1608,5690,55,"depth: 140-145; Locus 35?, P31a+b","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,171.9,Yotvata 6,29.8956,35.0601,settlement,charcoal,RT-1438,3770,50,NA,"[{""reference"": ""Avner and Carmi  2001""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1699,8590,240,"depth: 185-190; Locus 41, Q36b","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1640,7135,95,"depth: 178-182; Locus 8, N31a+d+M32b","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,wood,A-11803,8465,120,"locus 5, level 12; Level 12; locus 5","[{""reference"": ""Henry et al. 2003; Benz 2014; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,wood,A-11804,8565,55,"locus 20, level 7; Level 7; locus 20","[{""reference"": ""Henry et al. 2003; Benz 2014; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,wood,A-11807,8410,80,"locus 25, level 13; Level 13; locus 25","[{""reference"": ""Henry et al. 2003; Benz 2014; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5075,4881,32,NA,"[{""reference"": ""Görsdorf 2002a""}, {""reference"": ""Görsdorf 2002""}, {""reference"": ""p3k14c""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5076,5186,34,NA,"[{""reference"": ""Görsdorf 2002a""}, {""reference"": ""Görsdorf 2002""}, {""reference"": ""p3k14c""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5119,5111,37,"Trench II, east profile, Layer 21, 3.72 m deep; layer 21, 3.72 m deep; layer 21, 3.72 m deep","[{""reference"": ""Gersdorf 2002; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5120,5290,33,"Trench II, east profile, Layer 21, 4.92 m deep; layer 21, 4.92 m deep; layer 21, 4.92 m deep","[{""reference"": ""Gersdorf 2002; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5121,4863,39,"Square B1, east profile, Layer 8","[{""reference"": ""Gersdorf 2002; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5248,4709,80,"Quadrant E12, from Pit","[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5253,5004,31,nd; G_.10/2000,"[{""reference"": ""Klimscha 2012; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,charcoal,BM-1115,2840,51,"Area E, Layer I, Furnace I","[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,156.6,Timna 200,29.7578,34.9589,smelting site,charcoal,BM-1117,2779,55,Sanctuary,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,charcoal,BM-2382,3220,50,"Slag heap, layer II","[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.1,Timna,29.7801,34.9566,smelting site,charcoal,Bonn-2363,4000,90,"Site 212, mine S28","[{""reference"": ""Weinstein JM. 1984""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,153.8,Jebel Hamra,29.72006,34.782805,desert kite,charcoal/burnt bone,Gd-11317,4390,110,NA,"[{""reference"": ""Eddy and Wendorf 1999; Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,153.8,Jebel Hamra,29.72006,34.782805,desert kite,charcoal/burnt bone,Gd-7953,4420,80,NA,"[{""reference"": ""Eddy and Wendorf 1999; Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,GrN-4493,3000,50,"Area F, Layer II","[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,105.6,Rezga (Risqeh),29.3,35.45,settlement,charcoal,K-1467,6010,120,NA,"[{""reference"": ""Avner et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27708,5425,25,Quadrant H7; Ring 0-16 tree,"[{""reference"": ""Klimscha 2012; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,KIA-35300,4795,35,"Quadrant F6 loc. 110, inside pottery vessel","[{""reference"": ""CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,136.5,Wadi Ramm,29.5776,35.4198,open air site,charcoal,Lyon-3545,4040,35,ST 1 - F4,"[{""reference"": ""BANADORA""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,147.4,Evrona,29.67532,35.01492,settlement,charcoal,RT-1847,6575,90,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,115.9,Tbeik,28.82,33.94,settlement,charcoal,Pta-2700,10350,100,Structure 13,"[{""reference"": ""CalPal; Bar-Yosef 1981""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,Pta-2999,6460,80,"layer B, depth: 158-165 cm; Locus 5, J37a","[{""reference"": ""Weinstein 1984; Avner et al. 1994; Carmi et al. 1994; BANADORA; Benz 2014; CalPal; Flohr et al. 2016""}, "
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3376,8050,80,"layer C; layer C, depth: 160; Locus 2","[{""reference"": ""Goring-Morris and Gopher 1983; Weinstein 1984; Avner et al. 1994; CalPal; Flohr et al. 2016""}, {""referen"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3486,6130,70,"layer c; layer C, depth: 160; Locus 15","[{""reference"": ""Goring-Morris and Gopher 1983; Weinstein 1984; Avner et al. 1994; CalPal; Flohr et al. 2016""}, {""referen"
+XRONOS,Leukē Kōmē,within 200 km,176.9,Uvda Valley,29.9397,34.9404,camp site,charcoal,RT-,6400,200,NA,"[{""reference"": ""Gilead 1988""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,charcoal,RT-1419,4370,100,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1507,8080,90,"depth: 200-205; Locus 34, M37c","[{""reference"": ""CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1511,8120,80,"NIS; depth: 150-155; Locus 17, H37a","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1513,5170,55,"depth: 174-179; Locus 9 (10-1), N-O/40","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1515,8785,80,"NIS; depth: 210-215; Locus 25, L40a+c","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1520,7990,55,"Locus 36A, O35c","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.8,Samar East,29.832525,35.032476,desert kite,charcoal,Rt-2716,4080,25,NA,"[{""reference"": ""Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,151.4,Be'er Ora,29.7111,34.9791,settlement,charcoal,RT-2547,3455,40,NA,"[{""reference"": ""Segal and Carmi 2004""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,coprolite,RT-3172,4015,40,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,coprolite,RT-3173,4010,45,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.7,‘Uvda 16,29.92,34.92,settlement,NA,RT-640A,4800,70,habitation,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.7,‘Uvda 16,29.92,34.92,settlement,charcoal,RT-640B,4400,60,habitation,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.9,Shaharut IV,29.9047,34.9997,settlement,wood,RT-899C,3700,55,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-926A,6340,60,"Hearth 4, 20 cm below surface, next to tomb; Hearth 4 next to Tomb IV, 20 cm below surface","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Lovell 2001; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,186.8,Gebel Mishraq,30.03,35.36,settlement,NA,SMU-905,11985,109,J504,"[{""reference"": ""CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8030,120,NA,"[{""reference"": ""Benz 2014""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,115.9,Tbeik,28.82,33.94,settlement,charbon,Pta-2700,10350,100,loc.13,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.4,Ujrat-el-Mehed 1,28.477,33.325,plein air,charbon,Pta-2703,8220,80,NA,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charbon,Pta-3376,8050,80,NA,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11807,8410,80,NA,"[{""reference"": ""Henry 2002""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,charcoal,A-12281,4830,185,NA,"[{""reference"": ""Henry 2002 16""}, {""reference"": ""p3k14c""}]"
+XRONOS,Barbarikon,within 50 km,31.3,Khirsara,24.250061183263,68.1536423997635,,Wheat,Beta-422014,3760,30,NA,"[{""reference"": ""Liu et al. 2016""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5247A,4709,80,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5248,4709,80,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,186.8,G. Mishraq J 504,30.03,35.36,,NA,SMU-905,11985,109,NA,"[{""reference"": ""Henry 1986, Schyle 1996""}, {""reference"": ""CALPAL; CONTEXT""}, {""reference"": ""p3k14c""}, {""reference"": ""CON"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1213,5490,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1214,5980,130,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5074,4879,32,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5075,4881,32,NA,"[{""reference"": ""Görsdorf 2002a""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,194.6,Reu'el,30.1,35.1,,charcoal,Pta-3137,8720,70,NA,"[{""reference"": ""Gopher 1985, Avner et al. 1994, Kuijt and Bar-Yosef 1994""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,inconnu,Pta-2699,10110,100,NA,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4551,9790,100,NA,"[{""reference"": ""Goring-Morris 1991, 212""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4577,9870,100,NA,"[{""reference"": ""Goring-Morris 1991, 212""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4580,9800,80,NA,"[{""reference"": ""Goring-Morris 1991, 212""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,116.3,Wadi Tbeik,28.81,33.93,,charcoal,Pta-2700,10350,100,NA,"[{""reference"": ""PPND, Gopher 1994,""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1213,5490,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1509,7870,55,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1513,5170,55,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1607,9195,70,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1609,8685,70,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1665,7600,110,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-3137,8620,60,NA,"[{""reference"": ""Kuijt, Bar-Yosef 1994:240""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna Site 39,29.7878,34.9889,smelting site,charcoal,OxA-7632,5485,45,NA,"[{""reference"": ""RADON""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,nd-10,8509,64,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,'Ain Jammam,30.0203,35.4686,Southern Jordan,NA,Beta-56561,8520,190,NA,"[{""reference"": ""Gebel 2008, PPND, CalPal""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5252,5405,31,NA,"[{""reference"": ""Klimscha""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5247,4849,31,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27708,5425,25,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27709,5235,25,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27710,5049,26,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,KIA-35300,4795,35,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,KIA-35301,4760,35,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5274A,4867,30,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5254,4669,38,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4552,9920,80,NA,"[{""reference"": ""Goring-Morris 1991, Kuijt and Bar-Yosef 1994""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1506,5635,70,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1663,5755,85,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1606,6680,85,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1640,7135,95,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1700,7950,110,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1511,8120,80,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1522,8350,75,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1512,8650,85,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1607,9195,70,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5119,5111,37,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5120,5290,33,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna Site 39,29.7878,34.9889,smelting site,charcoal,OxA-7632,5485,45,"Timna 39,15","[{""reference"": ""RADON""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1663,5755,85,"depth: 131-136; Locus 8?, P33a+b","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1212,5930,80,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1215,6090,65,"Hearth 27, 15 cm below surface","[{""reference"": ""Lovell 2001; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1512,8650,85,"NIS; depth: 175-180; Locus 15, S36cd+T35d","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1515,8785,80,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,wood,RT-1210,5710,75,"Tomb IV, 20 cm below surface next to tomb","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,Beta-249996,5820,50,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,142.2,Unguja Ukuu,-6.320833,39.377528,,bulk sediment,UBA-16626,169,22,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics from Unguja Ukuu, Zanzibar. Quaternary"
+XRONOS,Rhapta,within 200 km,142.2,Unguja Ukuu,-6.320833,39.377528,,bulk sediment,UBA-16627,1534,23,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics from Unguja Ukuu, Zanzibar. Quaternary"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44339,0,0,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-42739,4024,40,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44344,6847,39,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,148.8,Kitumbako,-7.145333,37.631333,,bulk sediment,Wk-23590,6213,34,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15378,1615,24,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,Wk-26855,4167,30,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-16631,1695,50,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,Wk-26857,4931,30,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-19416,6878,36,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15383,5200,35,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44345,7092,38,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Leukē Kōmē,within 200 km,177.5,‘Uvda 166,29.946534,34.995604,habitation,charcoal,RT-1421,3680,50,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,eggshell,RT-1436,4440,60,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,charcoal,RT-1452,4370,50,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,charcoal,RT-1448,4120,60,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,coprolite,RT-1451,4280,60,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1700,7950,110,"depth: 190-200; Locus 27, F40b","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1630,5625,70,"depth: 135-140; Locus 42, U32a","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1692,6350,90,"depth: 131-136; Locus 31 (36-9), T33d","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,wood,A-11805,8370,80,"locus 20, level 10/11; Level 10/11; locus 20","[{""reference"": ""Henry et al. 2003; Benz 2014; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,charcoal,A-12281,4830,185,NA,"[{""reference"": ""Henry et al. 2002; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,Beta-56561,8520,190,lowest sample; bulldozer section,"[{""reference"": ""Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5118,5026,34,"Trench II, east profile, Layer 19, 2.85 m deep; layer 19, 2.85 m deep; layer 19, 2.85 m deep","[{""reference"": ""Gersdorf 2002; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,105.6,Rezga (Risqeh),29.3,35.45,settlement,charcoal,Bln-5244,5504,34,"Gö.1/2000 site 13, top","[{""reference"": ""CalPal; Flohr et al. 2016 Quaternary Science Reviews 136""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,105.6,Rezga (Risqeh),29.3,35.45,settlement,charcoal,Bln-5245,5491,36,"Gö.2/2000 site 13, Abhub 1","[{""reference"": ""CalPal; Flohr et al. 2016 Quaternary Science Reviews 136""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5247,4849,31,"Quadrant D8, Probe aus Lehmziegelmauer","[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5249,4879,30,"Quadrant E12, from Pit","[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5251,4820,30,"Quadrant D12, Profile of illegal excavation","[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna Valley,29.7878,34.9889,smelting site,charcoal,BM-1162,2480,35,Layer I,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,155.5,Timna F2,29.7478,34.9489,smelting site,charcoal,BM-1368,3030,50,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,153.8,Jebel Hamra,29.72006,34.782805,desert kite,charcoal/burnt bone,Gd-7948,4530,60,NA,"[{""reference"": ""Eddy and Wendorf 1999; Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,158.8,Timna 30,29.7778,34.9789,smelting site,charcoal,Ham-215,4020,100,NA,"[{""reference"": ""Avner and Carmi  2001""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,162.1,Timna 18,29.8078,34.9989,smelting site,NA,HAM-210,3050,70,Copper Mine,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna S19,29.7877,34.9879,smelting site,NA,HAM-211,2640,60,Copper Mine,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna 28,29.7878,34.9889,smelting site,NA,HAM-212,2780,90,Copper Mine,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,Hd-3625-2782,2940,50,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27710,5049,26,Quadrant H7; Ring 325-338 tree,"[{""reference"": ""Klimscha 2012; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,136.5,Wadi Ramm,29.5776,35.4198,open air site,charcoal,Lyon-3546,6295,35,US 109,"[{""reference"": ""BANADORA""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.1,Timna,29.7801,34.9566,smelting site,bone (charred),OxA-2165,2650,90,NA,"[{""reference"": ""ORAU; Bronk Ramsey et al. 2015""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,"Timma Mines, Site F2",29.7878,34.9889,smelting site,charcoal,OxA-5912,2925,60,NA,"[{""reference"": ""Hinz et al. 2012: http://radon.ufg.uni-kiel.de/samples/4803""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna Site 39,29.7878,34.9889,smelting site,charcoal,OxA-7632,5485,45,NA,"[{""reference"": ""Hinz et al. 2012: http://radon.ufg.uni-kiel.de/samples/13142; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,135.8,Mount Serbal,28.646389,33.651667,shrine,organic material,RT-1839,1980,45,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-3137,8720,70,Base ash pit locus 11,"[{""reference"": ""Avner et al. 1994; Kuijt and Bar-Yosef 1994; Ronen et al. 2001; Benz 2014; Flohr et al. 2016 Quaternary "
+XRONOS,Leukē Kōmē,within 200 km,177.5,‘Uvda 166,29.946534,34.995604,habitation,charcoal,RT-1420,4210,60,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1508,7620,80,"NIS; depth: 175-180; Locus 12, M35a+b","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1509,7870,55,"depth: 200-205; Locus 12, M35a+b","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1510,9100,85,"NIS; depth: 220-230; Locus 17, I37a+b","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.8,Samar East,29.832525,35.032476,desert kite,charcoal,Rt-2715,3775,40,NA,"[{""reference"": ""Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,coprolite,RT-3174,4030,45,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,eggshell,RT-714A,4070,100,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.5,‘Uvda 166,29.946534,34.995604,habitation,charcoal,RT-714B,3850,80,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.3,Uvda 21,29.944331,34.972881,habitation,charcoal,RT-724F,4015,80,NA,"[{""reference"": ""Carmi 1992""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,charcoal,RT-889B,4520,60,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.9,Shaharut IV,29.9047,34.9997,settlement,wood,RT-899D,3100,60,tomb IV,"[{""reference"": ""Carmi 1992""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.7,Samar kites,29.831193,35.016355,desert kite,charcoal,RTT-5772,3985,60,NA,"[{""reference"": ""Nadel et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.7,Samar kites,29.831193,35.016355,desert kite,charcoal,RTT-5870,4270,50,NA,"[{""reference"": ""Nadel et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,RTT-5277,2920,35,Area A,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,RTT-5278,2965,35,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8520,190,NA,"[{""reference"": ""Benz 2014""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8520,190,NA,"[{""reference"": ""Benz 2014""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8030,120,NA,"[{""reference"": ""CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8030,120,phase LPPNB,"[{""reference"": ""Rollefson 2005""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charbon,Pta-3000,8430,80,NA,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11802,8625,85,NA,"[{""reference"": ""Henry 2002""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5118,5026,34,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5119,5111,37,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5251,4820,30,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5253,5004,31,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27709,5235,25,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,"Timma Mines, Site F2",29.7878,34.9889,smelting site,charcoal,OxA-5912,2925,60,"F2/76, 1501","[{""reference"": ""RADON""}, {""reference"": ""RADON-B""}]"
+XRONOS,Leukē Kōmē,within 200 km,175.7,Tor Hamar,29.93,35.3,,charcoal,SMU-1399,12680,320,NA,"[{""reference"": ""Henry 1986, Henry 1989, Schyle 1996""}, {""reference"": ""Henry 1986 Henry 1989 Schyle 1996""}, {""reference"":"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,SUERC-16754,223,35,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timma Mines Site F2,29.78778,34.98889,,charcoal,OxA-5912,2925,60,NA,"[{""reference"": ""p3k14c""}, {""reference"": ""RADON""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1212,5930,80,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-926A,6340,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,194.6,Reu'el,30.1,35.1,,charcoal,Pta-3202,8650,90,NA,"[{""reference"": ""Gopher 1985, Avner et al. 1994, Kuijt and Bar-Yosef 1994""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,194.6,Reu'el,30.1,35.1,,charcoal,Pta-2848,8670,50,NA,"[{""reference"": ""Gopher 1985, Avner et al. 1994, Kuijt and Bar-Yosef 1994""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-2848,8670,60,NA,"[{""reference"": ""Kuijt, Bar-Yosef 1994:240""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-2699,10110,100,NA,"[{""reference"": ""Garfinkel 2006""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-3635,8640,120,NA,"[{""reference"": ""Garfinkel 2006""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-926A,6340,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1214,5980,130,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1215,6090,65,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3486,6130,70,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1506,5635,70,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-15076,8080,90,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1508,7620,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1510,9100,85,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1515,8785,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1516,7460,95,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1520,7990,55,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1638,8265,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1699,8590,240,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11803,8465,120,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11804,8565,55,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11805,8370,80,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,charcoal,A-12281,4830,185,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5118,5026,34,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5119,5111,37,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5120,5290,33,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5248,4709,80,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4572,9790,100,NA,"[{""reference"": ""Goring-Morris 1991, Kuijt and Bar-Yosef 1994""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-4580,9800,80,NA,"[{""reference"": ""Goring-Morris 1991, Kuijt and Bar-Yosef 1994""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1518,4990,50,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3486,6130,70,NA,"[{""reference"": ""Goring-Morris and Gopher 1983, Weinstein 1984, Avner et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1513,5170,55,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3377,8180,80,NA,"[{""reference"": ""Goring-Morris and Gopher 1983, Weinstein 1984, Avner et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1691,7100,70,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1664,8330,100,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.6,Judayid J 2,29.83,35.48,,charcoal,SMU-803,12784,659,NA,"[{""reference"": ""Henry 1982, Valla 1987b, Henry 1989, Schyle 1996""}, {""reference"": ""Henry 1982 Valla 1987b Henry 1989 Sch"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,KIA-35300,4795,35,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1521,8390,95,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,wood,RT-1210,5640,60,"Hearth 16, 20 cm below surface, next to tomb","[{""reference"": ""CalPal; Lovell 2001""}, {""reference"": ""NERD""}]"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,Beta-249995,1140,40,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,Wk-18791,42606,1,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,UBA-15387,0,0,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44338,5290,38,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15382,7202,30,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Leukē Kōmē,within 200 km,151.4,Be'er Ora,29.7111,34.9791,settlement,charcoal,RT-1440,3470,60,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,charcoal,RT-1450,4075,55,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.8,‘Uvda 124/IV,29.949353,34.984972,habitation,charcoal,RT-1449,4285,60,NA,"[{""reference"": ""Avner et al. 1994""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1607,9195,70,"depth: 206-210; Locus 10, M40d","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,112.8,Sheikh 'Awad,28.649665,33.897141,settlement,charcoal,RT-1806,4325,55,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,168.6,Serabit el-Khadim,29.036667,33.459167,mining settlement,NA,RT-1809,5230,55,NA,"[{""reference"": ""CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,151.4,Be'er Ora,29.7111,34.9791,settlement,charcoal,RT-1825,3730,55,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5247A,4709,80,"Quadrant D8, Probe aus Lehmziegelmauer","[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5274A,4867,30,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""p3k14c""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5252,5405,31,"G_ 9/2000,-23,0,; nd; G_ 9/2000,-23,0,","[{""reference"": ""CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5274,4859,31,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""p3k14c""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,plant remains,Bln-5893,4939,40,"from pottery vessel, Quadrant C8 loc 35,1","[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,GrA-4493,3000,50,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,157.7,Timna 27,29.7678,34.9689,smelting site,NA,HAM-208,2910,60,Copper Mine,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,KIA-35301,4760,35,"Quadrant F6 loc. 110, inside pottery vessel","[{""reference"": ""CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-2848,8670,50,Base ash pit locus 11,"[{""reference"": ""Avner et al. 1994; Kuijt and Bar-Yosef 1994; Benz 2014; Flohr et al. 2016 Quaternary Science Reviews 136"
+XRONOS,Leukē Kōmē,within 200 km,175.8,‘Uvda 17,29.93,34.94,settlement,charcoal,Pta-3340,4100,50,habitation,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,175.8,‘Uvda 17,29.93,34.94,settlement,charcoal,Pta-3342,3870,40,habitation,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,Pta-4121,3090,60,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,Pta-4123,2880,60,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,Pta-4121,3090,60,"Area Z, bottom of slag heap","[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,176.9,Uvda Valley,29.9397,34.9404,camp site,charcoal,RT-,6560,90,NA,"[{""reference"": ""Gilead 1988""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1506,5635,70,"depth: 175-185; Locus 39, W38c. From hearth in sediments overlying erosional event.","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1514,8200,90,"NIS; depth: 210-215; Locus 36-5, T33","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1516,7460,95,"NIS; depth: 205-210; Locus 46, K42a","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1521,8390,95,"NIS; Locus 36, O35","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,151.4,Be'er Ora,29.7111,34.9791,settlement,charcoal,RT-2548,3495,40,NA,"[{""reference"": ""Segal and Carmi 2004""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.9,Shaharut IV,29.9047,34.9997,settlement,wood,RT-771B,3582,130,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,charcoal,RT-864A,4310,90,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,charcoal,RT-864B,4440,180,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-926B,5400,100,Hearth next to tomb; Hearth 1 next to Tomb IV,"[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Lovell 2001; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-989,6470,60,"charcoal from the base of Tomb IV, 80 cm depth, B16","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,RTT-5276,3125,35,Area C,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8030,120,NA,"[{""reference"": ""Benz 2014""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8520,190,NA,"[{""reference"": ""CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,,8520,190,phase LPPNB,"[{""reference"": ""Rollefson 2005""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charbon,Pta-3377,8180,80,NA,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charbon,Pta-3486,6130,70,NA,"[{""reference"": ""base ASPRO""}, {""reference"": ""BDA""}]"
+XRONOS,Leukē Kōmē,within 200 km,138.5,Moyat Daba'iya,29.18,33.94,settlement,NA,RT-1855,5355,60,NA,"[{""reference"": ""Burton and Levy 2001; Clare 2010; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11803,8465,120,NA,"[{""reference"": ""Henry 2002""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,'Ain Jammam,30.0203,35.4686,Southern Jordan,n.d.,Beta-56561,8520,190,NA,"[{""reference"": ""Smith 1992""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5074,4879,32,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5121,4863,39,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5250,5025,29,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,grapes,Bln-5893,4939,40,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,186.8,G. Mishraq J 504,30.03,35.36,,NA,SMU-905,11985,109,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,Wk-22548,3618,30,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-2848,8670,60,NA,"[{""reference"": ""Kuijt Bar-Yosef 1994:240""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1211,5640,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,RT-1507,8080,90,NA,"[{""reference"": ""Flohretal2016""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11802,8625,85,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11802,8625,85,Level 9; locus 2,"[{""reference"": ""Henry et al.  2002; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11804,8565,55,NA,"[{""reference"": ""Henry 2002""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5075,4881,32,NA,"[{""reference"": ""Görsdorf 2002a""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5074,4879,32,"Square B1,east profile, Layer 8","[{""reference"": ""Gersdorf 2002; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-3635,8640,120,NA,"[{""reference"": ""Gopher 1985""}, {""reference"": ""Goring-Morris 1991; Kuijt and Bar-Yosef 1994""}, {""reference"": ""CALPAL; Flo"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,wood,RT-1210,5640,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3000,8430,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3376,8050,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3377,8180,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1511,8120,80,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1512,8650,85,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1522,8350,75,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1630,5625,70,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1640,7135,95,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1663,5755,85,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1664,8330,100,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1691,7100,70,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1692,6350,90,NA,"[{""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-3202,8550,60,NA,"[{""reference"": ""Kuijt, Bar-Yosef 1994:240""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11806,8610,95,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11807,8410,80,NA,"[{""reference"": ""Henry 2003""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,'Ain Jammam,30.0203,35.4686,Southern Jordan,NA,Beta-56560,8030,120,NA,"[{""reference"": ""Gebel 2008, PPND, CalPal""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5251,4820,30,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5253,5004,31,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,grain/fruit,Bln-5893,4939,40,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27709,5235,25,Quadrant H7; Ring 185-200 tree,"[{""reference"": ""Klimscha 2012; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,101.2,Abu Madi I,28.55,33.99,settlement,charcoal,Pta-2699,10110,100,NA,"[{""reference"": ""Bar-Yosef 1981d, Goring-Morris 1991, Schyle 1996""}, {""reference"": ""Kuijt and Bar-Yosef 1994""}, {""referen"
+XRONOS,Leukē Kōmē,within 200 km,107.4,Ujrat el-Mehed 1,28.57,33.93,settlement,charcoal,Pta-2703,8220,80,NA,"[{""reference"": ""Bar-Yosef 1981d, Weinstein 1984""}, {""reference"": ""Robinson K.R. 1961. An early iron-age site from the Ch"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-2999,6460,80,NA,"[{""reference"": ""Weinstein 1984, Avner et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CO"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3376,8050,80,NA,"[{""reference"": ""Goring-Morris and Gopher 1983, Weinstein 1984, Avner et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1516,7460,95,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1665,7600,110,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1508,7620,80,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-15076,8080,90,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1514,8200,90,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1638,8265,80,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1521,8390,95,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,NA,RT-1699,8590,240,NA,"[{""reference"": ""Carmi et al. 1994""}, {""reference"": ""CALPAL""}, {""reference"": ""p3k14c""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5074,4879,32,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.6,Judayid J 2,29.83,35.48,,charcoal,SMU-805,12090,800,NA,"[{""reference"": ""Henry 1982, Valla 1987b, Henry 1989, Schyle 1996""}, {""reference"": ""Henry 1982 Valla 1987b Henry 1989 Sch"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1606,6680,85,"depth:165-178; Locus 14?, F37a","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1211,5640,60,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""CalPal2022""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1211,5640,60,"Hearth 16, 20 cm below surface; Tomb V, hearth 16, 20 cm below surface","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Lovell 2001; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1664,8330,100,"depth: 184-190; Locus 19, M39d","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Rhapta,within 200 km,150.8,Deva-Deva,-7.1222,37.620533,,bulk sediment,OS-60146,19950,85,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,UBA-15385,0,0,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44337,1803,36,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-41805,2072,35,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,organic concentrate,SUERC-44340,2864,38,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,Wk-26854,392,30,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-15380,3111,24,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-19415,1543,25,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,Wk-26856,4751,30,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,in box,0.0,Northern Rufiji Delta,-7.789444,39.399722,,bulk sediment,Wk-26858,884,31,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics and environmental change in the Rufiji"
+XRONOS,Rhapta,within 200 km,184.7,Macoba Bay,-5.938972,39.205333,,bulk sediment,UBA-16632,4239,37,NA,"[{""reference"": ""Punwong P, Marchant R, Selby K (2013). Holocene mangrove dynamics in Makoba Bay, Zanzibar. Palaeogeograp"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1212,5930,80,"Hearth 18, 20 cm below surface; Tomb V, hearth 18, 20 cm below surface","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Lovell 2001; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-1213,5490,60,"Hearth 19, 20 cm below surface; Tomb V, hearth 19, 20 cm below surface","[{""reference"": ""Carmi and Segal 1992; Avner et al. 1994; Lovell 2001; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}"
+XRONOS,Leukē Kōmē,within 200 km,151.4,Be'er Ora,29.7111,34.9791,settlement,charcoal,RT-1437,3430,50,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,157.7,Timna 27,29.7678,34.9689,smelting site,NA,HAM-207,2910,70,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1665,7600,110,"NIS; depth: 210-215; Locus 5, K37d","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1638,8265,80,"depth: 188-195; Locus 2, P38c","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1691,7100,70,"depth: 158-165; Locus 8?, N31b+a","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1701,8290,80,"depth: 180-185; Locus 38, U33d","[{""reference"": ""Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,168.6,Serabit el-Khadim,29.036667,33.459167,mining settlement,charcoal,RT-1807,5250,55,"Locus 5, Basket 21, 60 cm bs.","[{""reference"": ""Burton and Levy 2001; Clare 2010; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,168.6,Serabit el-Khadim,29.036667,33.459167,mining settlement,NA,RT-1811,5350,55,NA,"[{""reference"": ""Clare 2010; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,wood,A-11806,8610,95,"locus 22, level 15; Level 15; locus 22","[{""reference"": ""Henry et al. 2003; Benz 2014; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,Ain Jammam,30.0203,35.4686,settlement,NA,Beta-56560,8030,120,near centre of sequence; bulldozer section,"[{""reference"": ""Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5246,4850,33,Quadrant E6:2 loc. 10,"[{""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5250,5025,29,"Sondage A/A2 1990, north of Quadrant G4/G5; G_.7/2000","[{""reference"": ""Klimscha 2012; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5254,4669,38,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""p3k14c""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,Bln-5273,4667,60,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""CalPal; Klimscha 2012""}, {""reference"": ""p3k14c""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna Valley,29.7878,34.9889,smelting site,charcoal,BM-1598,2785,50,Layer I,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.1,Timna,29.7801,34.9566,smelting site,charcoal,Bonn-2362,3890,70,"Site 212, mine S28","[{""reference"": ""Weinstein JM. 1984.""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,183.7,Tor Hamar (C or J431),30.0018,34.9527,rock shelter,charcoal,ETH-806,12320,95,NA,"[{""reference"": ""Maher et al. 2011""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,159.9,Timna Valley,29.7878,34.9889,smelting site,NA,HAM-216,3340,60,Slag heap,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,HD-3625-2782,2940,50,"Furnace IV, Layer I","[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,136.5,Wadi Ramm,29.5776,35.4198,open air site,charcoal,Lyon-3547,6225,35,US 207,"[{""reference"": ""BANADORA""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Har Shahmon,29.56939,34.935993,desert kite,charcoal,RT-1956,3220,50,NA,"[{""reference"": ""Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,107.4,Ujrat el-Mehed 1,28.57,33.93,settlement,charcoal,Pta-2703,8220,80,Locus 2,"[{""reference"": ""CONTEXT; CalPal; Bar-Yosef 1981; Weinstein 1984""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,Pta-3000,8430,80,"NIS; layer C, depth: 200; Locus 5","[{""reference"": ""Weinstein 1984; Goring-Morris 1993; Avner et al. 1994; Carmi et al. 1994; Benz 2014; CalPal; Flohr et al"
+XRONOS,Leukē Kōmē,within 200 km,179.4,Nahal Reu'el,29.9628,34.9759,settlement,charcoal,Pta-3202,8650,90,Ash on living-floor base room 2,"[{""reference"": ""Avner et al. 1994; Kuijt and Bar-Yosef 1994; Ronen et al. 2001; Benz 2014; Flohr et al. 2016 Quaternary "
+XRONOS,Leukē Kōmē,within 200 km,172.4,Issaron,29.9,35.03,settlement,charcoal,Pta-3377,8180,80,"layerC; layer C, depth: 195; Locus 40","[{""reference"": ""Goring-Morris and Gopher 1983; Weinstein 1984; Avner et al. 1994; CalPal; Flohr et al. 2016""}, {""referen"
+XRONOS,Leukē Kōmē,within 200 km,164.8,Samar East,29.832525,35.032476,desert kite,charcoal,Pta-3627,3940,60,NA,"[{""reference"": ""Holzer et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,Pta-4123,2880,60,"Slag heap, Layer II","[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1518,4990,50,NA,"[{""reference"": ""Avner et al. 1994; CalPal""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,174.2,Nahal Issaron,29.916667,34.966667,settlement,charcoal,RT-1522,8350,75,"NIS; depth: 190-200; Locus 36, N35d+N36b","[{""reference"": ""Goring-Morris 1993; Carmi et al. 1994; CalPal; Flohr et al. 2016""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,175.3,‘Uvda 96/III,29.925,34.925,settlement,charcoal,RT-648B,4250,50,habitation,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,177.4,Uvda 5,29.945024,34.964264,habitation,charcoal,RT-724E,2320,80,NA,"[{""reference"": ""Carmi 1992""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,172.9,Shaharut IV,29.9047,34.9997,settlement,wood,RT-771A,2430,130,tomb IV,"[{""reference"": ""Carmi 1992""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,charcoal,RT-3369,4130,90,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,178.2,‘Uvda 9,29.952,34.9738,habitation,charcoal,RT-899A,4530,50,NA,"[{""reference"": ""Regev et al. 2012A""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,164.7,Samar kites,29.831193,35.016355,desert kite,charcoal,RTT-5771,3980,60,NA,"[{""reference"": ""Nadel et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,161.0,Timna 2,29.7978,34.9989,smelting site,NA,RTT-5279,2965,40,NA,"[{""reference"": ""Ben-Yosef et al. 2010""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,142.0,Naḥal Shehoret,29.62556,34.93653,settlement,charcoal,RT-1923,1790,50,NA,"[{""reference"": ""Segal and Carmi 1996""}, {""reference"": ""NERD""}]"
+XRONOS,Leukē Kōmē,within 200 km,185.7,'Ain Jammam,30.0203,35.4686,Southern Jordan,n.d.,Beta-56560,8030,120,NA,"[{""reference"": ""Waheeb and Fino 19997; Rollefson 2005 after Weninger et al. n.d. PPND CalPal Gebel 2008""}, {""reference"":"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5120,5290,33,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5246,4850,33,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5247,4849,31,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5252,5405,31,NA,"[{""reference"": ""Klimscha""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27708,5425,25,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,wood,KIA-27710,5049,26,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,KIA-35301,4760,35,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+XRONOS,Rhapta,within 200 km,148.8,Kitumbako,-7.145333,37.631333,,bulk sediment,Wk-23589,1919,30,NA,"[{""reference"": ""Finch JM, Marchant R (2011). A palaeoecological investigation into the role of fire and human activity i"
+XRONOS,Leukē Kōmē,within 200 km,133.5,Eilat,29.55,34.95,cemetery,charcoal,RT-926B,5400,100,NA,"[{""reference"": ""Lovell 2001""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11805,8370,80,NA,"[{""reference"": ""Henry 2002""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,133.3,Ain Abu Nukhayla,29.5486,35.4069,settlement,NA,A-11806,8610,95,NA,"[{""reference"": ""Henry 2002""}, {""reference"": ""p3k14c""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Al-Magass,29.57,35.02,,charcoal,Bln-5121,4863,39,NA,"[{""reference"": ""Görsdorf 2002b""}, {""reference"": ""CONTEXT""}]"
+XRONOS,Leukē Kōmē,within 200 km,135.7,Hujayrat al-Ghuzlan,29.57,35.03,settlement,charcoal,Bln-5249,4879,30,NA,"[{""reference"": ""Klimscha 2012""}, {""reference"": ""p3k14c""}]"
+PANGAEA,Barbarikon,in box,0.0,Arabian Sea; Indian Ocean; Asia; Pakistan,24.88,67.12,,Weather station/meteorological observation; ERA-CLIM Quality,https://doi.org/10.1594/PANGAEA.822727,1938-12-31,1942-03-30,27421 points,"Meteorological measurements in the upper air at station Karatschi, 1938-12-31 to 1942-03-30, ERA-CLIM ID 5450"
+PANGAEA,Barbarikon,in box,0.0,Arabian Sea; Indian Ocean; Pakistan,24.8,67.0,,"Monitoring; Monthly mean, digitized, and homogenized by BART",https://doi.pangaea.de/10.1594/PANGAEA.989793,1876-01-01,1974-01-01,1188 points,"Homogenized mean monthly temperature time series (HClim), station Hom_HCLIM_Karachi_Manora, Pakistan"
+PANGAEA,Barbarikon,in box,0.0,Arabian Sea; Indian Ocean; Asia; Pakistan,24.88,67.12,,Weather station/meteorological observation; ERA-CLIM Quality,https://doi.org/10.1594/PANGAEA.822811,1949-05-22,1956-04-26,83566 points,"Meteorological measurements in the upper air at station Karachi, 1949-05-22 to 1956-04-26, ERA-CLIM ID 5546"
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78158,"Coral records (Porites spp.), d18O, fine resolution records of Aq-7"
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.78099,"Coral records (Porites cf. nodifera), stable isotope data, coarse resolution records of EL-15B"
+NOAA Paleo,Leukē Kōmē,within 200 km,128.6,Unspecified,29.504,34.9192,,,,,,https://doi.org/10.1594/PANGAEA.54467,Age model of coral core EILAT-1 from the Red Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.388696,D18O records on coral Tridacna spp. of sample EILAT-T0
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78096,"Coral records (Porites cf. lutea), stable isotope data, coarse resolution records of Aq-19A"
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78157,"Coral records (Porites spp.), d18O, fine resolution records of Aq-42"
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78097,"Coral records (Porites cf. lutea), stable isotope data, coarse resolution records of Aq-19C"
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Unspecified,27.8483,34.31,,,,,,https://doi.org/10.1594/PANGAEA.388665,Age and d18O records on coral Porites spp. of sample RUS-93a
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.736097,Stable oxygen isotope record of corales from the Red Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.389631,Stable isotopes on coral Porites spp. of sample EILAT-F3
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.388718,D18O records on coral Tridacna spp. of sample EILAT-T3
+NOAA Paleo,Barbarikon,within 200 km,151.1,Unspecified,23.074019999999997,66.359995,,,,,,https://doi.org/10.1594/PANGAEA.475995,Analysis of Recent benthic foraminiferal assemblages from the oxygen minimum zone of the Pakistan continental margin
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Unspecified,27.8483,34.31,,,,,,https://doi.org/10.1594/PANGAEA.388687,Age and d18O records on coral Porites spp. of sample RUS-93b
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78109,"Coral records (Porites cf. lutea), d18O, fine resolution records of Aq-19/3"
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.78098,"Coral records (Porites cf. nodifera), stable isotope data, coarse resolution records of EL-15A"
+NOAA Paleo,Leukē Kōmē,within 200 km,126.0,Unspecified,29.48335,35.21665,,,,,,https://doi.org/10.1594/PANGAEA.736096,Growth rates and stable carbon and oxygen isotope record of corals from the Red Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.388719,D18O records on coral Tridacna spp. of sample EILAT-T13
+NOAA Paleo,Leukē Kōmē,within 200 km,128.6,Unspecified,29.504,34.9192,,,,,,https://doi.org/10.1594/PANGAEA.65774,Stable isotope analysis of Porites coral core EILAT-1
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78136,"Coral records (Porites cf. lutea), d18O, fine resolution records of Aq-19/4"
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Unspecified,27.8483,34.31,,,,,,https://doi.org/10.1594/PANGAEA.65773,Stable isotope analysis on Porites coral core RUS-95 from the Red Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,128.6,Eilat-1,29.504,34.919,CORALS AND SCLEROSPONGES,,,121894,-46,https://doi.org/10.25921/n033-6p34,"Aqaba, Eilat - Northern Gulf of Aqaba Modern and Fossil Coral d18O and Sr/Ca Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,128.4,Eilat-15B,29.503,34.919,CORALS AND SCLEROSPONGES,,,121894,-46,https://doi.org/10.25921/n033-6p34,"Aqaba, Eilat - Northern Gulf of Aqaba Modern and Fossil Coral d18O and Sr/Ca Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,122.6,Aqaba AQB-3-A,29.452,34.972,CORALS AND SCLEROSPONGES,,,121894,-46,https://doi.org/10.25921/n033-6p34,"Aqaba, Eilat - Northern Gulf of Aqaba Modern and Fossil Coral d18O and Sr/Ca Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,114.8,Aqaba AQB-10-B,29.382,34.964,CORALS AND SCLEROSPONGES,,,121894,-46,https://doi.org/10.25921/n033-6p34,"Aqaba, Eilat - Northern Gulf of Aqaba Modern and Fossil Coral d18O and Sr/Ca Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,123.3,Aqaba AQ2,29.459,34.973,CORALS AND SCLEROSPONGES,,,121894,-46,https://doi.org/10.25921/n033-6p34,"Aqaba, Eilat - Northern Gulf of Aqaba Modern and Fossil Coral d18O and Sr/Ca Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,119.0,Aqaba C18 and C19,29.42,34.97,CORALS AND SCLEROSPONGES,,,162,-42,https://doi.org/10.25921/h2mx-fh02,Aqaba - Stable Isotope Data
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Ras Umm Sidd,27.848333,34.31,CORALS AND SCLEROSPONGES,,,200,-45,https://doi.org/10.25921/9f0t-kr79,Ras Umm Sidd - del18O Data
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.78100,"Coral records (Porites cf. nodifera), stable isotope data, coarse resolution records of EL-15C"
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.712061,Stable isotope records of corals from the northern Red Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,128.0,GeoB 5804-4,29.5,34.95,PALEOCEANOGRAPHY,,,8000,-25,https://doi.org/10.25921/r67t-w208,Black Sea/Red Sea Oxygen Isotope and Terrigeneous Flux Data During the Holocene.
+NOAA Paleo,Leukē Kōmē,within 50 km,37.3,GeoB 5844-2,27.72,34.68,PALEOCEANOGRAPHY,,,83000,13059,https://doi.org/10.25921/t2gx-sx08,Millennial-Scale Glacial Sea Level Reconstruction
+NOAA Paleo,Muziris,within 50 km,27.9,Parambikulam,10.38,76.705,TREE RING,,,207,-54,https://doi.org/10.25921/ee37-9w47,South and East India 250 Year Tectona grandis Tree-Ring Oxygen Isotope Data
+NOAA Paleo,Leukē Kōmē,within 200 km,136.9,Unspecified,29.58105,35.07514,POLLEN,,,,,,Aila specimen stable isotope (AILA) Faunal Isotope Database (Neotoma)
+NOAA Paleo,Leukē Kōmē,within 200 km,131.3,Unspecified,29.53073,34.99992,POLLEN,,,,,,Alia/Aqaba specimen stable isotope (ALIA) Faunal Isotope Database (Neotoma)
+NOAA Paleo,Leukē Kōmē,within 200 km,131.3,Unspecified,29.53073,34.99992,FAUNA,,,,,,Alia/Aqaba vertebrate fauna (ALIA) FAUNMAP (Neotoma)
+NOAA Paleo,Leukē Kōmē,within 200 km,136.9,Unspecified,29.58105,35.07514,FAUNA,,,,,,Aila vertebrate fauna (AILA) FAUNMAP (Neotoma)
+NOAA Paleo,Leukē Kōmē,within 50 km,18.7,"Semicolon, Red Sea",27.98,34.81,CORALS AND SCLEROSPONGES,,,-35,-60,https://doi.org/10.25921/xwyx-gj47,Coral Sr/Ca Data of the Red Sea over the last 25 years
+NOAA Paleo,Barbarikon,within 200 km,140.6,SO130-289KL,23.12233,66.49722,PALEOCEANOGRAPHY,,,79447,1774,https://doi.org/10.25921/rr8x-1k47,Arabian Sea Geochemical and Sedimentological Data from Core SO130-289KL tor the Last 80 kyr
+NOAA Paleo,Barbarikon,within 200 km,103.1,63KA,24.62,65.98,PALEOCEANOGRAPHY,,,12754,-40,https://doi.org/10.25921/s962-f780,Arabian Sea Cores Foraminiferal Oxygen Isotope Data
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.389633,Stable isotopes on coral Porites spp. of sample EILAT-F24
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.389635,Stable isotopes on coral Porites spp. of sample EILAT-H5
+NOAA Paleo,Leukē Kōmē,within 200 km,122.4,Unspecified,29.45,35.5,,,,,,https://doi.org/10.1594/PANGAEA.78142,"Coral records (Porites spp.), d18O, fine resolution records of Aq-29"
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.388715,D18O records on coral Tridacna spp. of sample EILAT-T1
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.389634,Stable isotopes on coral Porites spp. of sample EILAT-H2
+NOAA Paleo,Leukē Kōmē,within 200 km,129.9,Unspecified,29.5167,34.9333,,,,,,https://doi.org/10.1594/PANGAEA.389632,Stable isotopes on coral Porites spp. of sample EILAT-F8
+NOAA Paleo,Rhapta,in box,0.0,Fungu Mrima Reef,-8.0167,39.5,CORALS AND SCLEROSPONGES,,,328,-48,https://doi.org/10.25921/7t7k-rx13,"Mafia Archipelago, Tanzania 17th and 20th Century Diploastrea Coral d18O"
+NOAA Paleo,Leukē Kōmē,within 200 km,182.4,Unspecified,26.26,35.326667,,,,,,https://doi.org/10.1594/PANGAEA.494517,"X-ray fluorescence data of multicorer GeoB7831-1, tube 1, measured in analysis steps of 2 cm"
+NOAA Paleo,Leukē Kōmē,within 200 km,184.8,Unspecified,26.238333,35.405,,,,,,https://doi.org/10.1594/PANGAEA.494514,"X-ray fluorescence data of multicorer GeoB7806-2, tube 1, measured in analysis steps of 2 mm"
+NOAA Paleo,Leukē Kōmē,within 200 km,181.2,Unspecified,26.27,35.383333,,,,,,https://doi.org/10.1594/PANGAEA.494516,"X-ray fluorescence data of multicorer GeoB7830-1, tube 2, measured in analysis steps of 2 mm"
+NOAA Paleo,Leukē Kōmē,within 200 km,181.2,Unspecified,26.27,35.383333,,,,,,https://doi.org/10.1594/PANGAEA.494515,"X-ray fluorescence data of multicorer GeoB7830-1, tube 2, measured in analysis steps of 1 cm"
+NOAA Paleo,Leukē Kōmē,within 200 km,182.4,Unspecified,26.26,35.326667,,,,,,https://doi.org/10.1594/PANGAEA.494518,"X-ray fluorescence data of multicorer GeoB7831-1, tube 1, measured in analysis steps of 2 mm"
+NOAA Paleo,Leukē Kōmē,within 200 km,184.8,Unspecified,26.238333,35.405,,,,,,https://doi.org/10.1594/PANGAEA.494513,"X-ray fluorescence data of multicorer GeoB7806-2, tube 1, measured in analysis steps of 1 cm"
+NOAA Paleo,Rhapta,within 200 km,120.0,Tanzania Drilling Project,-9.379230499999998,39.582747999999995,CLIMATE FORCING,,,53200000,36900000,https://doi.org/10.25921/0m9t-wv33,Paleo-pCO2 Database Tanzania Early Cenozoic Boron Isotope and CO2 Data
+NOAA Paleo,Leukē Kōmē,within 200 km,128.3,Unspecified,29.5037,34.9622,,,,,,https://doi.org/10.1594/PANGAEA.829720,Geochemical raw data of sediment core GeoB5810-2
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.776,65.819,,,,,,https://doi.org/10.1594/PANGAEA.936729,"Alkenone unsaturation index (UK'37) and uncertainty estimates against depth (0.15 mm resolution) from sediment core SO90-58KG, 0-14 cm"
+NOAA Paleo,Leukē Kōmē,within 200 km,125.8,Unspecified,29.4802,34.9463,,,,,,https://doi.org/10.1594/PANGAEA.829719,Dry bulk density and water content raw data of sediment core GeoB5807-2
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.21,35.355,,,,,,https://doi.org/10.1594/PANGAEA.602479,"Grayscale data of multicorer GeoB7804-4, tube 2"
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.776,65.819,,,,,,https://doi.org/10.1594/PANGAEA.936733,First principal component (PC1) of elemental abundances determined by micro-X-ray fluorescence mapping against depth (0.1 mm resolution) from sediment core SO90
+NOAA Paleo,Leukē Kōmē,within 200 km,183.5,Unspecified,26.25,35.425,,,,,,https://doi.org/10.1594/PANGAEA.924860,Lipid biomarker and bulk organic matter concentrations and carbon and hydrogen isotope data of sediment core GeoB7807-2
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.602500,"X-ray fluorescence data of multicorer GeoB7805-1, tube 1"
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.66873,"Sedimentation rate, color and organic carbon of core SO130-289KL"
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.925905,n-Alkane content in sediment core SO90_63KA
+NOAA Paleo,Tyndis,within 200 km,86.6,Unspecified,12.178611,75.8175,,,,,,https://doi.org/10.1594/PANGAEA.930070,Age determination of sediment core Ghats_RAJ
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.776,65.819,,,,,,https://doi.org/10.1594/PANGAEA.936731,"Crenarchaeol-caldarchaeol tetraether index (CCaT) and uncertainty estimates against depth (0.15 mm resolution) from sediment core SO90-58KG, 0-14 cm"
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.66872,Carbon content of sediment core SO130-289KL
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.776,65.819,,,,,,https://doi.org/10.1594/PANGAEA.936734,"Low-resolution GDGT content, crenarchaeol-caldarchaeol tetraether index (CCaT), and derived sea surface temperature against depth from sediment core SO90-58KG, "
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.900968,Stable isotope composition of sediment core SO90_63KA
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.776,65.819,,,,,,https://doi.org/10.1594/PANGAEA.936730,"Depth-averaged elemental counts against depth (0.1 mm resolution) from sediment core SO90-58KG, 0-14 cm"
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.605199,"Grain-size distributions of multicore GeoB7805-1, tube 1 and tube 2"
+NOAA Paleo,Leukē Kōmē,within 200 km,188.3,Unspecified,26.206667,35.363333,,,,,,https://doi.org/10.1594/PANGAEA.602497,"X-ray fluorescence data of multicorer GeoB7803-2, tube 1"
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.900972,X-ray analysis of sediment core SO90_63KA
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.924759,Lipid biomarker and bulk organic matter concentrations and carbon and hydrogen isotope data of sediment core GeoB7805-1
+NOAA Paleo,Leukē Kōmē,within 200 km,129.1,Unspecified,29.5107,34.983,,,,,,https://doi.org/10.1594/PANGAEA.829725,Carbon and carbonate raw data of sediment core GeoB5815-1
+NOAA Paleo,Rhapta,within 200 km,192.6,Unspecified,-10.031389,39.646667,,,,,,https://doi.org/10.1594/PANGAEA.911284,Width analysis of 50 specimen from Eiffellithus coccolith from sediment core TDP-31
+NOAA Paleo,Leukē Kōmē,within 200 km,188.3,Unspecified,26.206667,35.363333,,,,,,https://doi.org/10.1594/PANGAEA.602477,"Grayscale data of multicorer GeoB7803-2, tube 1"
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.900971,X-ray analysis of C-Layers of sediment core SO90_63KA
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.925904,Lithogenic accumulation rates of sediment core SO90_63KA
+NOAA Paleo,Leukē Kōmē,within 200 km,188.3,Unspecified,26.206667,35.363333,,,,,,https://doi.org/10.1594/PANGAEA.602432,"Radiocarbon age of multicorer GeoB7803-2, tube 2"
+NOAA Paleo,Leukē Kōmē,within 200 km,129.1,Unspecified,29.5107,34.983,,,,,,https://doi.org/10.1594/PANGAEA.829722,Dry bulk density and water content raw data of sediment core GeoB5815-1
+NOAA Paleo,Tyndis,within 200 km,91.2,Unspecified,12.220278,75.791944,,,,,,https://doi.org/10.1594/PANGAEA.930069,Age determination of sediment core Ghats_MY
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.900967,Stable isotope composition of C-Layers of sediment core SO90_63KA
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.21,35.355,,,,,,https://doi.org/10.1594/PANGAEA.602499,"X-ray fluorescence data of multicorer GeoB7804-4, tube 1"
+NOAA Paleo,Tyndis,within 200 km,86.6,Unspecified,12.178611,75.8175,,,,,,https://doi.org/10.1594/PANGAEA.930075,Macroscopic charcoal counts and areas from sediment core Ghats_RAJ
+NOAA Paleo,Rhapta,within 200 km,192.6,Unspecified,-10.031389,39.646667,,,,,,https://doi.org/10.1594/PANGAEA.911279,Bar length analysis of 50 specimen from Eiffellithus coccolith from sediment core TDP-31
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.829727,Geochemical raw data of sediment core GeoB5836-2
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.925908,Grain sizes distribution of sediment core SO90_63KA
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.925893,SST reconstruction for sediment core SO90_63KA
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.21,35.355,,,,,,https://doi.org/10.1594/PANGAEA.602433,"Radiocarbon age of multicorer GeoB7804-4, tube 1"
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.602505,"Carbon and silicon data of multicorer GeoB7805-1, tube 1"
+NOAA Paleo,Rhapta,within 200 km,192.6,Unspecified,-10.031389,39.646667,,,,,,https://doi.org/10.1594/PANGAEA.911283,Length analysis of 50 specimen from Eiffellithus coccolith from sediment core TDP-31
+NOAA Paleo,Tyndis,within 200 km,91.2,Unspecified,12.220278,75.791944,,,,,,https://doi.org/10.1594/PANGAEA.930074,Macroscopic charcoal counts and areas from sediment core Ghats_MY
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.602434,"Radiocarbon age of multicorer GeoB7805-1, tube 1"
+NOAA Paleo,Tyndis,within 200 km,83.8,Unspecified,12.153889,75.713056,,,,,,https://doi.org/10.1594/PANGAEA.930067,Age determination of sediment core Ghats_BOP
+NOAA Paleo,Tyndis,within 200 km,83.8,Unspecified,12.153889,75.713056,,,,,,https://doi.org/10.1594/PANGAEA.930073,Macroscopic charcoal counts and areas from sediment core Ghats_BOP
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.900969,Grain size distribution in C-Layers of sediment core SO90_63KA
+NOAA Paleo,Tyndis,within 200 km,71.9,Unspecified,12.046667,75.975556,,,,,,https://doi.org/10.1594/PANGAEA.930071,Age determination of sediment core Ghats_TS
+NOAA Paleo,Leukē Kōmē,within 200 km,118.7,Unspecified,29.415,34.9117,,,,,,https://doi.org/10.1594/PANGAEA.829691,Dry bulk density and water content raw data of sediment core GeoB5801-3
+NOAA Paleo,Rhapta,within 200 km,111.4,Unspecified,-6.9795,40.3935,,,,,,https://doi.org/10.1594/PANGAEA.840863,Geochemistry of sediment core GeoB12616-4
+NOAA Paleo,Rhapta,within 200 km,192.6,Unspecified,-10.031389,39.646667,,,,,,https://doi.org/10.1594/PANGAEA.911282,Cross bar angle analysis of 50 specimen from Eiffellithus coccolith from sedeiment core TDP-31
+NOAA Paleo,Leukē Kōmē,within 200 km,184.5,Unspecified,26.2408335,35.4008335,,,,,,https://doi.org/10.1594/PANGAEA.924617,Radiocarbon dating of sediment cores GeoB7805-1 and GeoB7807-2
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.21,35.355,,,,,,https://doi.org/10.1594/PANGAEA.605217,Radionuclides of multicore GeoB7804-4
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.829739,Geochemical and alkenones raw data of sediment core GeoB5844-2
+NOAA Paleo,Tyndis,within 200 km,71.9,Unspecified,12.046667,75.975556,,,,,,https://doi.org/10.1594/PANGAEA.930076,Macroscopic charcoal counts and areas from sediment core Ghats_TS
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.900970,Grain size distribution in sediment core SO90_63KA
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.602480,"Grayscale data of multicorer GeoB7805-1, tube 1"
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.776,65.819,,,,,,https://doi.org/10.1594/PANGAEA.936735,"Low-resolution alkenone content, unsaturation index (UK'37), and derived sea surface temperature against depth from sediment core SO90-58KG, 0-14 cm"
+NOAA Paleo,Leukē Kōmē,within 200 km,128.1,Unspecified,29.5017,34.9567,,,,,,https://doi.org/10.1594/PANGAEA.829698,Geochemical raw data of sediment core GeoB5804-4
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.602506,"End member analysis of multicorer GeoB7805-1, tube 2"
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.21,35.355,,,,,,https://doi.org/10.1594/PANGAEA.602478,"Grayscale data of multicorer GeoB7804-4, tube 1"
+NOAA Paleo,Muziris,within 50 km,45.6,Narangathara,10.1833,76.8667,TREE RING,,,469,-53,https://doi.org/10.25921/4j49-4y22,Borgaonkar - Narangathara - TEGR - ITRDB INDI025
+NOAA Paleo,Tyndis,within 200 km,188.5,IN-B12,12.66,77.21,BOREHOLE,,,450,-44,,Global Database of Borehole Temperatures and Climate Reconstructions - IN-B12
+NOAA Paleo,Tyndis,within 200 km,173.4,IN-B13,12.51,77.17,BOREHOLE,,,450,-44,,Global Database of Borehole Temperatures and Climate Reconstructions - IN-B13
+NOAA Paleo,Barbarikon,within 200 km,140.6,SO130-289KL,23.12233,66.49722,PALEOCEANOGRAPHY,,,109200,1740,https://doi.org/10.25921/2waz-pz97,"Cariaco Basin and Arabian Sea Sediment Reflectance Data Over the Last 100,000 Years"
+NOAA Paleo,Tyndis,within 50 km,49.2,SK237-GC04,10.9775,74.999333,PALEOCEANOGRAPHY,,,31600,120,https://doi.org/10.25921/6qjj-4302,"Northern Indian Ocean SST Reconstruction and Oxygen Isotope, Ba/Ca and Geochemistry Data for last 31,000 Years"
+NOAA Paleo,Leukē Kōmē,within 200 km,186.8,GeoB5836-2,26.22,35.37,PALEOCEANOGRAPHY,,,6485,3943,https://doi.org/10.25921/97qh-cn15,Northern Red Sea (GeoB5836-2) Alkenone SST and High Resolution Sediment Data
+NOAA Paleo,Tyndis,within 200 km,187.4,SN-6,12.486,74.133,PALEOCEANOGRAPHY,,,4772,154,https://doi.org/10.25921/km5w-mq96,"Eastern Arabian Sea 4,700 Year Mg/Ca-d18O Data and SST/SSS Reconstructions"
+NOAA Paleo,"Nelkynda, Bakarē",within 200 km,183.9,MD77-191,7.5,76.72,PALEOCEANOGRAPHY,,,,,https://doi.org/10.25921/9xvw-pr91,"Surface and deep circulation of the N. Atlantic during the past 150,000 years , Duplessy"
+NOAA Paleo,Tyndis,within 200 km,58.5,MD77-194,10.47,75.23,PALEOCEANOGRAPHY,,,,,https://doi.org/10.25921/9xvw-pr91,"Surface and deep circulation of the N. Atlantic during the past 150,000 years , Duplessy"
+NOAA Paleo,Rhapta,within 200 km,62.7,MD79-250,-8.25,40.17,PALEOCEANOGRAPHY,,,,,https://doi.org/10.25921/9xvw-pr91,"Surface and deep circulation of the N. Atlantic during the past 150,000 years , Duplessy"
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.815881,(Supplementary Table 2) Tie points of sediment core SO130-289KL
+NOAA Paleo,Barbarikon,within 200 km,122.0,Unspecified,23.251939999999998,66.643775,,,,,,https://doi.org/10.1594/PANGAEA.707882,Stable carbon and oxygen isotope ratios for different test sizes of live benthic foraminifera from the Arabian Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.90843,Physical properties of sediment core GeoB5840-2
+NOAA Paleo,Leukē Kōmē,within 200 km,102.8,Tabuk,28.33,36.5,LAKE LEVELS,,,20000,0,https://doi.org/10.25921/mxae-9596,"Global Lake-Level Variations from 18,000 to 0 Years Ago: A Paleoclimatic Analysis"
+NOAA Paleo,Barbarikon,within 200 km,140.7,64PE300–11,23.121667,66.496667,PALEOCEANOGRAPHY,,,52900,330,https://doi.org/10.25921/dwna-k563,"Arabian Sea Organic Carbon, Biomarker and XRF-Br data covering the last 50 ka"
+NOAA Paleo,Barbarikon,within 200 km,158.3,NIOP453,23.25,65.95,PALEOCEANOGRAPHY,,,226000,7070,https://doi.org/10.25921/vnvd-1x21,"Arabian Sea Oxygen Minimum Zone(OMZ) during the last 225,000 year"
+NOAA Paleo,Barbarikon,within 200 km,135.4,NIOP455,23.55,65.95,PALEOCEANOGRAPHY,,,226000,7070,https://doi.org/10.25921/vnvd-1x21,"Arabian Sea Oxygen Minimum Zone(OMZ) during the last 225,000 year"
+NOAA Paleo,Barbarikon,within 200 km,137.3,NIOP478,24.2,65.65,PALEOCEANOGRAPHY,,,226000,7070,https://doi.org/10.25921/vnvd-1x21,"Arabian Sea Oxygen Minimum Zone(OMZ) during the last 225,000 year"
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Ras Umm Sidd,27.848333,34.31,CORALS AND SCLEROSPONGES,,,199,-45,https://doi.org/10.25921/9s77-rf89,"Ras Umm Sidd 245 Year Coral d18O, Sr/Ca, SST and d18Osw Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,128.1,Unspecified,29.5017,34.9567,,,,,,https://doi.org/10.1594/PANGAEA.422569,"(Table 1c) Age control points of sediment core GeoB5804-4, Gulf of Aqaba, Northern Red Sea"
+NOAA Paleo,Barbarikon,within 200 km,189.9,Unspecified,22.85888,66.00027,,,,,,https://doi.org/10.1594/PANGAEA.397163,"Assemblage of living benthic foraminifera in sediment core CD145_55830#3, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,153.9,Unspecified,23.367,65.883,,,,,,https://doi.org/10.1594/PANGAEA.475989,Geochemistry of sediment core M1_MULT236 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.831496,"Chemical analyses, grain size and total organic carbon measurements from sediment core SO130-289KL"
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.815851,Total reflectance of sediment core SO130-289KL
+NOAA Paleo,Leukē Kōmē,within 200 km,94.2,Unspecified,27.0528,35.4043,,,,,,https://doi.org/10.1594/PANGAEA.90846,Geochemistry data of core GeoB5833-2
+NOAA Paleo,Leukē Kōmē,within 200 km,125.8,Unspecified,29.4802,34.9463,,,,,,https://doi.org/10.1594/PANGAEA.78160,(Fig. 3) Stable carbon isotope record of planktonic foraminifera from sediment core GeoB5807-2
+NOAA Paleo,Barbarikon,within 200 km,116.2,Unspecified,23.254833499999997,67.1423335,,,,,,https://doi.org/10.1594/PANGAEA.771700,(Table 1.7) Abundance of thionic bacteria in bottom sediments of the Arabian Sea
+NOAA Paleo,Barbarikon,within 200 km,98.7,Unspecified,24.616,66.024,,,,,,https://doi.org/10.1594/PANGAEA.131552,Stable isotopes on G. ruber from sediment core SO90-43KL
+NOAA Paleo,Barbarikon,within 200 km,143.8,Unspecified,23.03583,66.70194,,,,,,https://doi.org/10.1594/PANGAEA.397166,"Assemblage of living benthic foraminifera in sediment core CD146_55916#1, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,55.2,Unspecified,23.92,66.65,,,,,,https://doi.org/10.1594/PANGAEA.475959,Geochemistry of sediment core MH_24SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.131551,Stable isotopes on G. ruber from sediment core SO90-137KA
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63042,Major and minor element concentrations of bulk sediment from core SO90-137KA
+NOAA Paleo,Barbarikon,within 200 km,151.5,Unspecified,22.96583,66.70083,,,,,,https://doi.org/10.1594/PANGAEA.397169,"Assemblage of living benthic foraminifera in sediment core CD146_55922#2, >150 µm"
+NOAA Paleo,Rhapta,within 50 km,16.8,Unspecified,-8.23416,39.75266,,,,,,https://doi.org/10.1594/PANGAEA.835316,Pollen and spore counts of sediment core GeoB12624
+NOAA Paleo,Barbarikon,within 50 km,12.7,Unspecified,24.305,66.875,,,,,,https://doi.org/10.1594/PANGAEA.123142,Heavy mineral composition of sediments of the West-Pakistan shelf (Table 4)
+NOAA Paleo,Leukē Kōmē,within 200 km,185.5,Unspecified,26.231667,35.376667,,,,,,https://doi.org/10.1594/PANGAEA.602496,"Stable oxygen isotope ratios of Globigerinoides ruber (white) from multicorer GeoB7805-1, tube 1"
+NOAA Paleo,Leukē Kōmē,within 200 km,122.7,Unspecified,29.45283,34.9685,,,,,,https://doi.org/10.1594/PANGAEA.818039,"Coral δ¹³C record from the Northern Gulf of Aqaba, sample AQB-Big"
+NOAA Paleo,Barbarikon,within 50 km,41.0,Unspecified,23.98,66.8,,,,,,https://doi.org/10.1594/PANGAEA.475958,Geochemistry of sediment core MH_23SK from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,115.7,Unspecified,29.39017,34.959,,,,,,https://doi.org/10.1594/PANGAEA.818038,"Coral δ¹³C record from the Northern Gulf of Aqaba, sample AQB-18H"
+NOAA Paleo,Barbarikon,within 200 km,135.0,Unspecified,23.55667,65.95,,,,,,https://doi.org/10.1594/PANGAEA.857392,"Corg content, Sr/Ca ratios and planktonic foraminifera of sediment core NIOP-D2_455-1"
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Unspecified,27.8483,34.31,,,,,,https://doi.org/10.1594/PANGAEA.65775,Stable oxygen isotope record of coral core RUS-95 from the northern Red Sea
+NOAA Paleo,Barbarikon,within 200 km,125.5,Unspecified,23.2305,66.60666,,,,,,https://doi.org/10.1594/PANGAEA.707875,(Table 2) Stable carbon and oxygen isotope ratios of live Uvigerina ex gr. U. semiornata from sediment core CD151_56110#1
+NOAA Paleo,Leukē Kōmē,within 200 km,188.0,Unspecified,26.209167,35.36,,,,,,https://doi.org/10.1594/PANGAEA.94584,"Percent contribution of diatom species in surface sediments, brine"
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.725988,X-ray fluorescence measurements on sediment core GeoB5840-2
+NOAA Paleo,Leukē Kōmē,within 200 km,165.9,Unspecified,26.421,35.6698,,,,,,https://doi.org/10.1594/PANGAEA.90850,Physical oceanography at CTD station GeoB5823-1a
+NOAA Paleo,Leukē Kōmē,within 200 km,165.9,Unspecified,26.4208,35.6697,,,,,,https://doi.org/10.1594/PANGAEA.90827,Color data of sediment core GeoB5823-2
+NOAA Paleo,Barbarikon,within 200 km,158.9,Unspecified,22.92027,66.5925,,,,,,https://doi.org/10.1594/PANGAEA.397179,"Assemblage of living benthic foraminifera in sediment core CD146_55907#1, 63-150 µm"
+NOAA Paleo,Barbarikon,within 200 km,107.7,Unspecified,24.833,65.933,,,,,,https://doi.org/10.1594/PANGAEA.866922,Planktic foraminifera counts of sediment core SO90-39KG
+NOAA Paleo,"Nelkynda, Bakarē",within 200 km,155.6,Unspecified,9.15,74.583,,,,,,https://doi.org/10.1594/PANGAEA.475972,Geochemistry of sediment core M1_MULT185 from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,128.1,Unspecified,29.50217,34.99167,,,,,,https://doi.org/10.1594/PANGAEA.818041,"Coral δ¹³C record from the Northern Gulf of Aqaba, sample AQB-Ph"
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Unspecified,27.8483,34.31,,,,,,https://doi.org/10.1594/PANGAEA.811915,δ¹³C record of coral core RUS-95 from the Red Sea
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.99328,Physical properties of sediment core GeoB5836-2
+NOAA Paleo,Barbarikon,within 200 km,109.4,Unspecified,24.833,65.916,,,,,,https://doi.org/10.1594/PANGAEA.713641,(Figure 3) Sea surface temperature estimates of sediment core SO90-56KA from the northeastern Arabian Sea during the late Holocene
+NOAA Paleo,Barbarikon,within 50 km,21.1,Unspecified,24.11,67.0,,,,,,https://doi.org/10.1594/PANGAEA.475957,Geochemistry of sediment core MH_22SK from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,162.5,Unspecified,26.5078,35.9487,,,,,,https://doi.org/10.1594/PANGAEA.99308,Color measurements on sediment core GeoB5825-2
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.840943,Q-mode varimax factor scores matrix of benthic foraminifera assemblage of sediment core GeoB12615-4
+NOAA Paleo,Barbarikon,within 200 km,116.0,Unspecified,23.28916,66.71972,,,,,,https://doi.org/10.1594/PANGAEA.397164,"Assemblage of living benthic foraminifera in sediment core CD146_55901#11, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,118.3,Unspecified,23.2825,66.66138,,,,,,https://doi.org/10.1594/PANGAEA.397175,"Assemblage of living benthic foraminifera in sediment core CD145_55808#3, 63-150 µm"
+NOAA Paleo,Leukē Kōmē,within 200 km,125.8,Unspecified,29.4802,34.9463,,,,,,https://doi.org/10.1594/PANGAEA.78246,(Table 2) Age model and AMS14C age of GeoB5807-2
+NOAA Paleo,Barbarikon,within 200 km,139.8,Unspecified,23.086917,66.639583,,,,,,https://doi.org/10.1594/PANGAEA.805216,"Live benthic foraminifera of post-monsoon season samples from the Pakistan continental margin, large size fraction"
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63048,Color scan (L a b) and organic carbon content of sediment core SO90-137KA
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.90839,Color data of sediment core GeoB5844-2
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.815886,"(Supplementary Table 1) Concentrations of 14C, radiocarbon and calibrated ages obtained on planktonic foraminifera from core SO130-289KL from the northeastern A"
+NOAA Paleo,Tyndis,within 200 km,58.7,Unspecified,10.4667,75.2333,,,,,,https://doi.org/10.1594/PANGAEA.863086,Age model of sediment core MD77-194
+NOAA Paleo,Leukē Kōmē,within 50 km,46.4,Unspecified,27.685,34.596,,,,,,https://doi.org/10.1594/PANGAEA.831281,(Table 2) Lipid analyses of sediment cores M31/2_17KL
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.797455,(Figure 5C) Planktic and benthic δ¹⁸O records of sediment core GeoB5844-2
+NOAA Paleo,Barbarikon,within 200 km,109.4,Unspecified,24.833,65.916,,,,,,https://doi.org/10.1594/PANGAEA.713643,(Figure 3) Oxygen isotopes and reconstructed salinity records of sediment core SO90-56KA from the northeastern Arabian Sea during the late Holocene
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.894291,Grain size distribution of the silt turbidite sections (F-events) of the sediment core SO130_275KL
+NOAA Paleo,Leukē Kōmē,within 50 km,40.9,Unspecified,27.5788,34.7985,,,,,,https://doi.org/10.1594/PANGAEA.90835,Color data of sediment core GeoB5839-1
+NOAA Paleo,Leukē Kōmē,within 200 km,118.7,Unspecified,29.415,34.9117,,,,,,https://doi.org/10.1594/PANGAEA.78178,(Fig. 5) Carbon and carbonate contents of sediment core GeoB5801-3
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.708063,Smear slide analysis of sediment core GeoB5836-2
+NOAA Paleo,Barbarikon,within 200 km,138.5,Unspecified,23.14,66.50333,,,,,,https://doi.org/10.1594/PANGAEA.397176,"Assemblage of living benthic foraminifera in sediment core CD145_55818#4, 63-150 µm"
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.90844,Physical properties of sediment core GeoB5844-2
+NOAA Paleo,Leukē Kōmē,within 200 km,188.0,Unspecified,26.209167,35.36,,,,,,https://doi.org/10.1594/PANGAEA.94583,"Concentration of siliceous microplankton in surface sediments, brine"
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.21,35.355,,,,,,https://doi.org/10.1594/PANGAEA.602484,"Stable oxygen isotope ratios of Globigerinoides ruber (white) from multicorer GeoB7804-4, tube 2"
+NOAA Paleo,Leukē Kōmē,within 200 km,94.2,Unspecified,27.0528,35.4043,,,,,,https://doi.org/10.1594/PANGAEA.90841,Physical properties of sediment core GeoB5833-2
+NOAA Paleo,Muziris,within 200 km,80.0,Unspecified,9.567,75.267,,,,,,https://doi.org/10.1594/PANGAEA.475974,Geochemistry of sediment core M1_MULT187 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63043,Stable carbon and oxygen isotope ratios of Globigerinoides ruber (white) from sediment core SO90-137KA
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.853967,Distribution of planktic foraminifera of sediment core SO130-275KL
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.90847,Geochemistry data of core GeoB5836-2
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.328912,Pteropoda counts and Limacina dissolution index of sediment core SO90-137KA
+NOAA Paleo,"Nelkynda, Bakarē",within 200 km,125.1,Unspecified,8.35,75.2,,,,,,https://doi.org/10.1594/PANGAEA.52306,(Appendix 1) Stable carbon and oxygen isotope ratios of Cibicidoides spp. from sediment core MD76-125
+NOAA Paleo,Barbarikon,within 200 km,108.5,Unspecified,24.824833499999997,65.9248335,,,,,,https://doi.org/10.1594/PANGAEA.839064,TOC content of sediment cores SO90-39KG and SO130_275KL
+NOAA Paleo,Tyndis,within 200 km,90.9,Unspecified,11.5076,74.6231,,,,,,https://doi.org/10.1594/PANGAEA.820875,(Table 1) Age determination of sediment core AAS-62/2
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.825,,,,,,https://doi.org/10.1594/PANGAEA.99326,Physical properties of sediment core GeoB5824-3
+NOAA Paleo,Barbarikon,within 200 km,128.4,Unspecified,23.21472,66.56783,,,,,,https://doi.org/10.1594/PANGAEA.397174,"Assemblage of living benthic foraminifera in sediment core CD145_55803#5, 63-150 µm"
+NOAA Paleo,Leukē Kōmē,within 200 km,68.1,Ras Umm Sidd,27.848333,34.31,CORALS AND SCLEROSPONGES,,,199,-45,https://doi.org/10.25921/yqya-nq10,"Ras Umm Sidd, Egypt 245 Year Winter Coral Oxygen Isotope Data"
+NOAA Paleo,Leukē Kōmē,within 200 km,162.5,Unspecified,26.5078,35.949,,,,,,https://doi.org/10.1594/PANGAEA.90852,Physical oceanography at CTD station GeoB5825-1a
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.840942,Q-mode varimax factor loadings matrix of benthic foraminifera assemblage of sediment core GeoB12615-4
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63152,"(Table 1) Age determination of sediment core SO90-137KA, Tab 1"
+NOAA Paleo,Barbarikon,within 200 km,101.3,Unspecified,24.38,66.0,,,,,,https://doi.org/10.1594/PANGAEA.475950,Geochemistry of sediment core MH_7SK from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,123.2,Unspecified,29.45783,34.975,,,,,,https://doi.org/10.1594/PANGAEA.818037,"Coral δ¹³C record from the Northern Gulf of Aqaba, sample Aq-19A"
+NOAA Paleo,Rhapta,within 50 km,16.8,Unspecified,-8.23416,39.75266,,,,,,https://doi.org/10.1594/PANGAEA.875938,Grain-size distribution of terrigenous sediments from sediment core GeoB12624-1
+NOAA Paleo,Barbarikon,within 200 km,153.7,Unspecified,22.92,66.91,,,,,,https://doi.org/10.1594/PANGAEA.475962,Geochemistry of sediment core MH_29SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,102.9,Unspecified,24.61,65.982,,,,,,https://doi.org/10.1594/PANGAEA.842448,(Table 1) Age determination of sediment profile SO90-41KL/63KA
+NOAA Paleo,Leukē Kōmē,within 200 km,114.8,Unspecified,29.377617,34.889617,,,,,,https://doi.org/10.1594/PANGAEA.842643,Radionuclides activity concentrations of sediment core B
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.840944,"Sediment geochemistry, foraminiferal fauna parameter, census counts and Varimax PC-factor loadings and scores of foraminiferal assemblages of sediment core GeoB"
+NOAA Paleo,Barbarikon,within 200 km,160.5,Unspecified,22.89944,66.61805,,,,,,https://doi.org/10.1594/PANGAEA.397167,"Assemblage of living benthic foraminifera in sediment core CD146_55918#7, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,166.8,Unspecified,24.00835,65.38775,,,,,,https://doi.org/10.1594/PANGAEA.328914,"Coarse fraction, pteropoda counts and Limacina dissolution index of surface sediment cores off Pakistan"
+NOAA Paleo,Barbarikon,within 200 km,121.4,Unspecified,24.7782,65.7975,,,,,,https://doi.org/10.1594/PANGAEA.787716,(Table 6) Live benthic foraminifera in sediment core SO130-291MC
+NOAA Paleo,Barbarikon,within 200 km,143.8,Unspecified,23.03583,66.70194,,,,,,https://doi.org/10.1594/PANGAEA.397180,"Assemblage of living benthic foraminifera in sediment core CD146_55916#1, 63-150 µm"
+NOAA Paleo,Leukē Kōmē,within 50 km,34.8,Unspecified,27.6115,34.8642,,,,,,https://doi.org/10.1594/PANGAEA.90857,Physical oceanography at CTD station GeoB5837-1a
+NOAA Paleo,Leukē Kōmē,within 50 km,44.2,Unspecified,27.5778,34.7377,,,,,,https://doi.org/10.1594/PANGAEA.99320,Color measurements on sediment core GeoB5838-3
+NOAA Paleo,Leukē Kōmē,within 200 km,125.4,Unspecified,29.47645,34.934033,,,,,,https://doi.org/10.1594/PANGAEA.842646,Radionuclides activity concentrations of sediment core HHN3
+NOAA Paleo,Barbarikon,within 200 km,128.0,Unspecified,23.2185,66.567833,,,,,,https://doi.org/10.1594/PANGAEA.707881,(Table 3) Stable carbon and oxygen isotope ratios of live Bolivina aff. B. dilatata from sediment core CD151_56111#1
+NOAA Paleo,Barbarikon,within 200 km,99.0,Unspecified,24.03,66.07,,,,,,https://doi.org/10.1594/PANGAEA.475952,Geochemistry of sediment core MH_9SK from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.797447,"(Table 1) Age model of GeoB5844-2, northern Red Sea, including 14C AMS datings and paleomagnetic tie-points to the NAPIS stack (Stoner et al., 2002)"
+NOAA Paleo,Barbarikon,within 200 km,71.2,Unspecified,23.66,67.5,,,,,,https://doi.org/10.1594/PANGAEA.475965,Geochemistry of sediment core MH_37SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,107.7,Unspecified,24.833,65.933,,,,,,https://doi.org/10.1594/PANGAEA.853968,Distribution of planktic foraminifera of sediment core SO90-39KG
+NOAA Paleo,Leukē Kōmē,within 200 km,114.8,Unspecified,29.38183,34.964,,,,,,https://doi.org/10.1594/PANGAEA.811913,"Coral δ¹³C data from the Northern Gulf of Aqaba (late Holocene), sample AQB-10-B"
+NOAA Paleo,Barbarikon,within 50 km,10.1,Unspecified,24.41,66.9,,,,,,https://doi.org/10.1594/PANGAEA.475960,Geochemistry of sediment core MH_26SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,139.8,Unspecified,23.086917,66.639583,,,,,,https://doi.org/10.1594/PANGAEA.805215,"Live benthic foraminifera of post-monsoon season samples from the Pakistan continental margin, small size fraction"
+NOAA Paleo,Barbarikon,within 200 km,100.9,Unspecified,25.1,66.0,,,,,,https://doi.org/10.1594/PANGAEA.475946,Geochemistry of sediment core MH_3SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,151.1,Unspecified,23.074019999999997,66.359995,,,,,,https://doi.org/10.1594/PANGAEA.398205,Live benthic foraminifera diversity in the 63-150 µm fraction of surface sediments from the Pakistan continental margin
+NOAA Paleo,Leukē Kōmē,within 200 km,172.9,Unspecified,26.3452,35.4013,,,,,,https://doi.org/10.1594/PANGAEA.99311,Color measurements on sediment core GeoB5828-2
+NOAA Paleo,Leukē Kōmē,within 50 km,46.4,Unspecified,27.685,34.596,,,,,,https://doi.org/10.1594/PANGAEA.831279,(Table S2) Planktonic foraminifera in sediment core M31/2_17KL
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122,66.497,,,,,,https://doi.org/10.1594/PANGAEA.63039,Geochemistry of carbonate free sediment from core SO90-136KL
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.736623,Sea-surface temperature and salinity reconstruction for sediment core GeoB5844-2
+NOAA Paleo,Leukē Kōmē,within 200 km,162.5,Unspecified,26.5078,35.9487,,,,,,https://doi.org/10.1594/PANGAEA.90829,Color data of sediment core GeoB5825-2
+NOAA Paleo,Leukē Kōmē,within 50 km,3.8,Unspecified,27.8785,34.9693,,,,,,https://doi.org/10.1594/PANGAEA.99324,Color measurements on sediment core GeoB5843-1
+NOAA Paleo,Leukē Kōmē,within 200 km,129.6,Unspecified,29.515167,34.957783,,,,,,https://doi.org/10.1594/PANGAEA.842645,Radionuclides activity concentrations of sediment core HHN2C
+NOAA Paleo,Barbarikon,within 200 km,155.3,Unspecified,23.01083,66.41222,,,,,,https://doi.org/10.1594/PANGAEA.397159,"Assemblage of living benthic foraminifera in sediment core CD145_55802#4, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,116.0,Unspecified,23.28916,66.71972,,,,,,https://doi.org/10.1594/PANGAEA.707878,(Table 3) Stable carbon and oxygen isotope ratios of live Bolivina aff. B. dilatata from sediment core CD146_55901#11
+NOAA Paleo,Tyndis,within 200 km,133.9,Unspecified,12.024378,77.101107,,,,,,https://doi.org/10.1594/PANGAEA.873691,"(Table 2) Geochemical index analysis for spheroidally-weathered diabase samples and the un-weathered rock sampled near Yeragumballi, southern India"
+NOAA Paleo,Leukē Kōmē,within 200 km,94.2,Unspecified,27.0528,35.4043,,,,,,https://doi.org/10.1594/PANGAEA.99314,Color measurements on sediment core GeoB5833-2
+NOAA Paleo,"Nelkynda, Bakarē",within 200 km,106.1,Unspecified,9.383,75.033,,,,,,https://doi.org/10.1594/PANGAEA.475973,Geochemistry of sediment core M1_MULT186 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,151.1,Unspecified,23.074019999999997,66.359995,,,,,,https://doi.org/10.1594/PANGAEA.398200,Benthic foraminifera (dead assemblages) in surface sediments from the Pakistan continental margin
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.831498,"Elemental analyses (XRF), total organic carbon (TOC), grain size analyses, lamination index of sediment core SO130-289KL"
+NOAA Paleo,Leukē Kōmē,within 50 km,20.9,Unspecified,27.7123,35.0477,,,,,,https://doi.org/10.1594/PANGAEA.90837,Color data of sediment core GeoB5842-2
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.894290,Grain size distribution of the thick suspensate deposits (C-events) sections of the sediment core SO130_275KL
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.99322,Color measurements on sediment core GeoB5840-2
+NOAA Paleo,Barbarikon,within 200 km,109.4,Unspecified,24.833,65.916,,,,,,https://doi.org/10.1594/PANGAEA.62068,(Table 1) C-14 age data of core SO90-56KA with corrections
+NOAA Paleo,Barbarikon,within 200 km,107.7,Unspecified,24.833,65.933,,,,,,https://doi.org/10.1594/PANGAEA.853970,Winter sea surface temperature reconstruction from planktic foraminiferal transfer functions of sediment core SO90-39KG
+NOAA Paleo,Barbarikon,within 200 km,128.0,Unspecified,23.2185,66.567833,,,,,,https://doi.org/10.1594/PANGAEA.707876,(Table 2) Stable carbon and oxygen isotope ratios of live Uvigerina ex gr. U. semiornata from sediment core CD151_56111#1
+NOAA Paleo,Tyndis,within 200 km,58.7,Unspecified,10.4667,75.2333,,,,,,https://doi.org/10.1594/PANGAEA.77697,Sedimentology on core MD77-194
+NOAA Paleo,Leukē Kōmē,within 50 km,44.2,Unspecified,27.5778,34.7377,,,,,,https://doi.org/10.1594/PANGAEA.90834,Color data of sediment core GeoB5838-3
+NOAA Paleo,Leukē Kōmē,within 50 km,3.9,Unspecified,27.8782,34.9693,,,,,,https://doi.org/10.1594/PANGAEA.90862,Physical oceanography at CTD station GeoB5843-2a
+NOAA Paleo,Leukē Kōmē,within 200 km,118.7,Unspecified,29.415,34.9117,,,,,,https://doi.org/10.1594/PANGAEA.78245,(Table 2) Age model and AMS14C age of GeoB5801-3
+NOAA Paleo,Barbarikon,within 200 km,155.3,Unspecified,23.01083,66.41222,,,,,,https://doi.org/10.1594/PANGAEA.397173,"Assemblage of living benthic foraminifera in sediment core CD145_55802#4, 63-150 µm"
+NOAA Paleo,Barbarikon,within 200 km,107.7,Unspecified,24.833,65.933,,,,,,https://doi.org/10.1594/PANGAEA.866923,Winter SST anomaly reconstruction for sediment core SO90-39KG
+NOAA Paleo,Leukē Kōmē,within 50 km,40.9,Unspecified,27.5788,34.7985,,,,,,https://doi.org/10.1594/PANGAEA.99321,Color measurements on sediment core GeoB5839-1
+NOAA Paleo,Barbarikon,within 200 km,172.9,Unspecified,23.255,65.74167,,,,,,https://doi.org/10.1594/PANGAEA.857391,Corg content and Sr/Ca ratios of sediment core NIOP-D2_453-1
+NOAA Paleo,Tyndis,within 200 km,58.7,Unspecified,10.4667,75.2333,,,,,,https://doi.org/10.1594/PANGAEA.863089,Physical properties of sediment core MD77-194
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.840940,Benthic foraminifera accumulation rate and diversity of sediment core GeoB12615-4
+NOAA Paleo,Barbarikon,within 200 km,166.8,Unspecified,24.00835,65.38775,,,,,,https://doi.org/10.1594/PANGAEA.328915,Carbon and CaCO3 of surface sediment samples off Pakistan
+NOAA Paleo,Barbarikon,within 200 km,117.1,Unspecified,23.280167,66.711833,,,,,,https://doi.org/10.1594/PANGAEA.707874,(Table 2) Stable carbon and oxygen isotope ratios of live Uvigerina ex gr. U. semiornata from sediment core CD151_56101#7
+NOAA Paleo,Barbarikon,within 200 km,134.5,Unspecified,23.09,67.42,,,,,,https://doi.org/10.1594/PANGAEA.475963,Geochemistry of sediment core MH_32KA from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,128.4,Unspecified,29.50267,34.91917,,,,,,https://doi.org/10.1594/PANGAEA.818040,"Coral δ¹³C record from the Northern Gulf of Aqaba, sample El-15a"
+NOAA Paleo,Barbarikon,within 200 km,116.0,Unspecified,23.28916,66.71972,,,,,,https://doi.org/10.1594/PANGAEA.397178,"Assemblage of living benthic foraminifera in sediment core CD146_55901#11, 63-150 µm"
+NOAA Paleo,Barbarikon,within 200 km,136.0,Unspecified,24.21167,65.66167,,,,,,https://doi.org/10.1594/PANGAEA.857395,"Corg content, Sr/Ca ratios and pteropoda of sediment core NIOP-D2_478-1"
+NOAA Paleo,Barbarikon,within 200 km,108.5,Unspecified,24.824833499999997,65.9248335,,,,,,https://doi.org/10.1594/PANGAEA.839062,Sea surface temperature reconstruction for sediment cores SO90-39KG and SO130_275KL
+NOAA Paleo,Barbarikon,within 200 km,125.5,Unspecified,23.2305,66.60666,,,,,,https://doi.org/10.1594/PANGAEA.707880,(Table 3) Stable carbon and oxygen isotope ratios of live Bolivina aff. B. dilatata from sediment core CD151_56110#1
+NOAA Paleo,Rhapta,within 200 km,111.4,Unspecified,-6.9795,40.3935,,,,,,https://doi.org/10.1594/PANGAEA.840862,Stable carbon and oxygen isotopes of Cibicidoides wuellerstorfi and Globigerinoides ruber of sediment core GeoB12616-4
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.111893,Stable oxygen isotope ratios of planktonic foraminifera of sediment core GeoB5844-2
+NOAA Paleo,Barbarikon,within 200 km,119.2,Unspecified,24.777,65.8198,,,,,,https://doi.org/10.1594/PANGAEA.127409,Stable isotope record of Globigerinoides ruber in sediment core SO130-261KL
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122333,66.497333,,,,,,https://doi.org/10.1594/PANGAEA.831497,Lamination Index from sediment core SO130-289KL
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.99325,Color measurements on sediment core GeoB5844-2
+NOAA Paleo,"Nelkynda, Bakarē",within 200 km,53.0,Unspecified,9.617,75.517,,,,,,https://doi.org/10.1594/PANGAEA.475975,Geochemistry of sediment core M1_MULT188 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,138.5,Unspecified,23.14,66.50333,,,,,,https://doi.org/10.1594/PANGAEA.397162,"Assemblage of living benthic foraminifera in sediment core CD145_55818#4, >150 µm"
+NOAA Paleo,Leukē Kōmē,within 200 km,172.9,Unspecified,26.3452,35.4013,,,,,,https://doi.org/10.1594/PANGAEA.90830,Color data of sediment core GeoB5828-2
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.825,,,,,,https://doi.org/10.1594/PANGAEA.90840,Physical properties of sediment core GeoB5824-3
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.894288,Grain size distribution of the varved sections of the sediment core SO130_275KL
+NOAA Paleo,Leukē Kōmē,within 200 km,91.0,Unspecified,27.0883,35.5663,,,,,,https://doi.org/10.1594/PANGAEA.90855,Physical oceanography at CTD station GeoB5831-1a
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.829472,"(Table S3) Stable isotopes and Mg/Ca ratios of foraminifera, and SST reconstruction of sediment core GeoB12615-4"
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.894286,Composition of the silt turbidite sections (F-events) of the sediment core SO130_275KL
+NOAA Paleo,Tyndis,within 200 km,58.7,Unspecified,10.4667,75.2333,,,,,,https://doi.org/10.1594/PANGAEA.863088,Stable isotope ratios of foraminifera in sediment core MD77-194
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.118863,Color/gray scale of sediment core GeoB5844-2
+NOAA Paleo,Barbarikon,within 200 km,154.3,Unspecified,23.796999999999997,65.5835,,,,,,https://doi.org/10.1594/PANGAEA.122790,Abundance of living coccolithophores in the northern Arabian Sea (Table 2)
+NOAA Paleo,Barbarikon,within 200 km,118.3,Unspecified,23.2825,66.66138,,,,,,https://doi.org/10.1594/PANGAEA.397161,"Assemblage of living benthic foraminifera in sediment core CD145_55808#3, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,152.8,Unspecified,22.966944,66.635,,,,,,https://doi.org/10.1594/PANGAEA.397168,"Assemblage of living benthic foraminifera in sediment core CD146_55921#1, >150 µm"
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.99329,Physical properties of sediment core GeoB5840-2
+NOAA Paleo,Barbarikon,within 200 km,160.5,Unspecified,22.89944,66.61805,,,,,,https://doi.org/10.1594/PANGAEA.397181,"Assemblage of living benthic foraminifera in sediment core CD146_55918#7, 63-150 µm"
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.725987,X-ray fluorescence measurements on sediment core GeoB5836-2
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.840868,Census counts of benthic foraminifera in sediment core GeoB12615-4
+NOAA Paleo,Barbarikon,within 200 km,64.9,Unspecified,24.28,66.36,,,,,,https://doi.org/10.1594/PANGAEA.475953,Geochemistry of sediment core MH_10SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,155.0,Unspecified,23.721,65.612,,,,,,https://doi.org/10.1594/PANGAEA.57049,Organic compounds in surface sediments from the Pakistan continental margin
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.894284,Composition of the varved sections of the sediment core SO130_275KL
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.8253,,,,,,https://doi.org/10.1594/PANGAEA.90851,Physical oceanography at CTD station GeoB5824-1a
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63040,Geochemistry of carbonate free sediment from core SO90-137KA
+NOAA Paleo,Barbarikon,within 200 km,136.0,Unspecified,24.21167,65.66167,,,,,,https://doi.org/10.1594/PANGAEA.857396,Planktonic foraminifera of sediment core NIOP-D2_478-1
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.825,,,,,,https://doi.org/10.1594/PANGAEA.99305,Color measurements on sediment core GeoB5824-3
+NOAA Paleo,Barbarikon,within 50 km,27.4,Unspecified,24.17,66.77,,,,,,https://doi.org/10.1594/PANGAEA.475940,Geochemistry of sediment core MH_25 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 50 km,33.3,Unspecified,24.76,66.67,,,,,,https://doi.org/10.1594/PANGAEA.475955,Geochemistry of sediment core MH_12SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,140.7,Unspecified,23.121499999999997,66.4965,,,,,,https://doi.org/10.1594/PANGAEA.735733,Multi-proxy analyses of sediment cores from the Pakistan continental margin
+NOAA Paleo,Barbarikon,within 200 km,129.0,Unspecified,23.14,67.24,,,,,,https://doi.org/10.1594/PANGAEA.475943,Geochemistry of sediment core MH_31 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,87.5,Unspecified,23.55,68.11,,,,,,https://doi.org/10.1594/PANGAEA.475964,Geochemistry of sediment core MH_35KA from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,128.1,Unspecified,29.5017,34.9567,,,,,,https://doi.org/10.1594/PANGAEA.418298,"Paleoenvironmental data of sediment core GeoB5804-4 from the northern Red Sea, Gulf of Aqaba"
+NOAA Paleo,Leukē Kōmē,within 50 km,20.9,Unspecified,27.7123,35.0477,,,,,,https://doi.org/10.1594/PANGAEA.99323,Color measurements on sediment core GeoB5842-2
+NOAA Paleo,Leukē Kōmē,within 200 km,128.3,Unspecified,29.5035,34.9622,,,,,,https://doi.org/10.1594/PANGAEA.78161,(Fig. 3) Stable carbon isotope record of planktonic foraminifera from sediment core GeoB5810-3
+NOAA Paleo,Barbarikon,within 200 km,189.9,Unspecified,22.85888,66.00027,,,,,,https://doi.org/10.1594/PANGAEA.397177,"Assemblage of living benthic foraminifera in sediment core CD145_55830#3, 63-150 µm"
+NOAA Paleo,Barbarikon,within 200 km,100.8,Unspecified,24.93,66.0,,,,,,https://doi.org/10.1594/PANGAEA.475947,Geochemistry of sediment core MH_4SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,153.4,Unspecified,22.92,67.02,,,,,,https://doi.org/10.1594/PANGAEA.475942,Geochemistry of sediment core MH_30 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,152.8,Unspecified,22.966944,66.635,,,,,,https://doi.org/10.1594/PANGAEA.397182,"Assemblage of living benthic foraminifera in sediment core CD146_55921#1, 63-150 µm"
+NOAA Paleo,Barbarikon,within 200 km,101.1,Unspecified,24.64,66.0,,,,,,https://doi.org/10.1594/PANGAEA.475949,Geochemistry of sediment core MH_6SK from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,122.6,Unspecified,29.452,34.97133,,,,,,https://doi.org/10.1594/PANGAEA.811914,"Coral δ¹³C data from the Northern Gulf of Aqaba (last interglacial), sample AQB-3-A"
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.90836,Color data of sediment core GeoB5840-2
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.99319,Color measurements on sediment core GeoB5836-2
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63047,"Grain size analysis, quartz content and stable oxygen isotope record of sediment core SO90-137KA"
+NOAA Paleo,Barbarikon,within 200 km,100.9,Unspecified,24.83,66.0,,,,,,https://doi.org/10.1594/PANGAEA.475948,Geochemistry of sediment core MH_5SK from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,118.7,Unspecified,29.415,34.9117,,,,,,https://doi.org/10.1594/PANGAEA.78159,(Fig. 3) Stable carbon isotope record of planktonic foraminifera from sediment core GeoB5801-3
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.90849,Geochemistry data of core GeoB5844-2
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.725989,X-ray fluorescence measurements on sediment core GeoB5844-2
+NOAA Paleo,Barbarikon,within 50 km,10.0,Unspecified,24.21,67.25,,,,,,https://doi.org/10.1594/PANGAEA.475956,Geochemistry of sediment core MH_21KA from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.839066,Sr/Ca ratios of sediment cores SO90-39KG and SO130_275KL
+NOAA Paleo,Leukē Kōmē,within 200 km,128.3,Unspecified,29.5035,34.9622,,,,,,https://doi.org/10.1594/PANGAEA.78180,"(Fig. 5, 6) Carbon and carbonate content, and stable carbon isotope record of organic matter from sediment core GeoB5810-3"
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.90842,Physical properties of sediment core GeoB5836-2
+NOAA Paleo,Leukē Kōmē,within 200 km,94.2,Unspecified,27.0528,35.4043,,,,,,https://doi.org/10.1594/PANGAEA.90831,Color data of sediment core GeoB5833-2
+NOAA Paleo,Tyndis,within 200 km,58.7,Unspecified,10.4667,75.2333,,,,,,https://doi.org/10.1594/PANGAEA.77487,Stable isotope on G. ruber w of sediment core MD77-194
+NOAA Paleo,Tyndis,within 200 km,58.7,Unspecified,10.4667,75.2333,,,,,,https://doi.org/10.1594/PANGAEA.441765,Alkenone data of sediment core MD77-194
+NOAA Paleo,Leukē Kōmē,within 50 km,37.6,Unspecified,27.7135,34.6817,,,,,,https://doi.org/10.1594/PANGAEA.99330,Physical properties of sediment core GeoB5844-2
+NOAA Paleo,Barbarikon,within 200 km,128.4,Unspecified,23.21472,66.56783,,,,,,https://doi.org/10.1594/PANGAEA.707877,(Table 3) Stable carbon and oxygen isotope ratios of live Bolivina aff. B. dilatata from sediment core CD145_55803#5
+NOAA Paleo,Barbarikon,within 50 km,10.0,Unspecified,24.21,67.04,,,,,,https://doi.org/10.1594/PANGAEA.475939,Geochemistry of sediment core MH_20 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,52.6,Unspecified,24.6,66.48,,,,,,https://doi.org/10.1594/PANGAEA.475954,Geochemistry of sediment core MH_11SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,113.2,Unspecified,23.7,66.1,,,,,,https://doi.org/10.1594/PANGAEA.475990,Geochemistry of sediment core M1_MULT237 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,78.4,Unspecified,23.595,67.87,,,,,,https://doi.org/10.1594/PANGAEA.475944,Geochemistry of sediment core MH_36 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,107.7,Unspecified,24.833,65.933,,,,,,https://doi.org/10.1594/PANGAEA.61823,(Figure 3) Oxygen isotopes and reconstructed salinity records of sediment core SO90-39KG from the northeastern Arabian Sea during the late Holocene
+NOAA Paleo,Leukē Kōmē,within 200 km,94.2,Unspecified,27.0528,35.4043,,,,,,https://doi.org/10.1594/PANGAEA.725986,X-ray fluorescence measurements on sediment core GeoB5833-2
+NOAA Paleo,Barbarikon,within 200 km,108.5,Unspecified,24.824833499999997,65.9248335,,,,,,https://doi.org/10.1594/PANGAEA.839067,Sea surface temperature and primary productivity reconstruction of sediment core SO130-275KL from the northeastern Arabian Sea during the late Holocene
+NOAA Paleo,Barbarikon,within 200 km,102.3,Unspecified,24.18,66.0,,,,,,https://doi.org/10.1594/PANGAEA.475951,Geochemistry of sediment core MH_8SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,67.8,Unspecified,23.69,67.45,,,,,,https://doi.org/10.1594/PANGAEA.475966,Geochemistry of sediment core MH_38SK from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,60.6,Unspecified,23.76,66.92,,,,,,https://doi.org/10.1594/PANGAEA.475961,Geochemistry of sediment core MH_27Sk from the Indian Ocean (Appendix)
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.825,,,,,,https://doi.org/10.1594/PANGAEA.58396,X-ray fluorescence measurements on sediment core GeoB5824-3
+NOAA Paleo,Barbarikon,within 200 km,108.5,Unspecified,24.824833499999997,65.9248335,,,,,,https://doi.org/10.1594/PANGAEA.839065,Carbonate and opal content and productivity index of sediment cores SO90-39KG and SO130_275KL
+NOAA Paleo,Leukē Kōmē,within 200 km,94.1,Unspecified,27.0533,35.4053,,,,,,https://doi.org/10.1594/PANGAEA.90856,Physical oceanography at CTD station GeoB5832-1a
+NOAA Paleo,Barbarikon,within 200 km,117.1,Unspecified,23.280167,66.711833,,,,,,https://doi.org/10.1594/PANGAEA.707879,(Table 3) Stable carbon and oxygen isotope ratios of live Bolivina aff. B. dilatata from sediment core CD151_56101#7
+NOAA Paleo,Tyndis,within 200 km,133.9,Unspecified,12.024378,77.101107,,,,,,https://doi.org/10.1594/PANGAEA.873690,"(Table 1) Major, minor and trace element concentrations of the spheroidally-weathered diabase samples and the un-weathered rock sampled near Yeragumballi, south"
+NOAA Paleo,Leukē Kōmē,within 200 km,188.3,Unspecified,26.206667,35.363333,,,,,,https://doi.org/10.1594/PANGAEA.602481,"Stable oxygen isotope ratios of Globigerinoides ruber (white) from multicorer GeoB7803-2, tube 1"
+NOAA Paleo,Leukē Kōmē,within 50 km,46.3,Unspecified,27.6855,34.596,,,,,,https://doi.org/10.1594/PANGAEA.54426,Stable isotopes of sediment core M31/2_KL17
+NOAA Paleo,Barbarikon,within 200 km,116.0,Unspecified,23.28916,66.71972,,,,,,https://doi.org/10.1594/PANGAEA.707873,(Table 2) Stable carbon and oxygen isotope ratios of live Uvigerina ex gr. U. semiornata from sediment core CD146_55901#11
+NOAA Paleo,Barbarikon,within 200 km,107.7,Unspecified,24.833,65.933,,,,,,https://doi.org/10.1594/PANGAEA.61822,(Figure 3) Sea surface temperature estimates of sediment core SO90-39KG from the northeastern Arabian Sea during the late Holocene
+NOAA Paleo,Barbarikon,within 200 km,139.8,Unspecified,23.086917,66.639583,,,,,,https://doi.org/10.1594/PANGAEA.805221,Dead benthic foraminifera of post-monsoon season samples from the Pakistan continental margin
+NOAA Paleo,Barbarikon,within 200 km,114.7,Unspecified,23.27,66.94,,,,,,https://doi.org/10.1594/PANGAEA.475941,Geochemistry of sediment core MH_28 from the Indian Ocean (Appendix)
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122,66.497,,,,,,https://doi.org/10.1594/PANGAEA.63041,Major and minor element concentrations of bulk sediment from core SO90-136KL XRF
+NOAA Paleo,Leukē Kōmē,within 200 km,124.3,Unspecified,29.466533,34.9292,,,,,,https://doi.org/10.1594/PANGAEA.842642,Radionuclides activity concentrations of sediment core A2
+NOAA Paleo,Rhapta,within 200 km,187.6,Unspecified,-6.983,41.183,,,,,,https://doi.org/10.1594/PANGAEA.727355,Planktic foraminifera counts of sediment core V19-202
+NOAA Paleo,Rhapta,within 50 km,16.8,Unspecified,-8.23416,39.75266,,,,,,https://doi.org/10.1594/PANGAEA.875935,Oxygen isotopes of Globigerinoides ruber of terrigenous sediments from sediment core GeoB12624-1
+NOAA Paleo,Barbarikon,within 200 km,140.6,Unspecified,23.122,66.497,,,,,,https://doi.org/10.1594/PANGAEA.60300,Accumulation rate and alkenones of sediment core SO90-136KL
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.825,,,,,,https://doi.org/10.1594/PANGAEA.90845,Geochemistry data of core GeoB5824-3
+NOAA Paleo,Leukē Kōmē,within 200 km,187.9,Unspecified,26.2102,35.3593,,,,,,https://doi.org/10.1594/PANGAEA.90833,Color data of sediment core GeoB5836-2
+NOAA Paleo,Barbarikon,within 200 km,140.8,Unspecified,23.121,66.496,,,,,,https://doi.org/10.1594/PANGAEA.63046,Relative abundance of benthic foraminifera in sediment core SO90-137KA
+NOAA Paleo,Rhapta,within 50 km,16.8,Unspecified,-8.23416,39.75266,,,,,,https://doi.org/10.1594/PANGAEA.893015,X-ray fluorescence (XRF) core scanning data of sediment core GeoB12624-1
+NOAA Paleo,Barbarikon,within 200 km,128.4,Unspecified,23.21472,66.56783,,,,,,https://doi.org/10.1594/PANGAEA.397160,"Assemblage of living benthic foraminifera in sediment core CD145_55803#5, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,158.9,Unspecified,22.92027,66.5925,,,,,,https://doi.org/10.1594/PANGAEA.397165,"Assemblage of living benthic foraminifera in sediment core CD146_55907#1, >150 µm"
+NOAA Paleo,Barbarikon,within 200 km,151.5,Unspecified,22.96583,66.70083,,,,,,https://doi.org/10.1594/PANGAEA.397183,"Assemblage of living benthic foraminifera in sediment core CD146_55922#2, 63-150 µm"
+NOAA Paleo,Barbarikon,within 200 km,151.1,Unspecified,23.074019999999997,66.359995,,,,,,https://doi.org/10.1594/PANGAEA.398204,Live benthic foraminifera diversity in the >150 µm fraction of surface sediments from the Pakistan continental margin
+NOAA Paleo,Barbarikon,within 200 km,128.4,Unspecified,23.21472,66.56783,,,,,,https://doi.org/10.1594/PANGAEA.707872,(Table 2) Stable carbon and oxygen isotope ratios of live Uvigerina ex gr. U. semiornata from sediment core CD145_55803#5
+NOAA Paleo,Leukē Kōmē,within 200 km,161.6,Unspecified,26.4853,35.825,,,,,,https://doi.org/10.1594/PANGAEA.90828,Color data of sediment core GeoB5824-3
+NOAA Paleo,Leukē Kōmē,within 50 km,37.5,Unspecified,27.7135,34.6823,,,,,,https://doi.org/10.1594/PANGAEA.90863,Physical oceanography at CTD station GeoB5844-1a
+NOAA Paleo,Leukē Kōmē,within 200 km,176.0,Unspecified,26.3185,35.52,,,,,,https://doi.org/10.1594/PANGAEA.90853,Physical oceanography at CTD station GeoB5827-1a
+NOAA Paleo,Barbarikon,within 200 km,108.5,Unspecified,24.824833499999997,65.9248335,,,,,,https://doi.org/10.1594/PANGAEA.839063,d15N record of sediment cores SO90-39KG and SO130_275KL
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.894285,Composition of the thick suspensate deposits (C-events) sections of the sediment core SO130_275KL
+NOAA Paleo,"Nelkynda, Bakarē",within 200 km,125.1,Unspecified,8.35,75.2,,,,,,https://doi.org/10.1594/PANGAEA.77644,Sedimentology on core MD76-125
+NOAA Paleo,Leukē Kōmē,within 200 km,125.8,Unspecified,29.4802,34.9463,,,,,,https://doi.org/10.1594/PANGAEA.78179,(Fig. 5) Carbon and carbonate contents of sediment core GeoB5807-2
+NOAA Paleo,Leukē Kōmē,within 200 km,91.0,Unspecified,27.0878,35.5668,,,,,,https://doi.org/10.1594/PANGAEA.90832,Color data of sediment core GeoB5834-1
+NOAA Paleo,Leukē Kōmē,within 200 km,165.9,Unspecified,26.4208,35.6697,,,,,,https://doi.org/10.1594/PANGAEA.99299,Color measurements on sediment core GeoB5823-2
+NOAA Paleo,Leukē Kōmē,within 50 km,20.9,Unspecified,27.7117,35.0473,,,,,,https://doi.org/10.1594/PANGAEA.90861,Physical oceanography at CTD station GeoB5842-1a
+NOAA Paleo,Leukē Kōmē,within 200 km,128.3,Unspecified,29.5035,34.9622,,,,,,https://doi.org/10.1594/PANGAEA.78247,(Table 2) Age model and AMS14C age of GeoB5810-3
+NOAA Paleo,Leukē Kōmē,within 50 km,49.7,Unspecified,28.675485,34.650835,,,,,,https://doi.org/10.1594/PANGAEA.818042,Stable carbon isotope record of Porites corals from the Gulf of Aqaba
+NOAA Paleo,Leukē Kōmē,within 50 km,40.7,Unspecified,27.5807,34.7987,,,,,,https://doi.org/10.1594/PANGAEA.90859,Physical oceanography at CTD station GeoB5839-2a
+NOAA Paleo,Leukē Kōmē,within 200 km,91.0,Unspecified,27.0878,35.5668,,,,,,https://doi.org/10.1594/PANGAEA.99317,Color measurements on sediment core GeoB5834-1
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.90848,Geochemistry data of core GeoB5840-2
+NOAA Paleo,Leukē Kōmē,within 50 km,3.8,Unspecified,27.8785,34.9693,,,,,,https://doi.org/10.1594/PANGAEA.90838,Color data of sediment core GeoB5843-1
+NOAA Paleo,Leukē Kōmē,within 200 km,94.2,Unspecified,27.0528,35.4043,,,,,,https://doi.org/10.1594/PANGAEA.99327,Physical properties of sediment core GeoB5833-2
+NOAA Paleo,Leukē Kōmē,within 200 km,172.8,Unspecified,26.3463,35.4022,,,,,,https://doi.org/10.1594/PANGAEA.90854,Physical oceanography at CTD station GeoB5828-1a
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.829471,(Table S1) Age determination of sediment core GeoB12615-4
+NOAA Paleo,Leukē Kōmē,within 200 km,51.6,Unspecified,27.5277,34.6873,,,,,,https://doi.org/10.1594/PANGAEA.90860,Physical oceanography at CTD station GeoB5840-1a
+NOAA Paleo,Leukē Kōmē,within 200 km,129.8,Unspecified,29.515833,34.941617,,,,,,https://doi.org/10.1594/PANGAEA.842644,Radionuclides activity concentrations of sediment core F
+NOAA Paleo,Rhapta,within 200 km,57.8,Unspecified,-7.138333,39.840833,,,,,,https://doi.org/10.1594/PANGAEA.840941,Geochemistry of sediment core GeoB12615-4
+NOAA Paleo,Barbarikon,within 200 km,109.3,Unspecified,24.816667,65.916667,,,,,,https://doi.org/10.1594/PANGAEA.853969,Winter sea surface temperature reconstruction from planktic foraminiferal transfer functions of sediment core SO130-275KL
+NOAA Paleo,Leukē Kōmē,within 50 km,44.4,Unspecified,27.5757,34.736,,,,,,https://doi.org/10.1594/PANGAEA.90858,Physical oceanography at CTD station GeoB5838-1a
+NOAA Paleo,Rhapta,within 200 km,72.2,TZ_2014,-8.949,39.333,PALEOCEANOGRAPHY,,,100000000,60000000,https://doi.org/10.25921/4qmt-mv07,Global Ocean Neodymium Isotope Data during the Campanian-Maastrichtian
+NOAA Paleo,Rhapta,within 200 km,148.8,Unspecified,-7.14533,37.63133,POLLEN,,,,,,Kitumbako pollen (KITUMBAKO) African Pollen Database (Neotoma)
+NOAA Paleo,Rhapta,within 200 km,150.8,Unspecified,-7.1222,37.62053,POLLEN,,,,,,Deva-Deva pollen (DEVA-DEVA) African Pollen Database (Neotoma)
+NOAA Paleo,Rhapta,within 200 km,148.8,Unspecified,-7.14533,37.63133,POLLEN,,,,,,Kitumbako geochronologic (KITUMBAKO) African Pollen Database (Neotoma)
+NOAA Paleo,Rhapta,within 200 km,150.8,Unspecified,-7.1222,37.62053,POLLEN,,,,,,Deva-Deva geochronologic (DEVA-DEVA) African Pollen Database (Neotoma)

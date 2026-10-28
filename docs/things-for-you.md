@@ -50,7 +50,37 @@ file. These are open access and will open for you.
 
 Save into `../library/oa-harvest/`.
 
-## 4. The Harvard proxy, in this order
+## 4. The Harvard proxy, and this is now the biggest single item
+
+### 4a. The Geological Society of India, sixty-nine papers
+
+This is new and it is the answer to where the Malabar dating evidence is.
+
+Four open databases were asked what dated subsurface material exists at the
+seven ports. Across 828 records within two hundred kilometres of any port,
+exactly one is both within fifty kilometres and spans AD 50, and it is a
+sea-surface-temperature curve 49 km offshore. The dating evidence for Malabar is
+not in any database. It is in one journal, and the journal is on Springer, so
+the proxy reaches it.
+
+`data/processed/jgsi_catalogue.csv` lists all seventy-four relevant papers with
+a working link for each. Five downloaded free. **Sixty-nine need the proxy, and
+twenty-six of those are directly about dated coastline position.** Start with
+these, which are the ones whose titles say they hold what is wanted:
+
+1. **Quaternary Geology of Kerala: Evidence from Radiocarbon Dates**, 1989
+2. **A Mid Holocene Strandline Deposit on the Inner Shelf of Cochin**, 1992, a
+   dated drowned shoreline off the Muziris approach
+3. **On the Evolution of the Lagoon Barrier System**, 1987, which is the
+   Vembanad backwaters, the feature the Malabar distances run through
+4. **Late Quaternary Evolution of the Shelf Environment off North Kerala**, 2007
+5. **Radiocarbon Dates of Corals, Gastropods and Foraminifers from Saurashtra**,
+   2002, for the Indus side
+
+Filter the catalogue on `access = subscription` for the rest. Save them into
+`../library/geomorphology/jgsi/`, keeping the filenames the catalogue gives.
+
+### 4b. The individual papers, in this order
 
 1. **Priju et al. 2018**, `10.1007/978-981-10-5801-1_27`. Buried channels in the
    Periyar basin by resistivity. Resistivity reads the sand body under the
@@ -121,3 +151,10 @@ A backup from the incident sits at `/Users/vivek/thesis-code-critical-1905`.
   data.gov.in were all checked. The maps exist only as figures in papers.
 - **There is no measured bathymetry at any of the seven approaches.** Searched
   to exhaustion across nine sources.
+- **The date and core databases have been asked**, all four of them, over the
+  six port boxes. Neotoma holds nothing at any port and twenty-three datasets in
+  all of western India. PANGAEA holds three. The forty-eight NOAA records within
+  fifty kilometres all carry DOIs and need nothing from you, so they are my work
+  and not yours. Barbarikon and Leukē Kōmē, which had no dated subsurface
+  evidence in the project at all, each have marine cores within fifty
+  kilometres.

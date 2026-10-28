@@ -26,6 +26,15 @@ issue and once in a retrospective batch. The Periyar palaeodelta note is both
 The PDF link is not derivable from the article identifier. It carries a separate
 galley number, which is only available from the article page's citation_pdf_url
 meta tag, so every candidate costs one extra request.
+
+And the archive is not open, which the first run of this script is what
+established. Most articles answer a download request with a redirect to a login
+page carrying `payment.loginRequired.forArticle`, and a minority serve the file.
+Both come back as HTTP 200, so the response has to be classified rather than
+trusted, and the catalogue records which of the two happened. That distinction
+is the useful output here: it separates what is held from what has to go through
+a subscription, and the journal is on Springer, so the proxy should reach the
+rest.
 """
 import csv, pathlib, re, time, urllib.parse, urllib.request
 
@@ -70,17 +79,23 @@ META = re.compile(r'<meta name="citation_([a-z_]+)" content="([^"]*)"')
 
 
 def get(url, tries=3):
+    """Body and the URL it actually came from.
+
+    The landing URL matters. A paid article redirects to a login page and says
+    why in the query string rather than in the page, so the body alone cannot
+    tell a paywall from a broken galley.
+    """
     for attempt in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=60) as r:
-                return r.read()
+                return r.read(), r.geturl()
         except Exception as exc:
             if attempt == tries - 1:
                 print(f"      failed: {exc}")
-                return b""
+                return b"", url
             time.sleep(2 * (attempt + 1))
-    return b""
+    return b"", url
 
 
 def search(term):
@@ -89,7 +104,7 @@ def search(term):
     while page <= 5:
         url = (f"{BASE}/search/search?query={urllib.parse.quote(term)}"
                f"&searchPage={page}")
-        html = get(url).decode("utf-8", "replace")
+        html = get(url)[0].decode("utf-8", "replace")
         ids = ART.findall(html)
         if not ids:
             break
@@ -105,7 +120,7 @@ def search(term):
 
 
 def record(art_id):
-    html = get(f"{BASE}/article/view/{art_id}").decode("utf-8", "replace")
+    html = get(f"{BASE}/article/view/{art_id}")[0].decode("utf-8", "replace")
     if not html:
         return None
     meta = {}
@@ -130,8 +145,36 @@ def slug(r):
     return f"{r['region']}_{first}{r['year']}_{stub}.pdf"
 
 
+def classify(blob, landed):
+    """What the archive actually sent back.
+
+    A paid article and a served file are both HTTP 200. The magic bytes
+    separate the file, and a paywalled one lands on
+    `/login?source=...&loginMessage=payment.loginRequired.forArticle`, which
+    names the reason in the query string and nowhere in the page.
+    """
+    if blob[:5] == b"%PDF-":
+        return "open"
+    if "payment.loginRequired" in landed:
+        return "subscription"
+    if "/login" in landed:
+        return "login required"
+    if not blob:
+        return "no response"
+    return "not a pdf"
+
+
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
+    cached = OUT / "jgsi_catalogue.csv"
+    if cached.exists():
+        # Searching costs several hundred requests and the result does not
+        # change between runs, so a re-run picks the catalogue back up and
+        # retries only the files.
+        rows = list(csv.DictReader(open(cached)))
+        print(f"reusing {len(rows)} catalogued papers from {cached.name}\n")
+        return download(rows)
+
     seen_ids, by_title, rows = set(), {}, []
 
     for region, terms in QUERIES.items():
@@ -159,41 +202,43 @@ def main():
                 print(f"    keep {r['year']}  {t[:78]}")
 
     print(f"\n{len(rows)} relevant of {len(seen_ids)} inspected\n")
+    download(rows)
 
-    # Download last, so the catalogue exists even if the host tires of us.
+
+def download(rows):
+    """Fetch what the archive will give, and say why for the rest."""
     for r in rows:
-        r["file"] = ""
+        r["file"] = r.get("file", "")
         if not r["pdf_url"]:
+            r["access"] = "no galley"
             continue
         path = DEST / slug(r)
         if path.exists() and path.stat().st_size > 20000:
+            r["file"], r["access"] = path.name, "open"
+            continue
+        blob, landed = get(r["pdf_url"])
+        r["access"] = classify(blob, landed)
+        if r["access"] == "open":
+            path.write_bytes(blob)
             r["file"] = path.name
-            continue
-        blob = get(r["pdf_url"])
-        # The archive answers a missing galley with an HTML notice and a 200, so
-        # the magic bytes decide whether this is a PDF.
-        if blob[:5] != b"%PDF-":
-            print(f"   not a pdf: {r['title'][:60]}")
-            continue
-        path.write_bytes(blob)
-        r["file"] = path.name
-        print(f"   {len(blob)//1024:5d} kB  {path.name[:76]}")
-        time.sleep(0.5)
+            print(f"   {len(blob)//1024:5d} kB  {path.name[:76]}")
+        time.sleep(0.4)
 
     fields = ["region", "year", "title", "authors", "volume", "firstpage",
-              "file", "pdf_url", "page_url", "id", "duplicate_ids", "query"]
+              "access", "file", "pdf_url", "page_url", "id", "duplicate_ids",
+              "query"]
     dest = OUT / "jgsi_catalogue.csv"
     with open(dest, "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         w.writerows({k: r.get(k, "") for k in fields} for r in rows)
 
-    got = sum(1 for r in rows if r["file"])
-    print(f"\n{got} of {len(rows)} downloaded -> {DEST}")
-    print(f"catalogue -> {dest}")
     from collections import Counter
+    print(f"\n{len(rows)} relevant papers -> {dest}")
+    for k, v in Counter(r["access"] for r in rows).most_common():
+        print(f"   {k:14s} {v}")
     for k, v in Counter(r["region"] for r in rows).most_common():
-        print(f"   {k:12s} {v}")
+        print(f"   {k:14s} {v}")
 
 
 if __name__ == "__main__":

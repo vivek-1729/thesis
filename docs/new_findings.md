@@ -313,6 +313,81 @@ mapped landform, at seventy metres, on the same ground as the candidates.
 
 ---
 
+## 10. The date and core databases, asked directly
+
+Everything dated the thesis holds came out of papers: seventeen Kerala boreholes
+and twenty-seven Kerala core dates from Maya et al. 2017, and twenty-six
+Tanzanian dates read out of Punwong's 2013 thesis. Nothing for the Red Sea and
+nothing for the Indus. `src/query_dated_subsurface.py` asks the four open
+databases what they hold at the six port boxes instead.
+
+Getting an honest answer out of them took more care than querying them.
+PANGAEA's public search accepts a bounding box alongside a text query and
+silently drops the box, so a search for cores in the half-degree box at the
+Periyar returns North Atlantic foraminifera. The NOAA archive accepts a box and
+barely uses it: a tenth-of-a-degree box returns 450 studies and a two-degree box
+475. Neotoma accepts a bare bounding-box array without complaint and matches
+nothing, which only showed up because the US Midwest, its best-sampled region,
+came back empty. XRONOS answers its own documented query API with null for every
+country tried. Each needed a different route, and one intermediate check went
+through a file on disk that a timed-out request failed to overwrite, so Kerala
+briefly appeared to contain two lakes in Minnesota.
+
+**What they hold, within fifty kilometres of a port.**
+
+| Port | Records | Where from |
+|---|---|---|
+| Muziris | 2 | tree rings, inland |
+| Nelkynda and Bakarē | 0 | |
+| Tyndis | 1 | a marine core at 49 km |
+| Barbarikon | 12 | 8 marine cores off the Indus, 3 meteorological series, 1 archaeological date |
+| Leukē Kōmē | 32 | northern Red Sea cores, the GeoB series, and a coral |
+| Rhapta | 13 | the Punwong cores, a Mafia coral, a pollen core at 17 km |
+
+**And the number that matters. Of 828 records within two hundred kilometres of
+any port, exactly one is both within fifty kilometres and spans AD 50**, and it
+is a sea-surface-temperature reconstruction from a marine core 49 km off Tyndis,
+which is not evidence about a harbour.
+
+That is an independent confirmation rather than a new finding. `DATA.md` section
+7 already records that no dated evidence within five centuries of AD 50 exists
+on these coasts. It was asserted from the literature. Four databases, queried
+over the ground itself, now say the same thing.
+
+**Three things follow that are worth having.** The Punwong cores at the Rufiji
+are dated at 392, 884, 1292, 4167, 4751 and 4931 BP, so the gap in them falls
+across the Periplus period rather than the record stopping short of it.
+Barbarikon and Leukē Kōmē, the two regions with no dated subsurface evidence in
+the project at all, each turn out to have marine cores within fifty kilometres.
+And all forty-eight NOAA records within fifty kilometres carry DOIs and need
+nothing from anyone to download.
+
+---
+
+## 11. The Geological Society archive is a subscription, and holds the Malabar dating evidence
+
+Section 8 reported that JGSI serves free PDFs. That was true of the paper it was
+tested on and is not true generally. `src/harvest_jgsi.py` identified 74 papers
+relevant to Malabar or the Indus and could download 5. The other 69 redirect to
+a login carrying `payment.loginRequired.forArticle`. Both answers arrive as HTTP
+200 and neither says so in the page, so the catalogue now classifies on the URL
+the request lands on.
+
+**Twenty-six of the sixty-nine are directly about dated coastline position**,
+which is the quantity section 10 has just shown no database holds. Among them,
+by title: *Quaternary Geology of Kerala: Evidence from Radiocarbon Dates*
+(1989), *A Mid Holocene Strandline Deposit on the Inner Shelf of Cochin* (1992),
+*On the Evolution of the Lagoon Barrier System* (1987), *Late Quaternary
+Evolution of the Shelf Environment off North Kerala* (2007), and *Radiocarbon
+Dates of Corals, Gastropods and Foraminifers from Saurashtra* (2002) for the
+Indus side.
+
+So the Malabar dating evidence is neither missing nor undiscovered. It is in one
+journal, it is catalogued in `data/processed/jgsi_catalogue.csv` with a working
+link for each paper, and it is behind a subscription the university has.
+
+---
+
 ## Still open from this work
 
 - Sheets 751, Indus 41 and 118, and Red Sea 8a to 8c.
