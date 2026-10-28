@@ -66,18 +66,80 @@ def _read(href, bbox, shape=None, resampling=Resampling.nearest, tries=3):
 
 def surface_water(bbox, shape=None, layers=("occurrence", "seasonality",
                                             "transitions", "change")):
-    """JRC Global Surface Water over the box, 1984 to 2021, about 30 m."""
+    """JRC Global Surface Water over the box, 1984 to 2021, about 30 m.
+
+    The product is tiled 10 degrees square, so a box that crosses a tile
+    boundary intersects more than one. An earlier version of this function read
+    whichever tile the search happened to return first, which for such a box
+    means requesting a window that is mostly outside the tile and getting an
+    array that looks plausible and is wrong. One Aral Sea box read that way
+    reported six times the lost water it actually has.
+
+    Boxes inside a single tile, which includes all seven port boxes, were never
+    affected. Boxes that cross a boundary are now mosaicked.
+    """
     items = list(_client().search(collections=["jrc-gsw"], bbox=bbox).items())
     if not items:
         raise RuntimeError(f"no JRC surface water tile over {bbox}")
     out = {}
     for k in layers:
-        for it in items:
-            if k in it.assets:
-                a = _read(it.assets[k].href, bbox, shape)
-                if a is not None:
-                    out[k] = a
-                    break
+        here = [it for it in items if k in it.assets]
+        if not here:
+            continue
+        if len(here) == 1:
+            a = _read(here[0].assets[k].href, bbox, shape)
+            if a is not None:
+                out[k] = a
+            continue
+        out[k] = _mosaic(here, k, bbox, shape)
+    return out
+
+
+def _mosaic(items, layer, bbox, shape=None):
+    """Read each intersecting tile over its own share of the box and join them.
+
+    Each tile is read only over the part of the requested box it actually
+    covers, then placed into the output by that sub-box's position. Tiles
+    overlap by nothing, so no blending is needed; gaps stay zero, which for
+    every JRC layer means "not water".
+    """
+    lon0, lat0, lon1, lat1 = bbox
+    probe = None
+    for it in items:
+        tb = it.bbox
+        sub = [max(lon0, tb[0]), max(lat0, tb[1]), min(lon1, tb[2]), min(lat1, tb[3])]
+        if sub[2] <= sub[0] or sub[3] <= sub[1]:
+            continue
+        a = _read(it.assets[layer].href, sub)
+        if a is None:
+            continue
+        probe = probe or {}
+        probe[tuple(sub)] = a
+
+    if not probe:
+        return None
+    # Work out a common grid from the finest piece, then place each piece.
+    px = max(a.shape[1] / (sb[2] - sb[0]) for sb, a in probe.items())
+    py = max(a.shape[0] / (sb[3] - sb[1]) for sb, a in probe.items())
+    H = int(round((lat1 - lat0) * py))
+    W = int(round((lon1 - lon0) * px))
+    first = next(iter(probe.values()))
+    out = np.zeros((H, W), dtype=first.dtype)
+    for sb, a in probe.items():
+        c0 = int(round((sb[0] - lon0) * px))
+        c1 = min(W, c0 + int(round((sb[2] - sb[0]) * px)))
+        r0 = int(round((lat1 - sb[3]) * py))
+        r1 = min(H, r0 + int(round((sb[3] - sb[1]) * py)))
+        if r1 <= r0 or c1 <= c0:
+            continue
+        ys = (np.linspace(0, a.shape[0] - 1, r1 - r0)).astype(int)
+        xs = (np.linspace(0, a.shape[1] - 1, c1 - c0)).astype(int)
+        out[r0:r1, c0:c1] = a[np.ix_(ys, xs)]
+
+    if shape is not None and out.shape != tuple(shape):
+        ys = np.linspace(0, out.shape[0] - 1, shape[0]).astype(int)
+        xs = np.linspace(0, out.shape[1] - 1, shape[1]).astype(int)
+        out = out[np.ix_(ys, xs)]
     return out
 
 

@@ -19,7 +19,7 @@ Everything in quotation marks is verbatim from the source named.
 | III. The material record | 5–10 |
 | IV. The landscape | 11–22 |
 | V. Port by port | 23 |
-| VI. What went wrong, and what is left | 24–27 |
+| VI. What went wrong, and what is left | 24–28 |
 
 ---
 
@@ -1827,16 +1827,26 @@ He gives no reference.
    four bathymetry tracklines across the Nelkynda and Bakarē approach. The
    conclusion barely changed and the actionable item did: there is survey data
    to order at the one port where the depth argument is sharpest.
-7. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
-8. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
-9. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
+7. **Read one JRC tile where the box spanned two.** The surface-water product
+   is tiled ten degrees square and the reader took the first intersecting item,
+   so a box crossing a boundary requested a window mostly outside the tile it
+   read. One Aral box reported 6.8 per cent lost water against a true 2.0. The
+   seven port boxes each sit inside a single tile, so nothing published moved.
+8. **Resampled labels across projections by array index.** JRC is geographic,
+   Sentinel-2 is UTM; index-resampling one onto the other gives an array of the
+   right shape on the wrong ground. The guard that caught it is cheap and is now
+   standing practice: ask whether the imagery's own water index can find the
+   water the label claims is there. Before the fix 0.46, after it 0.996.
+9. Claimed al-Wajh had a rival coin hoard. It is three nummi of AD 295.
+10. Claimed *Pakistan Archaeology* was not online. It is, at doam.gov.pk.
+11. Built a Barbarikon distance argument on a mis-extracted endpoint: the text
    says the promontory Papica, not Astakapra.
-10. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
+12. **Archive.org OCR is unusable for IAR.** The Digital Library of India scanned
    the volumes with a Devanagari OCR model, so English came out as mojibake. An
    early search over that derived text falsely showed every Kerala candidate
    absent from 59 years of reporting. Artefact, discarded. The PDFs carry a clean
    English text layer and were re-extracted from directly.
-11. **Chapter and title assignment is unreliable in some IAR volumes, and one
+13. **Chapter and title assignment is unreliable in some IAR volumes, and one
    candidate notice was nearly lost to it.** The 2006-07 entry reporting "the
    first time a neolithic axe has been discovered from the higher reaches of the
    Kallada river basin" carries the title "MUGHAL INSCRIPTION, KANNAUJ" in our
@@ -1845,7 +1855,7 @@ He gives no reference.
    exploration in Mahbubnagar under archaeological chemistry. Any count that
    rests on the chapter field, including the 75 Kerala fieldwork entries in §3.2,
    should be treated as approximate until the chapter boundaries are re-derived.
-12. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
+14. **Three IAR extraction bugs**, each of which changed the answer. "MADHYA
    PRADESH" carries three internal spaces, so the boundary regex missed it and
    Madhya Pradesh districts were absorbed into the Kerala block; six of eight
    apparent Kerala Early Historic entries were from Sagar, Vidisha, Chhatarpur,
@@ -1854,7 +1864,7 @@ He gives no reference.
    Pattanam. And the first entry of every block was dropped because the pattern
    required whitespace after the separator, which silently removed the Cranganore
    excavation.
-13. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
+15. **Crossref search is token-based, not phrase-based.** "Mafia Island" returns
    182,000 works, mostly organised crime; "Quseir al-Qadim" 1.5 million. Raw hit
    counts are useless as an attention metric.
 ---
@@ -1905,7 +1915,111 @@ would assume the identification in question.
 
 ---
 
-## 27. What in here is publishable, and what is not
+## 27. The riparian control was flattering the detector, and terrain is the arm that works
+
+Every satellite result in this project had been validated against a riparian
+control: a ring of land just outside present water. That asks whether the
+detector separates ground *near* a river from ordinary ground. The question the
+thesis needs is whether it separates ground that *used to be* a river from
+ordinary ground, and those are not the same question.
+
+**A ground truth for the second question exists and is global.** JRC Global
+Surface Water classifies every 30 m pixel by what happened to its water between
+1984 and 2021, and two classes, lost permanent and lost seasonal, are a map of
+channels that died inside the satellite record. Filtered to elongated components
+so reservoirs drop out, their positions are known because a satellite watched
+them dry. Features are taken from Sentinel-2 composites of 2022 onward, after
+the water is gone, so label and evidence are separated in time.
+
+### The optical detector is at chance on real dead channels
+
+| Site | Dead-channel pixels | Summed PC2–PC4 | Most-linear component |
+|---|---:|---:|---:|
+| Aral basin, Amu Darya | 7,060 | **0.428** | 0.472 |
+| Indus delta | 129,149 | **0.414** | 0.439 |
+
+Two sites on two continents, one of them with 129,000 labelled pixels, and the
+detector that scores **0.814 against the riparian control** scores below chance
+against channels that actually died. The raw band differences say why: dead
+channel against ordinary land differs by 0.007 to 0.010 in reflectance, which is
+nothing.
+
+**This does not mean the 0.814 was wrong. It means it was measuring an easier
+task than the one it was being read as.** Separating riparian ground from
+ordinary ground is a real result about a real contrast; it is not evidence that
+a relict channel can be found.
+
+### Terrain, which had been written off, is the arm that carries signal
+
+The project tested terrain by detrending the Copernicus DEM, scored 0.43 to
+0.54, and concluded the signal was under the noise. That blamed the resolution.
+The geoarchaeological literature does not use detrending; it uses sky-view
+factor, reported effective for palaeochannels, and openness, which has no
+directional bias. Against the same Indus labels, on the same DEM:
+
+| Method | AUC |
+|---|---:|
+| **Sky-view factor** | **0.696** |
+| Openness | 0.695 |
+| Raw elevation, negated | 0.610 |
+| Detrending, what the project used | 0.646 |
+| Local relief model | 0.451 |
+| Slope | 0.512 |
+| *Optical per-pixel, same site, same labels* | *0.414* |
+
+**Terrain beats optical by 0.28 on real dead channels, which reverses the
+project's standing conclusion.** Optical was believed to work and terrain to be
+useless. Against the right control it is the other way round.
+
+**Why detrending lost, established rather than asserted.** On a synthetic 1 m
+channel the two filters swap places depending on how spatially correlated the
+DEM error is: with near-white error detrending wins 0.890 to 0.699, and with
+error correlated over eight pixels sky-view factor wins 0.992 to 0.848. The
+Copernicus residual at the Indus has a measured autocorrelation half-length of
+twelve pixels and a standard deviation of 1.54 m, which is squarely the regime
+where sky-view factor should win. It does. The synthetic test predicted the real
+one, which is the only reason to trust either.
+
+**The caveat that keeps this honest.** Negated raw elevation alone scores 0.610,
+so most of sky-view factor's skill is the near-trivial fact that a dead channel
+sits in low ground. The genuine gain from the filter is 0.086, and the result
+saturates past a 2.4 km search radius, which is further evidence it is reading
+broad topographic lows rather than channel form. 0.696 is also below the 0.75
+bar this project pre-registered. It is a signal, not a solution.
+
+### What this says about putting a neural network on it
+
+The original plan was a U-Net on optical, to see shape where per-pixel spectra
+cannot. That plan is now pointed at the wrong input. There is no per-pixel
+optical contrast to build on, 0.007 in reflectance, so a convolutional model
+would be learning shape from noise. Terrain carries the signal, so terrain is
+where shape should be learned, and the natural design is a segmenter over
+sky-view factor, openness and elevation rather than over bands.
+
+**And a channel dry for twenty years is still not a channel dry for two
+thousand.** Everything above validates a pipeline. None of it establishes that
+the signal survives nineteen centuries, and §13 applies in full.
+
+### Two bugs found on the way
+
+**The JRC reader took only the first intersecting tile.** The product is tiled
+ten degrees square, so any box crossing a boundary requested a window mostly
+outside the tile it read and got an array that looked plausible and was wrong:
+one Aral box reported 6.8 per cent lost water against a true 2.0. Fixed to
+mosaic, verified by making two independent reads agree exactly. All seven port
+boxes sit inside single tiles, so the water table in §16 is unaffected.
+
+**Labels were being resampled across projections by array index.** JRC is
+geographic, Sentinel-2 is UTM, and index-resampling one onto the other produces
+an array of the right shape sitting on the wrong ground. Caught by a cheap test
+now kept as a standing guard: ask whether the imagery's own water index can find
+the water the label says is there. Before the fix, 0.46. After, 0.996 where
+water is stable. Training on the unfixed labels would have produced a confident
+failure that was entirely my own bug.
+
+---
+
+## 28. What in here is publishable, and what is not
 
 An honest audit of originality. The test applied to each result is whether it is
 new, non-obvious, defensible from evidence already held, and of interest to
@@ -2012,6 +2126,31 @@ ICESat-2 ATL24 or an archived trackline where one exists.
 
 **What is still needed.** Nothing. This one is finished and could be written up
 as it stands.
+
+### Paper 4. The control you validate a palaeochannel detector against decides what you conclude
+
+**The claim.** Remote-sensing palaeochannel work is routinely validated against
+ground beside present water, because that is the control that is easy to build.
+That control measures an easier task than the one being claimed, and the gap is
+large enough to reverse which sensor you conclude is useful.
+
+**The evidence**, all in §27. The same per-pixel detector scores 0.814 against a
+riparian control and 0.414 against channels a satellite watched die. Terrain,
+written off at 0.43 on the strength of a detrending filter, scores 0.696 with
+sky-view factor and beats optical by 0.28 on the right control. The crossover
+between the two filters is predicted by DEM error correlation length on
+synthetic data and confirmed on real data, so the mechanism is established
+rather than asserted. And JRC lost-water supplies the better control globally
+and free, so the fix is available to anyone.
+
+**Why anyone else cares.** I could not find a single published CNN or U-Net
+segmentation of palaeochannels for archaeology, and the classical literature
+validates the way this project did. If the control is systematically flattering,
+a body of published detection results is measuring something other than what it
+reports.
+
+**What is still needed.** A second and third region, and the terrain segmenter
+§27 argues for rather than the optical one originally planned.
 
 ### What is not original, and should not be claimed
 

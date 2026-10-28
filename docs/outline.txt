@@ -1,0 +1,47 @@
+INTRODUCTION
+- Introduce the setting in which we're investigating and provide a bit of background on how the ancient trade routes work
+- Talk about past literature in this field: the attemps that have been made to identify each of these cities and the scholarship on the maritime handbooks
+- Set up the four questions we're talking about:
+   - Where is the coastline?
+   - How deep was the water, and could a ship get in?
+   - Where did the rivers run?
+   - How fast did ships actually sail?
+- Introduce the data sources we're talking about
+- Talk about the contributions of this paper to the field (unique for bringing together such a variety of evidence for tackling the problem of finding lost cities)
+
+
+CHAPTER ONE. STATISTICAL FRAMEWORK
+
+- Outline the statistical methodology we're using for each of our sections and how that's going into the prior and posterior computation
+- Sections: 
+   - Where is the coastline?
+   - How deep was the water?
+   - Where did the rivers run?
+   - How fast did ships sail?
+   - prior
+   - Update
+   - Posterior
+
+CHAPTER TWO. CASE STUDY, FIRST PORT
+
+Going to have two case studies focused on two different port cities (or like cluster of ports). Each case study will have two sections: the quantitative which focuses on the analysis we do on the data and the findings from those and the qualitative which focuses on the archaeological evidence we have for each place and how we can read that to get a better understanding of the place (broadly, there is one section for statistics and one for classics)
+
+- The port and its candidates
+- Quantitative: the four questions on this coast
+- Distances measured through the reconstructed network
+- Qualitative: what was dug, what was found
+- Talk in depth about the insights we gained from our work and how that influences our understanding of the people and societies of this time period
+
+
+CHAPTER THREE. CASE STUDY, SECOND PORT
+
+Same thing as the previous case study
+
+
+CONCLUSION
+
+- A posterior for each port
+- Quantitative findings from each of the case studies
+- Qualitative findings from each of the case studies
+- Limitations
+- Next steps
