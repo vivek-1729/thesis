@@ -86,10 +86,74 @@ genuinely changed. This is flagged and left, not resolved.
 
 ---
 
+---
+
+## 4. Georeferencing turns the charts into evidence for all four questions
+
+Worth setting out, because the charts had been treated as background and they
+are not.
+
+**Q1, the coastline.** The 1857 shoreline is now locatable to about twenty
+metres, which is 115 years before the earliest satellite epoch the project
+holds. Sheets 749 and 750 cover the whole Malabar candidate zone, so the coastal
+change rate over that interval is measurable rather than assumed.
+
+**Q2, the depth.** Section 19 established that no measured bathymetry exists at
+any of the seven approaches, leaving the charts carrying the depth question
+alone. Georeferencing makes their soundings located points rather than numbers,
+and sheet 749 prints the datum they are reduced to.
+
+**Q3, the rivers, and this is the one that matters most.** Section 12 records
+four independent methods failing in Kerala because the Kuttanad polder system
+has re-cut the surface into features that mimic palaeochannels. **The 1857
+survey predates the reclamation, the Thanneermukkom barrage and the Idukki dam.**
+It draws the backwater network as it stood before the engineering that defeats
+the satellites. Section 4.5 calls measuring the Malabar distances through the
+backwaters the single most consequential unfinished measurement in the project.
+The network to measure them through is printed on these sheets.
+
+**Q4, the sailing.** The sheets carry anchorage symbols, magnetic variation, and
+coastal profile views drawn as a ship saw them, including one captioned "Quilon
+from the Anchorage". That is direct evidence of where ships lay and what they
+steered by.
+
+---
+
+## 5. The approaches to two candidates, measured and contrasted
+
+Sheets 749 and 750 are one survey by one hand, so a comparison between two
+places on them carries no instrument difference. Two candidates, read off the
+charts at their approaches.
+
+**Purakkad, the Bakarē candidate, written Porakad with the Dutch name Porca.**
+Soundings grade evenly offshore, 1, 1¼, 1½, 2, 2½, 3, 3½, 4, 4½, 5, 5½, 6 and
+on to 12 fathoms. The bottom is marked soft mud. An anchor symbol marks the
+anchorage. No reef, no breakers, no rocks and no foul ground are drawn anywhere
+in the approach.
+
+**Quilon, the Nelkynda candidate.** Deep water offshore, 10 to 23 fathoms, and
+then an obstructed inshore approach. The chart marks **Tangacheri Reef**,
+**Breakers** at four separate places, **"Rocks above water in patches"**, and
+writes **"very foul ground"** across the approach. Inshore soundings fall
+erratically to 1 and 1¼ fathoms among the hazards.
+
+This is a measured contrast between a clean anchorage and an obstructed one, and
+it is the kind of discriminator the method chapter calls the strongest
+available. It is not a claim about antiquity, and the next paragraph is why.
+
+**What carries back two thousand years, and what does not.** A sandbar is mobile
+on a decadal scale and the project has already measured the Indus delta losing a
+tenth of its water surface in forty years. A rock reef is not. Tangacheri Reef
+is a geological feature and was there in AD 50; the soft mud at Purakkad may
+not have been. So the chart's **hazard marks transfer back far better than its
+soundings do**, and the two should be weighted differently when either is
+carried into antiquity.
+
+---
+
 ## Still open from this work
 
-- Sheets 751, Indus 41 and 118, and Red Sea 8a to 8c. The automatic tick
-  detector works on the Malabar portrait sheets and fails on the others, whose
-  borders are drawn differently.
+- Sheets 751, Indus 41 and 118, and Red Sea 8a to 8c.
 - Kadalundi and Koyilandy need whichever sheet covers north of 11.05 N.
-- The tidal discrepancy above.
+- Trace the 1857 backwater network and route the Malabar distances through it.
+- The tidal discrepancy in section 3.

@@ -114,3 +114,28 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def to_pixel(sheet, lon, lat, t=None):
+    """Geographic coordinate to pixel on the sheet. Inverse of to_lonlat."""
+    t = t or fit(sheet)
+    y = (np.asarray(lat, dtype="float64") - t["lat_b"]) / t["lat_a"]
+    x = sheet["lon_anchor_px"] + (np.asarray(lon, dtype="float64")
+                                  - sheet["lon_anchor_deg"]) * 60 * t["px_per_arcmin_lon"]
+    return x, y
+
+
+def crop(key, west, south, east, north, out, max_px=2600):
+    """Save the part of a sheet covering a geographic box."""
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None
+    s = SHEETS[key]
+    x0, y1 = to_pixel(s, west, south)
+    x1, y0 = to_pixel(s, east, north)
+    box = (int(max(0, x0)), int(max(0, y0)), int(x1), int(y1))
+    im = Image.open(CHARTS / s["file"]).crop(box)
+    if max(im.size) > max_px:
+        f = max_px / max(im.size)
+        im = im.resize((int(im.width * f), int(im.height * f)))
+    im.save(out)
+    return box, im.size
