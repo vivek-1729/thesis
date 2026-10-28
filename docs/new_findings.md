@@ -191,6 +191,43 @@ They must be masked by pixel box before anything is read by position.
 
 ---
 
+## 7. Published palaeochannel maps: what exists, and none of it is a dataset
+
+Searched for an existing map of buried channels that could stand in for the one
+the charts will not yield: Zenodo, the ISRO Bhuvan geoportal, India-WRIS,
+data.gov.in, and the publishers of the standard papers.
+
+**No government or agency dataset exists.** Bhuvan advertises 14,491 layers over
+its public map service, including 355 for Kerala. Searching every layer name and
+title for palaeo, paleo, buried, relict, geomorphology, lineament and landform
+returns **zero**. Its Kerala layers are modern thematic coverage: administration,
+agriculture, built-up, canals, drainage, rail, road. India-WRIS and the
+data.gov.in API did not respond at all.
+
+**The maps that exist are figures inside papers, and two of them are the ones
+already on the acquisition list.**
+
+| Map | Region | Status |
+|---|---|---|
+| Narayana, Priju and Chakrabarti 2001, the Periyar palaeodelta, about 50 km² and up to 6 km wide | Muziris | **Open access**, blocked to scripts, one browser click |
+| Priju et al. 2018, palaeochannels of the Periyar basin by electrical resistivity | Muziris | Paywalled, needs the proxy |
+| Giosan et al. 2012, fluvial landscapes of the Harappan civilisation | Barbarikon | Publisher blocks scripts |
+| Orengo and Petrie 2017, palaeo-river networks of the Sutlej and Ghaggar | adjacent to Barbarikon | Open access at MDPI, blocked to scripts |
+
+Nothing was found for the Red Sea or the Tanzanian coast.
+
+**So the answer is that the two palaeochannel maps this thesis most needs are
+already on the list, one of them needing nothing but a browser.** There is no
+shortcut dataset, and nobody has published the Kerala backwaters as a layer.
+
+**One incidental find worth noting.** Bhuvan does publish canal line and polygon
+layers per Kerala district, including Alappuzha, which is the modern navigable
+network at district resolution. It is post-reclamation and therefore not what
+section 6 wants, but it is a free vector network over the right ground and may
+serve as the modern end of a comparison.
+
+---
+
 ## Still open from this work
 
 - Sheets 751, Indus 41 and 118, and Red Sea 8a to 8c.
