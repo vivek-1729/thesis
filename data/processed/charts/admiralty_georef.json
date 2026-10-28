@@ -1,0 +1,86 @@
+{
+ "BA749": {
+  "file": "malabar-749-1857.jpg",
+  "title": "West Coast of India, Malabar Coast, sheet XI",
+  "frame": "11d02' to 9d50' N",
+  "surveyor": "Lieut. W. B. Selby I.N.",
+  "surveyed": "1851-3",
+  "scale": "1:146,000",
+  "tide": "Cochin HW.F.&C. XIh26m, springs rise 3 ft, neaps rise 2.25 ft",
+  "neatline": {
+   "top": 579,
+   "bottom": 11691,
+   "left": 692,
+   "right": 7889
+  },
+  "lat_px": [
+   1033,
+   4082,
+   7126,
+   10174
+  ],
+  "lat_deg": [
+   11.0,
+   10.666666666666666,
+   10.333333333333334,
+   10.0
+  ],
+  "lon_anchor_px": 2256.0,
+  "lon_anchor_deg": 75.66666666666667,
+  "lat_a": -0.00010940798321149283,
+  "lat_b": 11.113094985921402,
+  "lat_rms_arcmin": 0.00680619699759483,
+  "px_per_arcmin_lat": 152.33501411363102,
+  "px_per_arcmin_lon": 149.8122347964809,
+  "mid_lat": 10.441877008918894,
+  "bounds": {
+   "west": 75.49267108678578,
+   "east": 76.2933400052019,
+   "south": 9.834006254195838,
+   "north": 11.049747763641948
+  },
+  "check_error_m": 74.90955041397378
+ },
+ "BA750": {
+  "file": "malabar-750-1857.jpg",
+  "title": "West Coast of India, Malabar Coast, sheet XII",
+  "frame": "9d53' to 8d40' N",
+  "surveyor": "Lieut. W. B. Selby I.N.",
+  "surveyed": "1850-2",
+  "scale": "1:146,000",
+  "tide": null,
+  "neatline": {
+   "top": 645,
+   "bottom": 11729,
+   "left": 686,
+   "right": 7735
+  },
+  "lat_px": [
+   2642,
+   5672,
+   8696,
+   11729
+  ],
+  "lat_deg": [
+   9.666666666666666,
+   9.333333333333334,
+   9.0,
+   8.666666666666666
+  ],
+  "lon_anchor_px": 867.0,
+  "lon_anchor_deg": 76.0,
+  "lat_a": -0.00011006545656484233,
+  "lat_b": 9.95745945572092,
+  "lat_rms_arcmin": 0.012132191095797235,
+  "px_per_arcmin_lat": 151.42504457652356,
+  "px_per_arcmin_lon": 149.44470167527166,
+  "mid_lat": 9.276484475954241,
+  "bounds": {
+   "west": 75.97981416113888,
+   "east": 76.76594663700685,
+   "south": 8.666501715671885,
+   "north": 9.886467236236598
+  },
+  "check_error_m": 348.86607119147044
+ }
+}
