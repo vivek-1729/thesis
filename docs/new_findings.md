@@ -151,9 +151,51 @@ carried into antiquity.
 
 ---
 
+## 6. The backwater network will not come off the chart automatically
+
+Section 4 above argued that the 1857 survey holds the pre-reclamation water
+network, which is what the by-river-and-sea measurement needs. It does. Getting
+it off the sheet is a different matter, and two approaches failed before the
+reason became clear.
+
+**Measured first, so the claim in section 4 is bounded.** Of the modern
+backwater between 9.15 and 10.20 N, the two sheets cover **98.8 per cent**:
+sheet 750 carries 84.9 and sheet 749 carries 17.7, overlapping. The gap is a
+strip of the northern Vembanad east of sheet 749's edge at 76.294 E, between
+9.887 and 10.199 N. So coverage is not the problem.
+
+**The first attempt assumed the sheet tints land and leaves water blank**, and
+separated them by local texture. It called 74 per cent of a tile water. The
+sheet tints neither: land and sea are both blank paper and the coast is drawn
+as a line.
+
+**The second attempt assumed channels are ribbons** enclosed by two bank lines,
+and looked for elongated blank regions. It found five regions in a tile, all of
+them lettering and stipple, and no channels at all. The reason is scale. At
+1:146,000 a backwater a hundred metres wide is under a millimetre on the paper,
+so Selby drew the channels as **single lines, not as banks with water between
+them**. They are linear features on this sheet, not areas.
+
+**What would work.** Either curvilinear structure detection, separating thin
+sinuous ink from the soundings, lettering, graticule, palm symbols and coastline
+that share the sheet; or a hand trace of the main navigable route, which at this
+scale is a few hours of work and would be more reliable than any of it. The
+measurement needs connectivity and route length, not fine channel geometry, so
+a traced centreline is sufficient.
+
+**One practical trap, found the hard way.** The inset harbour plans of Alleppey
+Road and Quilon Road are drawn in empty parts of sheet 750 and therefore sit on
+top of geography they have nothing to do with. A tile pulled by coordinate
+across one of them returns Quilon's breakers in the middle of the Kuttanad.
+They must be masked by pixel box before anything is read by position.
+
+---
+
 ## Still open from this work
 
 - Sheets 751, Indus 41 and 118, and Red Sea 8a to 8c.
 - Kadalundi and Koyilandy need whichever sheet covers north of 11.05 N.
-- Trace the 1857 backwater network and route the Malabar distances through it.
+- Trace the 1857 backwater network, by hand or by curvilinear detection, and
+  route the Malabar distances through it. See section 6.
+- Mask the inset plan boxes on sheet 750 so coordinate lookups stop crossing them.
 - The tidal discrepancy in section 3.
