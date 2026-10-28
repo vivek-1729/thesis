@@ -1,0 +1,37 @@
+{
+ "sheet": "BA 749",
+ "title": "West Coast of India, Malabar Coast, from 11d02' to 9d50' north latitude, by Lieut. W. B. Selby I.N., 1851-3",
+ "surveyed": "1851-3",
+ "tide_note": "Cochin HW.F.&C. XIh26m, springs rise 3 feet, neaps rise 2.25 feet",
+ "neatline": {
+  "top": 579,
+  "bottom": 11691,
+  "left": 692,
+  "right": 7889
+ },
+ "lat_ticks_px": [
+  1033,
+  4082,
+  7126,
+  10174
+ ],
+ "lat_ticks_deg": [
+  11.0,
+  10.666666666666666,
+  10.333333333333334,
+  10.0
+ ],
+ "bounds": {
+  "west": 75.49267108678578,
+  "east": 76.2933400052019,
+  "south": 9.834006254195838,
+  "north": 11.049747763641948
+ },
+ "lat_a": -0.00010940798321149283,
+ "lat_b": 11.113094985921402,
+ "lat_rms_arcmin": 0.00680619699759483,
+ "lon_px_per_arcmin": 149.8122347964809,
+ "lon_anchor_px": 2256.0,
+ "lon_anchor_deg": 75.66666666666667,
+ "mid_lat": 10.441877008918894
+}
