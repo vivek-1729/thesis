@@ -1,0 +1,85 @@
+leg,km,course_deg,month,month_num,wind_site,wind_from,wind_from_deg,wind_ms,steadiness,off_wind_deg,point_of_sail,speed_kt,days
+Myos Hormos to Okelis,1909.0,146.0,January,1,"Red Sea, middle",NNE,29,4.23,0.94,117.0,reaching,4.23,10.2
+Myos Hormos to Okelis,1909.0,146.0,February,2,"Red Sea, middle",NNE,28,4.32,0.93,118.0,reaching,4.32,9.9
+Myos Hormos to Okelis,1909.0,146.0,March,3,"Red Sea, middle",NE,35,4.09,0.947,111.0,reaching,4.09,10.5
+Myos Hormos to Okelis,1909.0,146.0,April,4,"Red Sea, middle",NE,53,3.73,0.944,93.0,reaching,3.73,11.5
+Myos Hormos to Okelis,1909.0,146.0,May,5,"Red Sea, middle",NE,39,3.68,0.926,107.0,reaching,3.68,11.7
+Myos Hormos to Okelis,1909.0,146.0,June,6,"Red Sea, middle",N,8,4.3,0.976,138.0,running,4.3,10.0
+Myos Hormos to Okelis,1909.0,146.0,July,7,"Red Sea, middle",N,355,3.25,0.821,151.0,running,3.25,13.2
+Myos Hormos to Okelis,1909.0,146.0,August,8,"Red Sea, middle",NNW,344,3.27,0.866,162.0,running,3.27,13.1
+Myos Hormos to Okelis,1909.0,146.0,September,9,"Red Sea, middle",N,4,3.69,0.969,142.0,running,3.69,11.6
+Myos Hormos to Okelis,1909.0,146.0,October,10,"Red Sea, middle",ENE,68,3.19,0.892,78.0,close-hauled,3.02,14.2
+Myos Hormos to Okelis,1909.0,146.0,November,11,"Red Sea, middle",ENE,59,3.93,0.922,87.0,close-hauled,3.88,11.1
+Myos Hormos to Okelis,1909.0,146.0,December,12,"Red Sea, middle",NE,40,4.07,0.913,106.0,reaching,4.07,10.6
+Okelis to Kane,526.0,74.0,January,1,"Guardafui, gulf mouth",ENE,67,5.64,0.996,7.0,into the wind,0.0,
+Okelis to Kane,526.0,74.0,February,2,"Guardafui, gulf mouth",ENE,75,5.09,0.993,1.0,into the wind,0.0,
+Okelis to Kane,526.0,74.0,March,3,"Guardafui, gulf mouth",E,82,4.6,0.989,8.0,into the wind,0.0,
+Okelis to Kane,526.0,74.0,April,4,"Guardafui, gulf mouth",E,90,3.57,0.983,16.0,into the wind,0.0,
+Okelis to Kane,526.0,74.0,May,5,"Guardafui, gulf mouth",ESE,123,2.15,0.853,49.0,beating,1.83,6.5
+Okelis to Kane,526.0,74.0,June,6,"Guardafui, gulf mouth",SW,215,5.87,0.988,141.0,running,5.0,2.4
+Okelis to Kane,526.0,74.0,July,7,"Guardafui, gulf mouth",SW,220,9.02,0.994,146.0,running,5.0,2.4
+Okelis to Kane,526.0,74.0,August,8,"Guardafui, gulf mouth",SW,219,7.41,0.993,145.0,running,5.0,2.4
+Okelis to Kane,526.0,74.0,September,9,"Guardafui, gulf mouth",S,189,3.14,0.879,115.0,reaching,3.14,3.8
+Okelis to Kane,526.0,74.0,October,10,"Guardafui, gulf mouth",E,86,2.69,0.946,12.0,into the wind,0.0,
+Okelis to Kane,526.0,74.0,November,11,"Guardafui, gulf mouth",ENE,62,4.04,0.992,12.0,into the wind,0.0,
+Okelis to Kane,526.0,74.0,December,12,"Guardafui, gulf mouth",ENE,61,5.47,0.996,13.0,into the wind,0.0,
+Kane to Muziris,3058.0,95.0,January,1,Arabian Sea crossing,NE,39,6.8,0.997,56.0,beating,4.32,15.9
+Kane to Muziris,3058.0,95.0,February,2,Arabian Sea crossing,NE,41,5.2,0.991,54.0,beating,4.31,16.0
+Kane to Muziris,3058.0,95.0,March,3,Arabian Sea crossing,NE,44,3.23,0.979,51.0,beating,2.76,24.9
+Kane to Muziris,3058.0,95.0,April,4,Arabian Sea crossing,NNE,21,1.36,0.535,74.0,close-hauled,1.26,54.5
+Kane to Muziris,3058.0,95.0,May,5,Arabian Sea crossing,SW,233,4.25,0.981,138.0,running,4.25,16.2
+Kane to Muziris,3058.0,95.0,June,6,Arabian Sea crossing,SW,231,11.51,0.999,136.0,running,5.0,13.8
+Kane to Muziris,3058.0,95.0,July,7,Arabian Sea crossing,SW,227,14.64,1.0,132.0,reaching,5.0,13.8
+Kane to Muziris,3058.0,95.0,August,8,Arabian Sea crossing,SW,227,12.96,0.999,132.0,reaching,5.0,13.8
+Kane to Muziris,3058.0,95.0,September,9,Arabian Sea crossing,SW,230,7.19,0.998,135.0,running,5.0,13.8
+Kane to Muziris,3058.0,95.0,October,10,Arabian Sea crossing,NNE,23,2.27,0.802,72.0,close-hauled,2.09,33.0
+Kane to Muziris,3058.0,95.0,November,11,Arabian Sea crossing,NE,42,6.27,0.991,53.0,beating,4.3,16.0
+Kane to Muziris,3058.0,95.0,December,12,Arabian Sea crossing,NE,39,7.31,0.994,56.0,beating,4.32,15.9
+Kane to Barygaza,2741.0,68.0,January,1,Arabian Sea crossing,NE,39,6.8,0.997,29.0,into the wind,0.0,
+Kane to Barygaza,2741.0,68.0,February,2,Arabian Sea crossing,NE,41,5.2,0.991,27.0,into the wind,0.0,
+Kane to Barygaza,2741.0,68.0,March,3,Arabian Sea crossing,NE,44,3.23,0.979,24.0,into the wind,0.0,
+Kane to Barygaza,2741.0,68.0,April,4,Arabian Sea crossing,NNE,21,1.36,0.535,47.0,beating,1.15,53.7
+Kane to Barygaza,2741.0,68.0,May,5,Arabian Sea crossing,SW,233,4.25,0.981,165.0,running,4.25,14.5
+Kane to Barygaza,2741.0,68.0,June,6,Arabian Sea crossing,SW,231,11.51,0.999,163.0,running,5.0,12.3
+Kane to Barygaza,2741.0,68.0,July,7,Arabian Sea crossing,SW,227,14.64,1.0,159.0,running,5.0,12.3
+Kane to Barygaza,2741.0,68.0,August,8,Arabian Sea crossing,SW,227,12.96,0.999,159.0,running,5.0,12.3
+Kane to Barygaza,2741.0,68.0,September,9,Arabian Sea crossing,SW,230,7.19,0.998,162.0,running,5.0,12.3
+Kane to Barygaza,2741.0,68.0,October,10,Arabian Sea crossing,NNE,23,2.27,0.802,45.0,beating,1.9,32.4
+Kane to Barygaza,2741.0,68.0,November,11,Arabian Sea crossing,NE,42,6.27,0.991,26.0,into the wind,0.0,
+Kane to Barygaza,2741.0,68.0,December,12,Arabian Sea crossing,NE,39,7.31,0.994,29.0,into the wind,0.0,
+Muziris to Kane,3058.0,281.0,January,1,Arabian Sea crossing,NE,39,6.8,0.997,118.0,reaching,5.0,13.8
+Muziris to Kane,3058.0,281.0,February,2,Arabian Sea crossing,NE,41,5.2,0.991,120.0,reaching,5.0,13.8
+Muziris to Kane,3058.0,281.0,March,3,Arabian Sea crossing,NE,44,3.23,0.979,123.0,reaching,3.23,21.3
+Muziris to Kane,3058.0,281.0,April,4,Arabian Sea crossing,NNE,21,1.36,0.535,100.0,reaching,1.36,50.6
+Muziris to Kane,3058.0,281.0,May,5,Arabian Sea crossing,SW,233,4.25,0.981,48.0,beating,3.6,19.1
+Muziris to Kane,3058.0,281.0,June,6,Arabian Sea crossing,SW,231,11.51,0.999,50.0,beating,4.26,16.1
+Muziris to Kane,3058.0,281.0,July,7,Arabian Sea crossing,SW,227,14.64,1.0,54.0,beating,4.31,16.0
+Muziris to Kane,3058.0,281.0,August,8,Arabian Sea crossing,SW,227,12.96,0.999,54.0,beating,4.31,16.0
+Muziris to Kane,3058.0,281.0,September,9,Arabian Sea crossing,SW,230,7.19,0.998,51.0,beating,4.28,16.1
+Muziris to Kane,3058.0,281.0,October,10,Arabian Sea crossing,NNE,23,2.27,0.802,102.0,reaching,2.27,30.3
+Muziris to Kane,3058.0,281.0,November,11,Arabian Sea crossing,NE,42,6.27,0.991,121.0,reaching,5.0,13.8
+Muziris to Kane,3058.0,281.0,December,12,Arabian Sea crossing,NE,39,7.31,0.994,118.0,reaching,5.0,13.8
+Kane to Okelis,526.0,255.0,January,1,"Guardafui, gulf mouth",ENE,67,5.64,0.996,172.0,running,5.0,2.4
+Kane to Okelis,526.0,255.0,February,2,"Guardafui, gulf mouth",ENE,75,5.09,0.993,180.0,running,5.0,2.4
+Kane to Okelis,526.0,255.0,March,3,"Guardafui, gulf mouth",E,82,4.6,0.989,173.0,running,4.6,2.6
+Kane to Okelis,526.0,255.0,April,4,"Guardafui, gulf mouth",E,90,3.57,0.983,165.0,running,3.57,3.3
+Kane to Okelis,526.0,255.0,May,5,"Guardafui, gulf mouth",ESE,123,2.15,0.853,132.0,reaching,2.15,5.5
+Kane to Okelis,526.0,255.0,June,6,"Guardafui, gulf mouth",SW,215,5.87,0.988,40.0,beating,4.07,2.9
+Kane to Okelis,526.0,255.0,July,7,"Guardafui, gulf mouth",SW,220,9.02,0.994,35.0,beating,3.93,3.0
+Kane to Okelis,526.0,255.0,August,8,"Guardafui, gulf mouth",SW,219,7.41,0.993,36.0,beating,3.96,3.0
+Kane to Okelis,526.0,255.0,September,9,"Guardafui, gulf mouth",S,189,3.14,0.879,66.0,close-hauled,2.81,4.2
+Kane to Okelis,526.0,255.0,October,10,"Guardafui, gulf mouth",E,86,2.69,0.946,169.0,running,2.69,4.4
+Kane to Okelis,526.0,255.0,November,11,"Guardafui, gulf mouth",ENE,62,4.04,0.992,167.0,running,4.04,2.9
+Kane to Okelis,526.0,255.0,December,12,"Guardafui, gulf mouth",ENE,61,5.47,0.996,166.0,running,5.0,2.4
+Okelis to Myos Hormos,1909.0,330.0,January,1,"Red Sea, middle",NNE,29,4.23,0.94,59.0,beating,3.66,11.7
+Okelis to Myos Hormos,1909.0,330.0,February,2,"Red Sea, middle",NNE,28,4.32,0.93,58.0,beating,3.74,11.5
+Okelis to Myos Hormos,1909.0,330.0,March,3,"Red Sea, middle",NE,35,4.09,0.947,65.0,close-hauled,3.64,11.8
+Okelis to Myos Hormos,1909.0,330.0,April,4,"Red Sea, middle",NE,53,3.73,0.944,83.0,close-hauled,3.62,11.9
+Okelis to Myos Hormos,1909.0,330.0,May,5,"Red Sea, middle",NE,39,3.68,0.926,69.0,close-hauled,3.34,12.8
+Okelis to Myos Hormos,1909.0,330.0,June,6,"Red Sea, middle",N,8,4.3,0.976,38.0,beating,3.47,12.4
+Okelis to Myos Hormos,1909.0,330.0,July,7,"Red Sea, middle",N,355,3.25,0.821,25.0,into the wind,0.0,
+Okelis to Myos Hormos,1909.0,330.0,August,8,"Red Sea, middle",NNW,344,3.27,0.866,14.0,into the wind,0.0,
+Okelis to Myos Hormos,1909.0,330.0,September,9,"Red Sea, middle",N,4,3.69,0.969,34.0,beating,2.88,14.9
+Okelis to Myos Hormos,1909.0,330.0,October,10,"Red Sea, middle",ENE,68,3.19,0.892,98.0,reaching,3.19,13.5
+Okelis to Myos Hormos,1909.0,330.0,November,11,"Red Sea, middle",ENE,59,3.93,0.922,89.0,close-hauled,3.92,11.0
+Okelis to Myos Hormos,1909.0,330.0,December,12,"Red Sea, middle",NE,40,4.07,0.913,70.0,close-hauled,3.72,11.6
