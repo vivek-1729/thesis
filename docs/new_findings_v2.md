@@ -149,13 +149,39 @@ close and one roughly twice too far, with nothing near 18.6 km.
 
 **This is the strongest negative result the project has, and it points
 somewhere.** Either the candidate lists are wrong, or the shoreline has moved far
-enough to change the measurement. The second is now testable, because Narayana,
-Priju and Chakrabarti 2001 map an ancient shoreline running inland of the modern
-coast through Parur and past the Muziris candidates, and that figure has been
-georeferenced to 67 m RMS, checked against five places it names. If the
-first-century shore lay on that line, Pattanam's 9.0 km shrinks toward 3. The
-paper assigns no date to it and says so, so this is a hypothesis with
-coordinates rather than an answer.
+enough to change the measurement. The second has now been tested.
+
+## 6a. The stated twenty stadia falls inside the bracket the geology allows
+
+Narayana, Priju and Chakrabarti 2001 draw a line they label ANCIENT SHORELINE
+running inland of the modern coast from near Krishnan Kotta through Parur and
+south past Edapalli. That figure is georeferenced to 67 m, checked against five
+places it names, and the labelled segment has been traced by eye off a render
+carrying a two-arcminute graticule. Five points, good to about a third of a
+kilometre.
+
+| Candidate | To the ancient line | To the modern sea by water |
+|---|---|---|
+| Pattanam | 0.22 km | 8.99 km |
+| Copeland model position | 0.12 km | 8.99 km |
+| Kodungallur | 7.90 km, unusable | 12.41 km |
+
+**Pattanam sits on the line, within 220 m of it.** So the coast at Pattanam has
+been somewhere between 0 and 9 km from the site, and the stated 20 stadia, which
+is 3.1 km at the calibrated stadion and 3.7 km at the conventional one, falls
+inside that range. What looked in section 6 like a figure no candidate could
+satisfy turns out to be a figure Pattanam satisfies for any shoreline about a
+third of the way in from the present coast.
+
+**Three things this is not.** The line carries no date; the paper offers it as a
+probable early shoreline, its subject is Neogene evolution, and it closes by
+saying efforts are being made to date the geomorphic elements. A bracket between
+an undated inner bound and the present coast says where the shore can have been,
+not where it was. And the Kodungallur figure is an artefact of where the tracing
+stops: the labelled segment begins at 10.156 N, Kodungallur is at 10.226 N, and
+the paper's text has the shoreline continuing north to Krishnan Kotta along a
+stretch not traced here. That number separates nothing and is recorded only so
+it is not reused.
 
 ## 7. The sailing evidence corroborates the text without locating a port
 

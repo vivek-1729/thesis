@@ -1,0 +1,4 @@
+candidate,lat,lon,km_to_ancient_shoreline,km_to_modern_sea_through_water,read_error_km,stated_stadia,stated_km_at_155m,bracket_contains_stated
+Pattanam,10.1536,76.2131,0.22,8.99,0.33,20,3.1,True
+Kodungallur / Cranganore,10.2256,76.195,7.9,12.41,0.33,20,3.1,"unusable, north of the trace"
+Copeland model position,10.15654,76.208982,0.12,8.99,0.33,20,3.1,True
