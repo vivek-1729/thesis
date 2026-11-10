@@ -18,3 +18,21 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv/
+
+# Reading PDFs for Zotero. Kept out of history like ../library
+readings/
+
+# Extracted full text and page renders of the readings. Regenerable from the
+# PDFs, large, and copyrighted, so kept out of history like the PDFs themselves
+sites/*/analysis/text/
+sites/*/analysis/renders/
+# Images extracted from the readings: about 1 GB and copyrighted. Rebuild with
+# sites/malabar/analysis/scripts/extract_images.py; the index is kept
+sites/*/material/images/*
+!sites/*/material/images/index.csv
+
+# bathymetry notebook: large intermediates
+quantitative/coastline/data/pilot_1857/*.bin
+quantitative/coastline/data/soundings_1857/tiles/
+quantitative/coastline/data/soundings_1857/check/
+quantitative/coastline/data/pilot_1857/local/*.bin
