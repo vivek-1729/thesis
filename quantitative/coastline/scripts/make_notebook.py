@@ -759,6 +759,8 @@ LOC = PILOT / "local"; LOC.mkdir(exist_ok=True); LOC_DIR = str(LOC)
 sl.to_csv(LOC / "soundings.csv", index=False); shore.to_csv(LOC / "shore.csv", index=False)
 gpd.GeoSeries([land_l]).to_file(LOC / "land.geojson", driver="GeoJSON")
 gpd.GeoSeries([local]).to_file(LOC / "domain.geojson", driver="GeoJSON")
+mx, my = win_to_km(1085, 815)                                   # the Kodungallur entrance
+pd.DataFrame(dict(x_km=[float(mx)], y_km=[float(my)])).to_csv(LOC / "mouth.csv", index=False)
 
 # empirical profile: what the soundings say about the beach face
 prof = sl.groupby(pd.cut(sl.dist_km, [0, .2, .4, .6, 1, 1.5, 2, 3, 5]), observed=True).depth_m.agg(["count", "median"])
@@ -850,7 +852,7 @@ bv <- 1 - exp(-verts$dist_km / L0)
 smp <- inla.posterior.sample(300, fD, selection = list(field = 1:mesh_l$n, b0 = 1, dist = 1, beach = 1), add.names = FALSE)
 SV <- sapply(smp, function(z) { l <- z$latent[, 1]; n <- mesh_l$n
   as.vector(Av %*% l[1:n]) + l[n + 1] + l[n + 2] * verts$dist_km + l[n + 3] * bv })
-writeBin(as.vector(SV), paste0(L, "samples_verts.bin"), size = 4); nV <- dim(SV)
+writeBin(as.vector(SV), paste0(L, "samples_verts_D.bin"), size = 4); nV <- dim(SV)
 """)
 
 code(r"""
@@ -877,8 +879,103 @@ The anchored stationary model (D) is the best near land on RMSE and bias. Its
 intervals are still too narrow there: coverage is around 0.7, against a target of
 0.9, so the near-shore sd is an under-statement of the real uncertainty. The barrier
 version (E) needs a larger noise term, about 1.3 m, to fit and does no better. As in
-the global model, the survey has no soundings behind the spits for it to use. Model
-D is therefore used for the close-up and for the navigation figures below.
+the global model, the survey has no soundings behind the spits for it to use.
+""")
+
+md(r"""
+### Model F: honest uncertainty at the mouth
+
+`validation_bathymetry.ipynb` tests model D against two fully surveyed modern
+inlets in Texas, sounded the way Selby sounded Kodungallur. There D is accurate
+offshore, but near the mouth its 90% intervals hold the true depth only about a
+third of the time.
+
+**The cause.** A river mouth has fine relief, channels and shoals narrower than the
+250 m between soundings. D's estimated noise term (0.66 m here) absorbs that relief
+as if it were measurement error, so the seabed it returns is too smooth.
+
+**Model F changes two things.**
+
+1. **The observation noise is fixed at the measurement-error budget**, 0.4 m: the
+   lead line, quarter-fathom rounding and the tide reduction.
+2. **A second, fine-scale Matérn field is added** (range 300 m). Its sd is set by a
+   known profile, about 1.6 m at the mouth, falling to 0.45 m along the shore and
+   0.15 m offshore (`scripts/fine_scale.R`).
+
+The profile cannot be estimated from 157 soundings. It is taken from the fine
+relief of the true seabed at San Luis Pass. Frozen, it gives close to 90% coverage
+at Pass Cavallo, which played no part in setting it. Everything else (mesh,
+anchors, beach-face mean, priors) is as in D.
+""")
+
+code(r"""
+FS_R = str(ROOT / "quantitative/coastline/scripts/fine_scale.R")
+""")
+
+code(r"""
+%%R -i FS_R -o f_cv -o f_fixed -o nV
+source(FS_R)
+mouth <- unlist(read.csv(paste0(L, "mouth.csv"))); NOISE_F <- 0.4
+ws <- fs_weight(sl$x_km, sl$y_km, sl$dist_km, mouth); wa <- fs_weight(shore$x_km, shore$y_km, 0, mouth)
+fit_F <- function(y = sl$depth_m, mode = NULL) {
+  spde  <- inla.spde2.pcmatern(mesh_l, prior.range = c(0.3, 0.1), prior.sigma = c(5, 0.1))
+  spde2 <- inla.spde2.pcmatern(mesh_l, prior.range = c(FS_PAR$range, NA), prior.sigma = c(1, NA))   # fixed
+  As <- fm_basis(mesh_l, as.matrix(sl[, c("x_km", "y_km")])); Aa <- fm_basis(mesh_l, as.matrix(shore[, 1:2]))
+  stk <- inla.stack(
+    inla.stack(data = list(Y = cbind(y, NA)), tag = "snd", A = list(As, Diagonal(x = ws) %*% As, 1),
+               effects = list(field = 1:mesh_l$n, fine = 1:mesh_l$n,
+                              data.frame(b0 = 1, dist = sl$dist_km, beach = 1 - exp(-sl$dist_km / L0)))),
+    inla.stack(data = list(Y = cbind(rep(NA, nrow(shore)), rep(SHORE_DEPTH, nrow(shore)))), tag = "shore",
+               A = list(Aa, Diagonal(x = wa) %*% Aa, 1),
+               effects = list(field = 1:mesh_l$n, fine = 1:mesh_l$n, data.frame(b0 = rep(1, nrow(shore)), dist = 0, beach = 0))))
+  suppressWarnings(inla(Y ~ 0 + b0 + dist + beach + f(field, model = spde) + f(fine, model = spde2),
+       family = c("gaussian", "gaussian"), data = inla.stack.data(stk),
+       control.family = list(list(hyper = list(prec = list(initial = log(1 / NOISE_F^2), fixed = TRUE))),
+                             list(hyper = list(prec = list(initial = log(1 / SHORE_SD^2), fixed = TRUE)))),
+       control.predictor = list(A = inla.stack.A(stk), compute = TRUE), control.compute = list(config = TRUE),
+       control.inla = list(int.strategy = "eb"),
+       control.mode = if (is.null(mode)) list() else list(theta = mode, restart = TRUE)))
+}
+t0 <- Sys.time()
+fF <- fit_F()
+f_fixed <- data.frame(model = "F fine-scale", term = rownames(fF$summary.fixed), fF$summary.fixed[, c(1, 3, 5)])
+f_cv <- NULL
+for (b in sort(unique(sl$block))) {
+  y <- sl$depth_m; y[sl$block == b] <- NA; i <- which(sl$block == b)
+  f <- fit_F(y, mode = fF$mode$theta); lp <- f$summary.linear.predictor[i, ]
+  f_cv <- rbind(f_cv, data.frame(model = "F fine-scale", id = sl$id[i], obs = sl$depth_m[i], dist_km = sl$dist_km[i],
+                                 mean = lp$mean, sd = sqrt(lp$sd^2 + NOISE_F^2)))
+}
+# joint posterior samples of the seabed at the rendering vertices
+smp <- inla.posterior.sample(300, fF, selection = list(field = 1:mesh_l$n, fine = 1:mesh_l$n, b0 = 1, dist = 1, beach = 1))
+rn <- rownames(smp[[1]]$latent); i1 <- grep("^field:", rn); i2 <- grep("^fine:", rn); ib <- match(c("b0:1", "dist:1", "beach:1"), rn)
+wv <- fs_weight(verts$x_km, verts$y_km, verts$dist_km, mouth)
+SV <- sapply(smp, function(z) { l <- z$latent[, 1]
+  as.vector(Av %*% l[i1]) + wv * as.vector(Av %*% l[i2]) + l[ib[1]] + l[ib[2]] * verts$dist_km + l[ib[3]] * bv })
+writeBin(as.vector(SV), paste0(L, "samples_verts.bin"), size = 4); nV <- dim(SV)
+cat(sprintf("model F, CV and samples: %.0f s\n", as.numeric(Sys.time() - t0, units = "secs")))
+""")
+
+code(r"""
+fz = (f_cv.obs - f_cv["mean"]) / f_cv["sd"]
+f_cv["err"] = f_cv["mean"] - f_cv.obs; f_cv["in90"] = np.abs(fz) < 1.645
+f_cv["crps"] = f_cv["sd"] * (fz * (2 * norm.cdf(fz) - 1) + 2 * norm.pdf(fz) - 1 / np.sqrt(np.pi))
+cvDF = pd.concat([local_cv[local_cv.model == "D stationary + anchors"], f_cv])
+print(pd.concat({"all (local box)": cvDF.groupby("model").apply(scores, include_groups=False),
+                 "within 1 km of land": cvDF[cvDF.dist_km < 1].groupby("model").apply(scores, include_groups=False)}).round(2).to_string(), "\n")
+print(f_fixed.round(2).to_string(index=False))
+""")
+
+md(r"""
+**Reading the comparison.** On the blocked CV of the soundings, F and D are about
+equally accurate. F's coverage of the held-out *soundings* is lower, because its
+noise term is smaller. That is expected, and it is not a reason to prefer D.
+`validation_bathymetry.ipynb` shows that the quantity that matters, coverage of the
+true *seabed*, is badly short in D and close to 0.9 in F. The two inlet tests also
+show that CV on noisy soundings does not track the seabed error.
+
+Model F is used for the close-up and for the near-shore navigation figures below.
+Model D is kept in the navigation table for comparison.
 """)
 
 md(r"""
@@ -946,7 +1043,7 @@ for name in ["bar crossing", "Pallipur channel"]:
     _, i = vtree.query(pts)
     fig.add_scatter3d(x=pts[:, 0], y=pts[:, 1], z=elev_mean[i] + .1, mode="lines", line=dict(color="red", width=5), name=name)
 
-fig.update_layout(height=700, title="Kodungallur mouth and Pallipur channel, 1851–53: near-shore model (D), posterior mean",
+fig.update_layout(height=700, title="Kodungallur mouth and Pallipur channel, 1851–53: near-shore model (F), posterior mean",
                   scene=dict(aspectmode="manual", aspectratio=dict(x=.75, y=1, z=.3), xaxis_title="UTM E (km)",
                              yaxis_title="UTM N (km)", zaxis_title="elevation (m)",
                              camera=dict(eye=dict(x=-1.4, y=-1.1, z=.9))),
@@ -966,7 +1063,7 @@ for a, val, cmap, lab, lim in [(ax[0], -elev_mean, "viridis_r", "posterior mean 
     plt.colorbar(tc, ax=a, shrink=.7, label=lab); a.set_aspect("equal"); a.set_xlabel("UTM E (km)")
     a.set_xlim(local.bounds[0], local.bounds[2]); a.set_ylim(local.bounds[1], local.bounds[3])
 ax[0].tricontour(tri_w, -elev_mean, levels=[FATHOM, 2 * FATHOM, 3 * FATHOM], colors="w", linewidths=.7)
-ax[0].set_ylabel("UTM N (km)"); ax[1].set_ylabel(""); ax[0].set_title("Near-shore model D: mean (contours 1, 2, 3 fm)"); ax[1].set_title("Near-shore model D: sd")
+ax[0].set_ylabel("UTM N (km)"); ax[1].set_ylabel(""); ax[0].set_title("Near-shore model F: mean (contours 1, 2, 3 fm)"); ax[1].set_title("Near-shore model F: sd")
 plt.tight_layout(); fig.savefig(FIGS / "mouth_1857_maps.png", dpi=150); plt.show()
 """)
 
@@ -1026,18 +1123,21 @@ for name, idx in route_idx.items():
         rows.append(dict(route=name, model=lab, min_depth_mean=mins.mean(), min_depth_5=np.percentile(mins, 5),
                          min_depth_95=np.percentile(mins, 95),
                          **{f"P(ok) draught {d} m": (mins > d + .5).mean() for d in [1.5, 2.5, 3.5, 4.5]}))
-# the near-shore model D, on its own vertices (only routes inside the local box)
+# the near-shore models F (used) and D (for comparison), on their own vertices (routes inside the local box)
+SVD = np.fromfile(LOC / "samples_verts_D.bin", dtype=np.float32).reshape(SV.shape[::-1]).T
 water_v = np.where(wet_v)[0]; vt = cKDTree(np.c_[vx[water_v], vy[water_v]])
 for name in ["bar crossing", "Pallipur channel"]:
     line = LineString(np.column_stack(win_to_km(*zip(*routes_px[name]))))
     pts = [line.interpolate(u) for u in np.arange(0, line.length, 0.025)]
     d, i = vt.query([(p.x, p.y) for p in pts]); idx = np.unique(water_v[i[d < 0.05]])
-    mins = SV[idx].min(0)
-    p = (mins[None, :] > draughts[:, None] + 0.5).mean(1)
-    ax[1].plot(draughts, p, ":", color=cols[name], lw=2, label=f"{name} (D near-shore)")
-    rows.append(dict(route=name, model="D", min_depth_mean=mins.mean(), min_depth_5=np.percentile(mins, 5),
-                     min_depth_95=np.percentile(mins, 95),
-                     **{f"P(ok) draught {d} m": (mins > d + .5).mean() for d in [1.5, 2.5, 3.5, 4.5]}))
+    for lab, S, ls in [("F", SV, ":"), ("D", SVD, None)]:
+        mins = S[idx].min(0)
+        if ls:
+            p = (mins[None, :] > draughts[:, None] + 0.5).mean(1)
+            ax[1].plot(draughts, p, ls, color=cols[name], lw=2, label=f"{name} (F near-shore)")
+        rows.append(dict(route=name, model=lab, min_depth_mean=mins.mean(), min_depth_5=np.percentile(mins, 5),
+                         min_depth_95=np.percentile(mins, 95),
+                         **{f"P(ok) draught {d} m": (mins > d + .5).mean() for d in [1.5, 2.5, 3.5, 4.5]}))
 ax[0].set_xlim(ext[0] + 8, ext[1]); ax[0].set_ylim(ext[2] + 5, ext[3] - 7); ax[0].legend(fontsize=7); ax[0].set_aspect("equal")
 ax[0].set_xlabel("UTM E (km)"); ax[0].set_ylabel("UTM N (km)")
 ax[1].axvspan(2, 4.5, color="0.9", zorder=0)
@@ -1049,13 +1149,32 @@ nav = pd.DataFrame(rows); print(nav.round(2).to_string(index=False))
 """)
 
 md(r"""
-**Result.** The open approach is passable at any plausible draught. The bar is not:
-its shallowest point is about 1.7–1.8 m at low water springs (90% interval roughly
-1.0–2.4 m), so even a 1.5 m-draught boat with 0.5 m clearance gets over at low water
-in only about a quarter to a third of posterior samples. Nothing drawing 2.5 m or
-more crosses at low water. Adding the 0.9 m spring rise, a boat drawing about 2 m
-could cross at high water. That is the Pilot's "small coasting craft", reproduced
-from the soundings alone.
+**Result.** The open approach is passable at any plausible draught.
+
+**The bar.** The global models put the shallowest point on the straight bar line at
+about 1.7–1.9 m at low water springs. Model D puts it at about 1.5 m. Model F puts it
+much lower, at about 0.3 m with a 90% interval of roughly −1.3 to 1.8 m. That is
+because F allows the fine relief of a river mouth between the few soundings there,
+and a minimum taken along a line picks up every shoal that relief allows. On any of
+the four models, nothing drawing 2.5 m or more crosses at low water.
+
+**How far to trust these minima.** `validation_bathymetry.ipynb` tests the same
+calculation on two fully surveyed Texas inlets sounded like this chart. With 5
+soundings within 1 km of the pass and no line of soundings down the channel, which
+is Selby's situation at Kodungallur, every model reads the controlling depth of the
+pass 1–2 m too shallow. The deep channel through the bar is exactly what the survey
+does not show, and a Gaussian field cannot invent it.
+
+**What the soundings do and do not support.**
+
+* **They do not exclude a deeper, narrow channel** over the bar. The model minima
+  are lower bounds, not calibrated estimates of what a ship could carry.
+* **The statement that the bar suited only small craft** rests on the Admiralty
+  *Pilot* of 1866, which was written from the same survey. The soundings are
+  consistent with it. The model adds the pointwise depths and their uncertainty,
+  which the validation shows are close to honest under model F.
+* **What would turn the lower bound into an estimate** is a sounded line across the
+  bar, from a larger-scale chart of the mouth.
 
 These are statements about the seabed **as surveyed in 1851–53**, at the assumed
 datum. They are not statements about the first century AD. The bar at a
@@ -1189,6 +1308,18 @@ data for a barrier to separate. Where the models differ, at the mouth, the barri
 model is shallower by about 0.2 m and more uncertain, and it is the more cautious of
 the two for navigation. The navigability conclusion, that the bar was for small craft
 only, holds under both.
+
+**Validation against known seabeds.** `validation_bathymetry.ipynb` sounds two fully
+surveyed modern inlets (San Luis Pass and Pass Cavallo, Texas) the way Selby sounded
+this one, and scores the models against the true seabed. It finds three things:
+
+* **Offshore**, every model is good to about 0.3–0.4 m.
+* **Near the mouth**, model D's intervals are much too narrow. Model F's
+  fine-scale term, set on one inlet and tested on the other, brings coverage close
+  to the nominal 90%.
+* **The controlling depth of a pass** cannot be recovered from a survey with no
+  line of soundings down the channel. That is why the bar minima in section 9 are
+  lower bounds.
 
 **Assumptions to keep in view.**
 
