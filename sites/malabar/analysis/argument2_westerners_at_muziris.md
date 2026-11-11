@@ -19,13 +19,14 @@ The difference matters for the thesis question. It also matters for the locating
 
 1. **The same test in both directions.** The test that establishes Indian residents in Egypt is applied, item by item, to Westerners at Pattanam.
 2. **A match between text and archaeology.** Wheat and grape pips in the Pattanam wharf deposit meet Periplus 56's grain imported for "those involved with shipping". None of the sources read for this document makes that connection.
-3. **The Tamil evidence split by coast.** On the Chera coast the Yavanas are only ever arriving and leaving.
+3. **The Tamil evidence split by coast.** Across the whole corpus, foreigners are said to dwell only at Puhar on the east coast. The one line that puts Yavanas at Muciṟi has their ships coming and going. This is a weak, one-line pattern, and §1d sets out why.
 
 **Labels.**
 
 - **[Read]**: checked in the source.
 - **[Agent-read]**: quoted by a research agent, not re-checked.
 - **[Reported]**: known through another author.
+- **[Secondhand]**: used in §1d for the same thing, a passage or argument known only through another author's citation. In §1d, **[Read]** means the Tamil text and a published translation were both checked for the 10 November revision.
 
 ---
 
@@ -64,21 +65,78 @@ Either way, the passage says someone at Muziris was eating imported grain becaus
 
 ### 1d. The Tamil poems, split by coast
 
-The Sangam corpus is dated broadly between 300 BC and AD 300, and the *Cilappatikāram* to about the 5th century (Tomber 2008: 26–27). **[Read]** In the passages located, the coasts look different.
+*Rebuilt 10 November 2026 from a search of the whole corpus by a research agent. Passages marked [Agent-read] were read by the agent in the Tamil and in the named translation, and have not yet been re-checked by hand.*
 
-| Text | Place | What the Yavanas do |
-|---|---|---|
-| *Akanāṉūṟu* 149 | **Muciṟi, the Chera coast** | Their ships "come with gold and return with pepper" (trans. Hart). They are arriving and leaving. |
-| *Patiṟṟuppattu* II | **The Chera court** | Yavanas "of harsh speech" are captured and bound. Hostile, with no settlement. |
-| *Puṟanāṉūṟu* 56 | Madurai (Pandya) | Their ships bring wine. |
-| *Mullaippāṭṭu* 59–62 | A royal war camp | Yavana guards. |
-| *Neṭunalvāṭai* 101–2 | Madurai palace | A lamp made by Yavanas. |
-| *Paṭṭiṉappālai* 211–18 | Puhar (east coast) | Foreigners of many languages living together. |
-| *Cilappatikāram* 5.10–12 | Puhar (east coast; later text) | "Yavanar irukkai", the dwellings of the Yavanas. |
+**What was searched.** The earlier version of this section rested on 38 locally held files, which turned out to omit parts of the corpus (*Akanāṉūṟu* 61–120 and 211–300, *Maturaikkāñci*, *Kuṟiñcippāṭṭu*, *Aiṅkuṟunūṟu*, and the Vañci book of the *Cilappatikāram*). The missing texts were added from Project Madurai. The search now covers all eighteen Sangam works, the eight anthologies (*Eṭṭuttokai*) and the ten long poems (*Pattuppāṭṭu*), plus the complete *Cilappatikāram* and *Maṇimēkalai*. The Tamil was searched for யவன (*yavaṉa-*, word-initially, which removes false hits such as *-iyavaṉ*), முசிறி (Muciṟi), தொண்டி (Toṇṭi), மிலேச்ச (*milēcca-*), and the phrases used for foreigners (*pulampeyar mākkaḷ*, "people who have left their land"; *moḻipeyar tēem*, "land where the language changes"). Each hit was then read in context in the Tamil and in a published translation.
 
-All entries are **[Agent-read]** from the Tamil texts in `library/sangam/` and published translations.
+**Dates.** The Sangam corpus is conventionally dated between 300 BC and AD 300, and the *Akanāṉūṟu* and *Puṟanāṉūṟu*, which name Muciṟi, are thought to be among its earliest parts. The *Paṭṭiṉappālai* is "somewhat later", and the *Cilappatikāram* is placed in the 5th century (Tomber 2008: 26, citing Champakalakshmi and Zvelebil). **[Agent-read]** The *Maṇimēkalai* is usually placed close to the *Cilappatikāram*. The *patikam* (verse epilogue) of each decade of the *Patiṟṟuppattu* is later than the poems it introduces. See the caveats below on how secure any of this is.
 
-**Assessment.** Yavanas are described as *residing* only at Puhar on the east coast, in a later text, and as guards or craftsmen in Madurai. On the Chera coast, the coast of Muziris, they arrive and leave. The search covered 38 locally held Tamil texts, not the whole corpus, so this is a pattern in what was searched, not a proof of absence.
+**The passages.** Translations are Vaidehi Herbert's (sangamtranslationsbyvaidehi.com) for the Sangam poems, V. R. Ramachandra Dikshitar's (1939; page numbers from the 1978 reprint) for the *Cilappatikāram*, and Kausalya Hart's (Project Madurai) for the *Maṇimēkalai*. Line numbers follow the Project Madurai texts.
+
+*A. Passages that use the word yavaṉa (eleven).*
+
+| # | Text | Place | Coast | What the Yavanas do | Key words | Status |
+|---|---|---|---|---|---|---|
+| 1 | *Akanāṉūṟu* 149.7–12 | **Muciṟi** | **Chera** | Their ships come and go: "the fine ships of the Yavanas come with gold and leave with pepper" (Herbert). The same lines have a Pandya king besiege Muciṟi and carry off its gold image. | *yavaṉar tanta viṉaimāṇ naṉkalam / poṉṉoṭu vantu kaṟiyoṭu peyarum* (9–10): the ships "come" (*vantu*) and "depart" (*peyarum*) | **[Agent-read]** |
+| 2 | *Patiṟṟuppattu*, *patikam* of decade II, l. 8 | Not stated; the victor is the Chera king Imayavarampaṉ Neṭuñcēralātaṉ | Chera (court) | Captured: "He captured the unkind, harsh-mouthed Yavanas, tied their hands in the back, poured oil on their heads, and seized their precious expensive jewels and diamonds" (Herbert). | *nayaṉil vaṉcol yavaṉarp piṇittu* | **[Agent-read]** |
+| 3 | *Cilappatikāram* 28.141–142 | Not stated; a Chera ancestor's conquest | Chera (court) | Their land is conquered: "another Cera penetrated the golden region of the high mountain in the fertile kingdom of the barbarous Yavaṇas" (Dikshitar 1978: 376). Dikshitar's note puts this land "somewhere in the Indus region". | *vaṉcol yavaṉar vaḷanāṭu āṇṭu* | **[Agent-read]** |
+| 4 | *Cilappatikāram* 29, the swing-song (*ūcal vari*, Project Madurai stanza 25) | Not stated | Chera (court) | The same formula: the Chera king rules "the fertile country of the Yavaṇas of barbarous speech" (Dikshitar 1978: 391). | *vaṉcol yavaṉar vaḷanāṭu* | **[Agent-read]** |
+| 5 | *Puṟanāṉūṟu* 56.18–20 | The court of the Pandya Naṉmāṟaṉ | Pandya | Bring wine: "fragrant wine brought in fine ships by the Yavanas" (Herbert). | *yavaṉar naṉkalam tanta taṇkamaḻ tēṟal* | **[Agent-read]** |
+| 6 | *Mullaippāṭṭu* 59–66 | A royal war camp (the king is Pandya in the commentary of Cōmacuntaraṉār) | Pandya | Guard the king's tent: "Harsh Yavanars with fierce appearances, wearing bulging shirts" (Herbert). Mute *milēccar* (mlecchas, another word for foreigners) attend inside. | *vaṉkaṇ yavaṉar* (61); *milēccar* (66) | **[Agent-read]** |
+| 7 | *Neṭunalvāṭai* 101–102 | The Pandya palace | Pandya | An object: lamps in the form of women, "skillfully crafted by Yavanars" (Herbert). Whether the makers were in Madurai is not said. | *yavaṉar iyaṟṟiya viṉaimāṇ pāvai* | **[Agent-read]** |
+| 8 | *Cilappatikāram* 14.66–67 | The gate of Madurai | Pandya | Guard the gate: "the best Yavana swordsmen who guarded it" (Dikshitar 1978: 229). Gurukkal and Whittaker cite this as 14.78. | *aṭalvāḷ yavaṉar* | **[Agent-read]** |
+| 9 | *Perumpāṇāṟṟuppaṭai* 316–318 | Nīrpeyaṟṟu, a port of the Toṇṭai country | East | A simile: "the goose lamps of Yavanars that are on masts" (Herbert). Both commentators read the lamps as hung on the masts of Yavana ships. | *yavaṉar ōtima viḷakku* | **[Agent-read]** |
+| 10 | *Cilappatikāram* 5.9–10 | **Puhar** | East | **Dwell**: "the abodes of Yavanas whose prosperity was never on the wane" (Dikshitar 1978: 120). The quarter is beside the river mouth (*kayavāy maruṅkil*). | ***yavaṉar irukkai*** ("the seats, dwellings, of the Yavanas") | **[Agent-read]** |
+| 11 | *Maṇimēkalai* 19.107–110 | **Puhar**, the royal garden | East | Build, with Tamil and northern craftsmen: "carpenters from Yavanam" (K. Hart). | *yavaṉat taccar* | **[Agent-read]** |
+
+*B. Foreigners described without the word yavaṉa (five further loci).*
+
+| # | Text | Place | Coast | What the foreigners do | Key words | Status |
+|---|---|---|---|---|---|---|
+| 12 | *Paṭṭiṉappālai* 213–218 | **Puhar** | East | **Dwell**: "People from many nations with various languages living together sweetly" (Herbert). | *moḻi pala perukiya … pulampeyar mākkaḷ kalantu iṉitu **uṟaiyum*** | **[Agent-read]** |
+| 13 | *Cilappatikāram* 5.11–12 | **Puhar**, the harbour | East | **Dwell**: "sailors come from distant lands, but for all appearance they lived as one community" (Dikshitar 1978: 120). The line reuses the *Paṭṭiṉappālai* formula. | *kalamtaru tiruviṉ pulampeyar mākkaḷ / kalantiruntu **uṟaiyum*** | **[Agent-read]** |
+| 14 | *Cilappatikāram* 6.130 and 6.143 | **Puhar**, the beach at the festival | East | Present on the shore with the goods their ships bring (130), and keep lamps burning all night (143); Dikshitar translates the lamps as set up by foreigners speaking different languages (1978: 142–143). | *moḻipeyar tēettar oḻiyā viḷakkam* | **[Agent-read]** |
+| 15 | *Maturaikkāñci* 321–323 | The Pandya coast | Pandya | Seafarers bring horses from distant lands. Line 506 has merchants selling goods "of excellent lands", which may or may not mean foreigners. | *viḻumiya nāvāy perunīr ōccunar / naṉantalai tēettu* | Tamil only |
+| 16 | *Mullaippāṭṭu* 66 | The war camp | Pandya | See row 6. | *milēccar* | **[Agent-read]** |
+
+*C. The Chera ports themselves.*
+
+| Text | What it says | Foreigners? | Status |
+|---|---|---|---|
+| *Akanāṉūṟu* 149.7–12 | Row 1 above. | Yes: ships come and go | **[Agent-read]** |
+| *Akanāṉūṟu* 57.14–16 | The Pandya Neṭuñceḻiyaṉ "laid siege to Musiri town near the ocean" (Herbert). | None | **[Agent-read]** |
+| *Puṟanāṉūṟu* 343.1–10 | Muciṟi of the Chera Kuṭṭuvaṉ: fish traded for paddy, pepper sacks heaped in the houses, and "gold wares from ships are brought to the shore by boats through backwaters" (Herbert). | None named. The ships stand off and are lightered (*kalam tanta poṟparicam / kaḻit toṇiyāṉ karai cērkkuntu*, 5–6). | **[Agent-read]** |
+| *Puṟanāṉūṟu* 126.14–16 | A simile: boats cannot ply on "the Western ocean … where Cheran brings gold by ships" (Herbert). | None; the ships are the Chera king's | **[Agent-read]** |
+| Toṇṭi, 22 poems: *Naṟṟiṇai* 8, 18, 195; *Kuṟuntokai* 128, 238; *Aiṅkuṟunūṟu* 171–180; *Akanāṉūṟu* 10, 60, 290; *Puṟanāṉūṟu* 17, 48; *Patiṟṟuppattu*, two passages | Similes for the heroine's beauty, the shore groves, the fish and the king's wealth. | None. No foreign ship appears within twelve lines of any mention. | Tamil read; Herbert spot-checked |
+| *Maṇimēkalai* 28.1–69 | A street-by-street catalogue of the Chera capital Vañci, the same genre as the Puhar catalogue in *Cilappatikāram* 5. It lists more than thirty trades and quarters. | **None.** The Puhar catalogue has a Yavana quarter; this one does not. Whether Vañci was inland Karur or near Kodungallur is itself disputed, and it is a capital, not a port. | **[Agent-read]** (Tamil) |
+
+**The counts.**
+
+- **Yavana passages:** eleven passages use the word. Six are in the Sangam corpus proper and five in the two later epics. Seland counted "c. 50 references to trade and 10 to yavanas" in more than 2,000 poems (Tomber 2008: 26–27, citing Seland 2006 and 2007). **[Agent-read]** The two counts agree in order of magnitude.
+- **Yavanas on the Chera coast:** one passage puts them there (*Akanāṉūṟu* 149), and its subject is their ships. Three more passages tie Yavanas to Chera kings (*Patiṟṟuppattu* II *patikam*; *Cilappatikāram* 28 and 29), but as enemies or as a conquered land, and none places them at a port.
+- **Pandya:** four passages place Yavanas at a Pandya court, camp or gate, as suppliers of wine, guards and makers of lamps.
+- **East coast:** three passages place Yavanas at an east-coast port: one as ships (Nīrpeyaṟṟu) and two at Puhar, as residents and as carpenters.
+- **Words for dwelling:** three times in the corpus foreigners are said to dwell somewhere, using *irukkai* ("seat, dwelling") or the verb *uṟai-* ("to stay, to live"): *Paṭṭiṉappālai* 218, *Cilappatikāram* 5.10 and 5.12. **All three are at Puhar.** The two *Cilappatikāram* lines borrow the *Paṭṭiṉappālai*'s wording, so they are not independent of it. **No such word is used of foreigners at any Chera place.**
+- **Muciṟi:** three poems name it. One names foreigners.
+
+**Assessment.** The claim survives in a narrower form, and two parts of the earlier wording were wrong.
+
+- **What holds.** Nowhere in the corpus are foreigners said to live on the Chera coast. The single Tamil line that puts Yavanas at Muciṟi uses the verbs "come" and "depart" of their ships, in a relative clause describing what customarily happens there. *Puṟanāṉūṟu* 343 adds that ships' gold reached the shore in backwater boats, which agrees with Pliny's lighterage at Muziris (§5) and with a turnaround handled by local boats. The one Chera city that receives a catalogue of the Puhar kind, Vañci in *Maṇimēkalai* 28, has no foreign quarter.
+- **What was wrong.** First, residence at Puhar is not confined to a later text. The *Paṭṭiṉappālai*, a Sangam poem, already has foreigners "living together" there, though it does not call them Yavanas. Second, the Yavana craftsmen are at Puhar (*Maṇimēkalai* 19), not Madurai. At Madurai the Yavanas are guards, and the lamps "made by Yavanas" are objects that could have been imported.
+- **Why it is weak.** The Chera half of the comparison is one line. Muciṟi is never described at length: in *Akanāṉūṟu* 149 it is an epithet inside a praise of the Pandya king who sacked it, and in *Puṟanāṉūṟu* 343 it is the measure of a rejected bride-price. Puhar, by contrast, fills much of the *Paṭṭiṉappālai* and two cantos of the *Cilappatikāram*. A sentence about ships coming and going says nothing about whether any of their people stayed for the season. A poem would have little occasion to say so. The silence about residence on the Chera coast is therefore real but light. It is compatible with the seasonal reading and does not independently support it.
+
+**Scholarship on the question.**
+
+- **For settled Yavanas.** Meile (1940) and Zvelebil (1956: 404–407) are cited for Yavanas who "lived in the south in neighborhoods around port-cities" and worked as guards, carpenters and artisans (de Saxcé 2022: 136, 140). **[Secondhand]** Champakalakshmi (2006: 109) reads the Sangam as hinting "that by the second century the yavanas had established settlements" (Tomber 2008: 27). **[Secondhand]** Dikshitar (1978: 30) has the Yavanas "settled in India" with their own *nāṭu*, which he places in the Indus region. **[Agent-read]** Sidebotham (2011: 191) writes that "a Tamil Sangam poem … mentions a Yavana settlement at Puhar", citing *Cilappatikāram* 5, which is not a Sangam poem. **[Agent-read]** None of these authors points to a Chera-coast passage for residence.
+- **Sceptical or seasonal.** Gurukkal and Whittaker (2001: 339) expect that seasonal foreign traders would leave "warehouses and perhaps even a separate merchant quarter, as has been suggested from the excavations at the Coromandel ports of Arikamedu and Kaveripumpattinam", and do not claim one for Muziris. They treat the Yavanas of *Patiṟṟuppattu* and *Cilappatikāram* 14 as "Yavana (foreign) mercenaries" employed by local rulers (2001: 339 n. 24). **[Agent-read]** Selvakumar (2017) reads *Akanāṉūṟu* 149 and *Puṟanāṉūṟu* 343 for trade and lighterage, and writes only that "YavanA presence at the Early Historic port settlements is certain", a conclusion he draws from the Muziris papyrus rather than from the poems. **[Agent-read]** De Romanis (1997b: 104) suggests the Yavana guards came as archers protecting ships from pirates (Tomber 2008: 27). **[Secondhand]**
+- **The mirror image.** The Tamil-Brahmi graffiti in Egypt name Tamils who reached the Red Sea ports: two names at Myos Hormos and one at Berenike, scratched on a Dressel 2-4 amphora, plus a jar inscribed *paanai oRi* (Tomber 2008: 73–74, citing Mahadevan 1996 and 2007 and Salomon 1991). **[Agent-read]** Sidebotham is careful about the Berenike graffito: "It is not certain that the person who wrote this was present in Berenike" (2011: 75). **[Agent-read]** In February 2026 Strauch and Schmid presented about thirty Tamil-Brahmi and Prakrit graffiti from six tombs in the Valley of the Kings, including the name Cikai Koṟṟaṉ eight times and a phrase reported as "came and saw" (DT Next, February 2026; a news report of a conference paper, not a publication). **[Secondhand]** These are visitors' marks, and they show Tamils travelling well inland from the ports. The archaeology of residence in §2 remains the stronger part of the comparison. The Tamil-Brahmi record also shows a man of the Chera port living away from it: a rock-bed inscription at Muttupatti, 10 km west of Madurai, names a donor "MuCiRi kodan iLamakan", whom Selvakumar takes to be from Muciṟi and who was resident at the village of Nākapērūr. Mahadevan dates it to the 1st century BC, and Selvakumar concludes that merchants "sometimes even settled" far from home (Selvakumar 2017). **[Agent-read]** (Mahadevan's reading itself is **[Secondhand]**.)
+
+**Method caveats.**
+
+1. **Dating.** The conventional 300 BC–AD 300 window is not secure. Tieken (2001) argued that the corpus is an eighth- or ninth-century Pandya-court product. Hart rejected this at length (*JAOS* 124, 2004: 180–184), and most specialists keep the early date. **[Secondhand]** Within the early dating, Gurukkal and Whittaker would put the two Muciṟi descriptions around the 2nd century AD, "but the later the date, the later the proof of activity at Muziris" (2001: 339). **[Agent-read]** The *Patiṟṟuppattu* *patikams* and both epics are later again. Anything from the *Cilappatikāram* or the *Maṇimēkalai* describes Puhar or Vañci as remembered or imagined some centuries after the Periplus.
+2. **Poetic convention.** Every port scene sits inside a *tiṇai* frame. *Akanāṉūṟu* 149 is a *pālai* (separation) poem in which Muciṟi appears three steps removed from the subject, inside an epithet of the Pandya king. *Puṟanāṉūṟu* 343 uses it as a standard of wealth. The Puhar descriptions are formulaic, and the *Cilappatikāram* repeats the *Paṭṭiṉappālai*'s lines. These are topoi of the prosperous port. They show what a poet thought a great port looked like, not a survey of who lived there.
+3. **What "yavana" means.** The word derives from "Ionian" and in the Tamil corpus is an umbrella term for foreigners from the west (Tomber 2008: 27, citing Ray). **[Agent-read]** The medieval commentators already re-read it for their own time: Naccinārkkiniyar glosses *yavaṉar* as *cōṉakar* (people of the Arab or Muslim west) on *Mullaippāṭṭu* 61, *Neṭunalvāṭai* 101 and *Perumpāṇāṟṟuppaṭai* 316, and Aṭiyārkkunallār glosses it as *milēccar*, or "Turks" (Dikshitar 1978: 120 n. 4, 229 n. 2). **[Agent-read]** Dikshitar places the Yavana country of *Cilappatikāram* 28 in the Indus region. So a Yavana in a given line need not be a Roman subject. The word *kalam* adds a second ambiguity: it means both "ship" and "vessel, jar", so *yavaṉar naṉkalam* in *Puṟanāṉūṟu* 56 can be read as "the Yavanas' fine ships" or "the Yavanas' fine jars".
+4. **Absence of evidence.** About ten Yavana references in more than 2,000 poems is a small sample, and the Chera coast gets one of them. A corpus about love and war that describes one port, Puhar, at length cannot show by its silence that foreigners did not live at another. The absence counts only alongside the archaeological test in §2, which can be repeated as excavation continues.
 
 ---
 
@@ -145,7 +203,7 @@ That is a stay of about three to four months at Muziris every season. It is enou
 
 ## 5. The argument, stated
 
-> **The texts that were thought to prove a Western colony at Muziris no longer do. The Temple of Augustus is a late map icon, and the Muziris papyrus places the lender's agents only in Egypt. The one text that survives, Periplus 56, describes grain imported for people connected with ships. The Pattanam wharf has the matching evidence: wheat and grape pips, foreign food, at the waterfront. Nothing in the Pattanam record passes the domestic test that shows Indians living in Egypt, and on the Chera coast the Tamil poems show Yavanas only arriving and leaving. The best-supported picture is a port run by local people for seasonal foreign crews, who ate imported food while they waited for the wind. On this reading Muziris was important because of how it handled the turnaround, not because foreigners settled there.**
+> **The texts that were thought to prove a Western colony at Muziris no longer do. The Temple of Augustus is a late map icon, and the Muziris papyrus places the lender's agents only in Egypt. The one text that survives, Periplus 56, describes grain imported for people connected with ships. The Pattanam wharf has the matching evidence: wheat and grape pips, foreign food, at the waterfront. Nothing in the Pattanam record passes the domestic test that shows Indians living in Egypt. The Tamil poems describe foreigners dwelling only at Puhar on the east coast, and their one line on Yavanas at Muciṟi has the ships coming and going, though that line is too slight to carry weight on its own. The best-supported picture is a port run by local people for seasonal foreign crews, who ate imported food while they waited for the wind. On this reading Muziris was important because of how it handled the turnaround, not because foreigners settled there.**
 
 **What would overturn it:**
 
@@ -153,7 +211,7 @@ That is a stay of about three to four months at Muziris every season. It is enou
 - a date for the wharf wheat that falls outside the trading centuries;
 - Kajale's reports showing the wheat is widespread across the site rather than concentrated at the wharf.
 
-**What it means for locating Muziris.** If Western presence is a waterfront phenomenon, then the Muziris of the Periplus is where ships were handled. The question becomes where the first-century waterfront was. That is the shoreline and channel question in `quantitative/`. Pattanam's wharf sits about 220 m from the undated ancient shoreline in Narayana et al. 2001. The bathymetry pilot, `quantitative/coastline/bathymetry_1857.ipynb`, shows that in 1851–53 the Kodungallur bar admitted only small craft at low water. Ships of the Periplus anchored off and lightered, as Pliny says for Muziris: "longe a terra ... lintribusque adferuntur onera et egeruntur" (cargo is carried to and from the ships in boats, because they lie far from land). That is consistent with this picture.
+**What it means for locating Muziris.** If Western presence is a waterfront phenomenon, then the Muziris of the Periplus is where ships were handled. The question becomes where the first-century waterfront was. That is the shoreline and channel question in `quantitative/`. Pattanam's wharf sits about 220 m from the undated ancient shoreline in Narayana et al. 2001. The Admiralty *Pilot* of 1866, written from the 1851–53 survey, says the Kodungallur bar admitted only "small coasting craft", and the soundings modelled in `quantitative/coastline/bathymetry_1857.ipynb` are consistent with that. The model alone cannot fix the bar's controlling depth: validation on surveyed modern inlets shows that a survey this sparse at the mouth reads it too shallow. Ships of the Periplus anchored off and lightered, as Pliny says for Muziris: "longe a terra ... lintribusque adferuntur onera et egeruntur" (cargo is carried to and from the ships in boats, because they lie far from land). *Puṟanāṉūṟu* 343.5–6 says the same from the Tamil side: the gold the ships brought reached the shore of Muciṟi in backwater boats (*kaḻit toṇi*). That is consistent with this picture.
 
 ---
 
@@ -169,7 +227,26 @@ That is a stay of about three to four months at Muziris every season. It is enou
 - Sidebotham 2011 (pp. 75, 191).
 - Wheeler, Ghosh and Deva 1946 (p. 101).
 - Autiero 2019, *PAM* 28.
-- The Sangam passages.
 - The Talbert review (BMCR 2012.04.14) and the Moioli review (BMCR 2020.11.32).
 
 **Not read.** Kajale's botanical reports on Pattanam; De Romanis 2020; Rathbone 2000; Morelli 2011; Cobb 2018 chapter 5; Bosch Surís 2025 on the Pattanam gems; Begley et al. 1996 on the Arikamedu lamps.
+
+### Sources for §1d, the Tamil texts (10 November 2026)
+
+Copies are in `sites/malabar/readings/tamil/` (gitignored): the Project Madurai PDFs in `projectmadurai/`, and web pages rendered to PDF in `web/`.
+
+**Tamil texts, Project Madurai, searched in full.** *Akanāṉūṟu* 1–400 (pm0490, pm0523, pm0534, with the Cōmacuntaraṉār and Nāṭṭār commentaries); *Puṟanāṉūṟu* (pm0057); *Patiṟṟuppattu* (pm0038); *Naṟṟiṇai* (pm0296); *Kuṟuntokai* (pm0110); *Aiṅkuṟunūṟu* (pm0028); *Kalittokai* and *Paripāṭal* (local copies); all ten *Pattuppāṭṭu*, with Naccinārkkiniyar's commentary where held (*Mullaippāṭṭu* pm0488; *Neṭunalvāṭai* pm0484; *Perumpāṇāṟṟuppaṭai* pm0069; *Paṭṭiṉappālai* pm0077; *Maturaikkāñci* pm0071; *Kuṟiñcippāṭṭu* pm0073; the others local); *Cilappatikāram* in three books (pm0046, pm0111_01, pm0111_02); *Maṇimēkalai* (pm0141). Not searched: the *Paripāṭal* fragments (*Paripāṭal tiraṭṭu*) and the later *Cīvaka Cintāmaṇi* and *Peruṅkatai*.
+
+**Translations.**
+
+- Vaidehi Herbert, *Sangam Translations by Vaidehi*, sangamtranslationsbyvaidehi.com, accessed 10 November 2026. Used for *Akanāṉūṟu* 57 and 149, *Puṟanāṉūṟu* 56, 126 and 343, *Patiṟṟuppattu* II *patikam*, *Mullaippāṭṭu*, *Neṭunalvāṭai*, *Perumpāṇāṟṟuppaṭai* and *Paṭṭiṉappālai*. **[Read]**
+- V. R. Ramachandra Dikshitar, *The Cilappatikaram* (Oxford 1939; reprint Madras: South India Saiva Siddhanta Works Publishing Society, 1978), pp. 30, 120, 142–143, 229, 376, 391. Page numbers are the 1978 reprint's (archive.org). **[Read]**
+- Kausalya Hart, *Manimekalai*, English translation, Project Madurai pm0710, canto 19. **[Read]**
+- *Maturaikkāñci* 321–323 and 506 were read in Tamil only.
+- Not seen: Hart and Heifetz 1999 (*Puṟanāṉūṟu*); Parthasarathy 1993 (*Cilappatikāram*); Chelliah 1946 (*Pattuppāṭṭu*; the archive.org text layer is unusable Devanagari OCR, the same fault as in `FINDINGS.md` §24). The earlier version of this section attributed its *Akanāṉūṟu* 149 rendering to Hart, and that attribution was not verified.
+
+**Scholarship.**
+
+- Read: Tomber 2008, pp. 26–29, 73–74; Gurukkal and Whittaker 2001, p. 339 and n. 24; Sidebotham 2011, pp. 75, 191; de Saxcé 2022, "Networks and Cultural Mapping of South Asian Maritime Trade", in Billé, Mehendale and Lankton (eds), *The Maritime Silk Road* (Amsterdam), pp. 136, 140; Selvakumar 2017, "Muchiri in ancient Tamil texts and Tamil tradition", photomail.org, 13 January 2017 (saved as PDF).
+- Secondhand only: Meile 1940, *JA* 232: 87–123; Zvelebil 1956, "The Yavanas in Old Tamil Literature", *Charisteria Orientalia* (Prague): 401–409; Champakalakshmi 2006; De Romanis 1997b; Ray 1988, *JESHO* 31: 311–325; Seland 2006 and 2007; Mahadevan 1996, 2003, 2007; Salomon 1991, *JAOS* 111: 731–736; Tieken 2001, *Kāvya in South India*; Hart 2004, review of Tieken, *JAOS* 124: 180–184 (known from Tieken's reply on the Indology list, 5 September 2005, saved as PDF); Strauch and Schmid on the Valley of the Kings graffiti (DT Next, February 2026, saved as PDF).
+- Not found online and worth getting through the library: Zvelebil 1956, Meile 1940, Ray 1988, Champakalakshmi 1996, Gurukkal 2016 (*Rethinking Classical Indo-Roman Trade*), and Parthasarathy's translation.
