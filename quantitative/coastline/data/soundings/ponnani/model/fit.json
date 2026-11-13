@@ -1,0 +1,31 @@
+{
+  "site": "ponnani",
+  "mesh_nodes": 11013,
+  "n_soundings": 390,
+  "n_cells": 25003,
+  "n_draws": 200,
+  "noise_sd": 0.4,
+  "mouth_term": true,
+  "fixed": {
+    "b0": {
+      "mean": -0.262236,
+      "0.025quant": -1.286994,
+      "0.975quant": 0.762523
+    },
+    "dist": {
+      "mean": 1.873743,
+      "0.025quant": 1.591258,
+      "0.975quant": 2.156229
+    },
+    "beach": {
+      "mean": 3.338716,
+      "0.025quant": 2.930685,
+      "0.975quant": 3.746746
+    }
+  },
+  "hyper": {
+    "Range for field": 7.776721,
+    "Stdev for field": 2.152318
+  },
+  "seconds": 70
+}

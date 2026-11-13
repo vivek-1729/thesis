@@ -1,0 +1,31 @@
+{
+  "site": "koyilandy",
+  "mesh_nodes": 4526,
+  "n_soundings": 279,
+  "n_cells": 4429,
+  "n_draws": 200,
+  "noise_sd": 0.4,
+  "mouth_term": false,
+  "fixed": {
+    "b0": {
+      "mean": -0.43515,
+      "0.025quant": -0.908788,
+      "0.975quant": 0.038489
+    },
+    "dist": {
+      "mean": 1.749419,
+      "0.025quant": 1.59782,
+      "0.975quant": 1.901017
+    },
+    "beach": {
+      "mean": 1.350882,
+      "0.025quant": 1.065812,
+      "0.975quant": 1.635951
+    }
+  },
+  "hyper": {
+    "Range for field": 5.158366,
+    "Stdev for field": 0.360502
+  },
+  "seconds": 12
+}

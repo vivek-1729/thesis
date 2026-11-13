@@ -1,0 +1,22 @@
+{
+ "site": "kodungallur",
+ "port": "Muziris",
+ "candidates": "Kodungallur (Azhikode) mouth",
+ "sheet": "BA749",
+ "surveyed": "1851-3",
+ "mouth": [
+  626.9971450932237,
+  1126.9153941842574
+ ],
+ "ref": [
+  626.9971450932237,
+  1126.9153941842574
+ ],
+ "mouth_r_km": 0,
+ "soundings_used": 157,
+ "soundings_excluded_landward": 0,
+ "shore_anchors": 1169,
+ "grid_cells": 6565,
+ "water_km2": 64.9,
+ "note": "inputs from bathymetry_1857.ipynb section 8b; the unsounded lagoon and river channel are in the mesh but get no predictions, as in that notebook"
+}

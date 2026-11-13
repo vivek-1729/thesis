@@ -1,0 +1,18 @@
+{
+ "site": "purakkad",
+ "port": "Nelkynda / Bakare",
+ "candidates": "Purakkad, Nirkunnam",
+ "sheet": "BA750",
+ "surveyed": "1850-2 (with soundings added 'in 1901')",
+ "mouth": null,
+ "ref": [
+  651.0026331818551,
+  1034.0741764834536
+ ],
+ "mouth_r_km": 0,
+ "soundings_used": 452,
+ "soundings_excluded_landward": 0,
+ "shore_anchors": 442,
+ "grid_cells": 24876,
+ "water_km2": 248.6
+}

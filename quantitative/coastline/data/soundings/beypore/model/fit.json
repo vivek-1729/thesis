@@ -1,0 +1,31 @@
+{
+  "site": "beypore",
+  "mesh_nodes": 4086,
+  "n_soundings": 307,
+  "n_cells": 4508,
+  "n_draws": 200,
+  "noise_sd": 0.4,
+  "mouth_term": true,
+  "fixed": {
+    "b0": {
+      "mean": -0.297184,
+      "0.025quant": -0.982448,
+      "0.975quant": 0.38808
+    },
+    "dist": {
+      "mean": 1.897394,
+      "0.025quant": 1.709998,
+      "0.975quant": 2.08479
+    },
+    "beach": {
+      "mean": 2.346517,
+      "0.025quant": 1.962281,
+      "0.975quant": 2.730753
+    }
+  },
+  "hyper": {
+    "Range for field": 10.556979,
+    "Stdev for field": 0.495452
+  },
+  "seconds": 53
+}

@@ -1,0 +1,21 @@
+{
+ "site": "kollam",
+ "port": "Nelkynda / Bakare",
+ "candidates": "Kollam, Neendakara, Thangassery",
+ "sheet": "BA750",
+ "surveyed": "1850-2",
+ "mouth": [
+  669.019202332678,
+  988.8649261396029
+ ],
+ "ref": [
+  669.019202332678,
+  988.8649261396029
+ ],
+ "mouth_r_km": 0.3,
+ "soundings_used": 482,
+ "soundings_excluded_landward": 11,
+ "shore_anchors": 429,
+ "grid_cells": 26703,
+ "water_km2": 266.9
+}

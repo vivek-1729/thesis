@@ -1,0 +1,31 @@
+{
+  "site": "tanur",
+  "mesh_nodes": 10719,
+  "n_soundings": 386,
+  "n_cells": 22114,
+  "n_draws": 200,
+  "noise_sd": 0.4,
+  "mouth_term": false,
+  "fixed": {
+    "b0": {
+      "mean": 0.354274,
+      "0.025quant": -0.57816,
+      "0.975quant": 1.286709
+    },
+    "dist": {
+      "mean": 1.977879,
+      "0.025quant": 1.825417,
+      "0.975quant": 2.13034
+    },
+    "beach": {
+      "mean": 3.950035,
+      "0.025quant": 3.58573,
+      "0.975quant": 4.31434
+    }
+  },
+  "hyper": {
+    "Range for field": 3.796942,
+    "Stdev for field": 1.195985
+  },
+  "seconds": 32
+}

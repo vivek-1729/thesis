@@ -1,0 +1,31 @@
+{
+  "site": "kodungallur",
+  "mesh_nodes": 9221,
+  "n_soundings": 148,
+  "n_cells": 9,
+  "n_draws": 400,
+  "noise_sd": 0.4,
+  "mouth_term": true,
+  "fixed": {
+    "b0": {
+      "mean": -0.404802,
+      "0.025quant": -1.008672,
+      "0.975quant": 0.199069
+    },
+    "dist": {
+      "mean": 1.553455,
+      "0.025quant": 1.227337,
+      "0.975quant": 1.879572
+    },
+    "beach": {
+      "mean": 2.014969,
+      "0.025quant": 1.607547,
+      "0.975quant": 2.42239
+    }
+  },
+  "hyper": {
+    "Range for field": 4.259292,
+    "Stdev for field": 0.885842
+  },
+  "seconds": 15
+}

@@ -1,0 +1,21 @@
+{
+ "site": "beypore",
+ "port": "Tyndis",
+ "candidates": "Beypore, Chaliyam (Kadalundi is off the chart's eastern edge)",
+ "sheet": "BA64",
+ "surveyed": "1887",
+ "mouth": [
+  587.9643101283642,
+  1233.9694669082605
+ ],
+ "ref": [
+  587.9643101283642,
+  1233.9694669082605
+ ],
+ "mouth_r_km": 0.15,
+ "soundings_used": 307,
+ "soundings_excluded_landward": 21,
+ "shore_anchors": 155,
+ "grid_cells": 4508,
+ "water_km2": 45.0
+}

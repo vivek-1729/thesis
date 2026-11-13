@@ -82,5 +82,20 @@
    "north": 9.886467236236598
   },
   "check_error_m": 348.86607119147044
+ },
+ "BA64": {
+  "file": "malabar-64-1888.jpg",
+  "title": "India, West Coast, Sacrifice Rock to Beipur",
+  "surveyor": "Lieuts. E. C. H. Helby and B. Whitehouse R.N., G. L. E. Mathias I.M., Bulwant Rajaram",
+  "surveyed": "1887",
+  "scale": "1:48,380",
+  "tide": "Datum: lowest low water springs; spring rise 5 ft (Kadalur, Calicut, Beipur)",
+  "method": "anchor (Beipur flagstaff, title) + scale bar; north = sheet vertical",
+  "lon_anchor_px": 10306.0,
+  "lon_anchor_deg": 75.80722222222222,
+  "lat_a": -2.7929060187124703e-05,
+  "lat_b": 11.533912744961134,
+  "px_per_arcmin_lat": 596.75,
+  "px_per_arcmin_lon": 585.4652063145
  }
 }
