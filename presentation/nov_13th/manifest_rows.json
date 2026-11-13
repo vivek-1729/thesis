@@ -1,0 +1,471 @@
+[
+ {
+  "file": "s05a_chart.jpg",
+  "slide": 5,
+  "kind": "archival",
+  "what": "chart crop at the Kodungallur mouth (same framing as s04c)",
+  "source": "Admiralty Chart No 749"
+ },
+ {
+  "file": "s05b_chart_with_points.png",
+  "slide": 5,
+  "kind": "data",
+  "what": "the 428 usable soundings (ok + unsure) over the chart, coloured by depth (0-22 m)",
+  "source": "transcription: quantitative/coastline/data/soundings_1857/soundings_1857.csv"
+ },
+ {
+  "file": "s05c_points_only.png",
+  "slide": 5,
+  "kind": "data",
+  "what": "the same points with the chart faded out (same framing)",
+  "source": "as s05b"
+ },
+ {
+  "file": "s08c_kodungallur_holdout.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "the 9 soundings within 1.5 km of the Kodungallur mouth, hidden and predicted by model F from the rest; bars 90% intervals; 8 of 9 inside; RMSE 1.1 m",
+  "source": "presentation/sources/holdout/ (fit with quantitative/coastline/scripts/seabed_model.R)"
+ },
+ {
+  "file": "s09b_ship_water_map.png",
+  "slide": 9,
+  "kind": "data",
+  "what": "Kodungallur mouth from above: blue where water is at least 3.5 m deep with probability >= 0.9 (3 m draught + 0.5 m), sand where not; arrow 1.3 km from the mouth to that water along the seaward corridor",
+  "source": "seabed_mouths.ipynb (model F); data/soundings/mouths_comparison.csv"
+ },
+ {
+  "file": "s12a_turnaround_voyage.png",
+  "slide": 12,
+  "kind": "data",
+  "what": "timeline frame 1: the outward voyage",
+  "source": "Periplus 56 and Pliny NH 6.104 (departure, about 20 July, De Romanis 2014: 81); Pliny NH 6.104 (30 + 40 days, so arrival about 28 Sept); 1909 Admiralty West Coast of India Pilot p. 128 (Cochin bar closed 15 May - 15 Sept); Pliny NH 6.106 (depart Tybi 1 - Mechir 6 = 8 Dec - 13 Jan, De Romanis 2014: 81-83); loading time: the project's estimate, sites/malabar/analysis/turnaround.md section 8b (1-21 days on most assumptions); pepper harvest Nov-Feb: turnaround.md section 6"
+ },
+ {
+  "file": "s12b_turnaround_stay.png",
+  "slide": 12,
+  "kind": "data",
+  "what": "frame 2: adds the closed coast and the stay",
+  "source": "Periplus 56 and Pliny NH 6.104 (departure, about 20 July, De Romanis 2014: 81); Pliny NH 6.104 (30 + 40 days, so arrival about 28 Sept); 1909 Admiralty West Coast of India Pilot p. 128 (Cochin bar closed 15 May - 15 Sept); Pliny NH 6.106 (depart Tybi 1 - Mechir 6 = 8 Dec - 13 Jan, De Romanis 2014: 81-83); loading time: the project's estimate, sites/malabar/analysis/turnaround.md section 8b (1-21 days on most assumptions); pepper harvest Nov-Feb: turnaround.md section 6"
+ },
+ {
+  "file": "s12c_turnaround_full.png",
+  "slide": 12,
+  "kind": "data",
+  "what": "frame 3: adds loading, waiting, the departure window and the pepper harvest",
+  "source": "Periplus 56 and Pliny NH 6.104 (departure, about 20 July, De Romanis 2014: 81); Pliny NH 6.104 (30 + 40 days, so arrival about 28 Sept); 1909 Admiralty West Coast of India Pilot p. 128 (Cochin bar closed 15 May - 15 Sept); Pliny NH 6.106 (depart Tybi 1 - Mechir 6 = 8 Dec - 13 Jan, De Romanis 2014: 81-83); loading time: the project's estimate, sites/malabar/analysis/turnaround.md section 8b (1-21 days on most assumptions); pepper harvest Nov-Feb: turnaround.md section 6"
+ },
+ {
+  "file": "s12d_pattanam_wharf_canoe.jpg",
+  "slide": 12,
+  "kind": "published",
+  "what": "Pattanam: the dugout canoe in the waterlogged wharf deposit",
+  "source": "Cherian and Menon (eds), Unearthing Pattanam: Histories, Cultures, Crossings (PAMA catalogue, National Museum, New Delhi, 2014), pp. 120-121"
+ },
+ {
+  "file": "s12e_pattanam_wharf_lining.jpg",
+  "slide": 12,
+  "kind": "published",
+  "what": "Pattanam: the brick lining of the wharf",
+  "source": "Cherian and Menon (eds), Unearthing Pattanam: Histories, Cultures, Crossings (PAMA catalogue, National Museum, New Delhi, 2014), pp. 120-121"
+ },
+ {
+  "file": "s17_ed_dur_lagoon.jpg",
+  "slide": 17,
+  "kind": "published",
+  "what": "the Umm al-Quwain coastal-lagoon system (Google Earth 2023), Fig. 2A. Ed-Dur, about 4 km inland of the present coast (Forti et al. 2023, INQUA abstract), is not labelled in this figure",
+  "source": "Forti, Degli Esposti, Cremaschi, Borgi, Azzoni and Zerboni 2024, 'Geomorphological evolution of the Umm al-Quwain (UAE) coastal-lagoon system', Catena 247: 108517, Fig. 2A (p. 4)"
+ },
+ {
+  "file": "s14a_crossing_axis.png",
+  "slide": 14,
+  "kind": "data",
+  "what": "argument 1 time bar, frame 1: axis and markers",
+  "source": "sites/malabar/analysis/arabian_sea_crossing.md, tables A-D (each bar's citation is printed under it). Colours: brown, north-west India; blue, south India or the Red Sea finds; grey, India unspecified"
+ },
+ {
+  "file": "s14b_crossing_northwest.png",
+  "slide": 14,
+  "kind": "data",
+  "what": "argument 1 time bar, frame 2: north-west India before Rome",
+  "source": "sites/malabar/analysis/arabian_sea_crossing.md, tables A-D (each bar's citation is printed under it). Colours: brown, north-west India; blue, south India or the Red Sea finds; grey, India unspecified"
+ },
+ {
+  "file": "s14c_crossing_south.png",
+  "slide": 14,
+  "kind": "data",
+  "what": "argument 1 time bar, frame 3: south India and the Red Sea, from the late 1st c. BC",
+  "source": "sites/malabar/analysis/arabian_sea_crossing.md, tables A-D (each bar's citation is printed under it). Colours: brown, north-west India; blue, south India or the Red Sea finds; grey, India unspecified"
+ },
+ {
+  "file": "s14d_pattanam_rouletted_ware.jpg",
+  "slide": 14,
+  "kind": "published",
+  "what": "Rouletted Ware, Pattanam",
+  "source": "Unearthing Pattanam (2014), PDF p. 50"
+ },
+ {
+  "file": "s14e_sumhuram_rouletted_ware.jpg",
+  "slide": 14,
+  "kind": "published",
+  "what": "Rouletted Ware, Sumhuram",
+  "source": "Pavan and Schenk 2012, 'Crossing the Indian Ocean before the Periplus', AAE 23, fig. 3 (PDF p. 9)"
+ },
+ {
+  "file": "s14f_tissamaharama_rouletted_ware.jpg",
+  "slide": 14,
+  "kind": "published",
+  "what": "early and late Rouletted Ware, Tissamaharama",
+  "source": "Pavan and Schenk 2012, fig. 6 (PDF p. 9)"
+ },
+ {
+  "file": "s15a_after_rome_roman.png",
+  "slide": 15,
+  "kind": "data",
+  "what": "argument 3 timeline, frame 1: the Roman horizon",
+  "source": "sites/malabar/analysis/after_rome.md (each item's citation printed under it; the copper plates and the Chera dates are secondhand there)"
+ },
+ {
+  "file": "s15b_after_rome_gulf.png",
+  "slide": 15,
+  "kind": "data",
+  "what": "argument 3 timeline, frame 2: adds the Gulf phase and Cosmas",
+  "source": "sites/malabar/analysis/after_rome.md (each item's citation printed under it; the copper plates and the Chera dates are secondhand there)"
+ },
+ {
+  "file": "s15c_after_rome_medieval.png",
+  "slide": 15,
+  "kind": "data",
+  "what": "argument 3 timeline, frame 3: adds the medieval shift north and south",
+  "source": "sites/malabar/analysis/after_rome.md (each item's citation printed under it; the copper plates and the Chera dates are secondhand there)"
+ },
+ {
+  "file": "s15d_pattanam_torpedo_jar.jpg",
+  "slide": 15,
+  "kind": "published",
+  "what": "torpedo jar sherd with bitumen lining, Pattanam",
+  "source": "Unearthing Pattanam (2014), PDF p. 32"
+ },
+ {
+  "file": "s15e_pattanam_turquoise_glaze.jpg",
+  "slide": 15,
+  "kind": "published",
+  "what": "turquoise glazed ring base, Pattanam",
+  "source": "Unearthing Pattanam (2014), PDF p. 34"
+ },
+ {
+  "file": "s13a_redsea_indian_cooking_ware.jpg",
+  "slide": 13,
+  "kind": "published",
+  "what": "From Pots to Pepper (2008), fig. 6 (book PDF p. 49): Indian coarse red-slipped cooking wares from the Egyptian Red Sea ports",
+  "source": "Tomber, Indo-Roman Trade"
+ },
+ {
+  "file": "s13b_myos_hormos_tamil_graffiti.jpg",
+  "slide": 13,
+  "kind": "published",
+  "what": "Tamil-Brahmi graffiti from Myos Hormos",
+  "source": "Tomber 2008, fig. 13 (PDF p. 77)"
+ },
+ {
+  "file": "s13c_pattanam_dressel24_amphora.jpg",
+  "slide": 13,
+  "kind": "published",
+  "what": "Dressel 2-4 amphora, Pattanam",
+  "source": "Shajan, Tomber, Selvakumar and Cherian 2004, 'Locating the ancient port of Muziris', JRA 17, fig. 5 (PDF p. 7)"
+ },
+ {
+  "file": "s13d_pattanam_sigillata_stamp.jpg",
+  "slide": 13,
+  "kind": "published",
+  "what": "stamped terra sigillata, Pattanam",
+  "source": "Cherian and Menon (eds), Unearthing Pattanam (2014), PDF p. 28"
+ },
+ {
+  "file": "s13e_tamil_poems_muciri.png",
+  "slide": 13,
+  "kind": "data",
+  "what": "Tamil poems frame 1: Muciri, with the Tamil, Herbert's translation and the line citation. Muciri's location is disputed; the dot marks the Periyar mouth region",
+  "source": "Tamil and translations: Vaidehi Herbert (saved in sites/malabar/readings/tamil/web/); some Tamil vowel signs restored where the PDF text dropped them, check against a printed edition; counts and readings: argument2_westerners_at_muziris.md section 1d (agent-read, to be hand-checked). Akan\u0101\u1e49\u016b\u1e5fu 149.9\u201311, trans. Vaidehi Herbert; Pu\u1e5fan\u0101\u1e49\u016b\u1e5fu 56.18, trans. Vaidehi Herbert; Pa\u1e6d\u1e6di\u1e49app\u0101lai 216\u201317, trans. Vaidehi Herbert"
+ },
+ {
+  "file": "s13f_tamil_poems_madurai.png",
+  "slide": 13,
+  "kind": "data",
+  "what": "frame 2: adds Madurai (Pu\u1e5fan\u0101\u1e49\u016b\u1e5fu 56, the Pandya court)",
+  "source": "as s13e"
+ },
+ {
+  "file": "s13g_tamil_poems_puhar.png",
+  "slide": 13,
+  "kind": "data",
+  "what": "frame 3: adds Puhar, the only place foreigners are said to dwell (3 passages, all Puhar)",
+  "source": "as s13e"
+ },
+ {
+  "file": "s09a2_ship_water_3d_pliny.png",
+  "slide": 9,
+  "kind": "data",
+  "what": "s09a with Pliny's description of the Muziris roadstead and a legend; the next frame after s09a (same image underneath, so it fades in)",
+  "source": "Pliny, NH 6.104, Latin from Mayhoff's Teubner text (1906), translation H. Rackham (Loeb); quoted from sites/malabar/analysis/turnaround.md section 1; seabed as s09a"
+ },
+ {
+  "file": "s02d_periplus_map_ringed_fullres.jpg",
+  "slide": 2,
+  "kind": "archival",
+  "what": "the ringed map at full resolution (3507 x 1921), used for the zoom morph in the deck",
+  "source": "Map: PHGCOM, 'Map of the Periplus of the Erythraean Sea', Wikimedia Commons, CC BY-SA 4.0"
+ },
+ {
+  "file": "s02a_periplus_map.jpg",
+  "slide": 2,
+  "kind": "archival",
+  "what": "the full map. Ed-Dur is not on the map; its ring is placed at 25.55 N 55.6 E relative to the map's own Musandam peninsula, to about half a degree",
+  "source": "Map: PHGCOM, 'Map of the Periplus of the Erythraean Sea', Wikimedia Commons, CC BY-SA 4.0"
+ },
+ {
+  "file": "s02b_periplus_map_ringed.jpg",
+  "slide": 2,
+  "kind": "archival",
+  "what": "Malabar cluster and Ed-Dur ringed. Ed-Dur is not on the map; its ring is placed at 25.55 N 55.6 E relative to the map's own Musandam peninsula, to about half a degree",
+  "source": "Map: PHGCOM, 'Map of the Periplus of the Erythraean Sea', Wikimedia Commons, CC BY-SA 4.0"
+ },
+ {
+  "file": "s02c_periplus_map_zoom.jpg",
+  "slide": 2,
+  "kind": "archival",
+  "what": "zoom to the Arabian Sea, rings kept. Ed-Dur is not on the map; its ring is placed at 25.55 N 55.6 E relative to the map's own Musandam peninsula, to about half a degree",
+  "source": "Map: PHGCOM, 'Map of the Periplus of the Erythraean Sea', Wikimedia Commons, CC BY-SA 4.0"
+ },
+ {
+  "file": "s01b_title_strip.jpg",
+  "slide": 1,
+  "kind": "archival",
+  "what": "a wide strip of sheet 749 round Kodungallur, placed under the title",
+  "source": "Admiralty Chart No 749 (Selby, surveyed 1851-3, published 1857), Wikimedia Commons, public domain"
+ },
+ {
+  "file": "s01_title_backdrop.jpg",
+  "slide": 1,
+  "kind": "archival",
+  "what": "Admiralty sheet 749, the coast at Kodungallur",
+  "source": "Admiralty Chart No 749, Malabar Coast of India, surveyed by W. B. Selby 1851-3, published 1857 (Wikimedia Commons, public domain)"
+ },
+ {
+  "file": "s04d_sheet749_window_fullres.jpg",
+  "slide": 4,
+  "kind": "archival",
+  "what": "the whole sheet with the window outlined, at full resolution, used for the zoom morph in the deck",
+  "source": "Admiralty Chart No 749 (Selby, surveyed 1851-3, published 1857), Wikimedia Commons, public domain"
+ },
+ {
+  "file": "s04a_sheet749_full.jpg",
+  "slide": 4,
+  "kind": "archival",
+  "what": "the whole sheet",
+  "source": "Admiralty Chart No 749 (Selby, surveyed 1851-3, published 1857; scan of the 1914 edition), Wikimedia Commons, public domain"
+ },
+ {
+  "file": "s04b_sheet749_window.jpg",
+  "slide": 4,
+  "kind": "archival",
+  "what": "the sheet with the zoom target (16:9, centred on the Kodungallur window) outlined",
+  "source": "Admiralty Chart No 749 (Selby, surveyed 1851-3, published 1857; scan of the 1914 edition), Wikimedia Commons, public domain"
+ },
+ {
+  "file": "s04c_kodungallur_mouth.jpg",
+  "slide": 4,
+  "kind": "archival",
+  "what": "the Kodungallur mouth, the window at full resolution (16:9)",
+  "source": "Admiralty Chart No 749 (Selby, surveyed 1851-3, published 1857; scan of the 1914 edition), Wikimedia Commons, public domain"
+ },
+ {
+  "file": "s00_divider_ports.jpg",
+  "slide": 0,
+  "kind": "archival",
+  "what": "sheet 750 off Porakad (Purakkad), with its mud-bank anchorage, for the Part II divider",
+  "source": "Admiralty Chart No 750 (Selby, surveyed 1850-2, published 1857; this scan carries later additions), Wikimedia Commons, public domain"
+ },
+ {
+  "file": "s06_soundings_3d.png",
+  "slide": 6,
+  "kind": "data",
+  "what": "the 157 soundings of the near-shore box at their depths, over a flat sea surface. Same camera as the other 3D views, for Morph",
+  "source": "model F (bathymetry_1857.ipynb section 8b): quantitative/coastline/data/pilot_1857/local/samples_verts.bin; soundings from Admiralty Chart 749"
+ },
+ {
+  "file": "s07_seabed_3d.png",
+  "slide": 7,
+  "kind": "data",
+  "what": "model F posterior mean seabed with the soundings on it (Gaussian-process field, R-INLA). Same camera as the other 3D views, for Morph",
+  "source": "model F (bathymetry_1857.ipynb section 8b): quantitative/coastline/data/pilot_1857/local/samples_verts.bin; soundings from Admiralty Chart 749"
+ },
+ {
+  "file": "s09a0_seabed_3d_nodots.png",
+  "slide": 9,
+  "kind": "data",
+  "what": "the s07 seabed without the sounding dots, the first frame of slide 9 (same camera as s09a, so it recolours in place). Same camera as the other 3D views, for Morph",
+  "source": "model F (bathymetry_1857.ipynb section 8b): quantitative/coastline/data/pilot_1857/local/samples_verts.bin; soundings from Admiralty Chart 749"
+ },
+ {
+  "file": "s09a_ship_water_3d.png",
+  "slide": 9,
+  "kind": "data",
+  "what": "the same seabed in two tones: water at least 3.5 m deep with probability >= 0.9 (a 3 m draught plus 0.5 m) in blue, shallower in sand; red dot the mouth; legend lower right. Same camera as the other 3D views, for Morph",
+  "source": "model F (bathymetry_1857.ipynb section 8b): quantitative/coastline/data/pilot_1857/local/samples_verts.bin; soundings from Admiralty Chart 749"
+ },
+ {
+  "file": "s10_inset_koyilandy.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Koyilandy: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10_inset_beypore.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Beypore: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10_inset_tanur.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Tanur: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10_inset_ponnani.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Ponnani: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10_inset_kodungallur.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Kodungallur: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10_inset_purakkad.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Purakkad: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10_inset_kollam.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "Kollam: the two-tone seabed inset on its own, for the deck's Morph",
+  "source": "seabed_mouths.ipynb (model F)"
+ },
+ {
+  "file": "s10c_coast_map_dots.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "the coast map with the seven mouths as dots and nothing else; the deck adds labels and insets as separate objects",
+  "source": "Natural Earth; data/soundings/<site>/model/site.json"
+ },
+ {
+  "file": "s10a_coast_map.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "the Malabar coast (Natural Earth 10 m ocean) with the seven surveyed mouths",
+  "source": "Natural Earth; site positions from data/soundings/<site>/model/site.json"
+ },
+ {
+  "file": "s10b_coast_map_insets.png",
+  "slide": 10,
+  "kind": "data",
+  "what": "the same map with each mouth's two-tone seabed (blue: >= 3.5 m with probability >= 0.9; sand: shallower) and the distance from the mouth or shore to that water. Surveys: Selby 1850-3 (five sites), chart 64 1887 (Beypore, Koyilandy). Insets share one scale (9 x 6 km)",
+  "source": "seabed_mouths.ipynb (model F); data/soundings/mouths_comparison.csv"
+ },
+ {
+  "file": "s08a_texas_real_seabed.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "San Luis Pass, Texas: the true seabed (NOAA CUDEM 1/9 arc-second, averaged to 100 m), depth 0-10 m; grey: lagoon, left unsounded as at Kodungallur",
+  "source": "NOAA NCEI Continuously Updated DEM (CUDEM), tiles ncei19_n29x25_w095x25 and ncei19_n29x00_w095x25; validation_bathymetry.ipynb"
+ },
+ {
+  "file": "s08b_texas_rebuilt.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "the same frame: the seabed reconstructed by model F from one simulated 1850s-style survey (black dots), same colour scale",
+  "source": "validation_bathymetry.ipynb, survey rep_0, model F posterior mean"
+ },
+ {
+  "file": "s08_layer_real.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "animation layer (real): same frame for all four layers",
+  "source": "validation_bathymetry.ipynb, survey rep_0, model F; NOAA CUDEM"
+ },
+ {
+  "file": "s08_layer_empty.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "animation layer (empty): same frame for all four layers",
+  "source": "validation_bathymetry.ipynb, survey rep_0, model F; NOAA CUDEM"
+ },
+ {
+  "file": "s08_layer_rebuilt.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "animation layer (rebuilt): same frame for all four layers",
+  "source": "validation_bathymetry.ipynb, survey rep_0, model F; NOAA CUDEM"
+ },
+ {
+  "file": "s08_layer_dots.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "animation layer (dots): same frame for all four layers",
+  "source": "validation_bathymetry.ipynb, survey rep_0, model F; NOAA CUDEM"
+ },
+ {
+  "file": "s08_texas_pair.png",
+  "slide": 8,
+  "kind": "data",
+  "what": "the real and rebuilt seabeds side by side, same scale, with the fit for this survey in words (RMSE: open water 0.30 m, along the shore 0.38 m, inlet 1.19 m)",
+  "source": "validation_bathymetry.ipynb, survey rep_0, model F; NOAA CUDEM"
+ },
+ {
+  "file": "s14g_contexts_objects.png",
+  "slide": 14,
+  "kind": "data",
+  "what": "argument 1 find contexts, frame 1: the Rouletted Ware at four sites",
+  "source": "sites/malabar/analysis/ceramics_and_ports.md (objects 1-3 and the dating-methods section) and arabian_sea_crossing.md, tables B-D; images: Schenk 2014 fig. 6; Pavan and Schenk 2012 fig. 3; Unearthing Pattanam (2014) p. 50. The layer stacks are schematic: only what the publications state is shown, and Sumhuram's unpublished layers are marked '?'"
+ },
+ {
+  "file": "s14h_contexts_layers.png",
+  "slide": 14,
+  "kind": "data",
+  "what": "argument 1 find contexts, frame 2: adds the layers each was found in",
+  "source": "sites/malabar/analysis/ceramics_and_ports.md (objects 1-3 and the dating-methods section) and arabian_sea_crossing.md, tables B-D; images: Schenk 2014 fig. 6; Pavan and Schenk 2012 fig. 3; Unearthing Pattanam (2014) p. 50. The layer stacks are schematic: only what the publications state is shown, and Sumhuram's unpublished layers are marked '?'"
+ },
+ {
+  "file": "s14i_contexts_dated.png",
+  "slide": 14,
+  "kind": "data",
+  "what": "argument 1 find contexts, frame 3: adds what dates each, and the verdict",
+  "source": "sites/malabar/analysis/ceramics_and_ports.md (objects 1-3 and the dating-methods section) and arabian_sea_crossing.md, tables B-D; images: Schenk 2014 fig. 6; Pavan and Schenk 2012 fig. 3; Unearthing Pattanam (2014) p. 50. The layer stacks are schematic: only what the publications state is shown, and Sumhuram's unpublished layers are marked '?'"
+ },
+ {
+  "file": "s14j_sherds.png",
+  "slide": 14,
+  "kind": "published",
+  "what": "argument 1: Rouletted Ware from the four sites, enlarged, one frame (the layers are spoken, not shown)",
+  "source": "Schenk 2014 fig. 6; Pavan and Schenk 2012 fig. 3; Tomber 2008 fig. 5 (nos 1-2 only); Unearthing Pattanam (2014) p. 50"
+ },
+ {
+  "file": "s14k_crossing_pottery.png",
+  "slide": 38,
+  "kind": "published",
+  "what": "argument 1: Indian pottery on a date axis. North-west: Mleiha PIR.A high-necked jars (3rd - mid-2nd c. BC). South: Sumhuram Rouletted Ware (dated late 2nd c. BC by Tissamaharama), Myos Hormos Rouletted Ware (late Augustan deposit), Red Sea Indian cooking pots (Early Roman)",
+  "source": "Reddy 2013 fig. 213 after Mouton 2008 fig. 17, dates Reddy 2013: 32; Pavan and Schenk 2012 fig. 3, p. 196; Tomber 2008 fig. 5 and Shoebridge 2017: 112-113; Tomber 2008 fig. 6 and p. 74-75"
+ }
+]

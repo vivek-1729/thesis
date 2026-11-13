@@ -18,7 +18,7 @@ OUT = ROOT / "quantitative" / "coastline" / "data" / "soundings_1857"
 WINDOW = dict(x0=5600, y0=7600, x1=7300, y1=9300)   # Periyar / Kranganur entrance
 TILE = 425
 
-def detect(g):
+def detect(g, ink_threshold=125):
     """Glyph clusters that look like a printed number.
 
     Numerals are inked strokes about 12-30 px tall with at least ~40 px of ink.
@@ -26,7 +26,7 @@ def detect(g):
     mass threshold removes most of them. Small pieces (fraction digits, the
     stroke of a '1') are kept only when they sit next to a full numeral.
     """
-    ink = g < 125
+    ink = g < ink_threshold
     lab, n = ndimage.label(ink)
     objs = ndimage.find_objects(lab)
     primary = np.zeros_like(ink); small = np.zeros_like(ink)

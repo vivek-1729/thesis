@@ -1,0 +1,21 @@
+{
+ "site": "ponnani",
+ "port": "Tyndis",
+ "candidates": "Ponnani",
+ "sheet": "BA749",
+ "surveyed": "1851-3",
+ "mouth": [
+  597.2785136125772,
+  1193.6890865338578
+ ],
+ "ref": [
+  597.2785136125772,
+  1193.6890865338578
+ ],
+ "mouth_r_km": 0.3,
+ "soundings_used": 390,
+ "soundings_excluded_landward": 0,
+ "shore_anchors": 408,
+ "grid_cells": 25003,
+ "water_km2": 248.9
+}

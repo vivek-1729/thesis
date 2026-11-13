@@ -1,0 +1,31 @@
+{
+  "site": "kollam",
+  "mesh_nodes": 12256,
+  "n_soundings": 482,
+  "n_cells": 26703,
+  "n_draws": 200,
+  "noise_sd": 0.4,
+  "mouth_term": true,
+  "fixed": {
+    "b0": {
+      "mean": -0.552033,
+      "0.025quant": -1.871328,
+      "0.975quant": 0.767262
+    },
+    "dist": {
+      "mean": 2.925482,
+      "0.025quant": 2.663094,
+      "0.975quant": 3.18787
+    },
+    "beach": {
+      "mean": 4.534933,
+      "0.025quant": 3.802212,
+      "0.975quant": 5.267654
+    }
+  },
+  "hyper": {
+    "Range for field": 3.059139,
+    "Stdev for field": 2.754056
+  },
+  "seconds": 13
+}

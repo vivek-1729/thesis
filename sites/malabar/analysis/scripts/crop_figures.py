@@ -46,6 +46,7 @@ CROPS = {
     "13b_myos_hormos_graffiti_fig13": (TOMBER, 77, (0.02, 0.08, 0.95, 0.335), "frac"),
     "14_pattanam_rw_pama": (PAMA, 50, (260, 255, 446, 416), "pt"),
     "15_pattanam_brw_rim": (PAMA, 51, (587, 411, 920, 542), "pt"),
+    "16_myos_hormos_rw_fig5": (TOMBER, 47, (8, 372, 215, 468), "pt"),
 }
 
 for name, (pdf, page, box, mode) in CROPS.items():

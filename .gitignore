@@ -36,3 +36,8 @@ quantitative/coastline/data/pilot_1857/*.bin
 quantitative/coastline/data/soundings_1857/tiles/
 quantitative/coastline/data/soundings_1857/check/
 quantitative/coastline/data/pilot_1857/local/*.bin
+
+# per-site sounding tiles and contact sheets (regenerate with scripts/soundings.py detect/check)
+quantitative/coastline/data/soundings/*/tiles/
+quantitative/coastline/data/soundings/*/check/
+quantitative/coastline/data/soundings/*/model/samples.bin

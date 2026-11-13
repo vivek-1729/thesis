@@ -100,6 +100,28 @@ The largest stream by volume and the thinnest by date.
 | ADM 352 manuscript originals | **Not online** | The National Archives |
 | Qatar Digital Library | **Blocks scripts** | India Office Records |
 
+**Added 11 November 2026** (`../library/charts/`, from Wikimedia Commons, public domain):
+747 *Mt Dilli to Calicut* (1859, corrected 1889); 64 *Sacrifice Rock to Beipur* (survey 1887, published 1888,
+with an inset of the Beypore river entrance); 65 *Cochin River Entrance* (1886); 2837b *Persian Gulf,
+western sheet* (1862, Constable and Stiffe; stops at Qatar, so it does not reach Ed-Dur).
+
+**Sounding coverage of the candidate mouths, checked by eye:**
+
+| Port | Candidate mouth | Chart | Soundings |
+|---|---|---|---|
+| Muziris | Kodungallur | 749 (1851–3) | Transcribed: 428 |
+| Muziris | Cochin entrance | 65 (1886) | Large-scale; not transcribed |
+| Tyndis | Ponnani | 749 | Transcribed: 390 |
+| Tyndis | Tanur | 749 | Transcribed: 386 |
+| Tyndis | Beypore, Chaliyam | 64 (1887) | Transcribed: 328. Kadalundi is off the chart's eastern edge, not covered |
+| Tyndis | Koyilandy | 64 (1887) | Transcribed: 279 |
+| Nelkynda, Bakarē | Kollam, Neendakara, Thangassery | 750 (1850–2) | Transcribed: 493 |
+| Nelkynda, Bakarē | Purakkad, Nirkunnam ("Nircum") | 750 | Transcribed: 452, plus 5 soundings of 1901 kept apart. Mud-bank anchorage marked |
+| Ed-Dur | Umm al-Quwain lagoon | none | 2837a, the eastern Gulf sheet, is needed (see things-for-you §3) |
+
+The inland Nelkynda candidates (Niranam, Kottayam, Kallada and others) are not on any sounding
+chart; for them the question is the backwater and river network, not depth.
+
 Admiralty coverage: Malabar 749, 750 and 751 of 1857 cover the whole coast;
 Indus 41 and 118 of 1897 are Oldham's survey; Red Sea 8a–8c of 1873 are
 Moresby's. The pre-1700 Dutch sheet carries soundings and lands on Cranganore

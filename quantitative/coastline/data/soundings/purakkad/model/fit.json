@@ -1,0 +1,31 @@
+{
+  "site": "purakkad",
+  "mesh_nodes": 11523,
+  "n_soundings": 452,
+  "n_cells": 24876,
+  "n_draws": 200,
+  "noise_sd": 0.4,
+  "mouth_term": false,
+  "fixed": {
+    "b0": {
+      "mean": -0.379299,
+      "0.025quant": -1.139211,
+      "0.975quant": 0.380613
+    },
+    "dist": {
+      "mean": 1.676071,
+      "0.025quant": 1.516219,
+      "0.975quant": 1.835923
+    },
+    "beach": {
+      "mean": 2.418673,
+      "0.025quant": 2.04417,
+      "0.975quant": 2.793176
+    }
+  },
+  "hyper": {
+    "Range for field": 5.002369,
+    "Stdev for field": 1.440276
+  },
+  "seconds": 11
+}

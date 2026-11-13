@@ -1,0 +1,18 @@
+{
+ "site": "tanur",
+ "port": "Tyndis",
+ "candidates": "Tanur",
+ "sheet": "BA749",
+ "surveyed": "1851-3",
+ "mouth": null,
+ "ref": [
+  592.5214662950822,
+  1215.9127004566797
+ ],
+ "mouth_r_km": 0,
+ "soundings_used": 386,
+ "soundings_excluded_landward": 0,
+ "shore_anchors": 383,
+ "grid_cells": 22114,
+ "water_km2": 220.1
+}

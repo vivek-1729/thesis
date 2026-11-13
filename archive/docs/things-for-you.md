@@ -50,6 +50,16 @@ file. These are open access and will open for you.
 
 Save into `../library/oa-harvest/`.
 
+**Historic charts for Ed-Dur (added 11 November 2026).** The 1860s Admiralty survey of the Gulf
+by Constable and Stiffe is in two sheets. The western sheet, 2837b, is held (`../library/charts/persiangulf-2837b-1862.jpg`)
+but stops at Qatar. The eastern sheet, 2837a, covers the Trucial coast and Umm al-Quwain, and is not on
+Wikimedia Commons. The Qatar Digital Library (qdl.qa) holds the series but blocks scripted downloads.
+Search there for "Persian Gulf eastern sheet" or "2837a", and for any larger-scale plan of Umm al-Quwain
+or Khor al-Beidah. Save the full-resolution image into `../library/charts/` as `persiangulf-2837a-<year>.jpg`.
+For the geoarchaeology: Forti et al. 2024 (*CATENA*, `10.1016/j.catena.2024.108517`) and the 2023 INQUA
+abstract are saved in `sites/ed-dur/readings/coastline/`. Bernier 1995 on the Holocene shorelines of the
+lagoon is cited there and is not yet held.
+
 ## 4. The Harvard proxy, and this is now the biggest single item
 
 ### 4a. The Geological Society of India, sixty-nine papers
